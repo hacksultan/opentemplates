@@ -1,0 +1,422 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Restaurant Template 
+http://www.templatemo.com/preview/templatemo_043_restaurant 
+*/
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	line-height: 1.5em;
+
+	color: #241c1a;
+
+	background: #d1d1d1;
+
+}
+
+a:link, a:visited { color: #996633; text-decoration: none; } 
+
+a:active, a:hover { color: #FF0000; text-decoration: none }
+
+h1 {
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+	color: #782311;
+
+}
+
+h2 {
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #ffdf47;
+
+}
+
+
+
+#templatemo_container {
+
+	width: 843px;
+
+	margin: auto;
+
+	background: url(images/templatemo_container_bg.jpg) repeat-y;
+
+}
+
+#templatemo_top_section {
+
+	float: left;
+
+	width: 843px;
+
+	height: 230px;
+
+	color: #FFFFFF;
+
+	background: url(images/templatemo_header_bg.jpg) repeat-x;
+
+}
+
+#templatemo_top_left{ 
+
+	float: left;
+
+	width: 338px;
+
+	height: 230px;
+
+	background: url(images/templatemo_top_photo.jpg) no-repeat;
+
+}
+
+#templatemo_top_mid {
+
+	float: left;
+
+	width: 429px;
+
+	height: 230px;
+
+}
+
+#templatemo_top_title {
+
+	float: left;
+
+	width: 354px;
+
+	padding:40px 0px 0px 20px;;
+
+	font-weight: bold;
+
+	font-size: 24px;
+
+	line-height: 1.6em;
+
+}
+
+.templatemo_topmenu{
+
+	float: left;
+
+	width: 400px;
+
+	margin-top: 10px;
+
+}
+
+
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+
+
+.templatemo_topmenu li {
+
+	display: inline;
+
+}
+
+
+
+.templatemo_topmenu li a {
+	
+	font-size: 11px;
+
+	color: #fff;
+
+	width: 80px;
+
+	height: 30px;
+
+	margin-left: 12px;
+
+	padding: 0px 0px 0px 15px;
+
+	background: url(images/templatemo_bullet.png) no-repeat;
+
+	background-position: left;
+
+}
+
+
+.templatemo_topmenu li a:hover {
+	color: #000;
+}
+
+#templatemo_login_left {
+
+	float: left;
+
+	width: 200px;
+
+	height: 50px;
+
+	margin: 20px 0px 0px 30px;
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+	color: #782311;
+
+	padding-top: 30px;
+
+	background: url(images/templatemo_login_arrow.jpg) no-repeat;
+
+	background-position: right;
+
+}
+
+#templatemo_login_right {
+
+	float: right;
+
+	width: 180px;
+
+	margin: 25px 0px 0px 0px;
+
+	color: #8c2914;
+
+}
+
+#templatemo_top_right {
+
+	float: right;
+
+	width: 76px;
+
+	height: 230px;
+
+	background: url(images/templatemo_top_right.jpg) no-repeat;
+
+}
+
+#templatemo_left_section {
+
+	float: left;
+
+	width: 210px;
+
+}
+
+.templatemo_leftmenu {
+
+	width: 210px;
+
+	margin: 0px;
+
+}
+
+.templatemo_leftmenu ul {
+
+	list-style-type: none;
+
+	margin: 0px;
+
+	padding: 20px 0px 0px 40px;
+
+}
+
+.templatemo_leftmenu li a {
+
+	display: block;
+
+	height: 25px;
+
+	font-size: 11px;
+
+	color: #fff;
+
+	background: url(images/templatemo_bullet.png) no-repeat;
+
+	padding-left: 20px;
+
+	font-weight: bold;
+
+	background-position: left;
+
+	text-decoration: underline;
+
+}
+
+.templatemo_leftmenu li a:hover ,.templatemo_leftmenu li .current{
+
+	background: url(images/templatemo_current.png) no-repeat;
+
+	background-position: left;
+
+	text-decoration: underline;
+
+	color:#CCCCCC;
+
+}
+
+
+
+#templatemo_news {
+
+	float: left;
+
+	padding-left: 40px;
+
+	width: 170px;
+
+	text-align: justify;
+
+	color: #fff;
+
+}
+
+#templatemo_contact {
+
+	float: left;
+
+	padding-left: 40px;
+
+	width: 170px;
+
+	color: #FFFFFF;
+
+}
+
+#templatemo_right_section {
+
+	float: left;
+
+	width: 480px;
+
+	padding: 15px 0px 0px 70px;
+
+	text-align: justify;
+
+}
+
+#templatemo_right_bot {	
+
+	float: left;
+
+	width: 470px;
+
+}
+
+#templatemo_footer {
+
+	clear: both;
+
+	width: 503px;
+
+	height: 41px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+	padding-left: 340px;
+
+	padding-top: 25px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+}
+
+#username {
+
+	width: 100px;
+
+	font-size: 10px;
+
+	margin: 10px 0px 0px 5px;
+
+}
+
+
+
+#password {
+
+	width: 100px;
+
+	font-size: 10px;
+
+	margin: 3px 0px 0px 10px;
+
+}
+
+#login {
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	height: 20px;
+
+	background: #9e5846;
+
+	border: 1px solid #8e4d3d;
+
+	color: #FFFFFF;
+
+	margin: 3px 0px 0px 67px;
+
+}
+
+.border {
+
+	float: left;
+
+	border-top: solid 1px #836b68;
+
+	margin-top: 20px;
+
+	margin-left: 40px;
+
+	width: 170px;
+
+}
+
+.templatemo_product {
+
+	float: left;
+
+	width: 455px;
+
+	height: 105px;
+
+	padding: 10px;
+
+	background: url(images/templatemo_products.jpg) no-repeat;
+
+}
+
+.templatemo_product img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}

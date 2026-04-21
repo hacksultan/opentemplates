@@ -1,0 +1,368 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Automobile Template 
+http://www.templatemo.com/preview/templatemo_073_automobile 
+*/
+html {
+	background: #6da2a8;
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #fff;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+a {	color: #c7ff42; }
+
+a:hover { color: #6ca815; }
+
+#templatemo_background_section_top {
+
+	width: 100%;
+	
+	height:271px;
+
+	background: url(images/templatemo_top_section_bg.jpg) repeat-x;
+
+}
+
+#templatemo_background_section_middle {
+
+	width: 100%;
+	
+	background: #14515e;
+	
+	clear: both;
+	
+	overflow:hidden;
+
+}
+
+#templatemo_background_section_bottom {
+
+	width: 100%;
+	
+	height: 73px;
+
+	background: url(images/templatemo_footer_bg.jpg) repeat-x;
+	
+	float: left;
+
+}
+
+.templatemo_container {
+
+	width: 960px;
+
+	margin: auto;
+
+}
+
+#templatemo_header_menu{
+
+	width: 960px;
+	height:85px;	
+	background: url(images/templatemo_header_menu.jpg) no-repeat;
+
+}
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	width: 600px;
+	height: 47px;
+	background:  url(images/templatemo_menu_bg.jpg) repeat-x;
+	float: right;
+	margin-top: 38px;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 600px;
+	margin: 0;
+	padding: 12px 0 0 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #508a93;
+	font-weight: bold;
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #b3d7fc;
+}
+
+/* ----------------- end of menu----------------*/
+
+#templatemo_header_bottom {
+	
+	height:  186px;
+	width: 960px;
+	background: url(images/templatemo_top_section_bottom.jpg) no-repeat;
+
+}
+
+
+#templatemo_search_box {
+
+	width: 310px;
+	height: 108px;
+	float: right;
+	margin-top: 78px;
+	margin-right: 20px;
+	background: url(images/templatemo_search.jpg) no-repeat;
+
+}
+
+#templatemo_search_box form {
+	margin-top: 52px;
+	padding-left: 45px;
+	width: 255px;
+}
+
+#templatemo_search_box form input {
+	width: 130px;
+	color: #000;
+	background: none;
+	height: 24px;
+	border: none;
+}
+
+#templatemo_search_box form .button {
+	border: none;
+	background: #186e7a;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	width: 64px;
+	height: 23px;
+	font-size: 10px;
+	margin-left: 20px;
+	margin-bottom: 3px;
+}
+
+#templatemo_search_box .advance {
+
+	background: url(images/templatemo_advance_search.png) no-repeat left center;
+	margin-top:0px;
+	width: 260px;
+	height: 20px;
+	padding-left: 20px;
+	font-weight:bold;
+	font-size: 12px;
+	
+}
+
+#templatemo_content_area {
+
+	margin: 30px;
+}
+
+.templatemo_content {
+
+	margin: 25px;
+}
+
+.templatemo_content h1 {
+	margin: 0px;
+	font-size: 17px;
+	color: #fff;
+}
+
+.templatemo_content p {
+	margin-top: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.templatemo_content h2 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #00e6ff;
+}
+
+.templatemo_content span.header {
+	margin: 0px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #c7ff42;
+	text-decoration: underline;
+}
+
+.templatemo_content img {
+	border: none;
+	float: left;
+	margin: 0px 15px 0 0;
+}
+
+.templatemo_content .more {
+	border: none;
+	float: right;
+	margin: 15px 25px 0 0;
+}
+
+.clear_h{ clear:both; height: 1px; }
+.clear{ clear:both ; }
+
+/* Bottom Panel*/
+
+#templatemo_bottom_section {
+	width: 930px;
+	overflow: hidden;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_box {
+	float: left;
+	display:inline;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 260px;
+	background-color: #14515e;
+}
+
+.templatemo_bottom_section_box .top_info{
+	
+	width: 180px; 
+	height: 40px;
+	margin: 0px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 17px 0 0 80px;
+	background: url(images/templatemo_section_box_top_info.jpg) no-repeat;
+	
+}
+
+.templatemo_bottom_section_box .top_quote{
+	
+	width: 180px; 
+	height: 40px;
+	margin: 0px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 17px 0 0 80px;
+	background: url(images/templatemo_section_box_top_quote.jpg) no-repeat;
+	
+}
+
+.templatemo_bottom_section_box .top_question{
+	
+	width: 190px; 
+	height: 40px;
+	margin: 0px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 17px 0 0 70px;
+	background: url(images/templatemo_section_box_top_question.jpg) no-repeat;
+	
+}
+.templatemo_bottom_section_box .body{
+	width: 230px;
+	min-height: 215px;
+	padding: 5px 15px 15px 15px;
+	background:url(images/templatemo_section_box_bg.jpg) no-repeat #14515e;
+}
+
+.templatemo_bottom_section_box .body ul{
+	margin-left: 20px;
+	padding: 0px;
+	color: #fff;
+	list-style: none;
+	margin-top: -10px
+}
+
+* html .templatemo_bottom_section_box .body ul{
+	margin-top: 0px
+}
+
+
+.templatemo_bottom_section_box .body li{
+	
+	padding-left: 28px;
+	padding-top: 8px;
+	background: url(images/templatemo_bullet.png) left bottom no-repeat;
+
+}
+
+* html .templatemo_bottom_section_box .body li{
+	padding-top: 0px;
+	padding-bottom: 6px;
+}
+
+.body p{
+	
+	text-align: justify;
+	margin: 10px;
+	padding: 0px;
+	color: #fff;
+}
+
+.body img{
+	
+	border: none;
+	float: left;
+	margin: 0px 15px 0 0;
+
+}
+
+.body h1{
+	
+	margin: 0 0 0px 10px;
+	padding: 0px;
+	color: #c7ff42;
+	text-decoration: underline;
+	font-size: 12px;
+
+}
+
+.templatemo_footer{
+
+	margin-top: 25px;
+	color: #fff;
+	text-align: center;
+
+}
+
+.templatemo_footer a{
+
+	color: #fff;
+
+}

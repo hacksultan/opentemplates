@@ -1,0 +1,264 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Brown Template 
+http://www.templatemo.com/preview/templatemo_012_brown 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #000;
+	background: #F0D8C0;
+}
+a:link, a:visited { color: #930; text-decoration: none} 
+a:active, a:hover { color: #F60; text-decoration: underline}
+
+/* Top */
+#templatemo_top {
+	clear: left;
+	height: 186px;
+	background: url(images/templatemo_header_bg.jpg);
+}
+#templatemo_header {
+	clear: both;
+	margin: auto;
+	width: 820px;
+	text-align: center;
+	background: url(images/templatemo_top_left.jpg) no-repeat;
+}
+/* Top ENDING */
+
+/* LOGO AREA */
+#templatemo_logo_area {
+	height: 130px;
+	background: url(images/templatemo_top_art.jpg) no-repeat right;
+}
+#templatemo_site_title {
+	width: 800px;
+	margin: auto;
+	padding-top: 60px;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	color: #FFF;
+}
+#templatemo_site_slogan {
+	width: 800px;
+	margin: auto;
+	padding-top: 16px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	color: #FFF;
+}
+/* LOGO AREA ending */
+
+/* Middle */
+#templatemo_container {
+	width: 820px;
+	margin: auto;
+}
+#templatemo_left_column {
+	clear: left;
+	float: left;
+	width: 210px;
+}
+#templatemo_right_column {
+	float: right;
+	width: 575px;
+	padding-right: 15px;
+}
+/* Middle ENDING */
+
+
+/* Bottom */
+#templatemo_bottom_top {
+	height: 14px;
+	background: url(images/templatemo_bottom_top.jpg) repeat-x;
+	
+}
+#templatemo_bottom_content {
+	width: 820px;
+	margin: auto;
+}
+#templatemo_bottom {
+	clear: both;
+	background: url(images/templatemo_bottom_bg.jpg);
+	color: #FFFFFF;
+}
+/* Bottom ENDING */
+
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	font-size: 11px;
+	color: #FFF;
+}
+#templatemo_footer a {
+	color: #FFC;
+}
+/* footer ENDING */
+
+
+/* Section Left */
+.section_left {
+	margin: 10px;
+	margin-right: 0px;
+	border: 1px solid #A87848;
+}
+.section_left_inner {
+	padding: 10px;
+	background: #F8ECE0;
+}
+.section_left_title {
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background: #A87848;
+}
+/* Section Left ENDING */
+
+/* Main Content */
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #630;
+}
+.text_area {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+/* Main Content ENDING */
+
+/* Post Box */
+.post_box {
+	clear: left;
+	margin-top: 10px;
+	color: #000;
+	background: #F8ECE0;
+	border: 1px solid #A87848;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #A87848;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.post_title a {
+	color: #fff;
+}
+.post_text_area {
+	padding: 10px;
+}
+.publish_date {
+	clear: both;
+	padding: 3px;
+	padding-left: 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+/* Post Box ENDING */
+
+
+/* Bottom Box */
+.bottom_box {
+	float: left;
+	width: 255px;
+	margin: 10px;
+	margin-right: 0px;
+	background: #301800;
+}
+.bottom_box_title {
+	background: #520;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.bottom_box_inner {
+	padding: 8px;
+	text-align: justify;
+}
+.bottom_box_inner a {
+	color: #FFC;
+}
+/* Bottom Box ENDING */
+
+
+/* Vertical Menu */
+.templatemo_menu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 198px;
+}
+.templatemo_menu li a{
+	background: #F8ECE0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #630;
+	display: block;
+	width: auto;
+	padding: 4px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+* html .templatemo_menu li a{ 
+	width: 193px;
+}
+.templatemo_menu li a:visited, .templatemo_menu li a:active{
+	color: #630;
+}
+.templatemo_menu li a:hover{
+	background: #A87848;
+	color: #FFF;
+}
+/* Vertical Menu ENDING */
+
+
+/* Horizontal Menu */
+.templatemo_menu_horizon{
+	position: relative;
+	padding-left: 30px;
+	height: 30px;
+	list-style: none;
+}
+.templatemo_menu_horizon li{
+	float:left;
+}
+.templatemo_menu_horizon li a{
+	float: left;
+	display: block;
+	color: #530;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.templatemo_menu_horizon li.current a, .templatemo_menu_horizon li a:hover{
+	color: #FFF;
+	background: #A87848;
+}
+/* Horizontal Menu ENDING */

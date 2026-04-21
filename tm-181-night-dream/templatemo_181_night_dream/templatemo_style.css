@@ -1,0 +1,238 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Night Dream Template 
+http://www.templatemo.com/preview/templatemo_181_night_dream 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #ffffff;
+	background: #1d1c23 url(images/templatemo_main_bg.jpg);
+}
+		
+a:link, a:visited { color: #FF9900; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FFFF00; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+
+h1 {
+	margin: 0px;
+	padding: 2px 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 2px 0 10px 0;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.button_01 a {
+	clear: both;
+	display: block;
+	width: 105px;
+	height: 26px;
+	padding-top: 6px;
+	padding-left: 30px;
+	background: url(images/templatemo_button_01.jpg) no-repeat;
+	
+	color: #efd39c;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;	
+}
+
+.button_02 a {
+	clear: both;
+	display: block;
+	width: 105px;
+	height: 26px;
+	padding-top: 6px;
+	padding-left: 30px;
+	background: url(images/templatemo_button_02.jpg) no-repeat;
+	
+	color: #efd39c;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.image_wrapper {
+	border: 1px solid #ffffff;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+.fl_image {
+	float: left;
+	margin-right: 15px 
+}
+
+.fr_image {
+	float: right;
+	margin-left: 15px 
+}
+
+#templatemo_container {
+	width: 900px;
+	margin: 0 auto;
+	background: #32313a url(images/templatemo_content_bg.jpg) top left no-repeat;
+	padding: 30px 20px 0 50px;
+}
+
+#column_w390 {
+	float: left;
+	width: 390px;
+}
+
+#column_w460 {
+	float: right;
+	width: 460px;
+}
+
+#templatemo_site_title {
+	width: 390px;
+	margin-bottom: 380px;
+	text-align: left;
+}
+
+#templatemo_site_title h1 a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#templatemo_site_title h1 a span {
+	display: block;
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+.section_w390 {
+	clear: both;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.news_section {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+/* menu */
+
+#templatemo_menu {
+	clear: both;
+	width: 460px;
+	margin-bottom: 20px;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 200px;
+	margin: 0px;
+	padding: 0 30px 0 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#templatemo_menu ul li a {
+	display: block;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #908f9f;	
+	outline: none;
+	background: url(images/templatemo_menu_list_icon.jpg) left center no-repeat;
+	border-bottom: 1px dotted #ffffff;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #ffffff;
+}
+
+/* end of menu*/
+
+#column_w460_content_wrapper {
+	background: #000000;
+	padding: 1px;
+	margin-bottom: 30px;
+}
+
+#column_w460_content {
+	border: 1px solid #5a5963;
+	background: #1d1c23;
+	padding: 28px 28px 0 28px;
+}
+
+.section_w400 {
+	clear: both;
+	width: 400px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.section_w400 p {
+	padding-bottom: 10px;
+}
+
+.list_01 {
+	margin: 0 0 30px 50px;
+	padding: 0px;
+}
+
+.list_01 li {
+	padding: 0px;
+	margin: 0 0 10px 0;
+	list-style: decimal;
+}
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	width: 460px;
+	padding: 0;
+	text-align: right;
+	margin-bottom: 30px;
+	color: #908f9f;
+}
+
+#templatemo_footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* end of footer */

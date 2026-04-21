@@ -1,0 +1,211 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Pinky Template 
+http://www.templatemo.com/preview/templatemo_011_pinky 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  "Trebuchet MS", Helvetica, Arial;
+	font-size: 12px;
+	color: #000000;
+	background: #EEE url(images/templatemo_bg.gif) repeat-x;
+}
+a:link, a:visited { color: #BA2A65; text-decoration: none} 
+a:active, a:hover { color: #080; text-decoration: underline}
+
+#templatemo_container {
+	width: 820px;
+	margin: 0px auto;
+	background: #FFF;
+	border-left: 1px solid #BA2A65;
+	border-right: 1px solid #BA2A65;
+}
+#templatemo_top {
+	clear: both;
+	margin: auto;
+	padding-top: 10px;
+	width: 820px;
+	text-align: center;
+}
+#templatemo_header {
+	clear: left;
+	margin: auto;
+	width: 820px;
+	height: 320px;
+	text-align: left;
+	background: url(images/templatemo_header.jpg);
+	border-left: 1px solid #BA2A65;
+	border-right: 1px solid #BA2A65;
+}
+#templatemo_left_column {
+	clear: left;
+	float: left;
+	width: 210px;
+}
+#templatemo_right_column {
+	float: right;
+	width: 575px;
+	padding-right: 15px;
+}
+#templatemo_footer {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	font-size: 11px;
+	background: #BA2A65;
+	color: #FFF;
+}
+#templatemo_footer a {
+	color: #FCF;
+}
+#templatemo_site_title {
+	padding-top: 120px;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+	color: #FFF;
+}
+#templatemo_site_slogan {
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+}
+.templatemo_spacer {
+	clear: left;
+	height: 4px;
+	background: #BA2A65;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+.section_left {
+	margin: 10px;
+	margin-right: 0px;
+	border: 1px solid #BA2A65;
+}
+.section_left_inner {
+	padding: 10px;
+}
+.section_left_title {
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background: #BA2A65 url(images/section_title_bg.gif) repeat-x;
+}
+.post_box {
+	clear: left;
+	margin-top: 10px;
+	background: #FFF;
+	color: #000;
+	border: 1px solid #F0BFD2;
+}
+.text_area {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.post_text_area {
+	padding: 10px;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #FFF url(images/gradient_top.gif) repeat-x;
+	font-size: 14px;
+	font-weight: bold;
+	color: #BA2A65;
+}
+.publish_date {
+	clear: both;
+	padding: 3px;
+	padding-left: 10px;
+	color: #BA2A65;
+	font-size: 11px;
+	font-weight: bold;
+	background: #CDE url(images/gradient_bot.gif) repeat-x bottom;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A26;
+}
+.templatemo_menu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 198px;
+}
+.templatemo_menu li a{
+	background: #F2F2F2;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	display: block;
+	width: auto;
+	margin-bottom: 1px;
+	padding: 4px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+* html .templatemo_menu li a{ 
+	width: 193px;
+}
+.templatemo_menu li a:visited, .templatemo_menu li a:active{
+	color: #666;
+}
+.templatemo_menu li a:hover{
+	background: #ECBDDF;
+	color: #A26;
+}
+.templatemo_menu_horizon{
+	position: relative;
+	padding-left: 30px;
+	margin: 0 auto 0 auto;
+	height: 36px;
+	list-style: none;
+}
+.templatemo_menu_horizon li{
+	float:left;
+}
+.templatemo_menu_horizon li a{
+	float: left;
+	display: block;
+	color: #FFF;
+	background: url(images/templatemo_button_left.gif) no-repeat;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 4px;
+	padding: 0 0 0 10px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+.templatemo_menu_horizon li a b{
+	float: left;
+	display: block;
+	padding: 0 15px 0 5px;
+	background: url(images/templatemo_button_right.gif) no-repeat;
+	background-position: right top;
+}
+.templatemo_menu_horizon li.current a, .templatemo_menu_horizon li a:hover{
+	color: #FFF;
+	background: url(images/button_hover_left.gif) no-repeat;
+}
+.templatemo_menu_horizon li.current a b, .templatemo_menu_horizon li a:hover b{
+	color: #FFF;
+	background: url(images/button_hover_right.gif) no-repeat;
+	background-position: right top;
+}

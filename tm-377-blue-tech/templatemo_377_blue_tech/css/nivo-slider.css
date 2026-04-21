@@ -1,0 +1,134 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+
+.theme-default #slider {
+	float: right;
+    margin: 0;
+    width: 410px; /* Make sure your images are the same size */
+    height: 180px; /* Make sure your images are the same size */
+	margin-top: 50px;
+} 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+
+.nivo-caption {
+	position:absolute;
+	left: -480px;
+	top: -30px;
+	color:#fff;
+	width: 400px;
+	z-index:8;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nivo-caption h1 {
+	color: #fff;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.nivo-caption p {
+	color: #ccc;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	margin-bottom: 20px;
+	text-transform: uppercase;	
+}
+.nivo-html-caption {
+    display:none;
+}
+
+.theme-default a.slider_detail {
+	position: absolute;
+	display: block;
+	width: 116px;
+	height: 52px;
+	line-height: 55px;
+	text-align: center;
+	bottom: 82px;
+	left: 330px;
+	font-size: 18px;
+	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: 0 1px 1px #fff;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+
+.theme-default .nivo-directionNav a {
+	position:absolute;	
+	display:block;
+	width:28px;
+	height:94px;
+	background:  url(../images/tvaco-slider-next-previous.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	top:30%;
+	z-index:9;
+	cursor:pointer;
+}
+.theme-default a.nivo-nextNav {
+	background-position:-28px 0;
+	right: -520px;
+}
+.theme-default a.nivo-prevNav {
+	left: -65px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+
+.theme-default .nivo-controlNav {
+	position:absolute;
+	bottom: -40px;
+	left: -340px;
+	width: 258px;
+	padding: 10px 0;
+	height: 31px;
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: url(../images/templatemo_slider_btn.png) 
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	border:0;
+	padding: 5px 0;
+	margin-left: 28px;
+	float:left;
+	z-index: 9;
+	cursor: pointer;
+	color: #ccc;
+}
+.theme-default .nivo-controlNav a.active {
+	color: #fff;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thumbnails>
+	
+	<config 
+		auto_align="true"
+		fullscreen_button="false"
+		folder="thumbnails/"
+		tween_duration="0.3"
+		tn_border_size="0"
+		tn_border_color="0xFFFFFF"
+		tn_alpha="true"
+		x_spacing="125"
+		y_spacing="0"
+		side_tn_count="3">
+	</config>
+	
+	<thumbnail> 
+		<filename>220x220_217_v_shape.jpg</filename> 
+		<url>http://www.google.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_219_mesh.jpg</filename> 
+		<url>http://www.youtube.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_218_s_shape.jpg</filename> 
+		<url>http://www.yahoo.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_230_carousel.jpg</filename> 
+		<url>http://www.google.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_220_nature.jpg</filename> 
+		<url>http://www.youtube.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_236_3d_curve_gallery.jpg</filename> 
+		<url>http://www.google.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_222_gateway.jpg</filename> 
+		<url>http://www.yahoo.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_237_touch_slider.jpg</filename> 
+		<url>http://www.youtube.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_238_3d_spiral_gallery.jpg</filename> 		
+		<url>http://www.google.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_240_touch_scroller.jpg</filename> 
+		<url>http://www.yahoo.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_241_multi_scroller.jpg</filename> 
+		<url>http://www.youtube.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>220x220_242_mini_tour.jpg</filename> 
+		<url>http://www.google.com</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+
+</thumbnails>

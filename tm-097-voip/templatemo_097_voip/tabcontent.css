@@ -1,0 +1,87 @@
+#templatemo_menu {
+	clear: both;
+	width: 958px;
+	height: 125px;
+	padding: 0 1px;
+	background: url(images/templatemo_top_panel_bg.jpg) no-repeat;
+}
+
+.indentmenu{
+	font: bold 14px Arial;
+	height: 58px;
+	width: 958px; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	height: 58px;
+	background: black url(indentbg.gif) center center repeat-x;
+}
+
+.indentmenu ul li{
+display: inline;
+}
+
+.indentmenu ul li a{
+float: left;
+color: white; /*text color*/
+width: 158px;
+text-align: center;
+height: 40px;
+padding-top: 18px;
+text-decoration: none;
+border-right: 2px solid #000; /*navy divider between menu items*/
+background: url(images/templatemo_menu_bg.jpg) repeat-x;
+outline: none;
+}
+
+.indentmenu ul li a:visited{
+color: white;
+}
+
+.indentmenu ul li a.selected, .indentmenu ul li a:hover{
+color: white !important;
+background: black url(images/templatemo_menu_hover_bg.jpg) center center;
+}
+
+.indentmenu li .last{
+	border-right: none;
+}
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+clear: both;
+width:900px; height: 35px; padding: 23px 30px 0 30px;
+color: #fff;
+font-size: 14px;
+}
+
+
+.tabcontentstyle ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.tabcontentstyle li{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.tabcontentstyle li a {
+	font-weight: normal;
+	color: #FFF;
+	margin: 0px;
+	padding: 0 10px 0 5px;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}

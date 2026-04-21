@@ -1,0 +1,282 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Dark Brown Template 
+http://www.templatemo.com/preview/templatemo_120_dark_brown 
+*/
+html {
+	background: #030100;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_bg.jpg) #030100 repeat-x;
+}
+
+a:link, a:visited {	color: #42ac1f; text-decoration:none; }
+a:active, a:hover { color: #42ac1f; text-decoration: underline; }
+
+#templatemo_container {
+	width: 900px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+#templatemo_headar {
+	background: url(images/templatemo_header.jpg) no-repeat;
+	width: 880px;
+	height: 170px;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_logo {
+	width: 400px;
+	margin: 20px 0 0 100px;
+	padding: 0;
+}
+
+#templatemo_logo h1 {
+	float: left;
+	display: block;
+	width: 100%;
+	font-family: "Times New Roman";
+	font-size: 24px;
+	color: #fff;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#templatemo_logo h2 {
+	font-family: "Times New Roman";
+	font-size: 15px;
+	text-align: justify;
+	font-weight: normal;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_menu {
+	height: 50px;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#templatemo_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#templatemo_menu li {
+	float:left;
+}
+
+#templatemo_menu li a {
+	float: left;
+	display: block;
+	color: #bea798;
+	background: url(images/templatemo_menu_left.png) no-repeat;
+	text-decoration: none;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0 5px 0 0;
+	padding: 0 0 0 9px;
+	height: 50px;
+	line-height: 33px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#templatemo_menu li a b {
+	float: left;
+	display: block;
+	height: 45px;
+	padding: 5px 20px 0 11px;
+	background: url(images/templatemo_menu_right.png) right top no-repeat;
+}
+
+#templatemo_menu li.current a, #templatemo_menu li a:hover {
+	background: url(images/templatemo_menu_left_current.png) no-repeat;
+	color: #fff;
+
+}
+
+#templatemo_menu li.current a b, #templatemo_menu li a:hover b {
+	background: url(images/templatemo_menu_right_current.png) right top no-repeat;
+}
+
+#templatemo_content_area {
+	margin: 20px;	
+	padding: 20px;
+}
+
+#templatemo_left {
+	float: left;
+	width: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_left h1 {
+	color: #92e777;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#templatemo_left ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_left ul li {
+	background: url(images/templatemo_bullet.png) no-repeat left top;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 20px;
+}
+
+#templatemo_left ul p {
+	color: #bea798;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: justify;
+	border-bottom : 1px dashed #684833;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+#templatemo_right {
+	float: right;
+	width: 328px;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_right img {
+	border: 5px solid #bea798;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#templatemo_bottom_panel {
+	width:	880px;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_bottom_panel #templatemo_bottom_panel_top {
+	width:	880px;
+	height: 44px;
+	background: url(images/templatemo_bottom_panel_top.png) no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_bottom_panel #templatemo_bottom_panel_bottom {
+	width:	880px;
+	background: #000;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_bottom_panel_bottom .templatemo_col {
+	float: left;
+	width: 260px;
+	margin: 0 25px 0 0;
+}
+
+#templatemo_bottom_panel_bottom .left {
+	float: left;
+	width: 260px;
+	margin: 0 25px 0 25px;
+}
+
+.templatemo_col .templatemo_three_col_header {
+	float: left;
+	width: 190px;
+	height: 38px;
+	background: url(images/templatemo_3_col_title.jpg) no-repeat;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: #000000;
+	margin: 0;
+	padding: 20px 0 0 70px;
+}
+
+.templatemo_col .templatemo_three_col_body_with_bg {
+	width: 220px;
+	float: left;
+	background: #1a1a1a;
+	margin: 10px;
+	padding: 10px 10px 0 10px;
+}
+
+.templatemo_three_col_body_with_bg p {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #cac2a2;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.templatemo_three_col_body_with_bg b {
+	color: #42ac1f;
+	font-weight: bold;
+}
+
+.templatemo_col .templatemo_three_col_body_without_bg {
+	width: 220px;
+	float: left;
+	margin: 10px;
+	padding: 0 10px 0 10px;
+}
+
+.templatemo_three_col_body_without_bg p {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: justify;
+	color: #cac2a2;
+	background: #1a1a1a;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+
+#templatemo_footer {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #ffe900;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#templatemo_footer a {
+	color: #ffe900;
+	text-decoration: underline;
+}
+
+#templatemo_footer a:hover {
+	color: #ffe900;
+	text-decoration: none;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

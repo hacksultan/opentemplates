@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+
+	<config 
+		hover_effect="true"
+		auto_play="true" 
+		auto_play_duration="2" 
+		tween_duration="0.8" 
+		tween_delay="0.0016">
+	</config>
+	
+	<photo>
+		<filename>contents/piecemaker1.png</filename>
+		<url>http://www.flashmo.com/page/1</url> 
+		<target>_parent</target> 
+		<transition sequence="first" direction="down" slice="280" effect="easeInOutBack"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker2.png</filename>
+		<url>http://www.flashmo.com/page/2</url> 
+		<target>_blank</target> 
+		<transition sequence="last" direction="left" slice="140" effect="easeInOutQuart"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker3.png</filename>
+		<url>http://www.flashmo.com/page/3</url> 
+		<target>_self</target> 
+		<transition sequence="first" direction="up" slice="280" effect="easeInOutBack"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker4.png</filename>
+		<url>http://www.flashmo.com/page/4</url> 
+		<target>_parent</target>
+		<transition sequence="first" direction="down" slice="280" effect="easeOutElastic"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker1.png</filename>
+		<url>http://www.flashmo.com/page/5</url> 
+		<target>_blank</target>
+		<transition sequence="inner" direction="left" slice="140" effect="easeInOutExpo"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker2.png</filename>
+		<url>http://www.flashmo.com/page/6</url> 
+		<target>_blank</target>
+		<transition sequence="first" direction="down" slice="280" effect="easeOutBounce"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker3.png</filename>
+		<url>http://www.flashmo.com/page/7</url> 
+		<target>_blank</target>
+		<transition sequence="outer" direction="up" slice="280" effect="easeInOutCirc"></transition>
+	</photo>
+	
+	<photo>
+		<filename>contents/piecemaker4.png</filename>
+		<url>http://www.flashmo.com/page/8</url> 
+		<target>_blank</target>
+		<transition sequence="last" direction="right" slice="140" effect="easeInOutExpo"></transition>
+	</photo>
+
+</photos>

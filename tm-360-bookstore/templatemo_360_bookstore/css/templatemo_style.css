@@ -1,0 +1,525 @@
+/*
+Bookstore Template 
+http://www.templatemo.com/preview/templatemo_360_bookstore 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #e4e4da;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px; 
+	background-color: #242423; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#fff;
+	font-weight:400;
+	padding: 0;
+	margin: 0;
+	font-family: "MS Serif", "New York", serif
+}
+
+h1 { font-size:32px; margin-bottom: 20px; }
+h2 { font-size:26px; margin-bottom: 20px; }
+h3 { font-size:20px; margin-bottom: 20px; }
+h4 { font-size:18px; margin-bottom: 10px; }
+h5 { font-size:16px }
+h6 { font-size:14px }
+.header { display: block }
+
+.left { float:left }
+.right { float:right }
+
+img { 
+	margin: 0; 
+	padding: 0;
+}
+
+.img_border { 
+	background: #3e3e3d; 
+	padding: 4px; 
+	border: 1px solid #161615; 
+}
+
+.img_frame { 
+	position: relative; 
+	display: block; 
+	padding: 7px; 
+}
+
+.img_frame span { 
+	position: absolute; 
+	top: 0; left: 0; 
+	z-index: 0; 
+}
+
+.img_frame img, .img_frame iframe { 
+	position: absolute; 
+	top: 7px; 
+	left: 7px; 
+	z-index: 100; 
+}
+
+.img_frame_13 { 
+	width: 280px; 
+	height: 157px; 
+}
+
+.img_frame_13 span { 
+	background: url(../images/templatemo_image_frame_13.png); 
+	width: 300px; 
+	height: 177px; 
+}
+
+.img_frame_14 { 
+	width: 203px; 
+	height: 108px; 
+}
+
+.img_frame_14 span { 
+	background: url(../images/templatemo_image_frame_14.png); 
+	width: 217px; 
+	height: 122px; 
+}
+
+.img_frame_23 { 
+	width: 616px; 
+	height: 216px; 
+}
+
+.img_frame_23 span { 
+	background: url(../images/templatemo_image_frame_23.png); 
+	width: 630px; 
+	height: 230px; 
+}
+
+.img_nom { 
+	display: block; 
+	margin-bottom: 15px; 
+}
+
+.img_fl { 
+	float: left; 
+	margin: 3px 15px 5px 0; 
+}
+
+.img_fr { 
+	float: left; 
+	margin: 3px 0 5px 15px; 
+}
+
+a:link, a:visited { 
+	color:#c49e33; 
+	text-decoration: none;
+}
+
+a:hover { 
+	text-decoration:underline; 
+}
+
+a:hover,a:active { 
+	outline:none; 
+}
+
+a.more { 
+	clear: both; 
+	display: block; 
+	width: 77px; 
+	height: 28px; 
+	line-height: 28px; 
+	color: #333; 
+	text-align: center; 
+	text-decoration: none; 
+	background: url(../images/templatemo_button.png) no-repeat; 
+	border: none;  
+	cursor: pointer; 
+}
+
+em { color: #c49e33 }
+p { margin: 0 0 15px 0 }
+
+.list_bullet { 
+	margin: 10px 0 10px 15px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.list_bullet li { 
+	color:#e4e4da; 
+	margin: 0 0 7px 0; 
+	padding: 0 0 0 30px; 
+	background: url(../images/templatemo_bullet.png) no-repeat scroll 0 3px;  
+}
+
+.list_bullet li a { 
+	color: #e4e4da; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+.list_bullet li a:hover { 
+	color: #fff; 
+}
+
+.clear { clear: both; display: block; }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+.no_bullet { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.no_bullet li { 
+	margin: 0 0 20px 0; 
+	padding: 0; 
+}
+
+a.header { 
+	display: block; 
+	font-weight: 700; 
+}
+
+#templatemo_header_wrapper {
+	width: 100%;
+	min-height: 160px;
+	background: url(../images/templatemo_header.png) repeat-x top
+}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: url(../images/templatemo_footer.png) repeat-x top
+}
+
+#templatemo_header, #templatemo_main, #templatemo_footer {
+	width: 960px;
+	padding: 40px 10px;
+	margin: 0 auto;
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 246px; 
+	height: 54px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background: url(../images/templatemo_logo.png) no-repeat top left; 
+}
+
+#templatemo_menu { 
+	float: right; 
+	margin-top: 15px; 
+}
+
+#templatemo_slider_wrapper {
+	width: 100%;
+	height: 331px;
+	margin-top: 20px;
+	background: url(../images/templatemo_slider_bg.png)
+}
+
+#templatemo_slider {
+	width: 935px;
+	padding: 15px 15px;
+	height: 310px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.post { 
+	clear: both; 
+	margin: 0 0 40px 0; 
+	padding: 0 0 40px 0; 
+	border-bottom: 1px solid #444443; 
+}
+
+.post_header { 
+	float: left; 
+	width: 500px; 
+}
+
+.post_header h2 { 
+	margin-bottom: 10px; 
+}
+
+.post_date { 
+	float: right; 
+	width: 80px; 
+	border-left: 1px solid #444443; 
+	padding-left: 15px; 
+	line-height: 30px; 
+	font-size: 28px; 
+	color: #cba438; 
+}
+
+.post_date span { 
+	display: block; 
+	color: #636260; 
+	font-size: 14px; 
+	line-height: 16px; 
+}
+
+.post_meta a { 
+	font-size: 10px; 
+}
+
+.comment_list { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.comment_list .comment_box { 
+	padding: 20px; 
+	border-bottom: 1px solid #444443; 
+}
+
+.comment_list li { 
+	margin-bottom: 20px; 
+}
+
+.comment_list li ul { 
+	list-style: none; 
+	background: none; 
+}
+
+.comment_list li ul li { }
+
+.comment_list li ul li .comment_box { 
+	background: #515150; 
+}
+
+.comment_content { 
+	float: right; 
+	width: 470px; 
+}
+
+.comment_list li ul li.depth_2 .comment_content  { 
+	width: 430px; 
+}
+
+.comment_list li ul li.depth_3 .comment_box { 
+	background: #757572; 
+}
+
+.comment_list li ul li.depth_3 .comment_content  { 
+	width: 390px; 
+}
+
+#comment_form { margin-top: 40px }
+
+#comment_form textarea {
+	color: #fff;
+	background:#292929;
+	border: 1px solid #373736;
+	height:150px;
+	padding:5px;
+	width: 360px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#comment_form .form_row {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#comment_form form input {
+	color: #fff;
+	padding: 5px;
+	width: 200px;
+	background:#292929;
+	border: 1px solid #373736;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#comment_form .submit_btn {
+	width: 77px; 
+	height: 28px; 
+	color: #333; 
+	margin: 10px 0px;
+	background: url(../images/templatemo_button.png) no-repeat;
+ 	border: none;  
+ 	cursor: pointer; 
+}
+
+#gallery {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+
+#gallery .gallery_box {	
+	padding-bottom: 30px; 
+	border-bottom: 1px dotted #000; 
+}
+
+#gallery .no_margin_right { 
+	margin-right: 0; 
+}
+
+#contact_form { 
+	padding: 0; 
+	margin: 0;  
+}
+
+#contact_form form { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	background: #292929; 
+	color: #fff; 
+	font-size: 11px; 
+	border: 1px solid #373736; 
+	margin-top: 2px; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block; 
+	margin-right: 12px; 
+	font-size: 12px; 
+}
+
+#contact_form form textarea { 
+	width: 455px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #fff;
+	background: #292929; 
+	border: 1px solid #373736; 
+	margin-top: 2px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn { 
+	width: 77px; 
+	height: 28px; 
+	line-height: 28px; 
+	color: #333; 
+	margin: 10px 0px;
+	background: url(../images/templatemo_button.png) no-repeat;
+ 	border: none;  
+ 	cursor: pointer; 
+}
+
+.sidebar_box { 
+	clear: both;
+	margin-bottom: 40px
+}
+
+.col { 
+	float: left; 
+	margin: 0 30px 30px 0; 
+}
+
+.half { 
+	width: 465px; 
+	margin-bottom: 30px; 
+}
+
+.one_third { 
+	width: 300px; 
+}
+
+#content, .two-third { 
+	width: 630px; 
+}
+
+#sidebar { 
+	width: 270px; 
+	padding-left: 30px; 
+	border-left: 1px solid #494947; 
+}
+
+.one_fourth { 
+	width: 217px; 
+}
+
+.no_margin_right { 
+	margin-right: 0; 
+}
+
+.last_box { 
+	margin-bottom: 0; 
+	background: none; 
+}
+
+#templatemo_footer h4 { 
+	color: #000; 
+}
+
+#templatemo_footer { 
+	color: #333; 
+}
+
+#templatemo_footer a { 
+	color: #000; 
+}
+
+.footer_gallery {
+	margin: 0; 
+	padding:0; 
+	list-style: none; 
+}
+	
+.footer_gallery li { 
+	margin: 0 10px 10px 0; 
+	padding: 0; 
+	display: block; 
+	float: left; 
+}
+
+.paging { 
+	margin: 0 0 20px; 
+	padding: 0; 
+}
+
+.paging ul { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.paging ul li { 
+	margin: 0; 
+	padding: 0; 
+	display: inline; 
+}
+
+.paging ul li a { 
+	float: left; 
+	display: block; 
+	color: #ccc; 
+	text-decoration: none; 
+	margin-right: 5px; 
+	padding: 5px 10px; 
+	background: #494947; 
+	border: 1px solid #121211; 
+}
+
+.paging ul li a:hover { 
+	background: #c49e33; 
+	color: #fff;  
+}

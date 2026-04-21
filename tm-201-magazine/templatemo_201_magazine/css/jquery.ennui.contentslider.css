@@ -1,0 +1,133 @@
+/*
+ * Color, Border, and Button Rules
+ */
+.contentslider {
+  padding: 0; /* This acts as a border for the content slider */
+  background: none; /* This is the color of said border */
+} 
+.cs_wrapper, .cs_article {
+  background-color: #2f2c21; /* Background color for the entries */
+}
+.cs_leftBtn, .cs_rightBtn {
+  width:35px; /* Should be as wide as the button graphic being used */
+  background: none; /* This will probably match the contentslider bg color */
+}
+
+/*
+ * Article styles (font, color, etc.)
+ *
+ * If textResize is set to TRUE, sizing shouldn't need to be touched. However,
+ * depending on the sizes you have defined, additional tweaking may be
+ * required in order to get the text to display properly.
+ */
+.cs_article h2 {
+  font-size:200%;
+  line-height:1.125em;
+}
+.cs_article h2 a {
+    color:#333;
+    text-decoration:none;
+  }
+.cs_article p {
+	margin-bottom: 10px;
+	line-height:1.5em;
+	color:#fff;
+}
+.cs_article .readmore {
+	font-size: 11px;
+}
+
+/*
+ ******************************************************************************
+ * These styles may be affected by the plugin, so avoid changing them if 
+ * it's not absolutely necessary.
+ ******************************************************************************
+ */
+.contentslider {
+  position:relative;
+  display:block;
+  width: 640px;
+  height: 260px;
+  margin:0 auto;
+  overflow:hidden;
+}
+.cs_wrapper {
+  position:relative;
+  display:block;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.cs_slider {
+  position:absolute;
+  width:10000px;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.cs_article {
+  float:left;
+  position:relative;
+  top:0;
+  left:0;
+  display:block;
+  width:640px;
+  height: 200px;
+  margin:0 auto;
+  padding: 30px 0;
+}
+
+.cs_article .article_image_wrapper {
+	float: left;	
+	margin-left: 60px;
+	border: 4px solid #3e3b2f;
+	padding: 1px;
+	background: #6c695f;
+}
+
+.cs_article img {
+	width: 240px;
+	height: 190px;
+}
+
+.cs_article .text {
+	float: right;
+	margin-right: 60px;
+	width: 250px;
+}
+
+.text h2 a, .text h2 a:hover,.text h2  a:visited{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.cs_article p {
+	font-size: 11px;
+}
+
+.cs_article .readmore {
+
+}
+.cs_leftBtn, .cs_rightBtn {
+  position:absolute;
+  top: 50px;
+  height: 140px;
+  padding:0;
+  z-index:10000;
+}
+.cs_leftBtn {
+  left:0;
+  outline:0;
+}
+.cs_rightBtn {
+  right:0;
+  outline:0;
+}
+.cs_leftBtn img, .cs_rightBtn img {
+  border:0;
+  position:relative;
+  top: 10px;
+  margin:0;
+}

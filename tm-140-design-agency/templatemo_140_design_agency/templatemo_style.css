@@ -1,0 +1,289 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Design Agency Template 
+http://www.templatemo.com/preview/templatemo_140_design_agency 
+*/
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_bg.jpg) repeat-x #2f6767;
+}
+
+a:link, a:visited {	color: #FFFF66; text-decoration: underline; }
+a:active, a:hover { color: #33FFFF; text-decoration: none; }
+
+p { 
+	font-family: Tahoma, "Trebuchet MS", Verdana; 
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 20px 0;
+}
+
+h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 30px;
+	color: #fff;
+	margin: 0 0 20px 0;
+}
+
+h2 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 24px;
+	margin: 0 0 20px 0;
+	color: #fff;
+	background: url(images/templatemo_titile_bullet.png) no-repeat left;
+	padding: 0 0 0 20px;
+}
+
+h3 {
+	font-family: Tahoma, "Trebuchet MS", Verdana; 
+	font-size: 18px;
+	margin: 0 0 20px 0;
+	color: #fff;
+}
+
+.templatemo_container {
+	width: 850px;
+	margin: auto;
+}
+
+#templatemo_header {
+	width: 850px;
+	height: 158px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+
+#templatemo_search {
+	float: right;
+	width: 233px;
+	height: 38px;
+	background: url(images/templatemo_search_box.png) no-repeat;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+#searchfield {
+	height: 17px;
+	width: 130px;
+	padding: 5px;
+	color: #040505;
+	font-size: 13px;
+	font-variant: normal;
+	line-height: normal;
+	background: none;
+	border: none;
+	margin: 6px 0 0 10px;
+}
+
+#searchbutton {
+ 	height: 29px;
+	margin: 0 0 0 5px;
+	padding: 0 6px;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #040505;
+	background: none; 
+	border: none;
+}
+
+/* Menu */
+#templatemo_menu {
+	clear: both;
+	float: right;
+	height: 34px;
+	width: 440px;
+	padding: 0;
+	margin: 45px 0 0 0;
+}
+
+#templatemo_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#templatemo_menu li {
+	float:left;
+}
+
+#templatemo_menu li a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0 20px 0 0;
+	font-weight: bold;
+	padding: 0 0 0 40px;
+	height: 34px;
+	line-height: 33px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#templatemo_menu .home {
+	background: url(images/templatem_menu_home.png) left top no-repeat;
+}
+
+#templatemo_menu .about {
+	background: url(images/templatem_menu_about.png) left top no-repeat;
+}
+
+#templatemo_menu .service {
+	background: url(images/templatem_menu_service.png) left top no-repeat;
+}
+
+#templatemo_menu .contact {
+	background: url(images/templatem_menu_contact.png) left top no-repeat;
+}
+
+#templatemo_menu li.current a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+	border: none;
+}
+
+#templatemo_menu li a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*End OF menu*/
+
+#templatemo_content_area {
+	padding: 25px 0;
+	margin: 0;
+}
+
+.templatemo_h_line {
+	width: 850px;
+	height: 28px;
+	background: url(images/templatemo_h_line.png) no-repeat;
+	clear: both;
+}
+
+#templatemo_left {
+	float: left;	
+	width: 203px;
+	margin: 25px 0 20px 55px;
+}
+
+.templaetmo_section_1 {
+
+	float: left;
+	width: 203px;
+	height: 179px;
+	background: url(images/templatemo_paper.png) no-repeat;
+	margin: 0 0 20px 0;
+	padding: 20px 0 0 0;
+
+}
+
+.templaetmo_section_1 .sub_menu {
+	list-style: none;
+}
+
+.sub_menu li {
+	text-align: left;
+	font-family: "Segoe Script", Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 16px 0;
+}
+
+.sub_menu li a {
+	color: #202625;
+}
+
+.sub_menu li a:hover, .sub_menu .current {
+	color: #7d0b0b;
+	text-decoration: underline;
+}
+
+#templatemo_right {
+	float: right;	
+	width: 550px;
+	margin: 0 0 20px 0
+}
+
+.templatemo_section_2 {
+	float: left;
+	width: 390px;
+	margin: 20px 0 0 20px;
+}
+
+.templatemo_section_2 img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.templatemo_section_2 h1 {
+	font-family: Verdana; 
+	font-size: 24px;
+	font-weight: normal;
+	color: #04265f;
+	margin: 0 0 10px 0;
+}
+
+.templatemo_section_2 p {
+	margin: 0 0 10px 0;
+}
+
+#templatemo_bottom_section {
+	width: 100%;
+	background: url(images/templatemo_bottom_bg.jpg) #202625 repeat-x;
+	padding: 20px 0;
+}
+
+#templatemo_footer {
+	width: 100%;
+	margin: 0;
+	padding: 20px 0;
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	background: #090909;
+	text-align: center;
+	border-top: 1px solid #3c3f3f;
+	border-bottom: 1px solid #3c3f3f;
+}
+
+#templatemo_footer a {
+	color: #fff;
+}
+
+.left {
+	margin: 20px 20px 0 20px;
+}
+
+.right_img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+.left_img {
+	float: left;
+	margin: 0 5px 5px;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,163 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Salad Template 
+http://www.templatemo.com/preview/templatemo_008_salad 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 12px;
+	color: #000000;
+}
+a:link, a:visited { color: #0066CC; text-decoration: none} 
+a:active, a:hover { color: #FF0000; text-decoration: underline}
+
+#templatemo_container {
+	width: 828px;
+	margin: 0px auto;
+	background: url(images/templatemo_content_bg.gif);
+}
+#templatemo_top {
+	clear: left;
+	height: 25px;	/* 'padding-top' + 'height' must be equal to the 'background image height' */
+	padding-top: 39px;
+	padding-right: 25px;
+	text-align: right;
+	background: url(images/templatemo_top_bg.gif) no-repeat bottom;
+}
+#templatemo_header {
+	clear: left;
+	margin-top: 10px;
+	height: 208px;
+	text-align: left;
+	padding-left: 25px;
+	background: url(images/templatemo_header.jpg) no-repeat center center;
+}
+#templatemo_left_column {
+	clear: left;
+	float: left;
+	width: 210px;
+	padding-left: 3px;
+}
+#templatemo_right_column {
+	float: right;
+	width: 590px;
+	padding-right: 15px;
+}
+#templatemo_footer {
+	clear: both;
+	padding-top: 9px;
+	height: 40px;
+	text-align: center;
+	font-size: 11px;
+	background: url(images/templatemo_footer_bg.gif) no-repeat;
+	color: #666666;
+}
+#templatemo_footer a {
+	color: #666666;
+}
+#templatemo_site_title {
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+#templatemo_site_slogan {
+	padding-top: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.templatemo_spacer {
+	clear: left;
+	height: 10px;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000000;
+}
+.section_box {
+	margin: 10px;
+	margin-right: 0px;
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	background: url(images/gradient_top.gif) repeat-x;
+}
+.post_box {
+	clear: left;
+	margin-top: 10px;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #DDDDDD;
+}
+.text_area {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.post_text_area {
+	padding: 10px;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #EFEFEF url(images/gradient_top.gif) repeat-x;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.publish_date {
+	clear: both;
+	padding: 3px;
+	padding-left: 10px;
+	color: #999999;
+	font-size: 11px;
+	font-weight: bold;
+	background: #EFEFEF  url(images/gradient_bot.gif) repeat-x bottom;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+}
+.subtitle {
+	padding-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #AA0000;
+}
+.templatemo_menu {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	width: 200px;
+}
+.templatemo_menu li a{
+	background: #F4F4F4 url(images/button_default.gif) no-repeat;
+	font-size: 13px;
+	font-weight: bold;
+	color: #008000;
+	display: block;
+	width: auto;
+	margin-bottom: 2px;
+	padding: 5px;
+	padding-left: 14px;
+	text-decoration: none;
+}
+* html .templatemo_menu li a{ 
+	width: 195px;
+}
+.templatemo_menu li a:visited, .templatemo_menu li a:active{
+	color: #008000;
+}
+.templatemo_menu li a:hover{
+	background: #EEEEEE url(images/button_default.gif) no-repeat left bottom;
+	color: #CC0000;
+}

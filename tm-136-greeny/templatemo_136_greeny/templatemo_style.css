@@ -1,0 +1,311 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Greeny Template 
+http://www.templatemo.com/preview/templatemo_136_greeny 
+*/
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: #fff;
+}
+
+a:link, a:visited {
+	color: #dbfee1; 
+	font-weight:bold; 
+	text-decoration: underline; 
+}
+a:active, a:hover {
+	color: #dbfee1; 
+	text-decoration: none;
+	font-weight:bold;
+}
+
+p {
+	font-family: Tahoma, "Trebuchet MS", Verdana; 
+	font-size: 11px;
+	color: #dbfee1;
+	text-align: justify;
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Tahoma, Verdana; 
+	font-size: 18px;
+	color: #fff;
+	margin: 0 0 10px 0;
+}
+
+.templatemo_container {
+	width: 870px;
+	margin: 0;
+}
+
+#templatemo_header {
+	width: 867px;
+	height: 49px;
+	background: url(images/templatemo_header.jpg) left top no-repeat;
+	padding: 10px 0 0 0;
+}
+
+/* Menu */
+#templatemo_menu {
+	height: 46px;
+	width: 650px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#templatemo_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#templatemo_menu li {
+	float:left;
+}
+
+#templatemo_menu li a {
+	float: left;
+	display: block;
+	color: #005500;
+	background: url(images/templatemo_menu_left.png) no-repeat;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	padding: 0 0 0 7px;
+	height: 45px;
+	line-height: 33px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#templatemo_menu li a b {
+	float: left;
+	display: block;
+	height: 40px;
+	padding: 5px 20px 0 11px;
+	background: url(images/templatemo_menu_right.png) right top no-repeat;
+}
+
+#templatemo_menu li.current a, #templatemo_menu li a:hover {
+	background: url(images/templatemo_menu_left_current.png) no-repeat;
+	color: #fff;
+}
+
+#templatemo_menu li.current a b, #templatemo_menu li a:hover b {
+	background: url(images/templatemo_menu_right_current.png) right top no-repeat;
+}
+
+/*End OF menu*/
+
+#templatemo_news_section {
+	height: 204px;
+	width: 819px;
+	background: url(images/templatemo_newsection.jpg);
+	padding: 33px 0 0 48px;
+}
+
+#templatemo_news_area {
+	float: left;
+	width: 450px;
+	margin: 0 0 0 20px ;
+}
+
+#templatemo_news_section h1 {
+	color: #b7f298;
+	font-size: 22px;
+	background: url(images/templatemo_header_line.png) bottom left no-repeat;
+ 	padding: 0 0 10px 0;
+}
+
+#templatemo_project_section {
+	width: 819px;
+	background: url(images/templatemo_project_section_mid.jpg) repeat-y;
+	margin: 0;
+	padding: 20px 0 0 48px;
+}
+
+#templatemo_project_section h1 {
+	color: #006600;
+	margin: 0 0 10px 25px;
+	text-decoration: underline;
+}
+
+#templatemo_project_section_bottom {
+	width: 867px;
+	height: 43px;
+	background: url(images/templatemo_project_section_bottom.jpg) repeat-y;
+	margin: 0;
+	padding: 0
+}
+
+#templatemo_section_area {
+	width: 811px;	
+}
+
+#templatemo_section_area .templatemo_section_1 {
+	float: left;
+	width: 225px;
+	margin: 20px 0 20px 30px;
+}
+
+.templatemo_section_1 img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.templatemo_section_1 h1 {
+	font-family: Verdana; 
+	font-size: 24px;
+	font-weight: normal;
+	color: #04265f;
+	margin: 0 0 10px 0;
+}
+
+.templatemo_section_1 p {
+	color: #000;
+	margin: 0 0 10px 0;
+}
+
+.section_mid {
+	background: url(images/templatemo_section_brake.jpg) no-repeat left;
+	width: 225px;
+	margin: 20px 0 20px 10px;
+	padding: 0 0 0 30px;
+	float: left;
+}
+
+.section_mid p {
+	color: #000;
+	margin: 0 0 10px 0;
+}
+
+#templatemo_bottom_section {
+	width: 819px;
+	background: url(images/templatemo_bottom_section_bg.jpg) repeat-y;
+	margin: 0;
+	padding: 20px 0 0 48px;
+}
+
+.templatemo_newsletter_section {
+	float: left;
+	width: 245px;
+	background: url(images/templatemo_newsletter_bg.png) no-repeat right bottom;
+}
+
+.templatemo_newsletter_section .templatemo_newsletter_top {
+	width: 245px;
+	height: 10px;
+	background: url(images/templatemo_newsletter_top.png);
+	margin: 0;
+}
+
+.templatemo_newsletter_section .templatemo_newsletter_mid {
+	width: 205px;
+	background: url(images/templatemo_newsletter_mid.png);
+	margin: 0;
+	padding: 10px 20px;
+}
+
+.templatemo_newsletter_mid h1 {
+	color: #004400;
+	font-variant:small-caps;
+	text-decoration: underline;
+}
+
+.templatemo_newsletter_mid p {
+	color: #004400;
+}
+
+.templatemo_newsletter_section .templatemo_newsletter_bottom {
+	width: 245px;
+	height: 9px;
+	background: url(images/templatemo_newsletter_bottom.png);
+	margin: 0;
+}
+
+#templatemo_content_section {
+	float: left;
+	width:	530px;
+	margin: 0 0 0 20px;
+}
+
+#templatemo_content_section h1 {
+	color: #004400;
+	font-variant:small-caps;
+	text-decoration: underline;
+}
+
+#templatemo_content_section p {
+	color: #004400;
+}
+
+#templatemo_content_section li {
+	list-style: square;
+	color: #004400
+}
+
+#templatemo_content_section a {
+	color: #004400;
+}
+
+.field {
+	width: 163px;
+	height: 20px;
+	border: none;	
+	background: url(images/templatemo_input.jpg) no-repeat;
+	padding: 2px;
+}
+
+.button {
+	width: 75px;
+	height: 23px;
+	border: none;	
+	background: url(images/templatemo_button.png) no-repeat;
+	margin: 10px 0;
+}
+
+#templatemo_footer {
+	width: 867px;
+	height: 49px;
+	background: url(images/templatemo_footer_bg.jpg);
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size:	12px;
+	margin: 0;
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+#templatemo_footer a {
+	color: #FFFFFF;
+}
+
+.last {
+	margin: 0;
+}
+
+.right_img {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+.left_img {
+	float: left;
+	margin: 0 5px 5px;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

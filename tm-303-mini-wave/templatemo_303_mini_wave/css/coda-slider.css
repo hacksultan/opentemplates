@@ -1,0 +1,137 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#templatemo_wrapper {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 900px;
+	height: 170px;
+	padding: 40px 60px;
+	background: url(../images/templatemo_header.jpg) no-repeat
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 300px; height: 60px; color: #F60; text-indent: -10000px; background: url(../images/templatemo_logo.png)  no-repeat }	
+#site_title h1 span { display: block; font-size: 16px; color: #666 }
+
+#menu {
+	float: right;
+	margin-top: 20px;
+	height: 46px;
+}
+
+#content {
+	width: 900px;
+	height: 490px;
+	padding: 0 60px;
+	background: url(../images/templatemo_content.jpg)
+}
+
+#footer {
+	width: 900px;
+	height: 320px;
+	padding: 0 60px;
+	background: url(../images/templatemo_footer.jpg) no-repeat
+}
+
+#social_box {
+	clear: both;
+	height: 85px;
+	padding: 0;
+	text-align: right;
+	margin-bottom: 190px;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 30px;
+	width: 60px; height: 60px;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#copyright {
+	clear: both;
+	text-align: right;
+}
+
+
+#copyright a {
+	color: #333;
+}
+
+.scroll {
+    height: 490px;
+    width: 900px;
+    overflow: hidden;
+/*  overflow-x: hidden; */
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 440px;
+    width: 880px;
+	padding: 30px 10px 20px;
+	overflow: hidden;
+}
+
+ul.navigation {
+	float: right;
+	display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	padding: 0 0 0 30px;
+	margin-left: 30px;
+	color: #d5bf3a;
+	font-size: 16px;
+	font-weight: normal;
+    text-decoration: none;
+	text-align: center;
+	background: url(../images/templatemo_menu.png) left center no-repeat
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #81a039;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}

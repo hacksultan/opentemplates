@@ -1,0 +1,319 @@
+/*
+Yellow Star Template 
+http://www.templatemo.com/preview/templatemo_326_yellow_star
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #afaa69;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #363413;
+	background-image: url(images/templatemo_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top center	
+}
+
+a, a:link, a:visited { color: #FFFFFF; font-weight: normal; text-decoration: underline; }
+a:hover { color: #FFFF33; text-decoration: none; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#fff; }
+cite span { color: #e3dfae; }
+em { color: #fff; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 25px; margin: 0 0 15px 0; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 5px solid #fff; background: none; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+
+.tmo_list { margin: 20px 0 20px 20px; padding: 0; list-style: none }
+.tmo_list li { color:#e3dfae; margin: 0; padding: 0 0 0 20px; background: url(images/templatemo_list.png) no-repeat scroll 0 7px  }
+.tmo_list li a { color: #e3dfae; font-weight: normal; font-size: 12px; text-decoration: none }
+.tmo_list li a:hover { color: #fff }
+
+#templatemo_body_wrapper {
+	width: 100%;
+	background: url(images/templatmeo_body_wrapper.jpg) top center no-repeat
+}
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background: url(images/templatmeo_body_wrapper.jpg) top center no-repeat
+}
+
+#templatemo_header {
+	width: 960px;
+	height: 60px;
+	padding: 20px 0;
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 280px; height: 68px; color: #fff; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat top left }
+
+#twitter a{ float: right; font-weight: normal; display: block; padding: 35px 55px 13px 0; margin-top: 10px; color: #393715; font-size: 18px; background: url(images/twitter.png)  no-repeat right top }
+
+/* menu */
+#templatemo_menu {
+	clear: both;
+	width: 960px;
+	height: 50px;
+	padding: 0;
+	margin-bottom: 10px;
+	background: url(images/templatemo_menu.png) no-repeat 
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 7px 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 8px 0 0 0;
+	margin: 0 1px 0 0;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;	
+	font-weight: 700;
+	letter-spacing: 1px;
+	outline: none;
+	text-shadow: 1px 1px 1px #7a7743;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current { color: #fff; background: url(images/templatemo_menu_hover.png) bottom repeat-x }
+
+
+/* end of menu */
+
+#templatemo_middle { 
+	clear: both;
+	width: 900px;
+	height: 190px;
+	padding: 30px;
+	background: url(images/templatemo_middle.png) no-repeat
+}
+
+#templatemo_middle_subpage { 
+	clear: both;
+	width: 900px;
+	height: 120px;
+	padding: 30px;
+	background: url(images/templatemo_middle.png) no-repeat top
+}
+
+#templatemo_middle_subpage h2 {
+	color: #000;
+}
+#templatemo_middle_subpage p {
+	font-size: 18px;
+	color: #171606;
+}
+
+#templatemo_main {
+	clear: both;
+	width: 900px;
+	padding: 30px;
+	background: #363413;
+}
+
+.col_w900 { width: 900px; margin-bottom: 50px; }
+.col_w580 { width: 580px }
+.col_w420 { width: 420px }
+.col_w280 { width: 280px }
+.col_allw280 { float: left; width: 280px; margin-right: 30px }
+.col_w900_last { padding: 0 30px; margin: 0; background: none; }
+.col_last { margin: 0; }
+
+.recent_comment_box { padding: 0 0 15px; margin: 0 0 15px; border-bottom: 1px dashed #433d3a; }
+.recent_comment_box a { color: #fff; font-size: 12px; font-weight: bold; }
+.last_recent_comment_box { margin: 0; padding: 0; border: none }
+
+.sb_box {
+	width: 240px;
+    padding: 0 20px 20px;
+	margin-bottom: 30px;
+	background: url(../images/sb_divider.jpg) bottom repeat-x;
+}
+.sb_box h3 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.post_box { clear: both; margin-bottom: 30px }
+.post_box .post_header { padding: 10px 0; border: 1px dashed #000; border-left: none; border-right: none; margin-bottom: 15px }
+.post_box h2 { font-size: 20px; margin-bottom: 10px }
+.post_box p.post_meta { margin-bottom: 0; color: #7e7c55 }
+.post_box p.post_meta a { color: #d1ce8c }
+.post_box p span.cat a { font-weight: 400 }
+.post_box img { padding: 9px; border: 1px solid #333; background: #171606; margin-bottom: 15px; }
+.post_box a.more { float: right; }
+
+.frontpage_box { color: #000 }
+.frontpage_box h2 { font-size: 20px; padding: 0; margin-bottom: 20px; color: #383614 }
+.frontpage_box img { float: left; margin-right: 15px }
+.frontpage_box a { color: #000 }
+.frontpage_box a.more { margin-top: 15px }
+.tagline { display: block; font-size: 11px; font-weight: bold; font-style: italic; color: #000; margin-bottom: 10px }
+
+.fp_post { padding-bottom: 5px; margin-bottom: 10px; border-bottom: 1px solid #4b481e }
+.fp_post a { font-size: 16px }
+.last_box { margin-bottom: 0; padding-bottom: 0; border: none }
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0; list-style: none }
+#gallery ul li { display: block; position: relative; float: left; width: 260px; margin: 0 60px 60px 0; }
+#gallery ul li span { display: block; width: 240px; height: 30px; color: #fff; font-weight: 700; font-size: 16px; padding: 5px 0 0 5px; position: absolute; top: 100px; left: 0; background: url(images/templatemo_gl_tt.png) repeat-x }
+#gallery ul .lmb { margin: 0 0 30px 0; }
+#gallery ul li a img { width: 260px; height: 180px; margin-bottom: 5px }
+
+#cp_contact_form { 
+	padding: 0; 
+	width: 400px 
+}
+
+#contact_form form { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#cp_contact_form form .input_field { 
+	width: 390px; 
+	padding: 5px; 
+	border: 1px solid #ccc;  
+	background: #fff; 
+	color: #333; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px;
+}
+
+#cp_contact_form form label { 
+	display: block; 
+	margin-right: 10px; 
+	font-size: 13px; 
+	color: #fff; 
+}
+
+#cp_contact_form form textarea { 
+	width: 390px; 
+	height: 160px; 
+	padding: 5px; 
+	color: #333; 
+	border: 1px solid #ccc;  
+	background: #fff; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px;
+}
+
+#cp_contact_form form .submit_btn {
+	padding: 5px 14px;
+	background: #fff;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	margin: 10px 0px;
+}
+
+#map img { width: 270px; height: 160px; border: 1px solid #ccc; padding: 4px }
+
+/* footer */
+
+#templatemo_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #28260d;
+	border-top: 1px solid #4d4a21 
+}
+
+#templatemo_footer {
+	width: 900px;
+	padding: 30px;
+	margin: 0 auto;
+}
+/* social */
+
+#templatemo_footer #social_box {
+	clear: both;
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li a {
+	width: 24px;
+	height: 24px;
+	margin: 0 5px 5px 0;
+	text-decoration: none;
+	border: none;
+}
+
+/* end of social */
+
+/* copyright */
+
+#templatemo_copyright_wrapper {
+	clear: both;
+	width: 100%;
+	background: #000;
+	border-top: 1px solid #3f3c18;
+}
+
+#templatemo_copyright {
+	width: 900px;
+	padding: 10px 30px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+#templatemo_copyright a {
+	color: #afaa69;
+}
+
+/* end of copyright */
+/* end of footer */

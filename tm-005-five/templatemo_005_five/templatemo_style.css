@@ -1,0 +1,150 @@
+/* 		Credit: http://www.templatemo.com 		*/
+
+/* 
+005 Template 
+http://www.templatemo.com/preview/templatemo_005_five
+*/
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #000000 url(images/templatemo_bg.gif) repeat-x;
+}
+a:link, a:visited { color: #88DDFF; text-decoration: none} 
+a:active, a:hover { color: #FFFF99; text-decoration: underline}
+
+#templatemo_container {
+	width: 800px;
+	margin: 5px auto;
+	background: #000000;
+	border: 1px solid #666666;
+}
+#templatemo_header {
+	clear: left;
+	height: 160px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+#templatemo_content {
+	width: 800px;
+}
+#templatemo_left_column {
+	float: left;
+	width: 600px;
+	min-height: 400px;
+}
+#templatemo_right_column {
+	background: #444444 url(images/templatemo_right_bg.gif) repeat-x bottom;
+	float: left;
+	width: 200px;
+	min-height: 400px;
+}
+#templatemo_footer {
+	clear: left;
+	background: #333333;
+	padding: 5px;
+	font-size: 11px;
+	color: #CCCCCC;
+}
+#templatemo_footer a {
+	color: #CCCCCC;
+}
+#templatemo_site_title {
+	padding-top: 60px;
+	padding-left: 250px;
+	font-weight: bold;
+	font-size: 26px;
+	color: #FFFFFF;
+}
+#templatemo_site_slogan {
+	padding-top: 10px;
+	padding-left: 250px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.templatemo_line {
+	clear: left;
+	height: 2px;
+	background: #888888;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #CCCCCC;
+}
+.section_box {
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #666666;
+	background: #333333;
+}
+.section_box2 {
+	clear: left;
+	margin-top: 10px;
+	border: 1px solid #666666;
+	background: #444444;
+	color: #FFFFFF;
+}
+.text_area {
+	margin: 10px;
+}
+.publish_date {
+	clear: both;
+	margin-top: 10px;
+	color: #88DDFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+.title {
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFF00;
+}
+.subtitle {
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFF00;
+}
+.post_title {
+	padding: 5px;
+	padding-left: 10px;
+	background: url(images/post_title_bg.gif);
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCCCCC;
+}
+/* 		Menu Credit: http://www.dynamicdrive.com/style/      */
+.glossymenu{
+	list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	width: 175px;
+	border: 1px solid #999999;
+}
+.glossymenu li a{
+	background: white url(images/button_default.gif) repeat-x center;
+	font: bold 12px "Trebuchet MS", Verdana, Helvetica;
+	color: #FFFFFF;
+	display: block;
+	width: auto;
+	padding: 6px;
+	padding-left: 12px;
+	text-decoration: none;
+}
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+	width: 170px;
+}
+.glossymenu li a:visited, .glossymenu li a:active{
+	color: #FFFFFF;
+}
+.glossymenu li a:hover{
+	background-image: url(images/button_active.gif);
+	color: #000000;
+}

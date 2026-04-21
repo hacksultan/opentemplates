@@ -1,0 +1,440 @@
+/*
+
+November Template
+
+http://www.templatemo.com/tm-473-november
+
+*/
+
+@media only screen and (min-width: 769px) and (max-width: 10000px) {
+	#mobile_sec .menumobile { display: block!important; }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+	header { width: 100%; }
+	header .Center { width: 100%; padding: 0px 2%;  }
+	header .site-logo { padding: 18px 0 0 1px; }
+	header.smaller .site-logo { padding: 11px 0 0; }
+	
+	.Navigation { margin-right: 0px; }
+	.Navigation li a { padding: 30px 36px; }
+	header.smaller .Navigation li a { padding: 16px 36px; }
+
+	
+	.Banner_sec { width: 100%; height: 524px; }
+	.Banner_sec .Center {width: 100%; padding: 0px 2%; }
+	.Banner_sec .bannerside { top: 144px; }
+	.Banner_sec .leftside h3 { font-size: 32px; }
+	.Banner_sec .rightside { width: 66%; }
+	.Banner_sec .rightside .Slider { width: 100%; }
+	.Banner_sec .rightside .Slider .text { padding: 25px 10px 21px 10px; }
+	.Banner_sec .rightside .Slider .text .Icon { width: 45%; }
+	.Banner_sec .rightside .Slider .text .Lorem { width: 40%; }
+	.Banner_sec .rightside .Shadow { width: 105%; }
+	.Banner_sec .rightside .prevBtn { top: 160px; }
+	.Banner_sec .rightside .nextBtn { top: 160px; }
+
+	#Container { width: 100%; }
+
+	.About_sec { width: 100%; padding: 70px 0px; }
+	.About_sec .Center { width: 100%; padding: 0px 2%; }
+	.About_sec p { font-size: 13px; }
+	.About_sec .Tabside { padding: 50px 0; }
+	.About_sec .Tabside .Description { margin-top: 0px; width: 51%; }
+
+	.Services_sec { width: 100%; padding: 70px 0px; }
+	.Services_sec .Center { width: 100%; padding: 0px 2%; }
+	.Services_sec p { font-size: 13px; }
+	.Services_sec .Serviceside { width: 100%; padding: 50px 0 30px; }
+	.Services_sec .Serviceside li { margin: 0px 2% 0px 0px; width: 23.5%; }
+
+	.Pricing_sec { width: 100%; padding: 70px 0px; }
+	.Pricing_sec .Center { width: 100%; padding: 0px 2%; }
+	.Pricing_sec p { font-size: 13px; }
+	.Pricing_sec .Pricingside { width: 100%; padding: 50px 0 0 }
+	.Pricing_sec .Pricingside li .Basic { width: 6%;}
+	.Pricing_sec .Pricingside li .Dollar { width: 14%;  }
+	.Pricing_sec .Pricingside li .Band { width: 16%; padding:  1px 30px}
+	.Pricing_sec .Pricingside li .Order { width: 16%; float: right; }
+
+	.Pricing_sec .Pricingside li.bg1 .Dollar1 { width: 14.8%; }
+	.Pricing_sec .Pricingside li.bg1 .Band { width: 16%; padding:  1px 30px}
+	.Pricing_sec .Pricingside li.bg1 .Order1 { width: 16%; float: right; }
+
+	.Contact_sec { width: 100%; }
+	.Contact_sec .Center { width: 100%; padding: 70px 2%;}
+	
+	.Contact_sec .Map { width: 100%;}
+	.Contact_sec .Map img { height: 300px; width: 100%; }
+	
+	.Get_sec { width: 100%; }
+	.Get_sec .Mid { width: 100%; padding: 50px 2%; }
+
+	footer { width: 100%; }
+	footer .Cntr { width: 100%; padding: 20px 2%; }
+}	
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	header { width: 100%; height: 87px; }
+	header .Center { width: 100%; padding: 0px 2%; }
+	header .site-logo { padding: 27px 0 0 1px;  position: relative; z-index: 1; }
+	header .site-logo h1 { line-height: 33px; }	
+	header.smaller .Navigation li a { padding: 16px 20px; }
+
+	.Navigation {  margin-right: 0px; }
+	.Navigation li a { padding: 30px 20px; }
+
+	.Banner_sec { width: 100%; height: 464px; }
+	.Banner_sec .Center {width: 100%; padding: 0px 2%; }
+	.Banner_sec .bannerside { top: 144px; }
+	.Banner_sec .leftside { padding: 0px; width: 34%; }
+	.Banner_sec .leftside h3 { font-size: 30px; }
+	.Banner_sec .leftside p { padding: 10px  0px; font-size: 14px; line-height: 18px; }
+	.Banner_sec .rightside { width: 64%;}
+	.Banner_sec .rightside .Slider { width: 100%;}
+	.Banner_sec .rightside .Slider .text { padding: 25px 10px 21px 10px; }
+	.Banner_sec .rightside .Slider .text .Icon { width: 46%; }
+	.Banner_sec .rightside .Slider .text li { padding: 0px 10px;}
+	.Banner_sec .rightside .Slider .text .Lorem { width: 50%; }
+	.Banner_sec .rightside .Slider .text .Lorem p { font-size: 16px; }
+	.Banner_sec .rightside .Shadow { width: 106.5%; left: -21px; }
+	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
+	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
+
+	#Container { width: 100%; }
+
+	.About_sec { width: 100%; padding: 70px 0px 30px 0px; }
+	.About_sec .Center { width: 100%; padding: 0px 2%; }
+	.About_sec h2 { font-size: 40px; line-height: 40px; }
+	.About_sec p { padding: 15px 0px; font-size: 13px; }
+	.About_sec .Tabside { padding: 50px 0 0px 0; }
+	.About_sec .Tabside .Description { margin-top: 0px; width: 51%; }
+	.About_sec .Tabside .Description p { padding: 10px 0px; }
+	.About_sec .Tabside .TabImage { width: 45.63%; }
+	.About_sec .Tabside .TabImage .img1 { left: 0px; background-position: -40px 203px; }
+	.About_sec .Tabside .TabImage .img1 img { width: 95%; }
+	
+	.About_sec .Tabside .TabImage .img2 { left: 15px; height: auto; background-position: -50px 132px;  }
+	.About_sec .Tabside .TabImage .img2 img { width: 90%; height: auto; }
+
+	.Services_sec { width: 100%; padding: 70px 0px 30px 0px; }
+	.Services_sec .Center { width: 100%; padding: 0px 2%; }
+	.Services_sec h2 { font-size: 40px; line-height: 40px; }
+	.Services_sec p { padding: 15px 0px; font-size: 13px; }
+	.Services_sec .Serviceside { width: 100%; padding: 50px 0 30px; }
+	.Services_sec .Serviceside li { margin: 0px 2% 0px 0px; width: 23.5%; }
+
+	.Services_sec .Serviceside li.Development a { background-size: 60%;}
+	.Services_sec .Serviceside li.Development h4 { padding: 134px 0 0; }
+	.Services_sec .Serviceside li.Development a:hover h4 { background-size: 60%;}
+
+	.Services_sec .Serviceside li.Desdin a { background-size: 60%;}
+	.Services_sec .Serviceside li.Desdin h4 { padding: 134px 0 0; }
+	.Services_sec .Serviceside li.Desdin a:hover h4 { background-size: 60%;}
+
+	.Services_sec .Serviceside li.Concept a { background-size: 60%;}
+	.Services_sec .Serviceside li.Concept h4 { padding: 134px 0 0; }
+	.Services_sec .Serviceside li.Concept a:hover h4 { background-size: 60%;}
+
+	.Services_sec .Serviceside li.System a { background-size: 60%;}
+	.Services_sec .Serviceside li.System h4 { padding: 134px 0 0; }
+	.Services_sec .Serviceside li.System a:hover h4 { background-size: 60%;}
+
+	.Pricing_sec { width: 100%; padding: 70px 0px 30px 0px; }
+	.Pricing_sec .Center { width: 100%; padding: 0px 2%; }
+	.Pricing_sec h2 { font-size: 40px; line-height: 40px; }
+	.Pricing_sec p { padding: 15px 0px; font-size: 13px; }
+	.Pricing_sec .Pricingside { width: 100%; padding: 30px 0 0 }
+	.Pricing_sec .Pricingside li { height: 90px;}
+	.Pricing_sec .Pricingside li:hover .Band { padding: 0px; height: 90px; }
+	.Pricing_sec .Pricingside li .Basic { width: 8%; height: 90px;}
+	.Pricing_sec .Pricingside li .Dollar { width: 14%; height: 90px; }
+	.Pricing_sec .Pricingside li .Dollar h2 { font-size: 24px; }
+	.Pricing_sec .Pricingside li .Band { width: 16%; }
+	.Pricing_sec .Pricingside li .Band p { font-size: 15px; }
+	.Pricing_sec .Pricingside li .Order { width: 14%; float: right; height: 90px; }
+
+	.Contact_sec { width: 100%; }
+	.Contact_sec .Center { width: 100%; padding: 70px 2% 30px 2%; }
+	.Contact_sec h2 { font-size: 40px; line-height: 40px; }
+	.Contact_sec p { padding: 15px 0px; font-size: 13px; }
+
+	.Contact_sec .Map { width: 100%;}
+	.Contact_sec .Map img { height: 250px; width: 100%; }
+	
+	.Get_sec { width: 100%; }
+	.Get_sec .Mid { width: 100%; padding: 50px 2%; }
+	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside input.field { padding: 10px 20px; }
+	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
+	.Get_sec .Leftside .button {-webkit-appearance: none; }
+
+	.Get_sec .Rightside { padding-top: 0px; }
+	.Get_sec .Rightside h3 { font-size: 40px; padding-bottom: 34px; }
+	.Get_sec .Rightside address { padding: 0 0 23px 65px; }
+
+	footer { width: 100%; }
+	footer .Cntr { width: 100%; padding: 20px 2%; }
+	
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	header { width: 100%; position: absolute; height: 57px;}
+	header .Center { width: 100%;  }
+	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; }
+	header .site-logo h1 { margin: 0px; line-height: 36px; }
+	header.smaller { height: 55px;}
+	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
+	header.smaller .site-logo h1 a { font-size: 36px; }
+	
+	#mobile_sec { position: fixed; width: 100%; }
+	#mobile_sec .mobile { display: block; position: relative; float: right;}
+	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
+	#mobile_sec .menumobile .Navigation { width: 100%; float: none; }
+	#mobile_sec .menumobile .Navigation ul { float: none;}
+	#mobile_sec .menumobile .Navigation li { float: none; width: 100%; border-bottom: solid 1px #365374; }
+	#mobile_sec .menumobile .Navigation li a { padding: 10px 21px; background: none; border-bottom: none; }
+	#mobile_sec .menumobile .Navigation li:last-child { border-bottom: none; }
+	
+	
+	.Banner_sec { width: 100%; height: 620px; }
+	.Banner_sec .Center {width: 100%; padding: 0px 3%; }
+	.Banner_sec .bannerside { top: 144px; }
+	.Banner_sec .leftside { padding: 0px 0px 20px 0px; width: 100%; float: none; }
+	.Banner_sec .rightside { width: 99%;}
+	.Banner_sec .rightside .Slider { width: 100%;}
+	.Banner_sec .rightside .Slider .text { padding: 10px 10px; }
+	.Banner_sec .rightside .Slider .text .Icon { width: 48%; }
+	.Banner_sec .rightside .Slider .text li { padding: 0px 10px;}
+	.Banner_sec .rightside .Slider .text .Lorem { width: 50%; }
+	.Banner_sec .rightside .Slider .text .Lorem p { font-size: 14px; }
+	.Banner_sec .rightside .Shadow { width: 105.5%; left: -16px; }
+	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
+	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
+	.Banner_sec .rightside #slider li img { height: 280px; width: 100%;}	
+
+	.bgcolor { height: 50px; }
+
+	#Container { width: 100%; }
+
+	.About_sec { width: 100%; padding: 100px 0px 50px; }
+	.About_sec .Center { width: 100%; padding: 0px 3%; }
+	.About_sec h2 { font-size: 30px; line-height: 30px; }
+	.About_sec p { padding: 15px 0px; font-size: 13px; }
+	.About_sec .Tabside { padding: 30px 0 0px 0; }
+	.About_sec .Tabside ul { padding-bottom: 25px;}
+	.About_sec .Tabside li a { font-size: 14px; padding: 14px 30px; }
+	.About_sec .Tabside .TabImage { width: 100%; float: none; padding-bottom: 35px; text-align: center;}
+	.About_sec .Tabside .TabImage .img1 { left: 0px; position: relative; }
+	.About_sec .Tabside .TabImage .img1 img { margin: auto;}
+	.About_sec .Tabside .TabImage .img2 { left: 25px;  }
+	.About_sec .Tabside .TabImage .img2 img { width: 100%; height: auto; }
+	.About_sec .Tabside .Description { margin-top: 0px; width: 100%; }
+	.About_sec .Tabside .Description p { padding: 10px 0px; text-align: justify; }
+
+	.Services_sec { width: 100%; padding: 100px 0px 30px; }
+	.Services_sec .Center { width: 100%; padding: 0px 3%; }
+	.Services_sec h2 { font-size: 30px; line-height: 30px; }
+	.Services_sec p { padding: 15px 0px; font-size: 13px; }
+	.Services_sec .Serviceside { width: 100%; padding: 50px 0 30px; }
+	.Services_sec .Serviceside li { margin: 0px 0% 3% 2%; float: none; display:inline-block; }
+
+
+	.Pricing_sec { width: 100%; padding: 100px 0px 30px; }
+	.Pricing_sec .Center { width: 100%; padding: 0px 3%; }
+	.Pricing_sec h2 { font-size: 30px; line-height: 30px; }
+	.Pricing_sec p { padding: 15px 0px; font-size: 13px; }
+	.Pricing_sec .Pricingside { width: 100%; padding: 30px 0 0 }
+	.Pricing_sec .Pricingside li { height: 100%; width: 100%; margin: 0px 0px 50px 0px; }
+	.Pricing_sec .Pricingside li .Basic { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li .Basic h5 { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); writing-mode: lr-tb; }
+	.Pricing_sec .Pricingside li .Dollar { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li .Band { width: 100%; float: none; border-bottom: solid 1px #ccc; background: none; height: 75px; }
+	.Pricing_sec .Pricingside li .Order { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li:hover .Band { height: 75px; }
+
+	
+	.Contact_sec { width: 100%; }
+	.Contact_sec .Center { width: 100%; padding: 80px 3%;}
+	.Contact_sec h2 { font-size: 30px; line-height: 30px; }
+	.Contact_sec p { padding: 15px 0px; font-size: 13px; }
+
+	.Contact_sec .Map { width: 100%;}
+	.Contact_sec .Map img { height: 200px; width: 100%; }
+	
+	.Get_sec { width: 100%; }
+	.Get_sec .Mid { width: 100%; padding: 30px 3%; }
+	.Get_sec .Leftside { width: 100%; float: right;}
+	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside input.field { padding: 10px 20px; }
+	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
+	.Get_sec .Leftside .button { -webkit-appearance: none;  margin: 0px; padding: 12px 0px; }
+
+	.Get_sec .Rightside { padding-top: 0px; width: 100%; }
+	.Get_sec .Rightside h3 { font-size: 30px; padding-bottom: 20px; }
+	.Get_sec .Rightside address { padding: 0 0 15px 65px; }
+	.Get_sec .Rightside ul { padding: 10px 0 0 3px; }
+
+	footer { width: 100%; }
+	footer .Cntr { width: 100%; padding: 10px 3%; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+
+	header { width: 100%; position: absolute; height: 57px; }
+	header .Center { width: 100%;}
+	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; }
+	header .site-logo h1 { margin: 0px; line-height: 36px; }
+	header.smaller { height: 55px;}
+	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
+	header.smaller .site-logo h1 a { font-size: 36px; }
+	
+	#mobile_sec { position: fixed; width: 100%;}
+	#mobile_sec .mobile { display: block; position: relative; float: right; }
+	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
+	#mobile_sec .menumobile .Navigation { width: 100%; float: none; }
+	#mobile_sec .menumobile .Navigation ul { float: none;}
+	#mobile_sec .menumobile .Navigation li { float: none; width: 100%; border-bottom: solid 1px #365374; }
+	#mobile_sec .menumobile .Navigation li a { padding: 10px; background: none; border-bottom: none; }
+	#mobile_sec .menumobile .Navigation li a:hover, #mobile_sec .menumobile .Navigation li a.active { background: #ff9000; border-bottom: none; }
+	#mobile_sec .menumobile .Navigation li:last-child { border-bottom: none; }
+
+	
+	.Banner_sec { width: 100%; height: 556px; }
+	.Banner_sec .Center {width: 100%; padding: 0px 3%; }
+	.Banner_sec .bannerside { top: 90px; }
+	.Banner_sec .leftside { padding: 0px 0px 10px 0px; width: 100%; float: none; }
+	.Banner_sec .leftside h3 { font-size: 30px; }
+	.Banner_sec .leftside p { font-size: 14px; line-height: 18px; padding: 10px 0px; }
+	.Banner_sec .leftside a { font-size: 13px; }
+	.Banner_sec .rightside { width: 98%;}
+	.Banner_sec .rightside .Slider { width: 99%; text-align: center; }
+	.Banner_sec .rightside .Slider .text { padding: 10px 10px; }
+	.Banner_sec .rightside .Slider .text .Icon { width: 100%; }
+	.Banner_sec .rightside .Slider .text .Icon li { float: none!important; display: inline-block; padding: 0px 10px;}
+	.Banner_sec .rightside .Slider .text .Lorem { width: 100%;  }
+	.Banner_sec .rightside .Slider .text .Lorem p { font-size: 13px; text-align: initial;}
+	.Banner_sec .rightside .Slider .text .Lorem p span { display: inline-block; float: right; }
+	.Banner_sec .rightside .Shadow { width: 105.5%; left: -16px; }
+	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
+	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
+	.Banner_sec .rightside #slider li img { height: 290px; width: 100%;}	
+
+	
+	.bgcolor { height: 50px; }
+
+	#Container { width: 100%; }
+
+	.About_sec,
+	.Services_sec,
+	.Pricing_sec { 
+		width: 100%; padding: 60px 0px 30px; 
+	}
+	.About_sec .Center { width: 100%; padding: 0px 3%; }
+	.About_sec h2 { font-size: 30px; line-height: 30px; }
+	.About_sec p { padding: 15px 0px; font-size: 13px; }
+	.About_sec .Tabside { padding: 30px 0 0px 0; }
+	.About_sec .Tabside ul { padding-bottom: 25px;}
+	.About_sec .Tabside li a { font-size: 13px; padding: 14px; }
+	.About_sec .Tabside .TabImage { width: 100%; float: none; padding-bottom: 25px; text-align: center;}
+	.About_sec .Tabside .TabImage .img1 { left: 0px; position: relative; height: 244px; background: none;background-size: 100%; }
+	.About_sec .Tabside .TabImage .img1 img { margin: auto;}
+	.About_sec .Tabside .TabImage .img2 { left: 20px;  background: none; background-size: 100%; }
+	.About_sec .Tabside .TabImage .img2 img { width: 94%; height: auto; }
+	.About_sec .Tabside .Description { margin-top: 0px; width: 100%; }
+	.About_sec .Tabside .Description p { padding: 10px 0px; text-align: justify; }
+	
+	.Services_sec .Center { width: 100%; padding: 0px 3%; }
+	.Services_sec h2 { font-size: 30px; line-height: 30px; }
+	.Services_sec p { padding: 15px 0px; font-size: 13px; }
+	.Services_sec .Serviceside { width: 100%; padding: 50px 0 30px; }
+	.Services_sec .Serviceside li { margin: 0px 0% 3% 2%; float: none; display:inline-block; }
+	
+	.Pricing_sec .Center { width: 100%; padding: 0px 3%; }
+	.Pricing_sec h2 { font-size: 30px; line-height: 30px; }
+	.Pricing_sec p { padding: 15px 0px; font-size: 13px; }
+	.Pricing_sec .Pricingside { width: 100%; padding: 30px 0 0 }
+	.Pricing_sec .Pricingside li { height: 100%; width: 100%; margin: 0px 0px 50px 0px; }
+	.Pricing_sec .Pricingside li .Basic { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li .Basic h5 { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); writing-mode: lr-tb; }
+	.Pricing_sec .Pricingside li .Dollar { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li .Band { width: 100%; float: none; border-bottom: solid 1px #ccc; background: none; height: 75px; }
+	.Pricing_sec .Pricingside li .Order { width: 100%; float: none; }
+	.Pricing_sec .Pricingside li:hover .Band { height: 75px; }
+	
+	.Contact_sec { width: 100%; }
+	.Contact_sec .Center { width: 100%; padding: 60px 3% 30px;}
+	.Contact_sec h2 { font-size: 30px; line-height: 30px; }
+	.Contact_sec p { padding: 15px 0px; font-size: 13px; }
+
+	.Contact_sec .Map { width: 100%;}
+	.Contact_sec .Map img { height: 200px; width: 100%; }
+	
+	.Get_sec { width: 100%; }
+	.Get_sec .Mid { width: 100%; padding: 30px 4%; }
+	.Get_sec .Leftside { width: 100%; float: right;}
+	.Get_sec .Leftside p { margin: 0 0 20px; } 
+	.Get_sec .Leftside input.field { padding: 10px 20px; }
+	.Get_sec .Leftside textarea { padding: 10px 20px; height: 125px; }
+	.Get_sec .Leftside .button { margin: 0px; padding: 12px 0px; -webkit-appearance: none; }
+
+	.Get_sec .Rightside { padding-top: 0px; width: 100%; }
+	.Get_sec .Rightside h3 { font-size: 30px; padding-bottom: 10px; }
+	.Get_sec .Rightside address { padding: 0 0 15px 47px; }
+	.Get_sec .Rightside ul { padding: 10px 0 0 3px; }
+
+	footer { width: 100%; }
+	footer .Cntr { width: 100%; padding: 10px 3%; }	
+}
+
+@media only screen and (max-width: 1199px) {
+	
+	header,
+	.Navigation li,
+	.Navigation li:hover span, 
+	.Navigation li.active span { 
+		height: 87px; }
+	header.smaller .Navigation li:hover span,
+	header.smaller .Navigation li.active span {
+		height: 60px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	header { 
+		height: 55px; 
+		position: fixed;
+	}
+	.Navigation li {
+		height: 45px;
+	}
+	header .site-logo {
+		padding-top: 8px;
+	}
+	.Navigation li:hover span, .Navigation li.active span {
+		height: 45px;
+	}
+	.Navigation li span {
+		border-bottom: none;
+		background: none;
+	}
+	#mobile_sec .menumobile .Navigation li:hover, 
+	#mobile_sec .menumobile .Navigation li.active {
+		background: #FF9000 none repeat scroll 0% 0%;
+		border-bottom: medium none;
+	}
+	header.smaller .Navigation li {
+		height: 45px;
+	}
+	.Banner_sec .leftside a {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

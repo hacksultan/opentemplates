@@ -1,0 +1,85 @@
+.tag_section {
+	width: 100%;
+	padding-top: 2px;
+	height: 25px;
+	background: #743b0d;
+}
+
+.tag_section .shadetabs{
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the menu as desired*/
+
+}
+
+.tag_section .shadetabs ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.tag_section .shadetabs li{
+	display: inline;
+	margin: 0;
+}
+
+.tag_section .shadetabs li a{
+	display:inline-block;
+	height: 24px;	
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	padding: 2px 5px 0 5px;
+	margin-right: 1px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.tag_section .shadetabs li a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tag_section .shadetabs li a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background: #3E2001;
+}
+
+.tag_section .shadetabs li a.selected{ /*selected main tab style */
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #3E2001; 
+	color: #ffffff;
+	position: relative;
+	top: 1px;
+}
+
+.tag_section .shadetabs li a.selected:hover{ /*selected main tab style */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tabcontent_section {
+	clear: both;
+	float:left;
+	padding: 15px 15px 0 15px;
+	width: 216px;
+	background: #3E2001;
+	border-left: 2px solid #743b0d;
+	border-bottom: 2px solid #743b0d;
+	border-right: 2px solid #743b0d;		
+}
+
+.tabcontent_section .inputfield{
+	width: 200px;
+}
+
+.tabcontent{
+	display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}

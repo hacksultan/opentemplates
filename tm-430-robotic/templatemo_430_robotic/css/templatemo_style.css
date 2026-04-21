@@ -1,0 +1,881 @@
+/*
+Robotic
+http://www.templatemo.com/preview/templatemo_430_robotic
+*/
+
+body {
+    font: 13px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    color: #888888;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+ /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    background: #282828;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    font-size: 36px;
+    color: #747474;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.templatemo_title {
+    font-size: 3em;
+    margin-top: 32%;
+    font-weight: bold;
+    color: #92bf24;
+    letter-spacing: -5px;
+    text-shadow: 2px 2px #545454;
+}
+
+.templatemo_title span {
+    color: #BBBBBB;
+}
+
+.templatemo_subtitle {
+    margin-left: 25px;
+    font-size: 1em;
+    text-shadow: 1px 1px #545454;
+    color: #999999;
+}
+
+.templatemo_headerwrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+.templatemo_menu {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 70%;
+    background: url(../images/templatemo_menubg.png);
+    height: 70px;
+    z-index: 500;
+}
+
+.templatemo_headerimg img {
+    width: 100%;
+}
+
+.templatemo_headerimg_cover {
+    position: absolute;
+    top: 0;
+}
+
+.templatemo_headerimg_cover img {
+    display: none;
+}
+
+.templatemo_socialmedia {
+    display: none;
+}
+
+.templatemo_home {
+    margin-top: 10%;
+}
+
+.templatemo_headertextbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.templatemo_headertitle {
+    float: left;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.templatemmo_subheader {
+    float: left;
+    font-size: 16px;
+    color: #6d950c;
+    font-weight: bold;
+}
+
+.templatemo_homebuton {
+    float: right;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    background: #91bf24;
+    font-size: 14px;
+    margin: 3% 0% 0% 0%;
+}
+
+.templatemo_wrapper {
+    margin-top: 80px;
+}
+
+.templatemo_separater {
+    background: url(../images/templatemo_separateline.png) no-repeat;
+    background-position: right;
+    height: 40px;
+    font-size: 20px;
+    color: #282828;
+    line-height: 40px;
+    min-width: 140px;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.templatemo_separater span {
+    float: right;
+    margin-right: 160px;
+}
+
+.navbar-default {
+    border: none;
+    background: none;
+}
+
+.templatemo_service img {
+    width: 100%;
+}
+
+.templatemo_service {
+    margin: 40px 0px;
+}
+/*.templatemo_service img:hover{ box-shadow: inset 0 0 0 30000px rgba(93,123,13, 0.8)}*/
+.templatemo_service_frame {
+    position: absolute;
+    top: 0;
+}
+
+.templatemo_service_frame img {
+    width: 100%;
+}
+
+.templatemo_service_title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #91bf24;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.templatemo_service_subtitle {
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.templatemo_service_text {
+    width: 100%;
+    text-align: center;
+}
+
+.templatemo_morebutton {
+    padding: 10px 15px;
+    background: none;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #5c5c5c;
+}
+
+.templatemo_morebutton:hover {
+    background: #92bf24;
+    border: 1px solid #5c5c5c;
+    cursor: pointer;
+}
+
+.templatemo_pricing_title {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    line-height: 44px;
+}
+
+.templatemo_pricing_subtitle {
+    font-size: 24px;
+    color: #6d950c;
+    text-align: center;
+}
+
+.templatemo_pricing_table {
+    background: #fff;
+    margin: 15px 0px;
+    padding-bottom: 20px;
+}
+
+.templatemo_pricingbg img {
+    width: 100%;
+}
+
+.templatemo_pricing_box {
+    position: absolute;
+    top: 0%;
+    padding: 0 30px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.templatemo_pricing_box span.price_title {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.templatemo_pricing_box span.sign {
+    font-size: 28px;
+    color: #597d01;
+    font-weight: bold;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+
+.templatemo_pricing_box span.price {
+    color: #597d01;
+    font-weight: bold;
+    float: left;
+    padding: 10px 0px 0px 0px;
+    font-size: 46px;
+}
+
+.templatemo_pricing_box span.month {
+    float: left;
+    padding: 10px 0px 0px 10px;
+}
+
+.templatemo_pricing_list ul {
+    margin: 0px 15px;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.templatemo_pricing_list ul li {
+    background: url(../images/templatemo_arrow.png) no-repeat;
+    background-position: left top;
+    margin: 0px;
+    padding: 7px 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.templatemo_signup {
+	display: block;
+    background: #91bf24;
+    color: #597d01;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.templatemo_work img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.templatemo_worktitle {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 38px;
+}
+
+.templatemo_sub_worktitle {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    color: #91bf24;
+}
+
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #91bf24;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    margin: 30px;
+}
+
+.templatemo_contactform input, textarea {
+    width: 90%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+.templatemo_contactform textarea {
+    height: 220px;
+}
+
+.templatemo_sendbtn {
+    background: #91bf24;
+    padding: 5px 15px;
+    color: #54720b;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.templatemo_contactmap {
+    float: left;
+    width: 100%;
+}
+
+#templatemo_map {
+    float: left;
+    height: 400px;
+    width: 100%;
+}
+
+.templatemo_mapcorner {
+    position: absolute;
+}
+
+.templatemo_mapcorner img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.templatemo_contactform .btn-primary {
+    background: #92bf24;
+    border: none;
+    border-radius: 0px;
+    color: #3d5602;
+    font-weight: 700;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #a6d82c;
+}
+
+#templatemo_service_page, #templatemo_promotion_page, #templatemo_work_page, templatemo_contact_page {
+    margin-top: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    border-top: 1px solid #89b521;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background: #699206;
+    color: #ccff00;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a.first {
+    border-top: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    background: #467200;
+    color: #ccff00;
+}
+
+/*------------------------------------------------------
+	Gallery Styles 
+--------------------------------------------------------*/
+.gallery-item {
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item .content-gallery {
+    text-align: center;
+}
+
+.gallery-item .content-gallery h3 {
+    color: #b10021;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: block;
+}
+
+.gallery-item .overlay a {
+    color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -16px;
+    font-size: 50px;
+}
+
+.templatemo_footer {
+    background: #222222;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+@media (min-width: 340px) and (max-width:767px) {
+    .templatemo_pricing_table {
+        width: 310px;
+        margin: 15px auto;
+    }
+
+    .templatemo_pricing_box {
+        margin-top: 80px;
+    }
+
+    .templatemo_pricing_box span.month {
+        float: left;
+        padding: 20px 0px 0px 10px;
+    }
+}
+
+@media (min-width: 360px) and (max-width:640px) {
+    .templatemo_home {
+        margin-top: 10%;
+    }
+
+    .templatemo_headertitle {
+        float: left;
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .templatemmo_subheader {
+        float: left;
+        font-size: 16px;
+        color: #6d950c;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 640px) and (max-width:767px) {
+    .templatemo_title {
+        font-size: 3em;
+        margin-top: 0px;
+        font-weight: bold;
+        color: #999999;
+        letter-spacing: -5px;
+        margin-left: 0px;
+    }
+
+    .templatemo_subtitle {
+        margin-left: 25px;
+        font-size: 1em;
+    }
+
+    .templatemo_home {
+        margin-top: 35%;
+    }
+
+    .templatemo_headertitle {
+        float: left;
+        font-size: 26px;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .templatemmo_subheader {
+        float: left;
+        font-size: 18px;
+        color: #6d950c;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 450px) and (max-width:991px) {
+    .templatemo_work img {
+        width: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .templatemo_contactmap {
+        margin-top: 50px;
+    }
+
+    .templatemo_ordering {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .templatemo_ordering div.one {
+        order: 2;
+    }
+
+    .templatemo_ordering div.two {
+        order: 1;
+    }
+
+    .templatemo_service_title {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #top-menu {
+        background: #668913;
+        margin: 0px -15px 0px 0px;
+        opacity: 0.9;
+    }
+}
+
+@media (min-width: 768px) {
+    .templatemo_title {
+        font-size: 4em;
+        margin-top: -50px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    .templatemo_subtitle {
+        margin-left: 60px;
+        font-size: 1.2em;
+    }
+
+    .navbar-nav {
+        margin-left: 30px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        height: 70px;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        display: inline-block;
+        text-decoration: none;
+        transform: skew(45deg);
+        -o-transform: skew(45deg);
+        -moz-transform: skew(45deg);
+        -webkit-transform: skew(45deg);
+    }
+
+    .navbar-default .navbar-nav>li>a:hover span {
+        display: inline-block;
+        transform: skew(-45deg);
+        -o-transform: skew(-45deg);
+        -moz-transform: skew(-45deg);
+        -webkit-transform: skew(-45deg);
+    }
+
+    .templatemo_home {
+        margin-top: 0;
+    }
+
+    .templatemo_headertextbox {
+        top: 30px;
+    }
+
+    .templatemo_headertitle {
+        float: right;
+        text-align: right;
+        font-size: 35px;
+        margin-top: 10%;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .templatemmo_subheader {
+        float: right;
+        text-align: right;
+        font-size: 16px;
+        color: #6d950c;
+        font-weight: bold;
+    }
+
+    .templatemo_hometext {
+        float: right;
+        text-align: right;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    .templatemo_headertitle,
+	.templatemmo_subheader,
+	.templatemo_hometext {
+        width: 100%;
+    }
+
+    .templatemo_pricing_list ul {
+        padding: 0px 0px;
+    }
+
+    .templatemo_pricing_box {
+        margin-top: 50px;
+    }
+
+    .templatemo_pricing_box span.price {
+        font-size: 36px;
+    }
+
+    .templatemo_pricing_box span.month {
+        float: left;
+        padding: 10px 0px 0px 5px;
+    }
+
+    .templatemo_headerimg_cover {
+        position: absolute;
+        top: 0px;
+    }
+
+    .templatemo_headerimg_cover img {
+        display: block;
+        width: 100%;
+    }
+
+    #top-menu li.active a {
+        background: #699202;
+        transform: skew(45deg);
+        -o-transform: skew(45deg);
+        -moz-transform: skew(45deg);
+        -webkit-transform: skew(45deg);
+    }
+
+    #top-menu li.active a span {
+        display: inline-block;
+        transform: skew(-45deg);
+        -o-transform: skew(-45deg);
+        -moz-transform: skew(-45deg);
+        -webkit-transform: skew(-45deg);
+        color: #ccff00;
+    }
+}
+
+@media (min-width: 992px) {
+ 
+    .templatemo_title {
+        font-size: 4em;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+
+    .templatemo_subtitle {
+        margin-left: 150px;
+        font-size: 1.2em;
+    }
+
+    .templatemo_headertextbox {
+        top: 30px;
+    }
+
+    .templatemo_headertitle {
+        float: right;
+        text-align: right;
+        font-size: 35px;
+        margin-top: 10%;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .templatemmo_subheader {
+        float: right;
+        text-align: right;
+        font-size: 20px;
+        color: #6d950c;
+        font-weight: bold;
+    }
+
+    .templatemo_socialmedia {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+    }
+
+    .templatemo_social {
+        float: left;
+        margin: 10px 5px 0px 0px;
+    }
+
+    .templatemo_hometext {
+        float: right;
+        text-align: right;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    .templatemo_homebuton {
+        float: right;
+        padding: 5px 15px;
+        text-align: center;
+        font-weight: 600;
+        color: #ffffff;
+        background: #91bf24;
+        font-size: 14px;
+        margin: 3% 0% 0% 0%;
+    }
+
+    .templatemo_headertitle,
+	.templatemmo_subheader,
+	.templatemo_hometext {
+        width: 100%;
+    }
+
+    .templatemo_pricing_list ul {
+        padding: 0px 20px;
+    }
+
+    .templatemo_pricing_box {
+        margin-top: 90px;
+    }
+
+    .templatemo_pricing_box span.price {
+        font-size: 56px;
+    }
+
+    .templatemo_pricing_box span.month {
+        float: left;
+        padding: 20px 0px 0px 10px;
+    }
+
+    .templatemo_work img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+ 
+    .templatemo_title {
+        font-size: 6em;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+
+    .templatemo_subtitle {
+        margin-left: 80px;
+        font-size: 2em;
+    }
+
+    .templatemo_headertextbox {
+        top: 50px;
+    }
+
+    .templatemo_headertitle {
+        float: right;
+        text-align: right;
+        font-size: 55px;
+        margin-top: 10%;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .templatemmo_subheader {
+        float: right;
+        text-align: right;
+        font-size: 24px;
+        color: #6d950c;
+        font-weight: bold;
+    }
+
+    .templatemo_socialmedia {
+        margin-right: 5%;
+    }
+
+    .templatemo_hometext {
+        float: right;
+        text-align: right;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    .templatemo_homebuton {
+        float: right;
+        padding: 12px 25px;
+        text-align: center;
+        font-weight: 600;
+        color: #ffffff;
+        background: #91bf24;
+        font-size: 16px;
+        margin: 3% 0% 0% 0%;
+    }
+
+    .templatemo_headertitle,
+	.templatemmo_subheader,
+	.templatemo_hometext {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .templatemo_socialmedia {
+        margin-right: 12%;
+    }
+
+    .templatemo_headertitle, 
+		.templatemmo_subheader, 
+		.templatemo_hometext {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .templatemo_socialmedia {
+        margin-right: 18%;
+    }
+}

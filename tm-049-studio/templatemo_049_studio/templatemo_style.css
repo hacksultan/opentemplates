@@ -1,0 +1,309 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Studio Template 
+http://www.templatemo.com/preview/templatemo_049_studio 
+*/
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: "Comic Sans MS", Arial;
+
+	line-height: 1.5em;
+
+	color: #585858;
+
+	font-size: 12px;
+
+	background-color: #fff;
+
+}
+
+a:link, a:visited { color: #34a908; text-decoration: none; } 
+
+a:active, a:hover { color: #34a908; text-decoration: none }
+
+h1 {
+
+	font-size: 22px;
+
+	font-weight: bold;
+
+	color: #77bc93;
+
+	height: 32px;
+
+	padding: 0px 0px 0px 0px;
+
+}
+
+h2 {
+
+	margin-top: 20px;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #56b81b;
+
+	height: 20px;
+
+	padding: 7px 0px 0px 35px;
+
+	background: url(images/templatemo_header2.jpg) no-repeat;
+
+}
+
+#templatemo_container {
+
+	width: 1000px;
+
+	margin: auto;
+
+	background-color: #fff;
+
+}
+
+#templatemo_topsection {
+
+	float: left;
+
+	width: 1000px;
+
+	height: 245px;
+
+	background: url(images/templatemo_header.jpg) no-repeat;
+
+}
+
+#templatemo_title {
+
+	width: 985px;
+
+	font-size: 48px;
+
+	font-family: "Agency FB", Arial;
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	line-height: 1.6em;
+
+	padding: 25px 0px 0px 15px;
+
+}
+
+.templatemo_topmenu{
+
+	float: left;
+
+	width: 825px;
+
+	margin-top: 20px;
+
+	padding: 0px 0px 0px 175px;
+
+}
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.templatemo_topmenu li{
+
+	display: inline ;
+
+}
+
+.templatemo_topmenu li a{
+
+	float: left;
+
+	text-align: center;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #963;
+
+	width: 90px;
+
+	height: 28px;
+
+	padding: 10px 2px 0px 0px;
+
+}
+
+.templatemo_topmenu li a:hover, .templatemo_topmenu li .current{
+
+	color: #000;
+
+	width: 90px;
+
+	background: url(images/templatemo_hover.jpg) no-repeat;
+
+}
+
+#templatemo_left_section {
+
+	float: left;
+
+	width:130px;
+	
+	height: 794px;
+
+	background: url(images/templatemo_leftborder.jpg) no-repeat;
+
+}
+
+#templatemo_right_section {
+
+	float: left;
+
+	width: 130px;
+	
+	height: 794px;
+
+	background: url(images/templatemo_rightborder.jpg) no-repeat;
+
+}
+
+#templatemo_middle_section {
+
+	float: left;
+
+	width: 680px;
+
+	height: 794px;
+
+	overflow: auto;
+
+	line-height: 2em;
+
+	padding: 0px 30px 0px 30px;
+
+	text-align: justify;
+
+	background: url(images/templatemo_mid_bg.jpg) repeat-y;
+
+}
+
+#templatemo_middle_section img {
+
+	float: right;
+
+	padding-left: 10px;
+
+}
+
+#templatemo_who_section {
+
+	float: left;
+
+	font-size: 18px;
+
+	color: #FFFFFF;
+
+	background: url(images/templatemo_who.jpg) no-repeat;
+
+	width: 550px;
+
+	height: 30px;
+
+	padding: 33px 0px 0px 130px;
+
+	font-weight: bold;
+
+}
+
+#templatemo_what_section {
+
+	float: left;
+
+	font-size: 18px;
+
+	color: #FFFFFF;
+
+	background: url(images/templatemo_what.jpg) no-repeat;
+
+	width: 550px;
+
+	height: 30px;
+
+	padding: 27px 0px 0px 130px;
+
+	font-weight: bold;
+
+}
+
+.templatemo_content_text {
+
+	float: left;
+
+	width: 680px;
+
+	padding: 10px 0px 20px 0px;
+
+}
+
+#templatemo_footer_section {
+
+	float: left;
+
+	width: 1000px;
+
+	height: 211px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+}
+
+.templatemo_copyright {
+
+	float: left;
+
+	width: 1000px;
+
+	text-align: center;
+
+	color: #1e693c;
+
+}
+
+.templatemo_contact_section {
+
+	float: left;
+
+	color: #FFFFFF;
+
+	width: 650px;
+
+	padding: 80px 0px 0px 200px;
+
+}
+
+.templatemo_contact_section img {
+
+	float: right;
+
+}

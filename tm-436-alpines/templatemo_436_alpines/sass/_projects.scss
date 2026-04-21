@@ -1,0 +1,34 @@
+#posts {
+	padding-top: 50px;
+	margin-bottom: 100px;
+	h4 {
+		margin-bottom: 60px;
+		line-height: 26px;
+	}
+}
+
+.post-inside {
+	background: $light-bg;
+	padding: 10px;
+	h5 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		a {
+			color: $heading-color;
+		}
+	}
+	span {
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	@include media(max-width $tablet) {
+		margin-bottom: 30px;
+	}
+}
+
+.post-thumb {
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+}

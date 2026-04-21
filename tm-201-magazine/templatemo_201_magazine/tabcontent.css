@@ -1,0 +1,92 @@
+#templatemo_menu {
+	clear: both;
+	width: 970px;
+	height: 84px;
+	padding: 0 1px;
+	background: url(images/templatemo_menu_bg.png) top repeat-x;
+}
+
+.indentmenu{
+	font: bold 14px Arial;
+	height: 50px;
+	width: 970px; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+}
+
+.indentmenu ul li{
+	display: inline;
+}
+
+.indentmenu ul li a{
+	float: left;
+	color: white; /*text color*/
+	text-align: center;
+	height: 38px;
+	padding: 12px 30px 0 30px;
+	text-decoration: none;
+	outline: none;
+	margin-right: 1px;
+	color: #2b2928;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.indentmenu ul li a:visited{
+color: #2b2928;
+}
+
+.indentmenu ul li a.selected, .indentmenu ul li a:hover{
+color: white !important;
+	background: url(images/temlatemo_menu_hover.jpg) top center;
+}
+
+.indentmenu li .last{
+	border-right: none;
+}
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+clear: both;
+width:910px; height: 30px; padding: 4px 30px 0 30px;
+color: #d2cc5c;
+font-size: 12px;
+}
+
+
+.tabcontentstyle ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.tabcontentstyle li{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.tabcontentstyle li a {
+	font-weight: normal;
+	color: #d2cc5c;
+	margin: 0px;
+	padding: 0 30px 0 0;
+}
+
+.tabcontentstyle li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}

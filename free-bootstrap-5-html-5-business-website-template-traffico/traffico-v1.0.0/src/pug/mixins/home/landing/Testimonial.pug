@@ -1,0 +1,71 @@
+append variables
+	-
+		var testimonials= [
+			{
+				image:'isak.png',
+				name :'Isak Pettersson',
+				text: 'Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.',
+			},
+			{
+				image:'simon.png',
+				name :'Simon Sandberg',
+				text: 'From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan. ',
+			},
+			{
+				image: 'petter.png',
+				name :'Pettersson',
+				text: 'An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct',
+			},
+
+		];
+
+
+mixin Items(config)
+	.col-md-4.mb-5.mb-md-0
+		.card.card-span.h-100.shadow-primary
+			.card-body.my-3 
+				p.mb-0.px-3.px-md-2.px-xxl-3=config.text      
+				.align-items-xl-center.d-block.d-xl-flex.px-3.mt-3.align-self-end
+					img(src=`${CWD}assets/img/gallery/${config.image}` width="50" alt='').img-fluid.me-3.me-md-2.me-lg-3
+					.flex-1.align-items-center.pt-2
+						h6.mb-0=config.name
+			
+				
+mixin Testimonial
+	+Section#clients
+		.row
+			.col-md-11.col-lg-6.col-xl-4.col-xxl-3
+				h4.text-danger.text-uppercase Testimonial
+				h1.font-cursive.fw-normal.mb-5 Our Awesome 
+					br
+					|Clients	
+			
+			.col-xxl-9
+				.position-relative.offset-9.offset-sm-10.offset-lg-11.mb-3
+					a.carousel-control-prev.carousel-icon.z-index-2(href='#carouselExampleDark' role='button' data-bs-slide='prev')
+						span.carousel-control-prev-icon(aria-hidden='true')
+						span.visually-hidden Previous
+					a.carousel-control-next.carousel-icon.z-index-2(href='#carouselExampleDark' role='button' data-bs-slide='next')
+						span.carousel-control-next-icon(aria-hidden='true')
+						span.visually-hidden Next
+
+				#carouselExampleDark.carousel.slide(data-bs-ride='carousel')
+					.carousel-inner
+						.carousel-item.active(data-bs-interval='10000')
+							.row.h-100.mx-1.mb-5.mt-3.gx-md-2.gx-lg-4
+								+Items(testimonials[0])
+								+Items(testimonials[1])
+								+Items(testimonials[2])
+											
+						.carousel-item(data-bs-interval='2000')
+							.row.h-100.mx-1.mb-5.mt-3.gx-md-2.gx-lg-4
+								+Items(testimonials[0])
+								+Items(testimonials[1])
+								+Items(testimonials[2])
+
+						.carousel-item
+							.row.h-100.mx-1.mb-5.mt-3.gx-md-2.gx-lg-4
+								+Items(testimonials[0])
+								+Items(testimonials[1])
+								+Items(testimonials[2])
+					

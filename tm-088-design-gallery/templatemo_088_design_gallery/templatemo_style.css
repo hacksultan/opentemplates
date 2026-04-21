@@ -1,0 +1,376 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Design Gallery Template 
+http://www.templatemo.com/preview/templatemo_088_design_gallery 
+*/
+html {
+
+	background: #000d0d;
+
+}
+
+body {
+
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #000;
+	width: 100%;
+	display: table;
+	background: #000d0d;
+
+}
+
+a { 
+	color: #902200; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+a:hover { 
+	color: #cf3607; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+
+#templatemo_background_top {
+	
+	width: 100%;
+	background: url(images/templatemo_bg_top.jpg) center top no-repeat;
+	margin: 10px 0 0 0;
+
+}
+#templatemo_background_middle {
+	
+	width: 100%;
+	background: url(images/templatemo_bg_middle.jpg) center top no-repeat;
+
+}
+
+	
+.templatemo_container {
+
+	width: 820px;
+	margin: auto;
+
+}
+
+#templatemo_header {
+	
+	width: 820px;
+	height: 150px;
+	background: url(images/templatemo_header.jpg) center no-repeat;
+	
+}
+
+.templatemo_content {
+
+	width: 820px;
+	
+}
+
+#templatemo_content_white_top {
+	
+	width: 820px;
+	height: 100px;
+	background:url(images/templatemo_white_content_top.jpg) no-repeat;
+		
+}
+
+/*------------- Menu ------------------*/
+#templatemo_content_white_top #templatemo_menu {
+	float: left;
+	width: 370px;
+	height: 35px;
+	margin: 15px 0 0 225px;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 370px;
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 10px;
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #0ff;
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	text-decoration: underline;
+}
+/* ---- ----- End OF Menu ---- ------*/
+
+#templatemo_content_white_middle {
+
+	width: 820px;
+	background:url(images/templatemo_white_content_middle.jpg) repeat-y;
+	
+}
+
+#templatemo_content_white_middle .templatemo_post_area {
+
+	margin: 0 25px 0 25px;
+	padding: 0;
+
+} 
+
+
+#templatemo_content_white_middle .templatemo_post_area h1{
+
+	font-family:"Monotype Corsiva", Arial;
+	font-size:	30px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #007b78;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+} 
+
+#templatemo_content_white_middle .templatemo_post_area p{
+
+	font-family: Arial;
+	font-size:	12px;
+	color: #000;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+} 
+
+#templatemo_content_white_middle .templatemo_post_area img{
+
+	float: left;
+	margin: 0 20px 20px 0;
+	padding: 0;
+
+} 
+
+#templatemo_content_white_blue_joint {
+
+	width: 820px;
+	height: 48px;
+	background: url(images/templatemo_white_blue_joint.jpg) no-repeat;
+	
+}
+
+#templatemo_content_blue_middle {
+
+	width: 820px;
+	background:url(images/templatemo_blue_content_bg.jpg) repeat-y;
+	
+}
+
+#templatemo_content_blue_middle .templatemo_post_area {
+
+	margin: 0 25px 0 25px;
+	padding: 15px 0 0 0;
+
+} 
+
+
+#templatemo_content_blue_middle .templatemo_post_area h1{
+
+	font-family:"Monotype Corsiva", Arial;
+	font-size:	30px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #007b78;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+} 
+
+#templatemo_content_blue_middle .templatemo_post_area p{
+
+	font-family: Arial;
+	font-size:	12px;
+	color: #000;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+} 
+
+#templatemo_content_blue_middle .templatemo_post_area img{
+
+	float: right;
+	margin: 0 0 20px 20px;
+	padding: 0;
+
+} 
+
+#templatemo_content_blue_two_col_joint {
+
+	width: 820px;
+	height: 71px;
+	background: url(images/templatemo_blue_2_col_joint.jpg) no-repeat;
+	
+}
+
+
+#templatemo_content_two_col_middle {
+
+	width: 820px;
+	min-height: 76px;
+	background: url(images/templatemo_blue_2_col_bg.jpg) repeat-y;
+	
+}
+
+#templatemo_content_two_col_middle .templatemo_post_area_left {
+
+	float: left;
+	width: 350px;
+	margin: 0 0 0 25px;
+	padding: 0;
+	display: inline;
+
+} 
+
+.templatemo_post_area_left h1{
+
+	font-family:"Monotype Corsiva", Arial;
+	font-size:	18px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #000;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+
+} 
+.templatemo_post_area_left img{
+
+	float: left;
+	margin: 0 20px 20px 0;
+	padding: 0;
+	clear: both;
+
+} 
+
+.templatemo_post_area_left	ul{
+
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area_left	li{
+
+	background: url(images/templatemo_bullet.jpg) left center no-repeat;
+	padding: 0 0 3px 15px;
+	font-size: 11px;
+}
+
+.templatemo_post_area_left	li a{ color: #000; text-decoration: underline; }
+
+.templatemo_post_area_left	li a:hover{ color: #000; text-decoration: none; }
+
+
+
+#templatemo_content_two_col_middle .templatemo_post_area_right {
+
+	float: right;
+	width: 350px;
+	margin: 0 25px -0 0;
+	padding: 0;
+	display: inline;
+	
+} 
+
+.templatemo_post_area_right h1{
+
+	font-family: "Monotype Corsiva", Arial;
+	font-size:	20px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #000;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+} 
+.templatemo_post_area_right h2 {
+
+	font-family: Arial;
+	font-size:	12px;
+	color: #af1b03;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	padding: 0;
+
+} 
+.post_area {
+	margin: 0;
+	padding: 0;
+}
+.templatemo_post_area_right p{
+
+	font-family: Arial;
+	font-size:	12px;
+	color: #000;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+} 
+
+.templatemo_post_area_right img{
+
+	float: right;
+	margin: 0 0px 20px 20px;
+	padding: 0;
+	clear: both;
+
+} 
+#templatemo_content_two_col_bottom {
+
+	width: 820px;
+	height: 45px;
+	background: url(images/templatemo_blue_2_col_bottom.jpg) bottom no-repeat;
+	
+}
+
+.templatemo_copyright{
+	float: left;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	padding: 0 0 0 25px;
+	color: #fff;
+	text-align: center;
+}
+.templatemo_copyright a{ color: #fff; text-decoration: none; }
+.templatemo_copyright a:hover{ color: #fff; text-decoration: underline; }
+
+.cleaner_with_height {
+
+	clear:both;
+	height: 1px;
+	
+}

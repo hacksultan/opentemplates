@@ -1,0 +1,14 @@
+
+CREDITS
+
+Pipeline HTML CSS Template
+http://www.templatemo.com/tm-496-pipeline
+
+Bootstrap
+http://getbootstrap.com/
+
+Images
+http://unsplash.com/
+
+Bubba Image Hover Effect
+http://tympanus.net/Development/HoverEffectIdeas/

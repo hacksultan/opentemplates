@@ -1,0 +1,41 @@
+//
+// Variables
+//-----------------------------------------------
+
+// Ktu i ndrron linkat prej google, varet cilat fonte i perdor
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+
+
+// Ngjyrat p.sh primary osht e kalterta te homeline e accent osht e sarita (verdha)
+$primary_color: #6B9262;
+$accent_color: #FACA3A;
+$white_color: #fff;
+$light_color: #eee;
+$black_color: #000;
+
+// Background Colors
+$light_bg_color: #efefef;
+
+// Text Color
+$heading_color: #232323;
+$light_text_color: #aaa;
+$body_text_color: #777;
+
+
+//Footer Text colors
+$footer_text_color: #d0e0ae;
+$footer_link_color: #fff;
+
+// Border Colors
+$border_color: #ddd;
+
+
+// Font family variables
+$heading_font: 'Roboto', Helvetica, Arial, Heveltica Neue, sans-serif;
+$body_font: Helvetica, Arial, Heveltica Neue, sans-serif;
+
+
+$break-small: 768px;
+$break-medium: 992px;
+$break-large: 1200px;

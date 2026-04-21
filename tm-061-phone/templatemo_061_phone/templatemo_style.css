@@ -1,0 +1,375 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Phone Template 
+http://www.templatemo.com/preview/templatemo_061_phone 
+*/
+html {
+
+	background: #777;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #fff;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+#templatemo_container {
+
+	width: 940px;
+
+	margin: auto;
+	
+	background: url(images/templatemo_container_bg.jpg);
+
+}
+
+#templatemo_header_section {
+
+	width: 940px;
+
+	height: 293px;
+
+	background: url(images/templatemo_header.jpg) no-repeat;
+
+
+}
+/* Head Menu */
+
+#templatemo_menu {
+	float: left;
+	width: 210px;
+	height: 20px;
+	margin-left:700px;
+}
+
+* html #templatemo_menu{
+	margin-left: 350px;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 210px;
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding-left:10px;
+	margin-left:5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #7f7f7f;
+	background:url(images/templatemo_head_menu.jpg) no-repeat;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #058fdd;
+}
+
+/* Menu */
+
+.templatemo_ver_menu {
+
+	float: right;
+
+	width: 235px;
+
+	margin: 113px 40px 0px 0px;
+
+}
+
+* html .templatemo_ver_menu {
+
+
+	margin: 108px 20px 0px 0px;
+
+}
+
+
+.templatemo_ver_menu ul {
+
+	list-style-type: none;
+
+	padding: 0;
+
+	margin: 0px;
+
+	width: 235px;
+
+}
+
+.templatemo_ver_menu li a {
+
+	display: block;
+
+	height: 25px;
+
+	padding-top: 7px;
+
+	color: #fff;
+
+	padding-left: 50px;
+
+	font-weight: bold;
+
+	background: url(images/templatemo_menu_button.jpg);
+	
+	text-decoration:none;
+
+}
+
+.templatemo_ver_menu li a:hover, .templatemo_ver_menu li .current {
+
+	background: url(images/templatemo_menu_current.jpg);
+	
+	text-decoration:none;
+
+}
+/* End of Menu */
+
+
+#templatemo_content{
+	float:left;
+	background: url(images/templatemo_content_bg.jpg) repeat-x #ABABAB;
+	width: 940px;
+}
+
+#templatemo_left_section{
+	float:left;
+	width:260px;
+	height:507px;
+	background:url(images/templatemo_left_content.jpg);
+	margin:0px;
+
+}
+
+#templatemo_left_section .validater{
+	float:left;
+	width:200px;
+	height:120px;
+	margin:380px 0px 0px 15px;
+	text-align:center;
+}
+
+#templatemo_left_section .validater a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#templatemo_left_section .validater a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+#templatemo_center_section{
+	float:left;
+	width:370px;
+	padding-top:5px;
+}
+
+#templatemo_center_section .new{
+	margin: 0px 10px 3px 10px;
+}
+
+#templatemo_center_section .new h2{
+	color: #AA3300;
+	font-size:12px;
+	margin:0px;
+}
+
+#templatemo_center_section .new p{
+	color: #fff;
+	font-size:11px;
+	text-align:justify;
+
+}
+
+#templatemo_center_section .new  a{
+	color :#66d2ff;
+	text-decoration:none;
+
+}
+
+#templatemo_center_section .new  img{
+	float:right;
+	border:none;
+	margin: 5px 10px 5px 0px;
+
+}
+
+#templatemo_center_section .new .product {
+	margin: 0px 10px 0px 10px;
+	width: 330px;
+	height:100px;
+}
+
+
+#templatemo_center_section .new .product img{
+	float:left;
+	border:none;
+	margin: 3px 0px 3px 5px;
+}
+
+#templatemo_center_section .new .product .product_text{
+	float:left;
+	margin-left: 5px;
+	width: 235px;
+}
+
+#templatemo_center_section .new .product .product_text h3{
+	margin : 2px 0px 3px 0px;
+	color: #0066CC;
+	font-size:9px;
+
+}
+
+#templatemo_center_section .new .product .product_text p{
+	margin : 0px 3px 0px 3px;
+	color:#fff;
+	font-size:9px;
+	text-align:justify;
+}
+
+#templatemo_center_section .new .product .product_text span a{
+	color:#ff0000;
+	font-size:9px;
+	text-decoration:none;
+}
+
+span.price {
+	color: #333333;
+	font-size:9px;
+	margin:0px;
+}
+
+span.detail {
+	color:#ff0000;
+	font-size:9px;
+	text-decoration:none;
+}
+
+#templatemo_right_section{
+	float:right;
+	width:295px;
+	height:507px;
+}
+
+#templatemo_right_section .hot{
+	float:right;
+	width:255px;
+	height:189px;
+	background:url(images/templatemo_right_hot.jpg);
+	margin: 0px 40px 0px 0px;
+
+
+}
+
+* html #templatemo_right_section .hot{
+	margin-right:20px;
+}
+
+#templatemo_right_section .hot .hot_text{
+	float:right;
+	width:150px;
+	height:100px;
+	margin: 30px 10px 0px 0px;
+
+}
+
+#templatemo_right_section .hot .hot_text h2{
+	color:#66d2ff;
+	font-size:11px;
+
+}
+
+#templatemo_right_section .hot .hot_text p{
+	color:#666;
+	font-size:10px;
+	text-align:justify;
+
+}
+
+#templatemo_right_section .hot .hot_text a{
+	color:#66d2ff;
+	text-decoration:none;
+	
+
+}
+
+#templatemo_right_section .promotion{
+	width:235px;
+	height:314px;
+	background:url(images/templatemo_right_promotion.jpg) no-repeat;
+	float:right;
+	margin-right:40px;
+
+
+}
+
+* html #templatemo_right_section .promotion{
+	margin-right:20px;
+
+}
+
+#templatemo_right_section .promotion h1{
+	color :#2f92d7;
+	font-size:18px;
+	margin-left:10px;
+
+}
+
+#templatemo_right_section .promotion h2{
+	color :#fff;
+	font-size:12px;
+	margin-left:10px;
+
+}
+
+#templatemo_right_section .promotion p{
+	color :#808080;
+	font-size:11px;
+	margin:0px 10px 0px 10px;
+	text-align:justify;
+
+}
+
+#templatemo_right_section .promotion a{
+	color :#fff;
+	text-decoration:none;
+
+}
+
+#templatemo_right_section .promotion img{
+	float:right;
+	margin-right:20px;
+	border:none;
+
+}

@@ -1,0 +1,167 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Travel Template 
+http://www.templatemo.com/preview/templatemo_032_travel 
+*/
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	background: #782609 url(images/templatemo_body_bg.jpg) repeat-x;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited { color: #621c03; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #621c03; text-decoration: none; font-weight: bold; }
+
+h1 {
+	font-size: 18px;
+	color: #782609;
+	font-weight: bold;
+	background: url(images/templatemo_h1.jpg) no-repeat;
+	height: 27px;
+	padding-top: 40px;
+	padding-left: 70px;
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	height: 22px;
+	padding-top: 3px;
+	padding-left: 5px;
+	background: url(images/templatemo_h2.jpg) no-repeat;
+}
+
+#templatemo_maincontainer{
+	width: 900px; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+	float: left;
+	background: url(images/templatemo_content_bg.jpg) repeat-y;
+}
+
+#templatemo_topsection{
+	background: url(images/templatemo_header.jpg) no-repeat;
+	height: 283px; /*Height of top section*/
+}
+
+#templatemo_title{
+	margin: 0;
+	padding-top: 150px;
+	padding-left: 50px;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#templatemo_slogan {
+	margin-top: 10px;
+	padding-left: 50px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff9a59;
+}
+
+#templatemo_left_column {
+	float: left;
+	width: 229px;
+}
+#templatemo_menu_top {
+	float: left;
+	height: 33px;
+	width: 229px;
+	background: url(images/templatemo_menu_top.jpg) no-repeat;
+}
+#templatemo_right_column {
+	float: right;
+	width: 651px;
+	padding-right: 20px;
+}
+#templatemo_destination {
+	float: left;
+	padding: 10px 10px 0px 40px;
+	width: 280px;
+	border-right: dotted 1px #782609;
+}
+#templatemo_search {
+	float: right;
+	padding: 0px 30px 0px 0px;
+	width: 262px;
+	background: url(images/templatemo_form-bg.jpg) repeat-y;
+}
+.search_top {
+	background: url(images/templatemo_search.jpg) no-repeat;
+	width: 262px;
+	height: 76px;
+}
+.sarch_mid {
+	margin: 0px;
+	padding-left: 10px;
+	padding-top: 0px;
+}
+.search_bot {
+	background: url(images/templatemo_search_bot.jpg) no-repeat;
+	height: 11px;
+}
+#templatemo_contact {
+	width: 200px;
+	height: 96px;
+	background: url(images/templatemo_contact.jpg) no-repeat;
+	color: #fff;
+	padding-left: 29px;
+	padding-top: 15px;
+}
+#templatemo_bot {
+	float: left;
+	height: 22px;
+	width: 877px;
+	background: url(images/templatemo_footer.jpg) no-repeat;	
+}
+#templatemo_footer{
+	float: left;
+	width: 100%;
+	padding-top: 16px;
+	height: 31px;
+	color: #fff;
+	text-align: center;
+	background: url(images/templatemo_footer_bg.jpg) repeat-x;
+}
+#templatemo_footer a {
+	color: #fff;
+	font-weight: bold;
+}
+.templatemo_menu {
+	margin-top: 40px;
+	width: 188px;
+}
+.templatemo_menu li{
+	list-style: none;
+	height: 30px;
+	display: block;
+	background: url(images/templatemo_menu_bg.jpg) no-repeat;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 7px;
+}
+.templatemo_menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.templatemo_menu a:hover {
+	color: #f08661;
+}
+
+.innertube{
+	margin: 40px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+	border-bottom: dotted 1px #782609;
+}
+
+.post_date { color: #177212; }

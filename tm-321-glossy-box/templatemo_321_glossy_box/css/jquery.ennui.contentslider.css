@@ -1,0 +1,122 @@
+/*
+ * Color, Border, and Button Rules
+ */
+.contentslider {
+  padding: 0; /* This acts as a border for the content slider */
+  background: none; /* This is the color of said border */
+} 
+.cs_wrapper, .cs_article {
+  background: none; /* Background color for the entries */
+}
+.cs_leftBtn, .cs_rightBtn {
+  width: 50px; /* Should be as wide as the button graphic being used */
+  background: none; /* This will probably match the contentslider bg color */
+}
+
+/*
+ * Article styles (font, color, etc.)
+ *
+ * If textResize is set to TRUE, sizing shouldn't need to be touched. However,
+ * depending on the sizes you have defined, additional tweaking may be
+ * required in order to get the text to display properly.
+ */
+
+/*
+ ******************************************************************************
+ * These styles may be affected by the plugin, so avoid changing them if 
+ * it's not absolutely necessary.
+ ******************************************************************************
+ */
+.contentslider {
+  position:relative;
+  display:block;
+  width: 920px;
+  height: 240px;
+  margin:0 auto;
+  overflow:hidden;
+}
+.cs_wrapper {
+  position:relative;
+  display:block;
+  width: 840px;
+  height:100%;
+  margin: 0 50px;
+  padding:0;
+  overflow:hidden;
+}
+.cs_slider {
+  position:absolute;
+  width:10000px;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.cs_article {
+  float:left;
+  position:relative;
+  top:0;
+  left:0;
+  display:block;
+  width: 840px;
+  height: 240px;
+  margin:0 auto;
+  padding: 0;
+}
+
+.cs_article .slider_content_wrapper {
+	margin: 0 50px;
+	display: block;
+	background: #00f;
+}
+
+.cs_article .slider_image {
+	float: left;
+	width: 300px;
+	background: #1a191c;
+	padding: 8px;
+	border: 1px solid #000;
+	margin-right: 50px;
+}
+
+.cs_article .slider_image img {
+	width: 300px;
+	height: 200px;
+}
+
+.cs_article .slider_content {
+	float: left;
+	width: 370px;
+}
+
+.cs_article h2 {
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: 26px;
+	color: #fff;
+}
+
+.cs_article p{
+	color: #e1f4fb;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.cs_leftBtn, .cs_rightBtn {
+  position:absolute;
+  top: 100px;
+  padding: 0;
+  z-index:10000;
+}
+.cs_leftBtn {
+  left: 1px;
+  outline:0;
+}
+.cs_rightBtn {
+  right: 0px;
+  outline:0;
+}
+.cs_leftBtn img, .cs_rightBtn img {
+  border:0;
+  position:relative;
+  margin:0;
+}

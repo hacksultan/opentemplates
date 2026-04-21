@@ -1,0 +1,360 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Milky Template 
+http://www.templatemo.com/preview/templatemo_223_milky 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+    background: #666 url(images/templatemo_body.jpg) repeat-x top;
+}
+
+a:link, a:visited { color: #0099CC; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #c66429; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r40 { margin-right: 40px; }
+
+.button_01 a {
+	display: block;
+	width: 84px;
+	height: 24px;
+	padding: 5px 0 0 0;	
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background: url(images/templatemo_button_01.jpg) no-repeat;
+}
+
+.button_01 a:hover {
+	color: #000000;
+	background: url(images/templatemo_button_01_hover.jpg) no-repeat;
+}
+
+h2 {
+	margin: 0 0 5px 0;
+	padding: 10px 0;
+	font-size: 24px;
+	font-weight: normal;
+	color: #1b8fb2;
+}
+
+h3 {
+	margin: 0;
+	padding: 2px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+#templatemo_wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* header */
+
+#templatemo_header_bar {
+	width: 650px;
+	height: 60px;
+	padding: 10px 175px;
+	overflow: hidden;
+	background: url(images/templatemo_header.jpg) top no-repeat;
+}
+
+#templatemo_header_bar  #header {
+	float: left;
+	width: 300px;
+	overflow: hidden;
+}
+
+#templatemo_header_bar  #header h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#templatemo_header_bar  #header h1 a:hover {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+#templatemo_header_bar  #header h1 a span {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+#templatemo_header_bar #search_box {
+	float: right;
+	width: 280px;
+	height: 30px;
+	margin-top: 30px;
+	background: url(images/templatemo_search.png) no-repeat;
+}
+
+#search_box form {
+	width: 280px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#searchfield {
+	height: 15px;
+	width: 180px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 0px;
+	color: #bcbcbc;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+	background: none;
+	border: 1px solid #CCC;	
+}
+
+#searchbutton {
+ 	height: 28px;
+	width: 80px;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #333;
+}
+/* end of header */
+
+/* banner */
+#templatemo_banner {
+	clear: both;
+	width: 990px;
+	height: 200px;
+	padding: 10px 5px 60px 5px;
+	overflow: hidden;
+	background: url(images/templatemo_banner.jpg) no-repeat;
+}
+
+#templatemo_menu {
+	float: left;
+	width: 140px;
+	padding: 10px 0 0 10px;
+	margin-right: 20px;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#templatemo_menu ul li a {
+	display: block;
+	height: 23px;
+	padding: 2px 0 0 20px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	text-decoration: none;
+	color: #000000;	
+	font-weight: normal;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	background: url(images/templatemo_menu_hover.png) no-repeat left center;
+}
+
+/* slider */
+
+#templatemo_slider {
+	float: left;
+	width: 650px;
+	height: 200px;
+	margin-right: 40px;
+}
+
+/* end of slider */
+
+#templatemo_banner #login {
+	float: left;
+	width: 120px;
+}
+
+#login h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+#login form {
+	float: right;
+	width: 120px;
+	margin: 0;
+	padding: 0;
+}
+
+#login form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.input_field {
+	height: 20px;
+	width: 105px;
+	padding: 0 5px;
+	margin-bottom: 10px;
+	color: #000000;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+}
+
+#submit_btn {
+	float: right;
+ 	height: 20px;
+	width: 80px;
+	margin: 0px;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #333;
+	outline: none;
+}
+/* end of banner */
+
+/* content */
+#templatemo_content {
+	clear: both;
+	width: 800px;
+	padding: 0 100px;
+	background: url(images/templatemo_content_middle.png) repeat-y center;
+}
+
+#templatemo_content_bottom {
+	width: 1000px;
+	height: 60px;
+	background: url(images/templatemo_content_bottom.png) no-repeat;
+}
+
+#templatemo_content h2 {
+	font-size: 18px;
+}
+
+#templatemo_content h2 span {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.section_w800 {
+	clear: both;
+	width: 800px;
+}
+
+.section_w240 {
+	float: left;
+	width: 240px;
+}
+
+.service {
+	margin: 10px 0 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.service li {
+	padding: 5px 0 5px 30px;
+	background: url(images/templatemo_list_icon.png) left center no-repeat;
+}
+
+.news_box {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #ccc;	
+}
+
+.news_box .post_info {
+	color: #CC0066;
+	font-weight: normal;
+}
+
+.news_box .post_info a {
+	font-weight: normal;
+	color: #147e9d;
+}
+
+.news_box .post_info strong {
+	color: #666666;
+}
+
+/* end of content */
+
+/* footer */		
+#templatemo_footer {
+	width: 970px;
+	padding: 20px 10px;
+	margin: 0 auto;
+	text-align: center;
+	color: #666;
+}
+
+#templatemo_footer a {
+	font-weight: bold;
+	color: #444032;
+}
+
+#templatemo_footer .footer_menu {
+	margin: 0 0 10px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_menu li {
+	margin: 0px;
+	padding: 0 20px;
+	display: inline;
+	border-right: 1px solid #aea68c;
+}
+
+.footer_menu li a {
+	color: #ffffff;
+}
+
+.footer_menu .last_menu {
+	border: none;
+}
+/* end of footer */

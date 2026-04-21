@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+
+	<config 
+		hover_effect="false"
+		auto_play="true" 
+		auto_play_duration="2.5"
+		tween_duration="0.7" 
+		tween_delay="0.03"
+		default_effect="easeInOutQuad"
+		default_row="3"
+		default_column="6">
+	</config>
+	
+	<photo>
+		<filename>images/slider/01.jpg</filename>
+		<url>http://www.google.com</url>
+		<target>_parent</target>
+		<transition direction="random"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/02.jpg</filename>
+		<url>http://www.google.com</url>
+		<target>_blank</target>
+		<transition direction="random"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/03.jpg</filename>
+		<url>http://www.google.com</url>
+		<target>_self</target>
+		<transition direction="random"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/04.jpg</filename>
+		<url>http://www.google.com</url>
+		<target>_parent</target>
+		<transition direction="random"></transition>
+	</photo>
+
+</photos>

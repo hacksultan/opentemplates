@@ -1,0 +1,551 @@
+/* 
+Tamarillo Template
+http://www.templatemo.com/tm-399-tamarillo
+*/
+
+/* general */
+body {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+a:active {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+h1,h2, h3, h4, h5, h6 {
+    font-family: 'Century Gothic', sans-serif;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.margin_top { margin-top: 20px; }
+
+/* header */
+header {
+    border-top: 12px solid #9e2630;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    height: 115px;
+}
+header #templatemo_logo {
+    padding-top: 35px;
+    float: left;
+}
+header #templatemo_logo img {
+    width: 100%;
+}
+header ul {
+    float: left;
+    min-height: 60px;
+    margin-top: 30px;
+}
+header ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    height: 45px;
+}
+header ul li a {
+    font: normal normal normal 18px/20px 'Century Gothic', sans-serif;
+    text-align: center;
+    float: left;
+    color: #9e2630;
+    height: 43px;
+}
+header ul li:hover a, header ul li:active a, header ul li:focus a, header ul li a.current{
+    color: #9e2630;
+    border-bottom: 2px solid #9e2630;
+    text-decoration: none;
+}
+header .nav li a:hover, header .nav li a:focus {
+    background-color: #fff;
+    color: #9e2630;
+}
+/* templatemo_slideshow */
+#templatemo_slideshow {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding-top: 115px;
+}
+#templatemo_slideshow #main-slider .flex-caption {
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #fff;
+    margin: 0;
+    padding: 8px 13px 5px 13px;
+    position: absolute;
+    border-radius: 4px;
+}
+#templatemo_slideshow #main-slider .flex-button a {
+    background: #9e2630;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    right: 4.5%;
+    bottom: 18%;
+    border-radius: 6px;
+    text-align: center;
+    border: 0;
+    padding: 10px 5%;
+    text-decoration: none;
+    font-size: 20px;
+}
+#templatemo_slideshow #main-slider .flex-button a:hover {
+    text-decoration: none;
+}
+#templatemo_slideshow #main-slider .flex-button .btn-theme {
+    text-transform: lowercase;
+    font-size: 20px;
+}
+#templatemo_slideshow #main-slider .flex-control-nav {
+    bottom: 10%;
+}
+#templatemo_slideshow #main-slider .flex-caption h3 {
+    color: #9e2630;
+    margin-bottom: 8px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+}
+#templatemo_slideshow #main-slider .flex-caption p {
+    margin: 0 0 15px;
+    text-align: justify;
+    color: #000;
+    line-height: 22px;
+}
+.flex-control-paging li a {
+    background-color: #fff;
+}
+.flex-control-paging li a.flex-active,.flex-control-paging li a:hover {
+    background-color: #9e2630;
+}
+/*solid line*/
+.solidline {
+    border-top: 1px solid #c9cbca;
+    margin: 30px 0 30px 0;
+    width: 100%;
+}
+/* scroll */
+.scrollup {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 65px;
+    right: 18px;
+    background: #222;
+    background: url("../images/templatemo_arrow.png")no-repeat;
+}
+/*templatemo_slideshow*/
+#templatemo_slideshow .container .row {
+    margin-bottom: 3.5%;
+}
+.btn-lg {
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-transform: lowercase;
+    background: #c9cbca;
+    font-size: 12px;
+}
+/*templatemo_about*/
+#templatemo_about .row {
+    margin-top: 30px;
+}
+#templatemo_about h2 {
+    font: normal normal normal  24px/24px 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+#templatemo_about img {
+    float: left;
+    max-width: 98%;
+    margin: 0 2% 2% 0;
+}
+#templatemo_about p {
+    font: normal normal normal 14px/30px 'Century Gothic', sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+#templatemo_about p a {
+    color: #000;
+    text-decoration: underline;
+}
+/*templatemo_services*/
+#templatemo_services h2 {
+    font: normal normal normal  24px/26px 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#templatemo_services p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #000;
+    text-align: left;
+}
+#templatemo_services .row {
+    padding-bottom: 30px;
+}
+/*templatemo_blog*/
+#templatemo_blog p {
+    color: #000;
+    text-align: justify;
+    padding: 0;
+}
+#templatemo_blog a {
+    color: black;
+    text-decoration: none;
+}
+#templatemo_blog a span {
+    font-size: 10px;
+}
+#templatemo_blog a span {
+    font-size: 10px;
+}
+#templatemo_blog a span {
+    font-size: 10px;
+}
+#templatemo_blog a span {
+    font-size: 10px;
+}
+#templatemo_blog .container .row {
+    margin-bottom: 38px;
+}
+/*templatemo_gallery*/
+#templatemo_gallery {
+}
+.thumbs {
+    margin: 0;
+    padding: 0;
+}
+.thumbs li {
+    list-style: none;
+    margin-bottom: 45px;
+}
+.thumbs li.item-thumbs div {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #c0c0c0;
+    position: relative;
+}
+.thumbs li.item-thumbs .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.75);
+    z-index: 5;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 450ms ease-out 0s;
+    text-decoration: none;
+    -webkit-transform: scale(0.5,0.5);
+    transform: scale(0.5,0.5);
+    -webkit-transition: .5s;
+    transition: .5s;
+	border-radius: 5px;
+}
+.thumbs li.item-thumbs:hover .overlay {
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+.thumbs li.item-thumbs .overlay span {
+    top: 50%;
+    left: 50%;
+    margin: -15px auto auto -15px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+.thumbs li.item-thumbs img {
+    float: left;
+    width: 100%;
+}
+/*templatemo_contact*/
+#templatemo_contact #templatemo_contact_gray_wap {
+    background-color: #73737b;
+    border-radius: 6px;
+    padding-bottom: 25px;
+}
+#templatemo_contact h1 {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+#templatemo_contact p {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+#contact-form label {
+    margin-bottom: 20px;
+    width: 100%;
+}
+#contact-form label span {
+    width: 20%;
+    float: left;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: normal;
+}
+#contact-form label textarea,
+#contact-form label input[type="text"] {
+    font: normal normal normal 14px/28px 'Century Gothic', sans-serif;
+    color: #000;
+    background: #fff;
+    float: left;
+    border: none;
+    width: 80%;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contact-form label textarea {
+    height: 100px;
+}
+#contact-form label input[type="text"] {
+    height: 30px;
+}
+#contact-form label button[type="submit"] {
+    font: normal normal normal 14px/30px 'Century Gothic', sans-serif;
+    color: #000;
+    background: #c5c5c5;
+    float: left;
+    border: none;
+    width: 30%;
+    margin-left: 20%;
+    padding: 0;
+}
+#templatemo_contact ul {
+    margin: 0;
+    padding: 0;
+}
+#templatemo_contact ul li {
+    list-style: none;
+    float: left;
+    padding: 30px 5% 30px 0;
+}
+#templatemo_contact ul li a {
+    float: left;
+}
+#templatemo_contact ul li a:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+}
+#templatemo_contact p {
+    text-align: left;
+    font: normal normal normal 14px/25px 'Century Gothic';
+    color: #fff;
+    margin-bottom: 0;
+}
+#templatemo_contact p a {
+    color: #000;
+}
+#templatemo_contact #map-canvas {
+    float: left;
+	width: 100%;
+	height: 360px;
+	margin-bottom: 40px;
+}
+/*templatemo_footer*/
+#templatemo_footer {
+    height: 55px;
+}
+#templatemo_footer p,
+#templatemo_footer a {
+    font: normal normal normal 14px/55px 'Century Gothic';
+    text-align: center;
+    color: #000;
+}
+/*responsive setting*/
+@media (min-width: 1025px) {
+    header ul li {
+        margin: 10px 10px 0 10px;
+    }
+    header ul li a {
+        margin: 0;
+        padding: 0 5% 0 5%;
+    }
+    #templatemo_services p {
+        line-height: 30px;
+        padding: 17px 0;
+    }
+    #templatemo_blog h2 {
+        font: normal normal normal  24px/30px 'Century Gothic', sans-serif;
+        margin: 0px 0 25px 0;
+    }
+    #templatemo_blog p {
+        font: normal normal normal 14px/30px 'Century Gothic', sans-serif;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    header ul li {
+        margin: 10px 5px 0 5px;
+    }
+    header ul li a {
+        margin: 0;
+        padding: 0px 2% 0 2%;
+    }
+    #templatemo_slideshow #main-slider .flex-caption p {
+        font-size: 11px !important;
+        line-height: 20px;
+    }
+    #templatemo_slideshow #main-slider .flex-button a {
+        bottom: 14%;
+    }
+    #templatemo_services p {
+        line-height: 28px;
+        padding: 8px 0;
+    }
+    #templatemo_blog h2 {
+        font: normal normal normal  20px/30px 'Century Gothic', sans-serif;
+        margin: 5px 0 10px 0;
+    }
+    #templatemo_blog p {
+        font: normal normal normal 14px/26px 'Century Gothic', sans-serif;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    header ul li {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    header ul li a {
+        margin: 0;
+        padding: 0 12px 0 12px !important;
+    }
+    #templatemo_slideshow #main-slider .flex-caption p {
+        font-size: 10px !important;
+        line-height: 18px;
+    }
+    #templatemo_about p {
+        font: normal normal normal 14px/22px 'Century Gothic', sans-serif;
+        text-align: justify;
+    }
+    #templatemo_services p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 3px 0;
+    }
+    #templatemo_blog h2 {
+        font: normal normal normal  18px/30px 'Century Gothic', sans-serif;
+        margin: 3px 0 10px 0;
+    }
+    #templatemo_blog p {
+        font: normal normal normal 14px/20px 'Century Gothic', sans-serif;
+    }
+    #templatemo_blog p a span {
+        font-size: 8px;
+    }
+}
+@media (max-width: 768px) {
+    header ul li a {
+        margin: 0;
+        padding: 22px 0 0 0;
+    }
+    header #mobile_menu {
+        font-size: 35px;
+        margin-top: -30px;
+        float: right;
+        color: #9e2630;
+    }
+    header #mobile_menu_list ul {
+        list-style: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    header #mobile_menu_list li {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50px;
+        background: #9e2630;
+        text-align: center;
+        border-bottom: 1px solid #ae2b36;
+    }
+    header #mobile_menu_list li:hover {
+        background: #aa313b;
+        border-bottom: 1px solid #ae2b36;
+    }
+    header #mobile_menu_list li a {
+        width: 100%;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        border-bottom: none;
+        text-decoration: none;
+    }
+    #templatemo_slideshow #main-slider .flex-button a {
+        width: 90%;
+        bottom: auto;
+        margin-top: -120px;
+    }
+    #templatemo_services p {
+        line-height: 20px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #templatemo_services h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+    #templatemo_about img {
+        max-width: 100%;
+        margin: 20px auto 20px auto;
+    }
+    #templatemo_services img {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+    }
+    #templatemo_blog h2 {
+        font: normal normal normal  25px/30px 'Century Gothic', sans-serif;
+        margin: 15px 0 15px 0;
+    }
+    #templatemo_blog p a span {
+        font-size: 10px;
+    }
+    .thumbs li.item-thumbs .overlay {
+        opacity: 1;
+        bottom: 0;
+        width: 100%;
+        margin-top: 60%;
+        height: 40%;
+        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+    }
+    .thumbs li.item-thumbs:hover .overlay {
+        opacity: 1;
+    }
+    .thumbs li.item-thumbs .overlay span {
+        font-size: 20px;
+    }
+}

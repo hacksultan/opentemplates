@@ -1,0 +1,437 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Strawberry Template 
+http://www.templatemo.com/preview/templatemo_085_strawberry 
+*/
+html {
+
+	background: url(images/templatemo_bg.jpg);
+
+}
+
+body {
+
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_bg.jpg);
+	
+
+}
+
+a{	color: #6ec13a; text-decoration: underline; }
+
+a:hover{ color: #6ec13a; text-decoration: none;}
+
+#templatemo_container {
+
+	width: 900px;
+	margin: auto;
+
+}
+
+#templatemo_header {
+	
+	width: 849px;
+	height: 216px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+	margin: 20px 0 0 38px;
+	padding: 0;
+
+}
+
+#templatemo_logo_area {
+	
+	float: left;	
+	width: 300px;
+	height: 45px;
+	margin: 20px 0 0 20px;
+	padding: 0;
+
+}
+
+* html #templatemo_logo_area {
+	margin: 20px 0 0 10px;
+}
+span.gray {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	color: #525252;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+span.red {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: bold;
+	color: #e20b00;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#templatemo_slogan {
+	font-family: "Times New Roman";
+	font-size: 11px;
+	color: #a4a0a0;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+/* Menu */
+#templatemo_menu{
+
+	width: 600px;
+	height: 33px;
+	float: left;	
+	margin: 74px 0 0 10px;
+	padding: 0;
+	
+}
+
+
+
+
+
+#templatemo_menu ul{
+
+	list-style: none;
+	display: inline;
+
+}
+#templatemo_menu li{
+	float:left;
+}
+#templatemo_menu li a{
+	float: left;
+	display: block;
+	color: #fff;
+	background: url(images/templatemo_menu_left.jpg) no-repeat;
+	text-decoration: none;
+	font-family: "Times New Roman";
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 5px;
+	height: 77px;
+	line-height: 77px;
+	text-align: center;
+	cursor: pointer;
+}
+
+* html #templatemo_menu li a{
+		margin-right: 5px;
+}
+#templatemo_menu li a b{
+	float: left;
+	display: block;
+	padding: 0 15px 0 10px;
+	background: url(images/templatemo_menu_right.jpg) right top no-repeat;
+}
+#templatemo_menu li.current a, #templatemo_menu li a:hover, #templatemo_menu li.current a b, #templatemo_menu li a:hover b{
+	
+	color: #fff;
+	text-decoration: underline;
+
+}
+
+
+/*End OF menu*/
+
+#templatemo_content {
+
+	width: 887px;
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+
+#templatemo_content_left {
+	
+	float: left;
+	width: 651px;
+	background: url(images/templatemo_left_top.jpg) top no-repeat;
+	margin: 0;
+	padding: 0;
+
+}
+
+#templatemo_content_left #templatemo_content_area{
+	
+	float: right;
+	width: 573px;
+	background: #f3f3f3;
+	margin: 0;
+	padding: 20px;
+
+
+}
+
+#templatemo_content_area .templatemo_post_area{
+
+	
+	margin: 0;
+	padding: 0;
+
+}
+
+#templatemo_content_left #templatemo_content_area_black{
+	
+	float: right;
+	width: 573px;
+	background: #151515;
+	margin: 0;
+	padding: 20px;
+
+
+}
+
+#templatemo_content_area_black .templatemo_post_area_black{
+
+	
+	margin: 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area_black h1{
+
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #fff;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area_black h2{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #94e225;
+	margin: 0 0 2px 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area_black p{
+
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+
+
+
+#templatemo_content_area .templatemo_left_line {
+	
+	clear: both;
+	height: 0px;
+	border-bottom: #d1ebb2 solid 1px;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area h1{
+
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: #79cb21;
+	margin: 0 0 15px 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area p{
+
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #444546;
+	text-align: justify;
+	margin: 0 0 15px 0;
+	padding: 0;
+
+}
+
+.templatemo_post_area p b{
+	
+	color: #6ec23a;
+	font-weight: bold;
+
+}
+
+.templatemo_post_area .templatemo_3_col{
+	
+	float: left;
+	width: 180px;
+	margin: 0 16px 0 0;
+	padding: 0;
+}
+
+.templatemo_3_col p{
+
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #444546;
+	text-align: justify;
+	margin: 5px 5px 0 5px;
+	padding: 0;
+
+}
+
+.templatemo_post_area .templatemo_3_col_last{
+	
+	float: left;
+	width: 180px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.templatemo_3_col_last p{
+
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #444546;
+	text-align: justify;
+	margin: 5px 5px 0 5px;
+	padding: 0;
+
+}
+
+#templatemo_content_right {
+	
+	float: right;
+	width: 236px;
+	margin: 0;
+	padding: 0;
+
+}
+
+#templatemo_content_right #templatemo_content_right_top {
+	
+	width: 236px;
+	height: 62px;
+	background: url(images/templatemo_right_top.jpg) no-repeat;
+	margin: 0;
+	padding: 0;
+
+}
+
+#templatemo_content_right #templatemo_content_right_mid {
+	
+	width: 236px;
+	background: url(images/templatemo_right_middle.jpg);
+	margin: 0;
+	padding: 0;
+
+}
+
+#templatemo_content_right_mid .templatemo_right_line {
+
+	width: 236px;
+	background: url(images/templatemo_right_line.jpg) no-repeat;
+	height: 1px;
+	
+}
+#templatemo_content_right_mid .templatemo_section {
+	
+	margin: 0;
+	padding: 20px;
+	
+}
+
+
+.templatemo_section .templatemo_section_title{
+	
+	height: 22px;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	background: #7c896d;
+	margin: 0 0 10px 0;
+	padding: 2px 0 0 10px;
+	
+}
+
+.templatemo_section p{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: justify;
+	color: #484848;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.templatemo_section ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 10px;
+
+}
+.templatemo_section li a{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: justify;
+	color: #484848;
+	text-decoration: underline;
+	
+}
+
+.templatemo_section li a:hover{
+	
+	text-decoration: none;
+	
+}
+.cleaner {
+	clear: both;
+	height: 0px;
+}
+
+#templatemo_footer {
+	
+	margin: 0;
+	padding: 10px 0;
+	font-family: Arial;
+	font-size: 12px;
+	text-align: center;
+	color: #adad7b;
+	
+}
+
+#templatemo_footer a{
+	
+	color: #adad7b;
+	text-decoration: underline;
+	
+}
+
+#templatemo_footer a:hover{
+	
+	color: #adad7b;
+	text-decoration: none;
+	
+}

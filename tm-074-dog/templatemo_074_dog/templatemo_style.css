@@ -1,0 +1,550 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Dog Template 
+http://www.templatemo.com/preview/templatemo_074_dog 
+*/
+html {
+	background: #CCC;
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #CCC;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+#templatemo_container {
+
+	width: 940px;
+	min-height: 940px;
+	margin: auto;
+	background-color:#FFFFFF;
+}
+
+#templatemo_header_section {
+
+	width: 940px;
+
+	height: 372px;
+	
+	background:url(images/templatemo_header.jpg) no-repeat;
+
+}
+
+.clear{
+
+	clear:both;
+	height: 1px;
+}
+
+/*------------- Top Menu ------------------*/
+#templatemo_topmenu {
+	float: right;
+	width: 200px;
+	height: 25px;
+	margin-right:55px;
+	
+
+}
+
+
+#templatemo_topmenu ul {
+	float: left;
+	width: 300px;
+	margin: 0px;
+	padding: 3px 0px 0px 0px;
+	list-style: none;
+}
+
+
+#templatemo_topmenu ul li{
+	display: inline;
+}
+
+#templatemo_topmenu ul li a{
+	float: left;
+	padding-left:25px;
+	padding-bottom:5px;
+	margin-left:10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	background:url(images/templatemo_head_menu.gif) no-repeat;
+
+}
+
+#templatemo_topmenu li a:hover, #templatemotop_menu li .current{
+	color: #058fdd;
+}
+/* end of menu */
+/* Head Menu */
+#templatemo_menu{
+	background: #888;
+	width:940px;
+	height: 30px;
+	float:left;
+}
+
+#templatemo_menu ul {
+	float: left;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 6px 25px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	border-right: 1px solid #FFF;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	background: #990000;
+	text-align: center;
+
+
+}
+/* End of Head Menu */
+#templatemo_content_section {
+	width: 940px;
+	min-height: 550px;
+	background: #FFFFFF;
+}
+
+/* End of Content 1 */
+.templatemo_content_1{ 
+	float:left;
+	background: url(images/templatemo_section_1_bg.jpg) no-repeat;
+	width:438px;
+	height:255px;
+	margin : 20px 0px 0px 30px;
+
+}
+
+* html .templatemo_content_1{ 
+	margin-left: 15px;
+}
+.templatemo_content_1 h1{ 
+	color:#fc9109;
+	font-size:16px;
+	font-weight:bold;
+	margin: 10px 0px 0px 70px;
+}
+
+.templatemo_content_1 .contents {
+	margin: 25px 30px 20px 30px;
+}
+
+
+.templatemo_content_1 .news {
+	margin: 3px 3px 3px 3px;
+	width: 330px;
+	height:70px;
+}
+
+.templatemo_content_1 .contents img{
+	float:right;
+	margin: 3px 3px 3px 3px;
+	border: none;
+}
+
+.templatemo_content_1 .news img{
+	float: left;
+	border: solid 1px #000;
+	margin: 3px 3px 3px 5px;
+	
+}
+
+.templatemo_content_1 .news .textarea{
+	float:right;
+	margin: 0px 5px 0px 0px;
+	width:220px;
+}
+
+.templatemo_content_1 .news .textarea h2{
+	margin : 2px 0px 3px 0px;
+	color:#ff8c05;
+	font-size:12px;
+
+}
+
+.templatemo_content_1 .news .textarea p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_1 .news .textarea a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/* End of Content 1 */
+/* Content 2 */
+.templatemo_content_2{ 
+	float:right;
+	background:url(images/templatemo_section_2_bg.jpg) no-repeat;
+	width:439px;
+	height:264px;
+	margin : 10px 30px 0px 0px;
+
+}
+
+* html .templatemo_content_2{
+		
+		margin-right: 15px;
+	
+}
+
+.templatemo_content_2 h1{ 
+	color:#ee1073;
+	font-size:16px;
+	font-weight:bold;
+	margin: 20px 0px 0px 70px;
+}
+
+.templatemo_content_2 .contents {
+	margin: 25px 35px 20px 40px;
+}
+
+.templatemo_content_2 h2{
+	color:#5e3300;
+	margin : 2px 0px 3px 0px;
+	font-size:12px;
+
+}
+
+.templatemo_content_2 p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_2 a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.templatemo_content_2 img{
+	float:right;
+	margin: 3px 3px 3px 3px;
+	border:none;
+}
+
+/* End Of Content 2*/
+/* Content 3*/
+.templatemo_content_3{ 
+	width:400px;
+	margin : 10px 0px 0px 40px;
+	float:left;
+}
+
+* html .templatemo_content_3{ 
+	margin-left: 20px;
+}
+
+.templatemo_content_3 h1{ 
+	color:#fc9109;
+	font-size:16px;
+	font-weight:bold;
+	margin: 10px 0px 0px 0px;
+}
+
+.templatemo_content_3 .contents {
+	margin: 25px 35px 20px 35px;
+}
+
+.templatemo_content_3 h2{
+	color:#5e3300;
+	margin : 2px 0px 3px 0px;
+	font-size:12px;
+}
+
+.templatemo_content_3 p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_3 a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+.templatemo_content_3 img{
+	float:right;
+	margin: 3px 3px 3px 3px;
+	border:none;
+}
+
+.templatemo_content_3 .news {
+	margin: 3px 3px 3px 3px;
+}
+
+.templatemo_content_3 .news img{
+	float:left;
+	border:none;
+	margin: 3px 0px 3px 5px;
+}
+
+.templatemo_content_3 .news .textarea{
+	float:left;
+	margin: 0px 5px 0px 5px;
+	width:220px;
+}
+
+.templatemo_content_3 .news .textarea h2{
+	margin : 2px 0px 3px 0px;
+	color:#ff8c05;
+	font-size:12px;
+}
+
+.templatemo_content_3 .news .textarea p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_3 .news .textarea a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/* End Of Content 3*/
+
+/* Content 4*/
+.templatemo_content_4{ 
+	width:400px;
+	margin : 10px 40px 0px 0px;
+	float:right;
+}
+
+* html .templatemo_content_4{ 
+
+	margin-right: 20px;
+
+}
+
+.templatemo_content_4 h1{ 
+	color:#ee1073;
+	font-size:16px;
+	font-weight:bold;
+	margin: 10px 0px 0px 0px;
+}
+
+.templatemo_content_4 .contents {
+	margin: 25px 35px 20px 35px;
+}
+
+.templatemo_content_4 h2{
+	color:#5e3300;
+	margin : 2px 0px 3px 0px;
+	font-size:12px;
+}
+
+.templatemo_content_4 p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_4 a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+.templatemo_content_4 img{
+	float:right;
+	margin: 3px 3px 3px 3px;
+	border:none;
+}
+
+.templatemo_content_4 .news {
+	margin: 3px 3px 3px 3px;
+}
+
+.templatemo_content_4 .news img{
+	float:left;
+	border:none;
+	margin: 3px 0px 3px 5px;
+}
+
+.templatemo_content_4 .news .textarea{
+	float:left;
+	margin: 0px 5px 0px 5px;
+	width:220px;
+}
+
+.templatemo_content_4 .news .textarea h2{
+	margin : 2px 0px 3px 0px;
+	color:#ff8c05;
+	font-size:12px;
+}
+
+.templatemo_content_4 .news .textarea p{
+	margin : 0px 3px 0px 3px;
+	color:#471f01;
+	font-size:12px;
+	text-align:justify;
+}
+
+.templatemo_content_4 .news .textarea a{
+	margin : 0px 3px 0px 3px;
+	color:#f7006e;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/* End Of Content 4*/
+/* ------------- Templatemo Gallery ------------- */
+.templatemo_gallery {
+	float: left;
+	clear:both;
+	width:900px;
+	height:220px;
+	margin-left: 20px;
+}
+
+* html .templatemo_gallery {
+	margin: 5px 0px 20px 15px;	
+}
+.templatemo_gallery .title{
+	height:30px;
+	background:url(images/templatemo_gallery_head.jpg) no-repeat;
+	margin: 5px 5px 5px 5px;
+	padding:25px 0px 0px 65px;
+}
+
+.templatemo_gallery .title h1{
+
+	font-size:16px;
+	font-weight:bold;
+	color:#ff0140;
+	margin:0px;
+}
+
+.templatemo_gallery .prev{
+
+	width:40px;
+	height:130px;
+	text-align:center;
+	float:left;
+	
+}
+
+.templatemo_gallery .prev img{
+
+	margin: 40px 0px 0px 0px;
+	
+}
+
+.templatemo_gallery .next{
+
+	width:40px;
+	height:130px;
+	text-align:center;
+	float:right;
+
+}
+
+.templatemo_gallery .next img{
+
+	margin: 40px 0px 0px 0px;
+	
+}
+
+.templatemo_gallery .images{
+
+	width:800px;
+	height:130px;
+	text-align:center;
+	float:left;
+	
+}
+
+.templatemo_gallery .img{
+
+	margin : 10px 5px 10px 5px;
+	
+}
+/* ------------- End Of Templatemo Gallery ------------- */
+#templatemo_footer_section {
+	
+	background: #666;
+	
+	float: left;
+	
+	width: 940px;
+	
+	clear: both;
+	
+}
+
+.templatemo_copyright {
+
+	float: right;
+	
+	color: #fff;
+	
+	padding: 6px;
+
+}
+
+.templatemo_copyright a{
+
+	color: #fff;
+}
+
+.templatemo_validate {
+	float: left;
+	width: 180px;
+	height: 50px;
+	margin: 5px 0px 0px 20px;
+	clear: both;
+
+}
+
+.templatemo_validate a{
+	text-decoration:none;
+}

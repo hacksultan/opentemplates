@@ -1,0 +1,247 @@
+/* Credit: http://www.templatemo.com/ */
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	background: #FFFFFF;
+}
+
+#templatemo_container {
+	width: 800px;
+	margin: auto;
+	background: #fec631;
+}
+
+
+
+/*------------ Header --------------- */
+
+#templatemo_header {
+	height: 250px;
+	background: #ffffff url(images/banner.gif) no-repeat right bottom;
+}
+
+#templatemo_site_title {
+	padding-top: 130px;
+	padding-left: 10px;
+	font-size: 50px;
+	color:#FF0000;
+}
+
+#templatemo_site_title span{
+	font-weight: 200;
+	color:#313030;
+}
+
+#templatemo_site_slogan {
+	padding-top: 10px;
+	padding-left: 90px;
+	font-size: 12px;
+	color:#313030;
+}
+/* ---------------------------------- */
+
+/*------------- Menu ------------------*/
+.templatemo_menu{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 800px;
+	background: #313030;
+}
+
+.templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+
+.templatemo_menu li{
+	display: inline;
+}
+
+.templatemo_menu li a{
+	padding-bottom: 10px;
+	float: left;
+	font: 16px arial;
+	text-align: center;
+	text-decoration: none;
+	color: #a09223;
+	width: 160px;
+
+}
+
+.templatemo_menu li a:visited{
+	color: #a09223;
+}
+
+.templatemo_menu li a:hover, .templatemo_menu li .current{
+	color: #ffe400;
+	background: transparent url(images/mouseover.gif) center no-repeat;
+}
+.templatemo_menu .roundtop { 
+	height: 9px;
+	background: url(images/tr.gif) no-repeat top right; 
+}
+
+/* ----------------- end of menu----------------*/
+
+/* ----------------- Content ----------------------- */
+
+
+#templatemo_content {
+	width: 800px;
+	background:  #fec631;
+}
+
+#templatemo_left_column {
+	float: left;
+	width: 510px;
+	padding: 20px;
+	min-height: 400px;
+	background: #fec631;
+}
+
+#templatemo_right_column {
+	float: left;
+	width: 210px;
+	padding: 20px;
+	min-height: 400px;
+	background: #d84b4b;
+}
+
+
+
+/* ---------------- section box --------------- */
+.section_box {
+	width: 510px;
+	background: #ffff99;
+	color: #000000;
+}
+
+.section_box .subtitle{
+	padding: 5px 0px 10px 15px;
+	font-size: 1.4em;
+	color: #FF0000;	
+}
+
+.section_box .text{
+	padding: 0px 15px 5px 15px;
+	font-size: 1em;
+	color: #000000;	
+}
+
+
+.sectionbox_roundtop { 
+	height: 9px;
+	background: url(images/sectiontr.gif) no-repeat top right; 
+}
+
+.sectionbox_roundbottom { 
+	height: 9px;
+	background: url(images/sectionbr.gif) no-repeat bottom right; 
+}
+
+/* -------------------- */
+
+/* ------- Left Column Section Box2 ------------- */
+
+
+.section_box2 {
+	margin-top: 0px;
+	padding: 10px 15px 5px 15px;
+	background: #212121;
+	color: #cccc99;
+}
+
+.sction_box2_roundcont {
+	margin-bottom: 0px;
+	width: 210px;
+	background-color: #212121;
+}
+
+.sction_box2_roundtop { 
+	height: 9px;
+	background: url(images/section2tr.gif) no-repeat top right; 
+}
+
+.sction_box2_roundbottom {
+	margin-bottom: 15px;
+	height: 25px;
+	background: url(images/sectionbackground.gif) no-repeat bottom right; 
+}
+
+.section_box2 a{
+	background: url(images/linkindicator.gif) no-repeat center left;
+	text-decoration: none;
+	padding-left: 20px;
+	color: #cccc99;
+}
+
+.section_box2_subtitle {
+	padding-bottom: 16px;
+	margin-bottom: 5px;
+	font-size: 1.3em;
+	color:#ffffff;
+	background: url(images/section2_title_bg.gif) no-repeat bottom left;
+}
+
+/*--------------- end of left column section box ------------ */
+
+
+.text_area {
+	margin: 10px;
+}
+
+.title {
+	height: 37px;
+	width: 430px;
+	color:#ffcc33;
+	padding-top: 18px;
+	padding-left: 70px;
+	font-size: 1.5em;	
+	background: url(images/titlebackground.gif) left bottom no-repeat;
+}
+
+.text_area a, .section_box a{
+	color: #cc3333;
+	text-decoration: none;
+}
+
+img.corner {
+   width: 9px;
+   height: 9px;
+   border: none;
+   display: block !important;
+}
+
+
+/* -------- Footer --------- */
+
+#templatemo_footer {
+	clear: left;
+	width: 800px;
+	background: #212121;
+	color: #b6a169;
+}
+#templatemo_footer a {
+	background: #212121;
+	color: #b6a169;
+}
+
+#templatemo_footer .roundbottom {
+	height: 9px;
+	background: url(images/br.gif) no-repeat bottom right; 
+}
+
+#copyright {
+	padding-top: 10px;
+	text-align:center;
+}
+
+/* --------- end of footer --------------*/

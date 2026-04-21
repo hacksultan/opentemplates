@@ -1,0 +1,143 @@
+/* 		Credit: http://www.templatemo.com 		*/
+
+/* 
+004 Template 
+http://www.templatemo.com/preview/templatemo_004_four
+*/
+
+body {
+margin:0;
+padding:0;
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #CCCCCC url(images/templatemo_bg.gif) repeat-x;
+}
+a:link { color: #0066CC; text-decoration: none} 
+a:visited { color: #0066CC; text-decoration: none} 
+a:active { color: #008000; text-decoration: underline} 
+a:hover { color: #008000; text-decoration: underline}
+
+#templatemo_container {
+width: 800px;
+margin: auto;
+background: #FFFFFF;
+}
+#templatemo_header {
+clear: left;
+height: 160px;
+background: url(images/templatemo_header.jpg) no-repeat;
+}
+#templatemo_content {
+width: 800px;
+}
+#templatemo_left_column {
+background: #BBDDBB;
+float: left;
+width: 200px;
+min-height: 400px;
+}
+#templatemo_right_column {
+float: left;
+width: 600px;
+min-height: 400px;
+}
+#templatemo_footer {
+clear: left;
+background: #007700;
+padding: 5px;
+color: #FFFFFF;
+}
+#templatemo_footer a {
+color: #FFFFFF;
+}
+#templatemo_site_title {
+padding-top: 60px;
+padding-left: 80px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 28px;
+color: #FFFFFF;
+}
+#templatemo_site_slogan {
+padding-top: 10px;
+padding-left: 80px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #FFFFFF;
+}
+.templatemo_line {
+clear: left;
+height: 3px;
+background: #008800;
+}
+.templatemo_pic {
+float: right;
+margin-left: 10px; 
+border: 1px solid #000000;
+}
+.section_box {
+margin: 10px;
+padding: 10px;
+border: 2px solid #AACCAA;
+background: #DDF2DD;
+color: #008000;
+}
+.section_box2 {
+clear: left;
+margin-top: 10px;
+padding: 10px;
+border: 1px solid #CCCCCC;
+background: #F8F8F8;
+color: #666666;
+}
+.text_area {
+margin: 10px;
+}
+.publish_date {
+margin-top: 5px;
+color: #999999;
+font-size: 11px;
+font-weight: bold;
+}
+.title {
+padding-bottom: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #008800;
+}
+.subtitle {
+padding-bottom: 5px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+}
+/* 		Menu Credit: http://www.dynamicdrive.com/style/      */
+.glossymenu{
+list-style-type: none;
+margin: 5px;
+padding: 0px;
+width: 185px;
+border: 1px solid #006600;
+}
+.glossymenu li a{
+background: white url(images/button_default.gif) repeat-x center;
+font: bold 13px "Trebuchet MS", Verdana, Helvetica;
+color: white;
+display: block;
+width: auto;
+padding: 6px;
+padding-left: 10px;
+text-decoration: none;
+}
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+width: 180px;
+}
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+.glossymenu li a:hover{
+background-image: url(images/button_active.gif);
+color: #006600;
+}

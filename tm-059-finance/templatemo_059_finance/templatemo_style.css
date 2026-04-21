@@ -1,0 +1,330 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Finance Template 
+http://www.templatemo.com/preview/templatemo_059_finance 
+*/
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #585858;
+
+	background-color: #ededed;
+
+}
+
+a:link, a:visited { color: #006600; text-decoration: none; } 
+
+a:active, a:hover { color: #CC0000; text-decoration: none; }
+
+h1 {
+
+	font-size: 22px;
+
+	font-weight: bold;
+
+	color: #38713a;
+
+	height: 32px;
+
+	background: url(images/templatemo_header1.jpg) no-repeat;
+
+	padding: 15px 0px 0px 55px;
+
+}
+
+h2 {
+
+	margin-top: 20px;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #56b81b;
+
+	height: 20px;
+
+	padding: 7px 0px 0px 35px;
+
+	background: url(images/templatemo_header2.jpg) no-repeat;
+
+}
+
+#templatemo_container {
+
+	width: 900px;
+
+	margin: auto;
+
+	background-color: #fff;
+
+}
+
+#templatemo_top_section {
+
+	float: right;
+
+	width: 900px;
+
+	height: 50px;
+
+	background: url(images/templatemo_menu.jpg) no-repeat;
+
+}
+
+#templatemo_welcomesection {
+
+	float: left;
+
+	width: 900px;
+
+}
+
+#templatemo_welcomesection img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}
+
+.templatemo_topmenu{
+
+	float: right;
+
+	width: 580px;
+
+	padding-right: 20px;
+
+}
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+
+.templatemo_topmenu li{
+
+	display: inline ;
+
+}
+
+.templatemo_topmenu li a{
+
+	float: left;
+
+	text-align: center;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	width: 77px;
+
+	height: 30px;
+
+	padding: 14px 0px 0px 5px;
+
+}
+
+.templatemo_topmenu li a:hover{
+
+	color: #91e30c;
+
+	text-decoration: underline;
+
+}
+
+#templatemo_headersection {
+
+	float: left;
+
+	width: 410px;
+
+	height: 180px;
+
+	color: #fff;
+
+	text-align: justify;
+
+	font-size: 11px;
+
+	padding: 63px 140px 0px 350px;
+
+	background: url(images/templatemo_header.jpg) no-repeat;
+
+}
+
+#templatemo_headersection span {
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+}
+
+#templatemo_welcomesection {
+
+	float: left;
+
+	width: 800px;
+
+	text-align: justify;
+
+	padding: 0px 50px 0px 50px;
+
+}
+
+#templatemo_footersection {
+
+	clear: both;
+
+	width: 900px;
+
+	height: 23px;
+
+	margin-top: 20px;
+
+	background-color: #cbf0bb;
+
+	text-align: center;
+
+	padding-top: 7px;
+
+}
+
+#templatemo_boxleft {
+
+	float: left;
+
+	width: 400px;
+
+	padding-left: 50px;
+
+}
+
+#templatemo_boxright {
+
+	float: left;
+
+	width: 430px;
+
+	padding-left: 20px;
+
+}
+
+.box_left {
+
+	float: left;
+
+	width: 23px;
+
+	height: 253px;
+
+	background: url(images/templatemo_box_left.jpg) no-repeat;
+
+}
+
+.box_middle {
+
+	float: left;
+
+	width: 330px;
+
+	height: 253px;
+
+	text-align: justify;
+
+	padding: 0px 5px 0px 5px;
+
+	background: url(images/templatemo_box_middle.jpg) repeat-x;
+
+}
+
+.box_middle img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}
+
+.box_right {
+
+	float: left;
+
+	width: 23px;
+
+	height: 253px;
+
+	background: url(images/templatemo_box_right.jpg) no-repeat;
+
+}
+
+.morebutton1 {
+
+	background: url(images/templatemo_morebutton1.jpg) no-repeat;
+
+	font-size: 11px;
+
+	height: 39px;
+
+	width: 62px;
+
+	padding: 8px 0px 0px 20px;
+
+	font-weight: bold;
+
+}
+
+.morebutton1 a {
+
+	color: #FFFFFF;
+
+}
+
+.morebutton2 {
+
+	float: right;
+
+	background: url(images/templatemo_morebutton2.jpg) no-repeat;
+
+	width: 51px;
+
+	height: 28px;
+
+	font-size: 10px;
+
+	padding: 5px 0px 0px 10px;
+
+}
+
+.morebutton2 a {
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+}

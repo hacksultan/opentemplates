@@ -1,0 +1,187 @@
+/* Credit: http://www.templatemo.com */
+
+/* 
+Responsive Template 
+http://www.templatemo.com/preview/templatemo_374_responsive 
+*/
+
+html { font-size: 12px; }
+body { font-family: Tahoma, Arial, sans-serif; }
+ul { margin: 0 0 0 0; }
+iframe, object, embed { width: 100%; border: none; }
+footer { color: white; background: #28262A;	margin-top: 20px; }
+footer a { text-decoration: none; color: #ebd08c; }
+footer a:hover { color: #CC6600; }
+
+.container { margin: 0 auto; }
+.brand { letter-spacing: 10px; text-transform: uppercase; }
+.float_l { float: left }
+.float_r { float: right }
+.cleaner { clear: both }
+
+.rp_box { clear: both; margin-bottom: 20px; padding-top: 20px; padding-bottom: 20px; border-bottom: 1px dashed gray }
+.rp_box img { float: left; margin-right: 20px }
+.rp_box a { text-decoration: none; color: #DAD7D7; }
+.rp_box a:hover { color: white; }
+.rp_box_wrapper { padding-top: 20px; }
+
+.date { font-style: italic; font-size: 12px; margin-bottom: 5px; color: #aa987a }
+.twitter_post { color: #DAD7D7; }
+.twitter_post li {	margin-top: 1em; list-style-type: none;	}
+.social_buttons a {	text-decoration: none; }
+
+.post_box { clear: both; margin-bottom: 60px }
+.post_box h2 { font-size: 20px; font-weight: 400; margin-bottom: 15px }
+.post_box img { float: left; margin-right: 30px }
+.post_box p { text-align: justify; }
+
+.post_meta { color: #a0a0a0; padding: 2px 0; border: 1px dashed #726144; border-left: none; border-right: none; margin-bottom: 20px; margin-top: 5px;  }
+.post_meta i { color: #907244; font-style: italic }
+.post_meta a { color: #907244; text-decoration: none; }
+.post_meta span { float: right; }
+
+.first_level { margin: 0; padding: 0; }
+.image_frame_300 {  width: 280px; height: 140px; padding: 10px; margin-bottom: 20px }
+
+#contact_form { padding-top: 20px; padding-bottom: 30px; }
+#contact_form form { margin: 0px; padding: 0px; }
+#contact_form form .input_field { width: 98%; padding: 5px;	font-family: Tahoma, Geneva, sans-serif; font-size: 1em; }
+#contact_form form label { display: block; width: 100px; margin-right: 12px; font-size: 0.9em; }
+#contact_form form textarea { width: 98%; height: 160px; padding: 5px; font-family: Tahoma, Geneva, sans-serif;	font-size: 1em; }
+
+.comments {	list-style: none; }
+.comments li { margin-bottom: 10px; list-style:none; }
+.comments li .comment_box { clear: both; width:90%; padding: 15px; }
+.comments li .commentbox1 { background: #F3F3F3; border: 1px solid #E4DED4; }
+.comments li .commentbox2 { background: #F3F3F3; border: 1px solid #E4DED4; }
+.comment_box .gravatar { float: left; width: 50px; margin-right: 15px; background: #000; }
+.comment_box .gravatar img { margin: 0; width: 50px; height: 50px; }
+.comment_box .comment_text { margin: 0 0 0 65px; }
+.comment_box .comment_text p { margin: 0; }
+.comment_text .comment_author { font-size: 14px; font-weight: bold; color: #000; margin-bottom: 10px; }
+.comment_text .date { font-size: 12px; font-weight: normal; color: #000; padding-left: 10px; }
+.comment_text .time { font-size: 12px; font-weight: normal; color: #000; padding-left: 10px; }
+.comment_text .reply a { display: block; clear: both; float: right; color: #5A5757; font-weight: 700 } 
+
+#comment_section { clear: both;	margin-bottom: 60px; }
+#comment_form {	clear: both; }
+#comment_form h3 { font-size: 20px;	border-bottom: 1px dotted #666;	margin-bottom: 15px; padding-bottom: 10px; }
+#comment_form form { padding: 20px; }
+#comment_form form input {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 60%;/**/
+	background: #F3EDE2 none repeat fixed 0 0;
+	border: 1px solid #918063;
+}
+
+#comment_form textarea {
+	background: #F3EDE2 none repeat fixed 0 0;
+	border: 1px solid #918063;
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	height: 150px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 60%;/**/
+}
+
+#comment_form .form_row { width: 100%; margin-bottom: 15px; }
+
+#templatemo_cr_bar { margin: 0 auto; padding: 15px 10px; color: #ddd4c5; text-align: center; }
+
+/*http://codepen.io/minimalmonkey/pen/Ecpla*/
+/* Wrapper */
+.icon-button {
+	background-color: #eee;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+/* minimalmonkey */
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}

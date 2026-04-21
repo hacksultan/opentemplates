@@ -1,0 +1,240 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+History Template 
+http://www.templatemo.com/preview/templatemo_114_history 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	background: #faf1dd url(images/tempatemo_body_bg.jpg) repeat-x;
+}
+
+a:link, a:visited { color: #af1313; text-decoration: underline; font-weight: normal; } 
+a:active, a:hover { color: #996600; text-decoration: none; }
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_15 { clear: both; width: 100%; height: 15px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_40 { margin-right: 40px; }
+.margin_right_60 { margin-right: 60px; }
+
+.b_bottom {
+	border-bottom: 1px solid #e3bb67;
+}
+
+.fl { float: left; }
+.fr { float: right }
+
+
+#templatemo_container {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 5px;
+	background: url(images/templatemo_container_bg.png) repeat-y;
+}
+
+#templatemo_banner {
+	width: 950px;
+	height: 90px;
+    background: url(images/templatemo_banner_bg.jpg)  no-repeat;
+}
+
+#search_section {
+	float: right;
+	margin: 50px 30px 0 0;
+	width: 250px;
+	height: 30px;
+	background: url(images/templatemo_search_bg.jpg) no-repeat;
+}
+
+#search_section form {
+	width: 250px;
+	height: 30px;	
+	margin: 0px;
+	padding: 0 0 0 2px;
+}
+
+#searchfield {
+	height: 16px;
+	width: 170px;
+	padding: 5px;
+	color: #000000;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+	background: none;
+	border: none;	
+}
+
+#searchbutton {
+	width: 65px;
+ 	height: 29px;
+	padding: 0 6px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #333333;
+	background: none;
+	border: none;
+}
+
+/* menu */
+
+#templatemo_menu {
+	float: left;
+	width: 950px;
+	height: 70px;
+	background: url(images/templatemo_menu_bg.jpg) no-repeat;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 13px 0 0 200px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 120px;
+	margin-right: 5px;
+	height: 32px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	background: #a21e1e;
+}
+
+/* end of menu*/
+
+.header_01 {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-size: 16px;
+	color: #ab1010;
+	font-weight: bold;
+}
+
+.header_02 {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-size: 16px;
+	color: #142052;
+	font-weight: bold;
+}
+
+/* content */
+
+#templatemo_content_top {
+	clear: both;
+	padding: 40px 40px 0 200px;
+	background:url(images/templatemo_content_top_left.jpg) top left no-repeat;
+}
+
+.section_w335 {
+	width: 335px;
+}
+
+.section_w335 .image_wrapper {
+	float: left;
+	width: 101px;
+	margin: 3px 20px 0 0;
+}
+
+.image_wrapper img {
+	width: 95px;
+	height: 95px;
+	border: 3px solid #d4bc88;
+}
+
+.section_w335 p {
+	float: right;
+	width: 210px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#templatmeo_content_bottom {
+	clear: both;
+	padding: 40px 40px 0 200px;	
+	background: url(images/templatemo_content_bottom.jpg) bottom no-repeat;
+}
+
+.section_w210 {
+	width: 210px;
+}
+
+.section_w210 p {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#templatemo_footer {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.footer_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_list li {
+	padding: 0 10px;
+	display: inline;
+	border-right: 1px solid #333333;
+}
+
+.footer_list li a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.footer_list li a:hover {
+	color: #996600;
+}
+
+.footer_list .last {
+	border-right: none;
+}

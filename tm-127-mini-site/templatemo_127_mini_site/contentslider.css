@@ -1,0 +1,129 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+width: 460px; /*width of featured content slider*/
+height: 480px;
+background: #f4f4f4;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+margin: 40px 40px 20px 40px;
+width: 460px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 410px;
+
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+background: #f4f4f4;
+overflow: auto;
+
+}
+
+.pagination{
+width: 320px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+}
+
+.pagination a{
+	display: block;
+	width: 230px;
+	height: 60px;
+	margin-bottom: 10px;
+	text-decoration: none; 
+	outline: none;
+}
+
+.pagination .home {
+	background: url(images/templatemo_home_menu.png) no-repeat;
+}
+
+.pagination .services {
+	background:url(images/templatemo_services.png) no-repeat;
+}
+
+.pagination .portfolio {
+	background: url(images/templatemo_portfolio.png) no-repeat;
+}
+
+.pagination .testimonial {
+	background: url(images/templatemo_testimonial.png) no-repeat;
+}
+
+.pagination .about {
+	background: url(images/templatemo_about.png) no-repeat;
+}
+
+.pagination .contact {
+	background: url(images/templatemo_contact.png) no-repeat;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #000;
+background-color: #FEE496;
+}
+
+
+
+#slider4{
+	width: 540px;
+}
+
+#paginate-slider4{
+	width: 230px;
+}
+
+#paginate-slider4 a img{
+	display: block;
+	width: 230px;
+	height: 60px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+#paginate-slider4 a img:hover, #paginate-slider4 a.selected img{
+	border: none;
+}
+
+
+#paginate-slider4 a.home{
+	background: url(images/templatemo_home_menu.png) no-repeat;
+}
+
+#paginate-slider4 a.home.selected{
+	background: url(images/templatemo_home_menu_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.services{
+	background:url(images/templatemo_services.png) no-repeat;
+}
+
+#paginate-slider4 a.services.selected{
+	background:url(images/templatemo_services_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.portfolio{
+	background: url(images/templatemo_portfolio.png) no-repeat;
+}
+#paginate-slider4 a.portfolio.selected{
+	background: url(images/templatemo_portfolio_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.testimonial{
+	background: url(images/templatemo_testimonial.png) no-repeat;
+}
+#paginate-slider4 a.testimonial.selected{
+	background: url(images/templatemo_testimonial_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.about.selected{
+	background: url(images/templatemo_about_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.contact.selected{
+	background: url(images/templatemo_contact_hover.png) no-repeat;
+}

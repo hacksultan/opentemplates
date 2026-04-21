@@ -1,0 +1,364 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Black Wave Template 
+http://www.templatemo.com/preview/templatemo_212_black_wave 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+    background: #000000 url(images/templatemo_body_top.jpg) repeat-x top;
+}
+		
+a:link, a:visited { color: #96e135; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FFFFFF; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.divider {
+	background: url(images/templatemo_divider.png) repeat-x bottom;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r60 { margin-right: 60px; }
+
+.button_01 a {
+	display: block;
+	width: 70px;
+	height: 19px;
+	padding: 3px 5px;
+	color: #96e135;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	background: url(images/templatemo_button_01.png) no-repeat;
+}
+
+.button_01 a:hover {
+	color: #ffffff;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 10px 0 15px 0;
+	font-size: 26px;
+	font-weight: normal;
+	color: #96e135;
+	background: url(images/templatemo_title_bg.jpg) bottom left no-repeat;
+}
+
+h3 {
+	margin: 0	;
+	padding: 2px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+/* header */
+
+#templatemo_site_title_bar_wrapper {
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	background: url(images/templatemo_header_bg_wrapper.jpg) no-repeat top center;
+}
+
+#templatemo_site_title_bar {
+	position: relative;
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(images/templatemo_header_bg.jpg) no-repeat top center;
+}
+
+#templatemo_site_title_bar  #site_title {
+	float: left;
+	width: 230px;
+	height: 80px;
+	padding: 10px 10px 0 10px;
+	overflow: hidden;
+	text-align: center;	
+}
+
+#site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#site_title h1 a:hover {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+#site_title h1 a span {
+	display: block;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+
+#templatemo_site_title_bar #search_box {
+	float: right;
+	width: 272px;
+	height: 34px;
+	margin: 23px 0 0 0;
+	background: url(images/templatemo_search.png) no-repeat;
+}
+
+#search_box form {
+	width: 340px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#searchfield {
+	height: 22px;
+	width: 225px;
+	padding: 8px 5px 4px 5px;
+	color: #bcbcbc;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+	background: none;
+	border: none;	
+}
+
+#searchbutton {
+ 	height: 34px;
+	width: 35px;
+	margin: 0px;
+	padding: 6px 0 0 0;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #ffffff;
+	background: none; 
+	border: none;
+}
+
+/* end of header */
+
+/* banner and menu */
+
+#templatemo_banner {
+	clear: both;
+	width: 940px;
+	height: 170px;
+	padding: 40px 20px;
+	margin: 0 auto;
+	background: url(images/templatemo_banner.jpg) no-repeat;
+}
+
+ #templatemo_menu {
+	 float: left;
+	width: 210px;
+	padding: 0 10px;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#templatemo_menu ul li a {
+	display: block;
+	height: 23px;
+	padding: 2px 0 0 30px;
+	margin-bottom: 5px;	
+	font-size: 14px;
+	text-decoration: none;
+	color: #d4d4d4;	
+	font-weight: normal;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	background: url(images/menu_hover.png) left center no-repeat;
+}
+
+#templatemo_banner #banner_content {
+	float: right;
+	width: 650px;
+}
+
+#templatemo_banner #banner_content p {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	text-align: center;
+	font-style: italic;
+}
+
+#templatemo_banner #banner_content p span {
+	display: block;
+	margin-top: 10px;
+	color: #CCC;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* end of banner and menu */
+
+/* content */
+
+#templatemo_content {
+	clear: both;
+	width: 900px;
+	padding: 40px;
+	margin: 0 auto;
+	background: #070708 url(images/templatemo_content_top.jpg) no-repeat top center;
+}
+
+.section_w900 {
+	clear: both;
+	width: 900px;
+}
+
+.image_wrapper_01 img {
+	margin-bottom: 10px;
+	border: 7px solid #000000;
+}
+
+.imgl{
+	float: left;
+	margin: 3px 15px 10px 0;
+}
+
+.section_w580 {
+	width: 580px;
+}
+
+
+.section_w400 {
+	width: 400px;
+}
+
+.section_w260 {
+	width: 260px;
+}
+
+.testimonial {
+	font-style: italic;
+}
+
+.testimonial span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.service {
+	margin: 10px 0 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.service li {
+	padding: 5px 0 5px 30px;
+	background: url(images/templatemo_list_icon.png) left center no-repeat;
+}
+
+.news_box {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #ccc;	
+	color: #ffffff;
+}
+
+.news_box .post_info {
+	color: #999999;
+	font-weight: normal;
+}
+
+.news_box .post_info a {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.news_box .post_info strong {
+	color: #666666;
+}
+
+.news_box a {
+	color: #ffffff;
+}
+/* end of content */
+
+/* footer */
+#templatemo_footer {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	background: #1a1a1c;
+	border-top: 1px solid #252527;
+	text-align: center;
+	color: #7c7471;
+}
+
+#templatemo_footer a {
+	color: #cccccc;
+}
+
+#templatemo_footer .footer_menu {
+	margin: 0 0 10px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_menu li {
+	margin: 0px;
+	padding: 0 20px;
+	display: inline;
+	border-right: 1px solid #cccccc;
+}
+
+.footer_menu .last_menu {
+	border: none;
+}
+
+/* end of footer */

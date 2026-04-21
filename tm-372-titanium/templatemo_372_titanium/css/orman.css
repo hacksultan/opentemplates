@@ -1,0 +1,105 @@
+/*
+Skin Name: Orman Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Description: A light and green skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Orman Clark
+Author URI: http://dev7studios.com
+*/
+
+.theme-orman.slider-wrapper {
+    width: 960px;
+    height: 340px;
+    position:relative;
+}
+
+.theme-orman .nivoSlider {
+    position:relative;
+    width:960px;
+    height:340px;
+    background:url(../images/loading.gif) no-repeat 50% 50%;
+}
+.theme-orman .nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width:960px; /* Make sure your images are the same size */
+    height:340px; /* Make sure your images are the same size */
+}
+.theme-orman .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-orman .nivo-controlNav-bg {
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	width: 960px;
+	height: 44px;
+	z-index: 100;
+	background: url(../images/slider_nav_bg.png) no-repeat	
+}
+
+.theme-orman .nivo-controlNav {
+    position:absolute;
+	left: 472px;
+	bottom: 4px;
+    margin-left:-30px; /* Tweak this to center bullets */
+	z-index: 101;
+}
+.theme-orman .nivo-controlNav a {
+    display:block;
+    width:12px;
+    height:12px;
+    background:url(../images/slider_nav_button.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    margin-right:7px;
+    float:left;
+}
+.theme-orman .nivo-controlNav a.active {
+    background-position:0 -12px;
+}
+
+.theme-orman .nivo-directionNav a {
+	display:block;
+	width:25px;
+	height: 240px;
+	background:url(../images/arrows.png) no-repeat 0% 50%;
+	text-indent:-9999px;
+	border:0;
+    top:40px;
+}
+.theme-orman a.nivo-nextNav {
+	background-position:100% 50%;
+	right:-24px;
+    padding-right:20px;
+}
+.theme-orman a.nivo-prevNav {
+	left:-24px;
+    padding-left:20px;
+}
+
+.theme-orman .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-orman .nivo-caption a { 
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-orman .nivo-caption a:hover { 
+    color:#fff;
+}
+
+.theme-orman .ribbon {
+	background:url(../images/ribbon.png) no-repeat;
+	width:111px;
+	height:111px;
+	position:absolute;
+	top:-4px;
+	left: -5px;
+	z-index:300;
+}

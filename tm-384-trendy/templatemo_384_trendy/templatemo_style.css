@@ -1,0 +1,259 @@
+/* 
+	Trendy Template 
+	http://www.templatemo.com/preview/templatemo_384_trendy 
+*/
+
+body { 
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 12px;
+	line-height: 1.6em; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #868686;
+	background-image:  url(images/templatemo_body.jpg);
+	background-position: top;
+	background-repeat: repeat-x
+}
+
+a, a:link, a:visited { color: #0066AA; font-weight: normal; text-decoration: none }
+a:hover { color: #009933; text-decoration: none; }
+
+ul, li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+p { padding: 0; margin: 0 0 15px 0 }
+
+.clear{
+	clear:left;
+}
+
+blockquote.testimonial_block { margin: 40px; background:  url(images/icon_testimonial.png) left center no-repeat; padding-left: 120px }
+cite { font-weight: bold; color:#000; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #333; }
+
+
+.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
+.list_bullet li { color:#000; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(images/templatemo_list.png) no-repeat scroll 0 6px  }
+.list_bullet li a { color: #0066AA; font-weight: normal; text-decoration: none }
+.list_bullet li a:hover { color: #000 }
+
+.no_bullet { margin: 0; padding: 0; list-style: none }
+.no_bullet li { margin: 0 0 20px 0; padding: 0 }
+a.header { display: block; font-weight: 700 }
+
+.half { width: 370px }
+
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+img { margin: 0; padding: 0; border: none }
+.img_border { background: #fff; padding: 4px; border: 1px solid #ccc }
+.img_nom { display: block; margin-bottom: 15px }
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fr { float: right; margin: 3px 0 5px 15px }
+
+.left { float: left }
+.right { float: right }
+
+#templatemo_header {
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+#templatemo_main {
+	width: 800px;
+	height: 510px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#templatemo_footer_wrapper  {
+	width: 100%;
+	background: url(images/templatemo_footer.png) center top no-repeat
+}
+#templatemo_footer {
+	width: 780px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	text-align: right
+}
+
+#site_title { display: block; width: 780px; background: #717171; padding-left: 20px }
+#site_title a { font-size: 48px; color: #fff; font-weight: 700; letter-spacing: 10px; line-height: 30px }
+
+a.menu_title { font-size: 18px; font-weight: bold; color: #FFFFFF; }
+
+#content{
+	overflow:hidden;
+	width: 7000px;
+	position:relative;
+	height: 510px;
+}
+
+.section {
+	position:relative;
+	float:left;
+	width: 800px;
+	height: 510px;
+	margin-right: 20px;
+}
+
+.section a.home_btn { position: absolute; top: 20px; right: 10px; width: 53px; height: 54px; display: block; background: url(images/home_btn.png); text-indent: -10000px }
+
+.section  a.page_nav_btn { position: absolute; display: block; width: 76px; height: 28px; line-height: 24px; font-weight: 700; bottom: 20px; text-align: center; background: url(images/nav_btn.png) left center no-repeat }
+.section  a.previous { left: 5px; }
+.section  a.next { right: 5px; }
+
+.text_box, .photo_box {
+	display: block;
+	float: left;
+	width: 152px;
+	height: 245px;
+	overflow: hidden;
+	margin: 0 10px 10px 0;
+}
+
+.box_content {
+	padding: 100px 15px 15px;
+	width: 122px;
+	height: 130px;
+	color: #efefef;
+	position: relative;
+}
+
+.box1 { background: #1595b0 }
+.box2 { background: #9cb021 }
+.box3 { background: #1570b0 }
+.box4 { background: #b01553 }
+.box5 { background: #b08d15 }
+
+.box_content span { position: absolute; width: 122px; height: 80px; top: 20px; left: 20px; }
+.box_content span.about { background: url(images/buddy.png) no-repeat center }
+.box_content span.services { background: url(images/apacheconf.png) no-repeat center }
+.box_content span.testimonial { background: url(images/emblem-favorites.png) no-repeat center }
+.box_content span.gallery { background: url(images/gnome-system.png) no-repeat center }
+.box_content span.contact { background: url(images/mail-notification.png) no-repeat center }
+.box_content a.more_btn { position: absolute; bottom: 10px; right: 0; width: 55px; height: 17px; color: #333; text-align: center; padding-left: 6px; background: url(images/more_btn.png) }
+
+.no_margin_right { margin-right: 0 }
+
+#content .section h1 { padding-top: 30px }
+
+#content .box_content h2 { color: #fff; font-size: 18px; margin-bottom: 5px; font-weight: 700 }
+
+#social_links {
+}
+
+#social_links li {
+	width: auto;
+	height: auto;
+	padding: 0;
+	background: none;
+}
+
+#social_links li a {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 48px;
+	line-height: 48px;
+	padding: 5px 0 5px 60px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	background-position: left;
+	background-repeat: no-repeat
+}
+
+#social_links li a.facebook {
+	background-image: url(images/facebook.png) 
+}
+#social_links li a.flickr {
+	background-image: url(images/flickr.png)
+}
+#social_links li a.skype {
+	background-image: url(images/skype.png)
+}
+#social_links li a.twitter {
+	background-image: url(images/twitter-2.png) 
+}
+#social_links li a.vimeo {
+	background-image: url(images/vimeo.png)
+}
+#social_links li a.youtube {
+	background-image: url(images/youtube.png)
+}
+
+#image_gallery {
+
+}
+
+#image_gallery li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 152px;
+	height: 245px;
+	background: none;
+	margin: 0 10px 10px 0;
+}
+#image_gallery li a {
+	display: block;
+}
+#image_gallery li a img  { }
+
+#image_gallery li.no_margin_right { margin-right: 0 }
+
+
+#contact_form { padding: 0; width: 330px }
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { 
+	width: 150px; 
+	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	color: #666;
+	border: 1px solid #ccc;
+	background: #fff; 
+	margin-bottom: 10px; 
+}
+
+#contact_form form label { display: block; font-size: 11px; }
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 320px; 
+	height: 120px; 
+	padding: 5px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	color: #666;
+	border: 1px solid #ccc;  
+	background: #fff; 
+	margin-bottom: 10px;
+}
+
+#contact_form form .submit_btn { 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px; 
+	background: #444444; 
+	color: #fff; 
+	cursor: pointer; 
+	border: 1px solid #222222; 
+	padding: 5px 10px; 
+}

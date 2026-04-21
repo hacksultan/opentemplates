@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Bar Slider Click</title>
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+        <style type="text/css">
+        <!--
+        body {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            color: #FFFFFF;
+            background-color: #333333;
+            font-family: "Trebuchet MS", Verdana, Arial;
+            font-size: 12px;
+        }
+        
+        a:link, a:visited { color: #FFFFFF; text-decoration: none; }
+        a:hover { color: #FFFF00; }
+		h2 {
+			font-size: 26px;
+			font-weight: normal;
+		}
+		.flashmo_box {
+			margin: 20px auto;
+			width: 840px;
+			padding: 10px 30px;
+			background: #181818;
+			border: 1px solid #505050;
+			font-size: 13px;
+		}
+		.flashmo_variable {
+			color: #33CC99;
+		}
+        -->
+        </style>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        
+        <script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+        
+	<!-- embedding SWF -->
+		<script type="text/javascript">
+			var flashvars = {};
+			flashvars.xml_file = "bar_slider_list.xml";
+			var params = {};
+			params.wmode = "transparent";
+			var attributes = {};
+			attributes.id = "slider";
+			swfobject.embedSWF("bar_slider_click.swf", "flashmo_slider", "560", "310", "9.0.0", false, flashvars, params, attributes);
+		</script>
+	<!-- embedding SWF -->
+        
+	</head>
+	<body>
+    
+		<div align="center" style="margin-top: 30px;">
+
+			<!-- bar slider click SWF -->
+			<div id="flashmo_slider">
+                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+			</div>
+			<!-- bar slider click SWF -->
+
+    	</div>
+
+		<div class="flashmo_box">
+		
+			<h2><a rel="nofollow" href="http://www.flashmo.com/preview/flashmo_255_bar_slider_click" target="_parent">flashmo 255 bar slider</a></h2>
+			<blockquote>
+			  <p>Adjust <span class="flashmo_variable">width</span> and <span class="flashmo_variable">height</span> values of  the Flash file ( <span class="flashmo_variable">flashmo_255_bar_slider_click.swf</span> ) in the SWF embedded HTML file. Always add  <span class="flashmo_variable">30</span> pixels to the height of SWF.</p>
+			  <p><strong>Example:</strong></p>
+		      <ul>
+		        <li>set SWF <span class="flashmo_variable">height</span> value to <span class="flashmo_variable">330</span> if the image height is <span class="flashmo_variable">300</span> pixels</li>
+                <li>set it to <span class="flashmo_variable">430</span> if the image height is <span class="flashmo_variable">400</span> pixels because  height of the <span class="flashmo_variable">navigation bar</span>  is <span class="flashmo_variable">30</span> pixels</li>
+    		  </ul>
+		  </blockquote>
+          
+			<h2>Default XML file name</h2>
+			<blockquote>
+			  <p><span class="flashmo_variable">xml_file</span> = <span class="flashmo_variable">flashmo_255_photo_list.xml</span> ( or any file name can be set in  SWF embedded  HTML tags )</p>
+			  <p><strong>Example:</strong> flashmo_255_bar_slider_click.swf<span class="flashmo_variable">?xml_file=flashmo_255_photo_list.xml</span></p>
+	  	  </blockquote>
+          
+			<h2>  Variables in XML  &lt;config&gt; tag</h2>
+            
+		  <blockquote>
+            	<p><span class="flashmo_variable">hover_effect</span> = <span class="flashmo_variable">true</span> by default  ( or <span class="flashmo_variable">false</span> ) for mouse pointer over image area</p>
+		    <p><span class="flashmo_variable">auto_play</span> = 
+       	      <span class="flashmo_variable">true</span> by default  ( or set it as <span class="flashmo_variable">false</span> )</p>
+                 
+			  <p><span class="flashmo_variable">auto_play_duration</span> = 
+       	      <span class="flashmo_variable">3</span> seconds by default ( or any number of seconds )</p>
+                 
+			  <p><span class="flashmo_variable">tween_duration</span> = 
+       	      <span class="flashmo_variable">0.72</span> seconds by default ( or any number of seconds )</p>
+                 
+			  <p><span class="flashmo_variable">tween_delay</span> = 
+       	      <span class="flashmo_variable">0.16</span> seconds by default ( or any number of seconds )</p>
+                 
+		  </blockquote>
+          
+			<h2>Transition Effects in XML &lt;transition&gt; tag</h2>
+	    <blockquote>
+			  <p><span class="flashmo_variable">sequence</span> = first | last | inner | outer</p>
+			  <p><span class="flashmo_variable">direction</span> = left | right | up | down</p>
+			  <p><span class="flashmo_variable">slice</span> = 3 | 4 | 5 |  6 | 7 | or any positive integer number ( odd numbers are preferred if <span class="flashmo_variable">sequence</span> is set to inner or outer )</p>
+			  <p><span class="flashmo_variable">effect </span>= easeInOutQuart | easeInOutCubic | easeInOutExpo | easeInOutSine ( or see below <span class="flashmo_variable">Tweener transition cheat sheet</span> )</p>
+		  </blockquote>
+        
+	</div>
+    
+    <div align="center">
+    	<script type="text/javascript">
+			swfobject.embedSWF("transitions.swf", "tweener_transitions", "900", "650", "9.0.0", false);
+		</script>
+        	<div id="tweener_transitions" >
+                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+			</div>
+	</div>
+	<br />
+</body>
+</html>

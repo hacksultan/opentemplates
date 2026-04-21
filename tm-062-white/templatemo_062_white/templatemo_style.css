@@ -1,0 +1,395 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+White Template 
+http://www.templatemo.com/preview/templatemo_062_white 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4e4e4e;
+	background: #b2ada4;
+}
+
+a:link, a:visited { color: #38afc8; text-decoration: none;} 
+a:active, a:hover { color: #38afc8; text-decoration: underline}
+
+h1 {
+	margin: 0 0 20px 0;
+	padding: 5px 0;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fe551e;
+}
+
+h3 {
+	margin: 0 0 5px 0;
+	padding: 2px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	padding: 2px 0;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+
+p {
+	text-align: justify;
+	padding: 0 5px 0 0;
+	margin: 0 5px 0 0;
+}
+
+.cleaner {
+	font-size: 1px;
+	height: 1px;
+}
+
+/* ----- Form ----- */
+
+form{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+frameset {
+	margin-bottom: 25px;
+}
+
+.form_row{
+	margin-bottom: 10px;
+}
+
+
+label {
+	margin-right: 10px;
+}
+
+input{
+	width: 150px;
+	height: 18px;
+}
+
+.button{
+	width: 60px;
+	height: 25px;
+}
+
+select {
+	height: 25px;
+	width: 150px;
+}
+
+/* ----- End of Form ----- */
+
+#templatemo_container {
+	margin: auto;
+	width: 910px;
+	padding: 0 25px;
+	background: #ffffff;
+}
+
+
+#templatemo_header_panel {
+	width: 910px;
+	height: 108px;
+	background: url(images/templatemo_header_background.gif) no-repeat bottom;
+}
+
+#templatemo_title_section {
+	float: left;
+	width: 270px;
+	height: 50px;
+	padding: 50px 0 5px 0;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+
+#templatemo_top_right_section {
+	float: right;
+	text-align: right;
+	width: 300px;
+	background: url(images/templatemo_image_top_line.gif) no-repeat top right;
+}
+
+#templatemo_top_right_section ul{
+	margin: 0px;
+	padding: 5px 0 0 0;
+}
+
+#templatemo_top_right_section ul li{
+	display: inline;
+	margin-left: 16px;
+	font-weight: bold;
+}
+
+/* menu and banner panel */
+#templatemo_login_banner_panel {
+	display: block;
+	width: 910px;
+	height: 240px;
+	padding: 10px 0px;
+}
+
+#templatemo_login_panel {
+	float: left;
+	height: 220px;	
+	width: 238px;
+	background: #e1e1e1;
+	border: 1px solid #d2d2d2;
+	padding: 20px 20px 0 20px;
+}
+
+* html #templatemo_login_panel {
+	margin-right: -2px;
+}
+
+#templatemo_login_panel form{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #999999;
+}
+
+
+#templatemo_banner_panel {
+	float: left;
+	width: 600px;
+	height: 240px;
+	margin-right: 30px;	
+	background: #e1e1e1;
+	border-top: 1px solid #d2d2d2;	
+	border-bottom: 1px solid #d2d2d2;		
+}
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	display: block;
+	width: 910px;
+	height: 60px;
+	margin-bottom: 25px;
+	background: #4c4032 url(images/templatemo_menu_background.gif) no-repeat;
+}
+
+#templatemo_menu ul {
+	padding: 15px 0 0 0;
+	margin: 0 0 0 120px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #fe551e;
+}
+
+/* end of menu */
+
+
+/* content */
+#templatemo_content {
+	float: left;
+	width: 910px;
+	margin: 0;
+	padding: 0 0 60px 0;
+	background: #FFFFFF url(images/templatemo_footer_background.gif) bottom center no-repeat;
+}
+
+#templatemo_leftcolumn {
+	float: left;
+	width: 600px;
+	margin: 0 25px 0 0;
+	padding: 0;
+}
+
+#templatemo_rightcolumn {
+	float: right;
+	width: 280px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* left side two column */
+.templatemo_leftcolumn_twocolumn{
+	float: left;
+	width: 253px;
+	margin: 0 15px 35px 0;
+	padding: 15px;
+	background: #e4e4e4;
+	border: 1px solid #dbdbdb;	
+}
+
+* html .templatemo_leftcolumn_twocolumn{
+	margin: 0 10px 35px 0;
+}
+
+.templatemo_leftcolumn_twocolumn img{
+	border: 1px solid #000000;
+	margin-bottom: 5px;
+}
+
+.templatemo_leftcolumn_twocolumn ul{
+	clear: both;
+	margin: 20px 0 10px 0;
+	padding: 0 0 0 20px;
+}
+
+.templatemo_leftcolumn_twocolumn li{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.templatemo_leftcolumn_twocolumn li a{
+	font-weight: normal;
+}
+
+.templatemo_leftcolumn_twocolumn a:hover{
+	text-decoration: underline;
+}
+
+.service_box {
+	margin-bottom: 25px;
+}
+
+.service_box img{
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.service_box p{
+	text-align: left;
+}
+
+/* end of left side two column */
+
+/* left side full row */
+
+.templatemo_leftcolumn_fullrow {
+	clear: both;
+	float: left;
+	width: 600px;
+	margin: 0 0 10px 0;
+}
+
+.templatemo_leftcolumn_fullrow p{
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.templatemo_thumb_gallery {
+	clear: both;
+	float: left;
+	position: relative;
+	width: 600px;
+}
+
+.templatemo_thumb_box{
+	float: left;
+	position: relative;
+	width: 135px;
+	height: 135px;
+	margin: 0 10px 0 0;
+}
+
+.templatemo_thumb_box span{
+	width: 135px;
+	height: 135px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(images/templatemo_thumb_cover.png) no-repeat;
+}
+
+.templatemo_thumb_box img{
+	width: 108px;
+	height: 108px;
+	display: block;
+	position: absolute;
+	top: 14px;
+	left: 13px;
+	border: none;
+}
+
+
+/* end of left side full row */
+
+/* search box */
+
+#templatemo_search_panel{
+	width: 248px;
+	margin: 0 0 15px 0;
+	padding: 15px;
+	background: #e4e4e4;
+	border: 1px solid #dbdbdb;
+}
+
+
+#templatemo_search_panel .search_panel_box {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dadada;
+	margin-bottom: 15px;
+}
+/* end of search box */
+
+/* blog panel */
+#templatemo_blog_section {
+	width: 248px;
+	margin-bottom: 15px;
+	padding: 15px;
+	background: #e4e4e4;
+	border: 1px solid #dbdbdb;	
+}
+
+#templatemo_blog_section .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#templatemo_blog_section .datetime{
+	font-weight: bold;
+}
+/* end of blog panel */
+
+/* ----- Footer ----- */
+
+#templatemo_footer {
+	clear: both;
+	width: 960px;
+	padding: 25px 0;
+	margin-left: -25px;
+	margin-right: -25px;
+	text-align: center;
+}
+
+#templatemo_footer a{
+	font-weight: normal;
+}
+
+/* ----- End of Footer ----- */

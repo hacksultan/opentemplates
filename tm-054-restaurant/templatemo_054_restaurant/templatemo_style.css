@@ -1,0 +1,216 @@
+/*
+CSS Credit: www.templatemo.com
+*/
+
+/* 
+Restaurant Template 
+http://www.templatemo.com/preview/templatemo_054_restaurant 
+*/
+html {
+
+	background: url(images/templatemo_html_bg.jpg) repeat;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 16px;
+
+	line-height: 1.5em;
+
+	color: #b48842;
+
+	background: url(images/templatemo_body_bg.jpg) repeat-x  center top;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+a:link, a:visited { color: #c89d59; text-decoration: none; } 
+
+a:active, a:hover { color: #FFFF00; text-decoration: none }
+
+
+h1 {
+
+	font-size: 24px;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+	color: #c89d59;
+
+	background-position: left;
+
+	padding-top: 20px;
+
+}
+
+h2 {
+
+	margin-top: 40px;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+	color: #c89d59;
+
+}
+
+
+#templatemo_container {
+
+	width: 806px;
+
+	margin: auto;
+
+}
+
+.templatemo_topmenu{
+
+	margin: auto;
+
+	width: 700px;
+
+}
+
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.templatemo_topmenu li{
+
+	display: inline;
+
+}
+
+.templatemo_topmenu li a{
+
+	float: left;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	color: #beb052;
+
+	width: 103px;
+
+	height: 30px;
+
+	margin-left: 5px;
+
+	margin-right: 5px;
+
+	padding-top: 14px;
+
+}
+
+.templatemo_topmenu li a:hover, .templatemo_topmenu li .current{
+
+	color: #beb052;
+
+	background: url(images/templatemo_button_hover.jpg) no-repeat;
+
+}
+
+#templatemo_topsection {
+
+	float: left;
+
+	margin-top: 40px;
+
+	width: 806px;
+
+	height: 48px;
+
+	color: #c1b25d;
+
+	font-size: 24px;
+
+	font-weight: bold;
+
+	padding-top: 50px;
+
+	line-height: 1.6em;
+
+	text-align: center;
+
+	background: url(images/templatemo_title_bg.jpg) no-repeat;
+
+}
+
+#templatemo_headersection {
+
+	float: left;
+
+	width: 806px;
+
+	height: 252px;
+
+}
+
+#templatemo_content_section {
+
+	float: left;
+
+	width: 750px;
+
+	text-align: justify;
+
+	padding-left: 30px;
+
+}
+
+#templatemo_content_section img {
+
+	float: left;
+
+	padding-right: 20px;
+
+}
+
+#templatemo_footer {
+
+	float: left;
+
+	margin: auto;
+
+	margin-top: 20px;
+
+	text-align: center;
+
+	padding-top: 35px;
+
+	width: 744px;
+
+	height: 50px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+	background-position: top;
+
+}

@@ -1,0 +1,503 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Business Template 
+http://www.templatemo.com/preview/templatemo_023_business 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #ffffff;
+}
+
+a:link, a:visited { color: #008fc1; text-decoration: none; } 
+a:active, a:hover { text-decoration: underline; }
+
+
+h1 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color:#008fc1;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #37a7ce;
+	text-decoration: underline;
+}
+
+h4 {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+p {
+	margin: 10px 0px;
+	color: #5b5847;
+	text-align: justify;
+}
+
+img {  
+	margin: 0px; 
+	padding: 0px;
+}
+
+#templatemo_container {
+	margin: 0px auto;
+	width: 930px;
+	margin-top: 15px;
+}
+
+.send_btn {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	height: 19px;
+	width: 27px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0a8eb8;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+.textfield {
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	float: left;
+	height: 19px;
+	width: 175px;
+	font: 12px Arial;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+}
+
+.more_button a{
+	clear: both;
+	display: block;
+	width: 57px;
+	height: 19px;
+	margin-left: 100px;
+	padding: 0px 0px 0px 10px;
+	background: url(images/templatemo_readmore.gif) no-repeat;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* ----- Header ----- */
+
+#templatemo_header {
+	clear: both;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+	width: 930px;
+	height: 147px;
+}
+
+#logosection {
+	margin: 0px 3px 0px 0px;
+	float: left;
+	width: 235px;
+	height: 147px;
+	background: url(images/templatemo_logo_background.gif) no-repeat;
+}
+
+.sitelogo {
+	margin: 20px 0px 0px 20px;
+	padding: 0px;
+	height: 80px;
+	background:url(images/company_logo.gif) no-repeat;	
+}
+
+.sitename {
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+	font: 35px Arial;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.sitename span {
+	font-weight: normal;
+}
+
+#header {
+	margin: 0px;
+	float: right;
+	width: 690px;
+	height: 147px;
+	background: url(images/templatemo_heading_background.jpg) no-repeat;
+}
+
+#header .title{
+	padding: 50px 0px 0px 180px;
+	font-size: 20px;
+	font-weight:bold;
+	color: #333333;
+	line-height: 25px;
+}
+
+#header .bigtext{
+	font-size: 30px;
+	font-weight:bold;
+	color: #ffffff;
+}
+
+/* ----- End of Header ----- */
+
+/* ------------- Menu ------------------ */
+#templatemo_menu {
+	clear: both;
+	margin-bottom: 5px;
+	padding: 0px;
+	width: 930px;
+	height: 35px;
+	background: #ffffff;
+}
+
+#search {
+	float: left;
+	width: 225px;
+	height: 28px;
+	padding: 7px 0px 0px 10px;
+	background: url(images/templatemo_menu_background.gif) repeat-x;
+}
+
+#menu {
+	float: right;
+	width: 690px;
+	height: 35px;
+	margin: 0px;
+	background: url(images/templatemo_menu_background.gif) repeat-x;
+
+}
+
+#menu ul {
+	margin: 0px;
+	text-align: right;
+	list-style: none;
+}
+
+#menu ul li {
+	margin: 0px;
+	display: inline;	
+}
+
+#templatemo_menu ul li a {
+	margin: 0px;
+	display:inline-block;
+	height: 30px;
+	padding: 5px 20px 0px 20px;
+	font: 14px arial;
+	color:#000000;
+	text-decoration: none;
+
+}
+
+#menu ul li a:hover, #menu ul li .current {
+	color: #FFF;
+	background: url(images/templatemo_menuhover_background.gif) repeat-x;
+}
+
+/* ---------- End of Menu ------------- */
+
+/* ----------------- Content ----------------------- */
+
+#templatemo_content {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 930px;
+}
+
+#templatemo_left_column {
+	float: left;
+	margin: 0px 10px 5px 0px;
+	padding: 20px 10px;
+	width: 215px;
+	background: #e0e0e0;
+	min-height: 400px;
+}
+
+#templatemo_middle_column {
+	float: left;
+	margin: 0px 0px 5px 0px;
+	padding: 20px 5px;
+	width: 465px;
+	min-height: 400px;
+}
+
+#templatemo_right_column {
+	float: right;
+	margin: 0px 0px 5px 10px;
+	padding: 20px 0px 0px 0px;
+	width: 200px;
+	background: #e0e0e0;
+	min-height: 400px;
+}
+
+/* left column */
+
+#leftcolumn_box01 {
+	width: 215px;
+	padding: 0px;
+	background: #008fc1;	
+	margin: 0px 0px 10px 0px;	
+}
+#imagebutton {
+	width: 215px;
+	margin: 0px 0px 10px 0px;	
+}
+#imagebutton a, img{
+	border: none;
+}
+
+#leftcolumn_box01 .leftcolumn_box01_top{
+	width: 195px;
+	height: 15px;
+	padding: 10px;
+	background: url(images/templatemo_leftsection_top.gif) no-repeat;		
+}
+#leftcolumn_box01 .leftcolumn_box01_bottom{
+	width: 195px;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+#leftcolumn_box02 {
+	width: 190px;
+	padding: 10px 10px 10px 15px;
+	background: #6ebfdc;
+	border-top: 5px solid #008fc1;
+	margin: 0px 0px 10px 0px;
+}
+#leftcolumn_box02 ul {
+	margin: 0px;
+	padding: 10px 0px 0px 5px;
+	list-style: none;
+}
+
+#leftcolumn_box02 ul li{
+	display: block;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+#leftcolumn_box02 ul li a{
+	padding: 0px 0px 0px 15px;
+	margin: 0px;
+	color: #ffffff;
+	text-decoration: none;
+	background: url(images/templatemo_list_icon02.gif) center left no-repeat;
+}
+
+#leftcolumn_box02 ul li a:hover{
+	text-decoration: none;
+}
+
+/* end of left column */
+
+/* middle column */
+
+#section1 {
+	float: left;
+	width: 205px;
+	margin-right: 10px;
+	padding: 10px;
+	background: #dceff6;
+}
+#section1 p{
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+#section2 {
+	float: right;
+	width: 205px;
+	padding: 0px;
+	background: #bcbcbc;
+}
+
+#section2 .section2_top{
+	height: 24px;
+	padding: 10px 0px 0px 10px;
+	background: url(images/templatemo_section2_title.gif) no-repeat;
+}
+#section2 .section2_bottom{
+	float: left;
+	padding: 10px;
+}
+
+#section2 ul {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+}
+
+#section2 ul li{
+	display: block;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+#section2 ul li a{
+	padding: 0px 0px 0px 15px;
+	margin: 0px;
+	color: #000000;
+	text-decoration: none;
+	background: url(images/templatemo_list_icon01.gif) center left no-repeat;
+}
+
+#section2 ul li a:hover{
+	color: #ffffff;
+	background: url(images/templatemo_list_icon02.gif) center left no-repeat;
+}
+
+
+/* end of middle */
+
+/* right column */
+
+#right_box01 {
+	width: 185px;
+	height: 38px;
+	padding: 10px 5px;
+	color:#FFFFFF;
+	font-size: 15px;
+	background: url(images/templatemo_rightsection_background.gif) no-repeat;	
+	margin: 0px 0px 10px 5px;	
+}
+
+.rightbig_button a{
+	clear: both;
+	display: block;
+	width: 165px;
+	height: 48px;
+	margin: 0px 0px 10px 5px;
+	padding: 10px 20px 0px 10px;
+	background: url(images/templatemo_rightsection_background.gif) no-repeat;
+	color:#FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#right_box02 {
+	clear: both;
+	width: 190px;
+	padding: 0px;
+	margin: 0px 0px 10px 5px;
+}
+#right_box02 .rightbox02_top{
+	width: 190px;
+	height: 25px;
+	padding: 10px 0px 0px 0px;
+	background: #008fc1 url(images/templatemo_rightsection_top.gif) no-repeat;
+}
+#right_box02 .rightbox02_bottom{
+	width: 170px;
+	padding: 15px 10px 10px 10px;
+	background: #cce8f2;
+}
+#right_box02 .customer_section{
+	clear: both;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+#right_box02 p{
+	padding: 0px;
+	margin: 0px;
+}
+/* end of right column */
+
+
+
+/* ----- Form ----- */
+.form_row{
+	padding: 3px 0px;
+}
+
+form{
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	text-align: right;	
+}
+
+label {
+	margin-right: 10px;
+}
+
+input{
+	width: 110px;
+	height: 18px;
+}
+
+.button{
+	width: 60px;
+	height: 25px;
+}
+
+
+/* ----- End of Form ----- */
+
+/* ----- Footer ----- */
+
+#templatemo_footer {
+	clear: both;
+	padding: 10px 0px 0px 0px;
+	width: 930px;
+	height: 50px;
+	text-align: center;
+	color: #666;
+	background: #d5d5d5;
+	text-align: center;
+}
+#templatemo_footer_bottom {
+	width: 930px;
+	height: 10px;
+	margin: 0px;
+	padding: 0px;
+	background: #d5d5d5 url(images/templatemo_footer_bottom.gif) no-repeat;
+}
+
+/* IE6 hack */
+* html #templatemo_footer_bottom {
+	width: 930px;
+	height: 10px;
+	margin-bottom: -10px;
+	padding: 0px;
+	background: #d5d5d5 url(images/templatemo_footer_bottom.gif) no-repeat;
+}
+
+#templatemo_footer a{
+	color: #666;
+}
+
+#templatemo_footer a:hover{
+	color: #ffffff;
+}
+
+/* ----- End of Footer ----- */

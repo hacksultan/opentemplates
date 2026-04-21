@@ -1,0 +1,122 @@
+#slider {
+    position: relative;
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+#header {
+	background: url(images/templatemo-content-top.jpg) no-repeat;
+	width: 980px;
+	height: 60px;
+	padding: 35px 0 0 0;
+	text-align: center;
+}
+
+#sitetitle {
+	float: left;
+	display: inline-block;
+	margin: 0 180px 0 90px;
+}
+
+#header a.header_menu {
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+#content {
+	background: url(images/templatemo-content-middle.jpg) no-repeat;
+	width: 860px;
+	height: 415px;
+	padding: 0 60px
+}
+
+#menu {
+	background: url(images/templatemo-menu.jpg) no-repeat;
+	width: 980px;
+	height: 105px;
+}
+
+#footer {
+	background: url(images/templatemo-footer.jpg) no-repeat;
+	height: 92px;
+	width: 980px;
+	padding: 20px 0;
+	color: #999;
+	text-align: center;
+}
+
+#footer a {
+	color: #fff;
+}
+
+.scroll {
+    height: 415px;
+    width: 860px;
+    overflow: auto;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 380px;
+    width: 800px;
+	padding: 35px 30px 0 30px;
+}
+
+ul.navigation {
+	width: 860px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 60px 0 60px;
+	text-align: left;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0px;
+	padding: 0;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	margin-right: 20px;
+	padding: 55px 10px 0 30px;
+	margin-bottom: 5px;
+	color: #c9c9a2;
+	font-size: 18px;
+	font-weight: normal;
+    text-decoration: none;
+	position: relative;
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #fff;
+	background: url(images/you-are-here.png) no-repeat left top;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,430 @@
+
+/* 
+Grand Mini Template 
+http://www.templatemo.com/preview/templatemo_338_grand_mini 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #686d73;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #172b43;
+	background-image: url(images/templatemo_body.jpg);
+	background-position: top;
+	background-repeat: repeat-x
+}
+
+a, a:link, a:visited { 
+	color: #061c34; 
+	font-weight: 400; 
+	text-decoration: underline; 
+}
+
+a:hover { 
+	text-decoration: none; 
+}
+
+a.gototop { 
+	display: block; 
+	clear: both; 
+	margin: 0 auto; 
+	width: 26px; 
+	height: 24px; 
+	background: url(images/templatemo_gototop.jpg) no-repeat;  
+}
+
+a.gototop:hover { 
+	background: url(images/templatemo_gototop_hover.jpg); 
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: none; 
+}
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#061c34; 
+}
+
+cite span { 
+	color: #63778c; 
+}
+
+em { 
+	color: #1c80ed; 
+	font-weight: 400; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #ff9c00; font-weight: normal;  }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 20px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { 
+	display: inline-block; 
+	position: relative; 
+	margin: 3px 0 10px 0; 
+}
+
+.image_wrapper span{ 
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	width: 120px; 
+	height: 100px; 
+	background: url(images/templatemo_image_frame.png) no-repeat;   
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 0 0;
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 20px; 
+}
+
+.templatemo_list { 
+	margin: 20px 0 20px 10px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.templatemo_list li { 
+	color:#ff9c00; 
+	margin: 0; 
+	padding: 0 0 5px 10px; 
+	background: url(images/templatemo_list.png) no-repeat scroll 0 7px;  
+}
+
+.templatemo_list li a { 
+	color: #ff9c00; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+
+.templatemo_list li a:hover { 
+	color: #1c80ed; 
+	text-decoration: underline; 
+}
+
+#templatemo_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background: url(images/templatemo_body.jpg) center top no-repeat
+}
+
+#templatmeo_header {
+	width: 800px;
+	height: 80px;
+	background: url(images/templatemo_header.jpg) no-repeat top center
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 212px; 
+	height: 49px; 
+	margin: 20px 0 0; 
+	background: url(images/templatemo_logo.png) no-repeat; 
+	color: #fff; 
+	font-size: 40px; 
+	font-weight: 400; 
+	outline: none; 
+	text-indent: -10000px; 
+}
+
+#twitter {
+	clear: both;
+	width: 800px;
+	height: 20px;
+	padding: 10px 0;
+	color: #fff;
+	font-size:14px;
+	background: url(images/twitter.png) center right no-repeat;
+}
+
+#templatemo_menu { 
+	clear: both; 
+	width: 800px; 
+	height: 70px; 
+	background: #0e4981; 
+	margin-bottom: 10px; 
+}
+
+#templatemo_menu ul { 
+	padding: 0 0 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+#templatemo_menu ul li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	position: relative;
+	display: block;
+	padding-top: 45px;
+	width: 140px;
+	height: 25px;
+	margin-right: 15px;
+	font-size: 12px;
+	color: #fff;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	background: url(images/templatemo_menu_bg.png) no-repeat;
+	outline: none;
+}
+
+#templatemo_menu ul li span.home { 
+	position: absolute; 
+	background: url(images/home.png) no-repeat; 
+	top: 15px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li span.aboutus { 
+	position: absolute; 
+	background: url(images/aboutus.png) no-repeat; 
+	top: 15px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li span.news { 
+	position: absolute; 
+	background: url(images/service.png) no-repeat; 
+	top: 15px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li span.home { 
+	position: absolute; 
+	background: url(images/home.png) no-repeat; 
+	top: 15px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li span.portfolio { 
+	position: absolute; 
+	background: url(images/portfolio.png) no-repeat; 
+	top: 10px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li span.contactus { 
+	position: absolute; 
+	background: url(images/contactus.png) no-repeat; 
+	top: 15px; 
+	left: 58px; 
+	width: 26px; 
+	height: 25px; 
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
+	color: #a6d1f7;
+}
+
+#templatemo_main {
+	clear: both;
+	width: 800px;
+}
+
+.content_box {
+	clear: both;
+	padding: 40px 40px 5px 40px;
+	margin-bottom: 10px; 
+	background: #fff url(images/templatemo_content_divider.jpg) bottom center no-repeat
+}
+
+.content_box_last {
+	margin-bottom: 0;
+	background: none;
+}
+
+.col_w340 { 
+	width: 340px; 
+}
+
+.col_w220 { 
+	width: 220px; 
+	float: left; 
+}
+
+.col_mr30 { 
+	margin-right: 30px; 
+}
+
+.post_box { 
+	width: 340px; 
+	margin-bottom: 30px; 
+}
+
+.post_header { 
+	border-top: 3px solid #999; 
+	border-bottom: 1px solid #ccc; 
+	padding: 5px; 
+	margin-bottom: 20px; 
+}
+
+.post_box h3 { 
+	font-size: 24px; 
+	margin-bottom: 15px; 
+}
+
+.post_box img { 
+	margin-bottom: 5px; 
+}
+
+.post_box p.post_meta { 
+	font-size: 10px; 
+	margin-bottom: 0; 
+	padding-bottom: 0; 
+}
+
+#gallery { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#gallery ul { 
+	margin: 0; 
+	padding: 0;
+}
+
+#gallery ul li { 
+	display: block; 
+	position: relative; 
+	float: left; 
+	width: 220px; 
+	height: 110px; 
+	margin: 0 20px 30px 0;  
+	border: 3px solid #ddd; 
+}
+
+#gallery ul .rm_col { 
+	margin: 0 0 30px; 
+}
+
+#gallery ul li span { 
+	position: absolute; 
+	width: 220px; 
+	height: 110px; 
+	background: url(images/templatemo_image_frame.png) bottom right no-repeat; 
+}
+
+#gallery ul li a img { 
+	width: 220px; 
+	height: 110px; 
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 300px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 288px; 
+	padding: 5px; 
+	color: #111; 
+	border: 1px solid #a7a7a7;  
+	background: #e8e8e8; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px; 
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px; 
+}
+
+#contact_form form textarea { 
+	width: 288px; 
+	height: 150px; 
+	padding: 5px; 
+	color: #111; 
+	border: 1px solid #a7a7a7;  
+	background: #e8e8e8; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px; 
+}
+
+#contact_form form .submit_btn { 
+	margin: 10px 0px;
+	padding: 5px 14px; 
+	font-weight: bold; 
+	background: #e8e8e8;  
+	color: #555; 
+	border: 1px solid #a7a7a7; 
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 760px;
+	padding: 0 20px 30px;
+	text-align: center;
+	background: url(images/templatemo_footer.jpg) center top no-repeat
+}
+
+#templatemo_footer a {
+	color: #fff;
+}

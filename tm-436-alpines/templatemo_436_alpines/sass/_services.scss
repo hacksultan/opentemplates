@@ -1,0 +1,89 @@
+#services {
+	margin-bottom: 50px;
+	.page-section {
+		padding-top: 80px;
+	}
+}
+
+.inside {
+	@extend %clearfix;
+	&.light {
+		background: $light-bg;
+		padding-bottom: 80px;
+	}
+}
+
+.service-item {
+	background: $white;
+	padding: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+.service-icon {
+	width: 80px;
+	height: 80px;
+	@include border-radius(40px);
+	margin: 0 auto;
+	line-height: 80px;
+	color: $accent;
+	border: 1px solid $accent;
+	font-size: 24px;
+}
+
+.owl-carousel {
+	padding-left: 160px;
+	padding-right: 160px;
+	@include media(max-width $tablet) {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+.owl-prev {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 70px;
+	background: $white;
+	&:after {
+		font-family: "FontAwesome";
+		content: '\f104';
+		font-size: 24px;
+	}
+	@include media(max-width $tablet) {
+		margin-left: 10px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+}
+
+.owl-next {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 70px;
+	background: $white;
+	&:after {
+		font-family: "FontAwesome";
+		content: '\f105';
+		font-size: 24px;
+	}
+	@include media(max-width $tablet) {
+		margin-right: 10px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+}

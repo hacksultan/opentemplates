@@ -1,0 +1,513 @@
+/* 		
+	Roller Template
+	http://www.templatemo.com/preview/templatemo_424_roller
+	
+	TABLE OF CONTENT
+		1. Universal Styles
+		2. Header Styles
+		3. Menu Styles
+		4. Responsive Menu Styles
+		5. Home Styles
+		6. About Styles
+		7. Services Styles
+		8. Portfolio Styles
+		9. Testimonials Styles
+		10. Contact Styles
+		11. Footer Styles
+		12. Media Queries
+
+	COLOR CODES
+		Orange: #ffc601, rgb(255,198,1)
+		Dark: #1d1d1d, rgb(29,29,29)
+		Light gray: #eaeaea
+---------------------------------------------------------*/
+
+/* 1. Universal Styles
+--------------------------------------*/
+*, body { font-family: 'Open Sans', sans-serif; }
+body { overflow-x: hidden; }
+body, h1 { margin: 0; }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.blue {
+	color: #3CF;
+}
+
+.green {
+	color: #CF6;
+}
+
+.tm-orange-text { color: #ffc601; }
+.tm-orange-bg {	background-color: #ffc601; }
+.tm-orange-bg-transparent {	background-color: #967702; }
+.tm-white-text { color: #fff; }
+.tm-dark-text {	color: #1d1d1d; }
+.tm-dark-bg { background-color: #1d1d1d; }
+.tm-light-gray-text { color: #eaeaea; }
+
+a.tm-light-gray-text:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.margin-top-50 { margin-top: 50px; }
+.hide {
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+}
+
+/* http://www.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/ */
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 120px;
+}
+.tm-border {
+	height: auto;
+	width: 100%;
+}
+.container { max-width: 1000px; }
+
+/* 2. Header Styles
+--------------------------------------*/
+.templatemo-header {	
+	background-image: url(../images/templatemo-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+	min-height: 250px;
+}
+.templatemo-header-inner {	padding-top: 30px; }
+.templatemo-logo {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+/* 3. Menu Styles
+--------------------------------------*/
+.templatemo-nav {
+	margin-bottom: 0;
+	padding-top: 20px;
+}
+.templatemo-nav li {
+	display: inline-block;
+	list-style: none;
+}
+.templatemo-nav li>a {
+	background-color: rgba(0,0,0,0);
+	color: #000;
+	padding: 10px;
+	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+}
+.templatemo-nav li>a:hover, .templatemo-nav li>a.active {
+	background-color: rgb(0,0,0);
+	color: #fed222;
+	text-decoration: none;	
+}
+
+/* 4. Responsive Menu Styles
+--------------------------------------*/
+#responsive-menu {
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(243, 243, 243, 0.4);
+  position: fixed;
+  z-index: 5500;
+  right: -1500px;
+  display: none;
+  overflow: auto;
+}
+#responsive-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#responsive-menu ul li {
+  display: block;
+  margin-bottom: 2px;
+}
+#responsive-menu ul li a {
+  padding: 12px 18px;
+  background-color: #1d1d1d;
+  color: #fed222;
+  display: block;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  text-transform: uppercase;
+}
+#responsive-menu ul li a i {  margin-right: 15px; }
+a#mobile_menu {
+  font-size: 24px;
+  background-color: rgba(255,198,1,0.8);
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 5500;
+}
+
+/* 5. Home Styles
+--------------------------------------*/
+.tm-home-title, .tm-home-subtitle {	font-weight: 700; }
+.tm-home-title {
+	color: #fff;
+	font-size: 30px;	
+}
+.tm-home-subtitle {	font-size: 18px; }
+.tm-home-description {
+	font-size: 14px;
+	color: #828282;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+.tm-home-more {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+	padding: 10px 15px;
+}
+a.tm-home-more:hover {
+	color: #737373;
+	text-decoration: none;
+}
+.tm-home-right { max-width: 350px; }
+
+/* 6. About Styles
+--------------------------------------*/
+.canvas-wrap {
+	position: relative;
+	text-align: center;
+}
+.canvas-overlay {
+	cursor: pointer;
+	position: absolute;
+	-webkit-opacity: 0;
+  	-moz-opacity: 0;
+  	opacity: 0;
+  	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 226px;
+	height: 385px;
+	margin: 0 auto;
+}
+.canvas-overlay:hover {
+	-webkit-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
+}
+.canvas-lines {	padding-top: 150px; }
+.canvas-lines .canvas-overlay {	top: 150px; }
+.canvas-overlay a {
+	color: #fff;
+	background-color: #ffc601;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.canvas-overlay a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.member-name {
+	color: #ffc601;
+	font-size: 18px;
+	font-weight: 700;
+}
+.member-title {	color: #fff; }
+.tm-about-title, .tm-about-subtitle, .tm-about-subtitle-2 {	font-weight: 700; }
+.tm-about-title { font-size: 85px; }
+.tm-about-subtitle {
+	font-size: 44px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.tm-about-subtitle-2 { font-size: 17px; }
+.tm-about-description {	font-size: 14px; }
+.tm-about-description ul li {
+	line-height: 1.8em;
+	list-style: none;
+}
+.tm-about-description ul li:before { 
+	content:"•"; 
+	font-size:10pt;
+	padding-right: 5px;
+}
+
+/* 7. Services
+--------------------------------------*/
+.templatemo-services {
+	background-image: url('../images/railway.jpg');
+	background-repeat: repeat-y;
+	background-position: center center;
+	position: relative;
+}
+.tm-pricing-table {
+	padding: 30px;
+	max-width: 260px;
+	width: 100%;
+}
+.tm-pricing-table-container {
+	display: inline-block;
+	margin-right: 30px;
+}
+.tm-pricing-table-container:last-child { margin-right: 0px; }
+.table-big {
+	height: 480px;
+	max-width: 300px;
+	width: 100%;
+}
+.tm-pricing-header {
+	border-bottom: 1px solid #ffc601;
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+.tm-pricing-table ul li {
+	list-style: none;
+	line-height: 2em;
+}
+.price-tag {
+	background-color: #ffc601;
+	border-radius: 50%;
+	color: #1d1d1d;
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+}
+.price-tag-inner { margin-top: 10px; }
+.price-tag .dollar {
+	font-size: 30px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.price-tag .price {
+	font-size: 50px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.price-tag .month {	display: block; }
+
+/* http://stackoverflow.com/questions/5763911/placing-a-div-within-a-canvas */
+.canvas-wrap { position: relative; }
+.overlay { 
+	position: absolute; 
+	top: 20%;
+	left: 40%;
+}
+.overlay p { font-weight: 700; }
+a:hover .overlay p { color: #7b7b7b; }
+
+/* 8. Portfolio Styles
+--------------------------------------*/
+.tm-portfolio-images-container { overflow: hidden; }
+.tm-image-container {
+	float: left;
+	position: relative;
+	max-width: 323px;
+	width: 33%;
+}
+.tm-image-container img { width: 100%; }
+.tm-portfolio-image-overlay {
+	background-color: rgba(255,198,1,1);
+	cursor:pointer;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 100%;
+}
+.tm-portfolio-image-overlay:hover {	opacity: 1; }
+.tm-portfolio-image-overlay a {
+	color: #ffc601;
+	background-color: #fff;
+	border-radius: 50%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+}
+.tm-portfolio-image-overlay a:hover {
+	background-color: #000;
+	text-decoration: none;
+}
+.tm-portfolio-image-overlay h2 { font-size: 14px; }
+.tm-view-more {
+	display: inline-block;
+	border: 1px solid #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 180px;
+}
+a.tm-view-more:hover {
+	background-color: #ffc601;
+	color: #000;	
+}
+a.tm-view-more:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* 9. Testimonials Styles
+--------------------------------------*/
+.img-container {	
+	display: inline-block;
+	vertical-align: middle;
+	width: 170px;
+	height: 170px;
+	position: relative;
+}
+.tm-img-circle-border img {	
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.tm-img-circle-border {
+	border: 1px solid #ffc601;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 4px;
+	width: 130px;
+	height: 130px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.tm-img-circle-border.active img {
+	width: 150px;
+	height: 150px;
+}
+.tm-img-circle-border.active {
+	border: 3px solid #ffc601;
+	width: 170px;
+	height: 170px;
+	padding: 7px;
+}
+p.tm-author {
+	font-weight: 700;
+	font-style: italic;
+	margin: 10px 0 0 0;
+}
+hr.tm-author-name-underline {
+	height: 1px;
+	width: 80px;
+	border: none;
+    color: #ffc601; /* old IE */
+    background-color: #ffc601; /* Modern Browsers */
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+/* 10. Contact Styles
+--------------------------------------*/
+#map-canvas { height: 350px; }
+.form-control, .btn { border-radius: 0; }
+.form-control {
+	background-color: rgba(0,0,0,0);
+	border: 1px solid rgba(46, 43, 43, 0.27);
+	font-size: 12px;
+}
+.form-control:focus {
+	border-color: #858585;	
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(46, 43, 43, 0.3);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(46, 43, 43, 0.3);
+	outline: 0;
+}
+.tm-send-btn {
+	font-size: 12px;
+	padding: 8px 35px;
+}
+.tm-send-btn:hover { color: #fff; }
+
+/* 11. Footer
+--------------------------------------*/
+footer {
+	background-color: #1d1d1d;
+	color: #898888;
+	padding: 15px 0;
+	position: relative;
+}
+footer p {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* 12. Media Queries
+--------------------------------------*/
+@media screen and (max-width: 992px) {
+	.container { max-width: 940px; }
+	.templatemo-logo { font-size: 50px; }
+	.templatemo-nav li>a { padding: 8px 5px; }
+	.tm-about-right { text-align: center; }
+	.canvas-lines {	padding-top: 0px; }
+	.canvas-lines .canvas-overlay {	top: 0px; }
+	.tm-pricing-table-container { margin-right: 0px; }
+	.templatemo-services .container {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}		
+}
+@media screen and (max-width: 767px) {
+	.tm-home-right {
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tm-pricing-table-container { margin-right: 0px; }
+	.tm-pricing-table {	margin: 0 auto;	}
+	.overlay p { text-align: center; }
+	#map-canvas { margin-bottom: 30px; }
+}
+@media screen and (max-width: 614px) {
+	.tm-portfolio-images-container {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.tm-image-container { width: 50%; }
+}
+
+@media screen and (max-width: 479px) {
+	.tm-image-container {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+}

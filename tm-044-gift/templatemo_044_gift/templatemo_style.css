@@ -1,0 +1,264 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Gift Template 
+http://www.templatemo.com/preview/templatemo_044_gift 
+*/
+body{
+	padding:0; 
+	margin:0 0 26px 0; 
+	background-color:#FFFFFF; 
+	color:#453A1E; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+div, p, ul, li, form, h2, img, textarea, h3, li{
+	padding:0; 
+	margin:0;
+	}
+	
+ul{
+	list-style-type:none;
+	}
+
+/*~~~~main body~~~~*/
+#templatemo_mainBody{
+	width:742px; 
+	margin:0 auto; 
+	font-size:0;
+	}
+/*~~~~left side~~~~*/
+#templatemo_leftPan{
+	width:742px; 
+	height:435px; 
+	background:url(images/templatemo_header.jpg) no-repeat 0 0; 
+	padding:0px 0 0 0; 
+	font-size:0; 
+	display:block;
+	}
+	
+#templatemo_headertext{
+	margin-left:40px; 
+	margin-top:-70px;
+	width:400px;
+	height:70px; 
+	}
+	
+#templatemo_headertext P.head1{
+	margin-top:10px;
+	font-family:Arial;
+	font-size:18pt;
+	color:#850303;
+	font-weight:Bold;
+	
+	}
+	
+#templatemo_headertext P.head2{
+margin-left:100px;
+	font-family:Arial;
+	font-size:16pt;
+	color:#474747;
+	font-weight:Bold;
+	
+	}
+
+/*~~~~company name~~~~*/
+#templatemo_contact2{
+	margin-left:535px; 
+	margin-top:0px; 
+	width:200px; 
+	height:550px; 
+	border: 1px solid #707070;
+	display:block;
+	}
+
+	
+#templatemo_contact{
+	margin-left:20px; 
+	margin-top:0px; 
+	background:#850303; 
+	width:482px; 
+	height:550px; 
+	border: 1px solid #707070; 
+	}
+	
+	
+#templatemo_contact h2{
+	background:url(images/templatemo_heart.jpg) no-repeat 0 0px #850303; 
+	font:normal 14pt Arial; 
+	padding:8px 0 1px 40px;	
+	margin:10px 0 0px 20px; 
+	height:30px; 
+	width:191px; 
+	display:block; 
+	text-indent:0px; 
+	color:#FFFFFF;
+	text-decoration:underline;
+	} 
+	
+#templatemo_contact p{
+	margin:10px 0px 0px 25px; 
+	width:435px; 
+	height:Auto; 
+	display:block; 
+	font:normal 10pt Arial; 
+	color:#FFFFFF; 
+	text-align: justify;
+	}
+	
+#templatemo_contact a{
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+	
+#templatemo_contact p.boxtext{
+	background:#FFFFFF; 
+	margin:10px 0px 0px 25px; 
+	padding:10px 10px 10px 10px; 
+	width:416px;
+	display:block; 
+	font:normal 10pt Arial; 
+	color:#8f8e8d; 
+	text-align: justify;
+}
+
+/*~~~~archives~~~~*/
+
+#templatemo_arch{
+	position:absolute;
+	width:169px;
+	display:block;
+	background:#850303;
+	margin-left: 535px;
+	margin-top: -553px;
+	}
+	
+#templatemo_arch span{
+	 width:154px; 
+	 height:13px; 
+	 display:block;
+	}
+#templatemo_arch p{
+	width:154px; 
+	height:13px; 
+	display:block; 
+	font-size:0;
+	}
+#templatemo_arch h2{
+	color:#FFFFFF; 
+	font-size:18px; 
+	line-height:22px; 
+	display:block; 
+	margin:0 0 0 32px; 
+	background-color:#850303;
+	padding:0; 
+	background-image:none; 
+	height:26px; 
+	width:83px; 
+	text-indent:0px; 
+	font-family:Arial;
+	}
+#templatemo_arch h3{
+	 color:#FFFFFF; 
+	 text-transform:uppercase; 
+	 margin: 0 0 5px 32px; 
+	 width:83px; 
+	 display:block;  
+	 background-color:#850303;
+	 font-size:11px; 
+	 font-family:Arial; 
+	 line-height:17px; 
+	 font-weight:bold; 
+	 padding:0; 
+	}
+#templatemo_arch ul{
+	margin:0; 
+	display:block; 
+	padding:0;
+	}
+#templatemo_arch ul li{
+	background:url(images/templatemo_arrow.gif) no-repeat 0 8px #850303; 
+	border-bottom: 1px dashed #FFFFFF; 
+	padding:0 0 0 10px;
+	margin: 0 0 0 33px;  
+	color:#2F2712; width:83px; height:17px; display:block;
+	}
+#templatemo_arch ul li.nobor{
+	background:url(images/templatemo_arrow.gif) no-repeat 0 8px #850303; 
+	border-bottom: none; 
+	padding:0 0 0 10px;
+	margin: 0 0px 8px 33px;  
+	color:#850303; 
+	width:83px; 
+	height:17px; 
+	display:block;
+	}
+#templatemo_arch ul li a{
+	color:#FFFFFF; 
+	background-color:#850303; 
+	font-size:12px; 
+	line-height:17px; 
+	text-decoration:none; 
+	display:block;
+	}
+#templatemo_arch ul li a:hover{
+	color: #FFFF00;
+	}
+
+/*~~~~footer~~~~*/
+
+#templatemo_buffer {
+	width:100%; 
+	height:25px;
+	display:block;
+	}
+
+#templatemo_footer{
+	background:#707070; 
+	width:732px; 
+	margin:0px auto 0px auto;  
+	color: #FFF;
+	font-family:Arial; 
+	font-size: 11px; 
+	height:121px; 
+	padding: 15px 0 0 0; 
+	display:block;
+	}
+#templatemo_footer ul{
+	width:550px; 
+	display:block; 
+	margin:0 0 0 160px; 
+	font-size:0;
+	}
+#templatemo_footer ul li{
+	float:left; 
+	display:block; 
+	font:12px Arial, Helvetica, sans-serif; 
+	color:#F1E9D6; 
+	height:22px;
+	background-color:#707070; 
+	}
+#templatemo_footer ul li a{
+	font:bold 12px/22px Arial; 
+	color:#F1E9D6;  
+	padding:0 5px 0 5px;
+	text-decoration:none; 
+	}
+#templatemo_footer ul li a:hover{
+	color: #FFFF00;
+	}
+
+#templatemo_footer p.text a{
+	text-decoration:none; 
+	color:#FFFFFF; 
+	padding:0 0 0 5px;
+	}
+#templatemo_footer p.text a:hover{
+	font-weight:bold;
+	}
+
+#templatemo_footer_text {
+	clear: both;
+	text-align: center;
+}

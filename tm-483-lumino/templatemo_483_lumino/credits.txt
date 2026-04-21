@@ -1,0 +1,11 @@
+
+CREDITS
+
+Lumino Theme
+http://www.templatemo.com/tm-483-lumino
+
+Bootstrap
+http://getbootstrap.com/
+
+Images
+http://unsplash.com/

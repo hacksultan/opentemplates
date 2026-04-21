@@ -1,0 +1,20 @@
+
+CREDITS
+
+Sigma - Bootstrap 4.0 Theme
+http://www.templatemo.com/tm-479-sigma
+
+Bootstrap
+http://getbootstrap.com/
+
+Scrolling
+https://github.com/ChrisWojcik/single-page-nav
+
+Lightbox 
+http://ashleydw.github.io/lightbox/
+
+Font Awesome Icons
+https://fortawesome.github.io/Font-Awesome/icons/
+
+Images
+http://unsplash.com/

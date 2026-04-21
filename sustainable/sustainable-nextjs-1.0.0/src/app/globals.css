@@ -1,0 +1,259 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+/* @config '../../tailwind.config.ts'; */
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+
+@theme {
+  --color-primary: #1358d8;
+  --color-darkprimary: #054ac8;
+  --color-lightPrimary: #3187f4;
+  --color-secondary: #102c46;
+  --color-SlateBlue: #547593;
+  --color-AliceBlue: #f3f9fd;
+  --color-LightApricot: #f9c78f;
+  --color-border: #233d55;
+  --color-BorderLine: #ccd7e1;
+  --color-darkmode: #021526;
+  --color-darklight: #061b2e;
+  --color-darktext: #7f8487;
+  --color-dark_border: #224767;
+  --color-Cream: #eee8a9;
+  --color-LavenderBlue: #dbe7ff;
+  --color-LightSoftBlue: #dbe9f6;
+  --color-gray: #acbcca;
+
+  /* max-width */
+  --spacing-200: 12.6875rem;
+  --spacing-219: 13.6875rem;
+  --spacing-266: 16.625rem;
+  --spacing-277: 17.3125rem;
+  --spacing-356: 22.25rem;
+  --spacing-334: 20.875rem;
+  --spacing-310: 19.375rem;
+  --spacing-408: 25.5rem;
+  --spacing-420: 26.25rem;
+  --spacing-446: 27.875rem;
+  --spacing-473: 29.5625rem;
+  --spacing-550: 34.375rem;
+  --spacing-585: 36.5625rem;
+  --spacing-634: 39.625rem;
+  --spacing-672: 42rem;
+  --spacing-720: 45rem;
+  --spacing-1200: 75rem;
+
+  /* height */
+  --spacing-583: 36.4375rem;
+  --spacing-650: 40.625rem;
+
+  /* width */
+  --spacing-183: 11.4375rem;
+  --spacing-526: 32.875rem;
+  --spacing-770: 48.125rem;
+  --spacing-1/2: 30%;
+  --spacing-1/4: 37%;
+  --spacing-2/3: 63%;
+  --spacing-2/2: 60%;
+
+  /* box shadow */
+  --shadow-light_shadwo: 0px 4px 17px 0px #0000000f;
+  --shadow-plan_shadwo: 0 0rem 1.875rem rgba(24, 23, 23, 0.1);
+  --shadow-portfolio_box: 0px 20px 80px 0px rgba(104, 117, 141, 0.15);
+  --shadow-darkmd: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,
+    rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+
+  /* border radius */
+  --radius-14: 0.875rem;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    @apply w-full max-w-1200 mx-auto px-6;
+  }
+
+  .btn {
+    @apply bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary cursor-pointer transition-all duration-[0.4s] inline-block;
+  }
+}
+
+@layer components {
+  section {
+    @apply md:py-20 py-10;
+  }
+  /* body,html{
+    @apply overflow-x-hidden;
+  } */
+
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-SlateBlue text-base font-normal;
+  }
+
+  h1 {
+    @apply md:text-[52px] md:leading-[3.75rem] text-[40px] leading-[3rem] font-bold;
+  }
+
+  h2 {
+    @apply md:text-4xl text-[28px] leading-[2.25rem] font-bold;
+  }
+
+  select {
+    @apply appearance-none bg-no-repeat bg-[90%_50%];
+    background-image: var(--dropdown-icon);
+  }
+}
+
+.dp_backto_top > div::before {
+  background-image: var(--top-arrow-bg);
+}
+
+.blog-details hr {
+  @apply dark:bg-dark_border bg-border text-LightApricot! h-[0.0625rem];
+}
+
+.blog-details p,
+.blog-details hr {
+  @apply mb-8 text-SlateBlue dark:text-darktext;
+}
+
+.blog-details strong {
+  @apply font-bold dark:text-white;
+}
+
+.blog-details ul {
+  @apply mb-8 list-inside list-disc space-y-3 text-SlateBlue dark:text-darktext;
+}
+
+.blog-details ol {
+  @apply mb-8 list-inside list-decimal space-y-3;
+}
+
+.blog-details h1 {
+  @apply mb-8 text-3xl font-bold text-secondary dark:text-white sm:text-4xl md:text-[40px] leading-[3rem];
+}
+
+.blog-details h2 {
+  @apply mb-8 text-2xl font-bold text-secondary dark:text-white sm:text-3xl md:text-4xl;
+}
+
+.blog-details h3 {
+  @apply mb-6 text-2xl font-bold dark:text-white sm:text-[28px] leading-[2.25rem];
+}
+
+/* Style.css */
+.menu-open .navigation-inner {
+  @apply translate-x-0;
+}
+@keyframes topshap {
+  0% {
+    top: -60px;
+    left: -60px;
+  }
+  50% {
+    top: -80px;
+    left: -60px;
+  }
+  100% {
+    top: -60px;
+    left: -60px;
+  }
+}
+@keyframes bottomshap {
+  0% {
+    bottom: 60px;
+    right: -90px;
+  }
+  50% {
+    bottom: 80px;
+    right: -90px;
+  }
+  100% {
+    bottom: 60px;
+    right: -90px;
+  }
+}
+.it-wrapper::before {
+  @apply content-[''] absolute -top-[6.25rem] -left-[6.25rem] w-[19.125rem] h-[19.125rem] bg-darkprimary rounded-full z-1;
+  animation: topshap 2s infinite;
+}
+.it-wrapper::before {
+  @apply lg:inline-block hidden;
+}
+.circalanimat::after {
+  @apply content-[''] absolute bottom-[3.75rem] -right-[5.625rem] w-[19.125rem] h-[19.125rem] bg-LightApricot rounded-full block;
+  animation: bottomshap 2s infinite;
+}
+.circalanimat::after {
+  @apply lg:inline-block hidden;
+}
+.banner-shap::after {
+  @apply content-[''] absolute left-0 w-full h-[18.75rem] bg-primary -bottom-[5.1875rem];
+  clip-path: ellipse(56% 50%);
+}
+@media only screen and (max-width: 768px) {
+  .banner-shap::after {
+    clip-path: ellipse(75% 50%);
+  }
+}
+
+/* FAQ section css */
+.accordion__item:not(:last-child) {
+  @apply border-b-BorderLine dark:border-dark_border border-b border-solid;
+}
+.accordion__item--active .accordion__btn {
+  @apply border-b-2 border-solid border-BorderLine dark:border-primary text-primary dark:text-primary;
+}
+.accordion__item--active .accordion__content {
+  @apply opacity-100 translate-x-0 max-h-full;
+}
+.accordion__item--active .accordion__content {
+  @apply opacity-100 max-h-[50rem] translate-y-0;
+}
+.icon-fill {
+  fill: var(--icon-color);
+}
+.light .icon-fill {
+  --icon-color: #102d47;
+}
+.dark .icon-fill {
+  --icon-color: #ffffff;
+}
+/* Slick Slider */
+.slick-dots li button:before {
+  @apply text-base! text-LavenderBlue! dark:text-darklight! opacity-100!;
+}
+.slick-dots li.slick-active button:before {
+  @apply text-primary!;
+}
+.slick-dots {
+  @apply md:-bottom-10! -bottom-6!;
+}

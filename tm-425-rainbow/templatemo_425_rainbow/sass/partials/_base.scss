@@ -1,0 +1,118 @@
+body {
+	font-family: $body_font;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	background: $light_bg_color;
+	color: $body_text_color;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+// Base Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading_font;
+	font-weight: normal;
+	color: $heading_color;
+}
+
+
+// Default Links styles
+
+a {
+	color: $primary_color;
+	@extend %single-transition;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: $accent_color;
+ 	text-decoration: none;
+ 	outline: none;
+}
+
+hr {
+	border: 0;
+    border-bottom: 1px solid $light_color;
+    background: $light_color;
+	margin: 30px 0;
+}
+
+// Buttons & Forms Input Styles
+label {
+	font-weight: normal;
+}
+
+input,
+textarea,
+select {
+	padding: 5px 10px;
+	background-color: $light_color;
+	border: 1px solid transparent;
+	height: 36px;
+	@include transition(all 150ms ease-in-out);
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+select:focus {
+	background-color: $white_color;
+	border: 1px solid $border-color;
+	outline: none;	
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+.main-button {
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: darken($accent_color, 90%);
+	padding: 0 15px;
+	height: 36px;
+	line-height: 36px;
+	background-color: $accent_color;
+	border: none;
+	@extend %single-transition;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+.main-btn:hover {
+	background-color: darken($accent_color, 5%);
+}
+
+button:active {
+	outline: none;
+	border: 0;
+}
+
+fieldset.checkbox {
+	margin: 10px 0 0 0;
+}
+
+input.input-checkbox,
+input[type="checkbox"] {
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+label.checkbox {
+	margin: 8px 0 0 0;
+	padding-left: 0;
+	display: inline-block;
+	overflow: hidden;
+	font-weight: normal !important;
+}

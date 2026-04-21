@@ -1,0 +1,268 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Music Note Template 
+http://www.templatemo.com/preview/templatemo_013_music_note 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #2b1e1e;
+}
+
+a:link, a:visited { color: #ffffff; text-decoration: none; } 
+a:active, a:hover { color: #ffffff; text-decoration: underline; }
+
+h1 {
+	margin:0px 0px 10px 0px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	color:#FFFFFF;
+	border-bottom: solid 1px #FF0000;
+}
+h2 {
+	padding: 5px 0px 5px 10px;
+	margin: 0px; 	
+	font-weight: bold; 
+	font-size:12px;
+	color: #FFFFFF;
+	background: url(images/templatemo_h2_background.gif) repeat-x;
+	border: 1px solid #000000;
+}
+h3 {
+	margin: 0px;
+	padding: 2px 0px 2px 10px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.text_area {
+	text-align: justify;
+}
+img {  
+	margin: 10px 10px 0px 10px; 
+	float:left; 
+	border: 2px solid #FFFFFF;
+}
+
+#templatemo_container_wrapper {
+	background: url(images/templatemo_main_background.gif) repeat-x;
+}
+
+#templatemo_container {
+	margin: 0px auto;
+	width: 810px;
+}
+
+#templatemo_top{
+	float: left;
+	margin-left: -10px;
+	padding: 19px 0px 10px 0px;
+	text-align: right;
+	width: 810px;
+}
+
+#templatemo_header {
+	clear: left;
+	margin-bottom:5px;
+	width: 810px;
+	height: 235px;
+	background: url(images/templatemo_header_background.jpg) no-repeat;
+}
+
+#templatemo_site_title {
+	padding-top: 120px;
+	padding-left: 50px;
+	font-size: 35px;
+	color: #2b1e1e;
+}
+
+#templatemo_site_title span {
+	font-weight: bold;
+	color: #c32929;
+}
+
+#templatemo_site_slogan {
+	padding-top: 10px;
+	padding-left: 200px;
+	font-size: 12px;
+	color: #2b1e1e;
+}
+
+/*------------- Menu ------------------*/
+#templatemo_menuleft {
+	float: left;
+	height: 41px;
+	width: 20px;
+	background: #FF0000 url(images/templatemo_menu_leftborder.gif) no-repeat;
+}
+
+#templatemo_menu{
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	width: 790px;
+	height: 41px;
+	background: #FF0000 url(images/templatemo_menu_background.gif) right no-repeat;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 11px 1px;
+	width: 127px;
+	font: 16px arial;
+	text-align: center;
+	text-decoration: none;
+	color: #1e1717;
+}
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current{
+	color: #ffffff;
+	text-decoration: none;
+	background: url(images/templatemo_mousehover.gif) repeat-x;
+}
+
+/*---------- end of menu -------------*/
+
+/* ----------------- Content ----------------------- */
+
+#templatemo_content {
+	float: left;
+	width: 810px;
+	background: url(images/tempaltemo_content_background.gif) repeat-y;
+}
+
+#templatemo_left_column {
+	float: left;
+	padding: 20px;
+	width: 200px;
+	min-height: 420px;
+	background: url(images/templatemo_leftcolumn_border.gif) right center no-repeat;
+
+}
+
+#templatemo_right_column {
+	float: right;
+	width: 530px;
+	padding: 20px;
+	padding-left: 0px;
+	min-height: 420px;
+}
+
+#templatemo_content_bottom {
+	clear: left;
+	margin: 0px;
+	padding: 0px;
+	width: 810px;
+	height: 5px;
+	background: url(images/tempaltemo_content_bottom.gif) no-repeat;
+}
+
+/*------------ end of content ------------*/
+
+.news_section {
+	float: left;
+	padding: 0px;
+	width: 300px;	
+	margin-right: 15px;
+	background: #1e1717;
+}
+
+.news_section p {
+	margin: 0px;
+	padding: 0px 0px 5px 10px;
+	font-size: 11px;
+}
+
+.promotion_section {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width:200px;
+	background: #1e1717;
+}
+
+.promotion_section p{
+	margin: 0px;
+	padding: 5px 5px 5px 10px;
+	font-size: 11px;
+}
+
+.more{
+	padding: 0px 10px 10px 0px;
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.templatemo_section2 {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: #000000 solid 1px;
+	background: #1e1717;
+}
+
+.templatemo_section2 a {
+	padding-left: 20px;
+	color: #c32929;
+	line-height: 25px;
+	text-decoration: none;
+	background: url(images/templatemo_list_icon.gif) center left no-repeat;
+}
+
+.templatemo_section2 a:hover {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+/* search form */
+form {
+	padding: 0 0 6px 8px;
+}
+
+.button {
+	margin-top: 10px;
+	padding: 1px 5px;
+	border: none;
+	color: #FFFFFF;
+	background: url(images/templatemo_button_background.gif) repeat-x;
+}
+/* ----------- */
+
+/* -------- Footer --------- */
+
+#templatemo_footer {
+	clear: left;
+	padding: 10px;
+	height: 62px;
+	color: #c32929;
+	line-height: 24px;
+	text-align: center;
+}
+#templatemo_footer a {
+	color: #c32929;
+	text-decoration: none;
+}
+
+#templatemo_footer a:hover {
+	color: #ff0000;
+}
+
+/* --------- end of footer --------------*/

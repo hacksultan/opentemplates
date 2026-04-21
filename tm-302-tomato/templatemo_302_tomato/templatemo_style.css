@@ -1,0 +1,488 @@
+/* 
+Tomato Template 
+http://www.templatemo.com/preview/templatemo_302_tomato 
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #362721;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height:1.5em; 
+	background-color: #fff;
+	background-image: url(images/templatemo_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+a, a:link, a:visited {
+	color: #772200;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1 { font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #000; }
+h2 { font-size: 28px; font-weight: normal; line-height: 28px; margin: 0 0 20px 0; padding: 0; color: #fff; }
+h3 { font-size: 21px; margin: 0 0 10px 0; padding: 0; padding: 0; font-weight: normal; }
+h4 { font-size: 18px; margin: 0 0 20px 0; padding: 0; color: #fff;}
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; color:#fff; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0; color:#000;}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.image_wrapper {
+	display: inline-block;
+	padding: 8px;
+	border: 1px solid #999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+blockquote { font-style: italic; margin-left: 10px;}
+cite { font-weight: bold; color: #000000; }
+cite span { color: #990000; }
+em { color: #fff; }
+
+.templatemo_list {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.templatemo_list li {
+	background: transparent url(images/templatemo_list.png) no-repeat scroll 0 0px;
+	margin:0 0 20px;
+	padding:0 0 0 25px;
+	line-height: 1em;
+}
+
+
+.button a {
+	clear: both;
+	display: block;
+	width: 102px;
+	height: 25px;
+	padding: 2px 0 0 0;
+	background: url(images/templatemo_button.png) no-repeat;
+
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: #000;
+	background: url(images/templatemo_button_hover.png) no-repeat;
+}
+
+/* header */
+
+#templatemo_header {
+	width: 950px;
+	height: 99px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+
+#templatemo_header  #site_title {
+	float: left;
+	width: 250px;
+	padding: 20px 0 0 20px;
+}
+
+#templatemo_header  #site_title a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#templatemo_header  #site_title a span {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+/* menu */
+
+#templatemo_menu {
+	float: right;
+	height: 90px;
+	display: inline-block;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu li {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 58px;
+	width: 129px;
+	padding-top: 40px;
+	font-size: 16px;
+	color: #e1d0ca;	
+
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current {
+	color: #fff;
+	background: url(images/templatemo_menu_hover.jpg) center bottom no-repeat;
+}
+
+#templatemo_menu ul .last {
+	background: none;
+}
+/* end of menu */
+
+/* end of header */
+
+/* banner */
+
+#templatemo_banner {
+	width: 510px;
+	height: 274px;
+	margin: 0 auto;
+	padding: 30px 30px 0 430px;
+	text-align: right;
+	background: url(images/templatemo_banner.jpg) no-repeat;
+}
+
+#templatemo_banner h1 {
+	color: #f35720;
+	line-height: 40px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#templatemo_banner p {
+	font-size: 25px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+#templatemo_banner .more a {
+	float: right;
+	font-size: 20px;
+	color: #333;
+}
+
+#templatemo_banner .more span {
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: 25px;
+	color: #f4612e;
+}
+
+#templatemo_banner .more a:hover {
+	color: #f4612e;
+	text-decoration: none;
+}
+
+/* end of banner */
+
+
+/* content */
+
+#templatemo_middle {
+	clear: both;
+	width: 100%;
+	padding: 30px 0 0;
+	background: #f0835d url(images/templatemo_content.jpg) repeat-x top;
+}
+
+#templatemo_service_bar {
+	clear: both;
+	width: 910px;
+	height: 49px;
+	margin: 0 auto 30px auto;
+	padding: 15px 30px;
+	background: url(images/templatemo_services_mini.png) no-repeat;
+}
+
+#templatemo_service_bar img {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+#templatemo_service_bar a {
+	line-height: 22px;
+	text-decoration: underline;
+}
+
+#templatemo_service_bar a:hover {
+	text-decoration: none;
+}
+
+#templatemo_content_wrapper {
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#content_wo_sb {
+	clear: both;
+	padding: 0 20px;
+}
+
+#content {
+	float: left;
+	width: 560px;
+	padding: 0 20px 30px;	
+}
+
+#content p {
+	text-align: justify;
+}
+
+#sidebar {
+	float: right;
+	width: 280px;
+	margin: 0 20px 0 30px;
+}
+
+.col_w590 {
+	float: left;
+	width: 590px;
+	margin-right: 50px;
+}
+
+.col_w270 {
+	float: left;
+	width: 270px;
+	margin-right: 50px;
+}
+
+.col_w270_last {
+	margin-right: 0;
+}
+
+.col_w425 {
+	width: 425px;
+}
+
+.service_box {
+	width: 270px;
+	margin-bottom: 50px;
+}
+
+.service_box img {
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+.service_box .sb_right {
+	float: right;
+	width: 230px;
+}
+
+.post_box {
+	clear:both;
+	margin-bottom: 40px;
+}
+
+.post_box h2 {
+	margin-bottom: 10px;
+}
+
+.post_meta {
+	border-top: 1px dotted #fff;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: 10px;
+	color: #fae7e1;
+}
+
+.post_meta a {
+	color: #fae7e1;
+}
+
+.post_meta a:hover {
+	color: #772200;
+}
+
+#contact_form {
+	padding: 0;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_form form .input_field {
+	width: 350px;
+	background: #fff;
+	border: 1px solid #993300;
+	padding: 5px;
+}
+
+#contact_form form label {
+	display: block;
+	width: 100px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+#contact_form form textarea {
+	width: 420px;
+	height: 200px;
+	background: #fff;
+	border: 1px solid #993300;
+	padding: 5px;
+}
+
+#contact_form form .submit_btn {
+	width: 102px;
+	height: 27px;
+	padding: 1px 0 5px 0;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	background: url(images/templatemo_button.png) no-repeat;
+}
+
+
+#contact_form form .submit_btn:hover {
+	color: #fff;
+	background: url(images/templatemo_button_hover.png) no-repeat;
+}
+
+/* footer */
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: #68473b url(images/templatemo_footer.jpg) repeat-x top;
+}
+
+#templatemo_footer {
+	width: 910px;
+	margin: 0 auto;
+	padding: 80px 30px 30px;
+	color: #fff;
+}
+
+#templatemo_footer h4 {
+	color: #fff;
+}
+
+#templatemo_copyright a:link, #templatemo_copyright a:visited {
+	color: #fff;
+}
+
+#templatemo_footer ul { padding: 0; margin: 0; list-style: none; }
+
+#templatemo_footer li { padding: 0; margin: 0 0 5px 0; }
+
+#templatemo_footer li a {
+	display: block;
+	color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+#templatemo_footer li a:hover {
+	color: #fff;
+}
+
+#templatemo_footer .last {
+	padding-right: 0;
+}
+
+/* social */
+
+#social_box {
+
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li a {
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	text-decoration: none;
+	border: none;
+}
+
+/* end of social */
+
+/* copyright */
+
+#templatemo_copyright_wrapper {
+	width: 100%;
+	color: #fff;
+	background: #40312b url(images/templatemo_copyright.jpg) repeat-x top;
+}
+
+#templatemo_copyright {
+	width: 910px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+/* end of copyright */

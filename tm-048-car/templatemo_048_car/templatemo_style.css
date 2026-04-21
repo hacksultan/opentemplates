@@ -1,0 +1,380 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Car Template 
+http://www.templatemo.com/preview/templatemo_048_car 
+*/
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #767676;
+
+	background-color: #ebfcff;
+
+}
+
+a:link, a:visited { color: #17b3cd; text-decoration: none; font-weight: bold; } 
+
+a:active, a:hover { color: #FF6600; text-decoration: none; font-weight: bold;}
+
+
+h1 {
+
+	font-size: 24px;
+
+	font-weight: bold;
+
+	color: #22b7d1;
+
+	padding-top: 30px;	
+
+}
+
+h2 {
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+	color: #f0a007;
+
+}
+
+
+#templatemo_container {
+
+	width: 900px;
+
+	float: left;
+
+}
+
+#templatemo_topsection {
+
+	float: left;
+
+	width: 820px;
+
+	height: 240px;
+
+	color: #fff;
+
+}
+
+
+#templatemo_topsection_left {
+
+	float: left;
+
+	width: 412px;
+
+	height: 240px;
+
+	background: url(images/templatemo_top_left.jpg) no-repeat;
+
+}
+
+.templatmo_tilte {
+
+	float: left;
+
+	padding-left: 50px;
+
+	padding-top: 20px;
+
+	font-size: 26px;
+
+	font-weight: bold;
+
+	line-height: 1.6em;
+
+	width: 358px;
+
+}
+
+.templatemo_slogan {
+
+	float: left;
+
+	padding-left: 50px;
+
+	width: 358px;
+
+	height: 40px;
+
+	font-size: 11px;
+
+}
+
+
+
+#templatemo_top_menuleft {
+
+	float: left;
+
+	width: 155px;
+
+	padding-left: 50px;
+
+}
+
+#templatemo_top_menuright {
+
+	float: left;
+
+	width: 205px;
+
+}
+
+.templatemo_topmenu{
+
+	width: 150px;
+
+	float: left;
+
+}
+
+.templatemo_topmenu ul {
+
+	list-style-type: none;
+
+	margin: 0px;
+
+	padding: 30px 0px 0px 30px;
+
+}
+
+.templatemo_topmenu li a{
+
+	display: block;
+
+	height: 27px;
+
+	font-size: 11px;
+
+	color: #fff;
+
+	font-weight: bold;
+
+}
+
+.templatemo_topmenu li a:hover, .templatemo_topmenu li .current{
+
+	color: #d9781a;
+
+}
+
+#templatemo_topsection_mid {
+
+	float: left;
+
+	width: 286px;
+
+	height: 240px;
+
+	background: url(images/templatemo_top_mid.jpg) no-repeat;
+
+}
+
+#templatemo_topsection_right {
+
+	float: left;
+
+	width: 122px;
+
+	height: 240px;
+
+	background: url(images/templatemo_top_right.jpg) no-repeat;
+
+}
+
+#templatemo_welcomesection {
+
+	float: left;
+
+	width: 790px;
+
+	padding-left: 55px;
+
+	padding-right: 55px;
+
+	text-align: justify;
+
+}
+
+#templatemo_midsection {
+
+	width: 900px;
+
+	height: auto;
+
+}
+
+#templatemo_midsection_left {
+
+	float: left;
+
+	width: 285px;
+
+}
+
+#templatemo_leftmenu_section {
+
+	float: left;
+
+	width: 200px;
+
+	margin-left: 28px;
+
+}
+
+.templatemo_leftmenu_top {
+
+	float: left;
+
+	width: 195px;
+
+	height: 25px;
+
+	font-size: 15px;
+
+	font-weight: bold;
+
+	color: #01a1bc;
+
+	padding: 25px 0px 0px 33px;
+
+	background:url(images/templatemo_leftmenu_top.jpg) no-repeat;
+
+}
+
+.templatemo_leftmenu{
+
+	width: 228px;
+
+	float: left;
+
+}
+
+.templatemo_leftmenu ul {
+
+	list-style-type: none;
+
+	margin: 0px;
+
+	padding: 0px 0px 0px 0px;
+
+}
+
+.templatemo_leftmenu li a{
+
+	display: block;
+
+	height: 28px;
+
+	font-size: 12px;
+
+	color: #0c7b8e;
+
+	text-decoration: underline;
+
+	padding-left: 50px;
+
+	background: url(images/templatemo_leftmenu_button.jpg) no-repeat;
+
+}
+
+.templatemo_leftmenu li a:hover, .templatemo_leftmenu li .current{
+
+	color: #d9781a;
+
+}
+
+.templatemo_leftmenu_bot {
+
+	float: left;
+
+	width: 228px;
+
+	height: 30px;
+
+	background: url(images/templatemo_leftmenu_bot.jpg) no-repeat;
+
+}
+
+#templatemo_contact {
+
+	float: left;
+
+	width: 195px;
+
+	height: 108px;
+
+	margin-left: 28px;
+
+	color: #207c8d;
+
+	padding: 35px 0px 0px 33px;
+
+	background: url(images/templatemo_contact.jpg) no-repeat;
+
+}
+
+#templatemo_midsection_right {
+
+	float: left;
+
+	width: 560px;
+
+	padding-right: 55px;
+
+	text-align: justify;
+
+}
+
+#templatemo_midsection_right img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}
+
+#templatemo_midsection_right span {
+
+	color: #0ac9ea;
+
+	font-weight: bold;
+
+}
+
+#templatemo_footer {
+
+	float: left;
+
+	width: 850px;
+
+	height: 26px;
+
+	margin-top: 20px;
+
+	padding: 80px 0px 0px 50px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+	color:#FFFFFF;
+
+}

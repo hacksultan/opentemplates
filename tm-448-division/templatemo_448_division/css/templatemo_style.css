@@ -1,0 +1,354 @@
+/* 
+Division Template
+http://www.templatemo.com/preview/templatemo_448_division
+	
+  1. CSS imports
+  2. CSS resets
+  3. Navigation styles
+  4. Universal styles
+  5. Image styles
+  6. Social icon styles
+  7. Footer styles
+  8. Contact styles
+  9. Media queries
+  
+COLOR CODES
+ 	Home: #B29E66
+ 	Services: #3E88A3
+ 	Team: #B23573
+ 	About: #818089
+ 	Contact: #50AF98
+	Gray: rgb(233,233,233);
+------------------------------------------------- */
+/* 1. CSS imports
+------------------------------------------------- */
+@import url('http://fonts.googleapis.com/css?family=Open Sans:300,400,700');
+@import url(font-awesome.min.css);
+@import url(bootstrap.min.css);
+@import url(templatemo_misc.css);
+
+/* 2. CSS resets 
+------------------------------------------------- */
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/* 3. Navigation styles
+-------------------------------------------------- */
+nav li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  padding: 15px;
+  margin: 0 10px;
+  border-top: 2px solid rgb(233,233,233);
+}
+nav li.active { font-weight: 700; }
+nav li#page1_link.active, nav li#page1_link:hover { border-top-color: #B29E66; }
+nav li#page2_link.active, nav li#page2_link:hover { border-top-color: #3E88A3; }
+nav li#page3_link.active, nav li#page3_link:hover { border-top-color: #B23573; }
+nav li#page4_link.active, nav li#page4_link:hover { border-top-color: #818089; }
+nav li#page5_link.active, nav li#page5_link:hover { border-top-color: #50AF98; }
+.nav>li>a, nav li a {
+  padding: 0;
+  color: black;
+}
+nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+.nav>li>a:hover, .nav>li>a:focus { background: none; }
+.navbar-collapse {
+  max-height: 250px;
+  overflow-x: hidden; 
+}
+#templatemo_mobile_menu_wap {
+  width: 50px;
+  height: 45px;
+  z-index: 1000;
+  cursor: pointer;
+  float: right;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+#templatemo_mobile_menu_wap p#mobile_menu_btn {
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+#templatemo_mobile_menu_wap p#mobile_menu_btn span {
+    color: #000;
+}
+#templatemo_mobile_menu_wap #mobile_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 80px;
+    border-radius: 4px;
+}
+#templatemo_mobile_menu_wap .nav-stacked li {
+    color: #000;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#templatemo_mobile_menu_wap .nav-stacked li:hover, #templatemo_mobile_menu_wap .nav-stacked li.active {
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#templatemo_mobile_menu_wap .nav-stacked li.focus { background-color: transparent; }
+
+/* 4. Universal styles
+------------------------------------------------- */
+html, body { 
+  font-family: 'Open Sans', sans-serif; 
+  height: 100%; 
+  overflow: hidden; 
+}
+h1 { 
+  font-size: 24px; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+h3 { 
+  font-size: 18px;  
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 5px; 
+}
+p { 
+  font-size: 14px; 
+  font-weight: 300; 
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+a { color: white; }
+a:hover { color: white; }
+.main-container { 
+  overflow: hidden; 
+  height: 100%; 
+}
+.page {
+	position: absolute;
+	width: 100%;
+  overflow-x: hidden;
+	overflow-y: auto;
+  color: white;
+}
+.page-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+.page-content.padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.templatemo-item {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 250px;
+  margin: 10px 20px 20px 20px;
+  text-align: center;
+}
+.hide { 
+  position: absolute !important; 
+  top: -9999px !important; 
+  left: -9999px !important; 
+}
+.templatemo-header { 
+  background: white; 
+  font-size: 18px; 
+  height: 80px; 
+  text-transform: uppercase; 
+  position: relative; 
+  z-index: 6; 
+  padding: 15px;
+}
+#logo {
+  font-size: 2em;
+  color: gray;
+}
+#page1 { z-index: 5; }
+#page2 { z-index: 4; background: #3E88A3; }
+#page3 { z-index: 3; background: #B23573;	}
+#page4 { z-index: 2; background: #818089; }
+#page5 { z-index: 1; background: #50AF98; }
+
+/* 5. Image styles
+--------------------------------------------------- */
+img { 
+  width:100%;
+  height: auto;
+}
+img.bordered {
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 2px;
+}
+img.ie { height: 100%; } /* IE fix */
+
+/* 6. Social icon styles
+--------------------------------------------------- */
+.no-bg.fa {
+  text-align: center;
+  padding: 0 15px;
+  line-height: 50px;
+}
+.no-bg.fa:hover { color: black; }
+.rounded.fa { 
+  font-size: 1.6em; 
+  color: rgb(233,233,233); 
+  background-color: rgba(255,255,255,0.2); 
+  border-radius: 20px;
+  padding: 27px 25px 25px 25px;
+  width: 80px;
+  height: 78px;
+}
+.circle.fa { 
+  font-size: 14px;
+  line-height: 2;
+  color: rgb(233,233,233); 
+  background-color: rgba(255,255,255,0.2); 
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.5s ease;
+}
+.circle.fa:hover { background-color: rgba(255,255,255,0.6); }
+
+/* 7. Footer styles
+--------------------------------------------------- */
+#footer {
+  width: 100%;
+  min-height: 50px;
+  color: gray;
+  background-color: white;
+}
+#footer.absolute-pos {
+  position: absolute;
+  z-index: 7;
+  bottom: 0;
+}
+#footer p {
+  font-size: 12px;
+  line-height: 50px;
+  text-align: left;
+  padding-right: 0;
+  margin: 0;
+}
+#footer a {
+  color: gray;
+  text-decoration: none;
+}
+#footer .social {  text-align: right; }
+#footer.row {
+  padding: 0;
+  margin: 0;
+}
+/* 8. Contact styles
+---------------------------------------------------- */
+.map-contact-container { overflow: hidden; margin-top: 30px; }
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 15px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+input#name { width: 100%; }
+input#email {	width: 100%; }
+input#subject {	width: 100%; }
+#map {
+  float: left;
+  position: relative;
+  width: 55%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 340px;
+  outline: 0;
+  border: 0;
+}
+.contact-form { 
+  float: left;
+  position: relative;
+  width: 45%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.contact-form textarea { 
+  width: 100%; 
+  height: 167px;
+}
+.contact-form button {
+  display: block;
+  float: right;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-color: #ccc;
+}
+
+/* 9. Media queries
+----------------------------------------------- */
+@media screen and (max-width: 1040px) {
+  nav li {
+    padding: 10px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #footer { min-height: 30px; }
+  #footer p { line-height: 30px; }
+  .no-bg.fa { line-height: 30px; }
+}
+@media screen and (max-width: 767px) {
+  #map { width: 100%; }
+  .contact-form {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  .templatemo-header {
+    height: 50px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  #templatemo_mobile_menu_wap { margin-top: 0; }
+  #templatemo_mobile_menu_wap #mobile_menu { margin-top: 50px; }
+  #footer p { padding-left: 5px; }
+  #footer .social{
+    padding-left: 0;
+    padding-right: 0;
+  }  
+  .no-bg.fa {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media screen and (max-width: 439px) {
+  .col-xxs-12 { width: 100%; }
+  #footer p, #footer .social { text-align: center; }
+}

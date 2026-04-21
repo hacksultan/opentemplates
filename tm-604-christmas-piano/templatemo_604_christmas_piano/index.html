@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Piano - Free HTML CSS Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-604-christmas-piano.css">
+<!--
+
+TemplateMo 604 Christmas Piano
+
+https://templatemo.com/tm-604-christmas-piano
+
+-->
+</head>
+<body>
+    <!-- Snowflakes -->
+    <div class="snowflakes" id="snowflakes"></div>
+
+    <!-- Header -->
+    <header>
+        <!-- Logo Row -->
+        <div class="header-logo-row">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">🎄</span>
+                Christmas Piano
+            </a>
+        </div>
+        <!-- Navigation Row -->
+        <div class="header-nav-row">
+            <div class="nav-container">
+                <div class="nav-decor">
+                    <span class="ornament">🔔</span>
+                    <span>•</span>
+                    <span class="ornament">🎁</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#songs">Songs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-decor">
+                    <span class="ornament">🎁</span>
+                    <span>•</span>
+                    <span class="ornament">🔔</span>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <span class="hero-badge">✨ Holiday Season 2025</span>
+            <h1>Christmas Piano</h1>
+            <p class="hero-subtitle">Experience the magic of Christmas through beautiful piano melodies. Play, listen, and celebrate the season.</p>
+        </div>
+
+        <!-- Mini Piano Player -->
+        <div class="mini-player">
+            <div class="player-header">
+                <div class="song-info">
+                    <div class="now-playing">Now Playing</div>
+                    <div class="song-title" id="currentSongTitle">Last Christmas</div>
+                </div>
+                <div class="player-controls">
+                    <button class="control-btn nav-btn" id="prevBtn">◀</button>
+                    <button class="control-btn play-btn" id="playBtn">▶</button>
+                    <button class="control-btn nav-btn" id="nextBtn">▶</button>
+                </div>
+            </div>
+
+            <div class="song-selector">
+                <button class="song-tab active" data-song="0">Last Christmas</button>
+                <button class="song-tab" data-song="1">Jingle Bells</button>
+                <button class="song-tab" data-song="2">We Wish You...</button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="time-display">
+                    <span id="currentTime">0:00</span>
+                    <span id="totalTime">0:00</span>
+                </div>
+            </div>
+
+            <div class="mini-piano-container">
+                <div class="mini-piano" id="miniPiano"></div>
+            </div>
+
+            <div class="player-controls-row">
+                <div class="control-group">
+                    <span class="control-label">Speed</span>
+                    <input type="range" class="control-slider" id="speedSlider" min="0.5" max="2" step="0.1" value="1">
+                    <span class="control-value" id="speedValue">1.0x</span>
+                </div>
+                <div class="control-group">
+                    <span class="control-label">Volume</span>
+                    <input type="range" class="control-slider" id="volumeSlider" min="0" max="1" step="0.1" value="0.7">
+                    <span class="control-value" id="volumeValue">70%</span>
+                </div>
+                <div class="repeat-toggle" id="repeatToggle">
+                    <span class="repeat-icon">🔁</span>
+                    <div class="toggle-switch" id="repeatSwitch"></div>
+                </div>
+            </div>
+
+            <div class="keyboard-hint">
+                🎹 Play with keyboard: Z-M (lower) • Q-U (upper) • Space (play/pause)
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <span class="section-badge">About</span>
+            <h2>The Joy of Christmas Music</h2>
+            <p class="section-desc">Bringing holiday cheer through the timeless sound of piano</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-media">
+                <img src="images/about-piano.jpg" alt="Christmas Piano">
+                <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank" rel="noopener" class="youtube-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                    </svg>
+                    Watch on YouTube
+                </a>
+            </div>
+            <div class="about-content">
+                <h3>A Digital Christmas Experience</h3>
+                <p>Christmas Piano brings the warmth and nostalgia of holiday classics right to your browser. Using Web Audio technology, we've recreated the beautiful sound of piano playing your favorite Christmas songs.</p>
+                <p>Whether you're working, relaxing, or celebrating with family, let these melodies set the perfect holiday atmosphere. No downloads, no plugins — just press play and enjoy.</p>
+                <p class="about-credits">This free CSS template is designed by <a href="https://templatemo.com" target="_blank" rel="nofollow noopener">TemplateMo</a>. Images courtesy of <a href="https://unsplash.com" target="_blank" rel="nofollow noopener">Unsplash</a>.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Songs</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Free</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Plugins</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="section-header">
+            <span class="section-badge">Features</span>
+            <h2>How It Works</h2>
+            <p class="section-desc">Simple, beautiful, and completely browser-based</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="32" cy="32" r="28" stroke-opacity="0.3"/>
+                        <path d="M32 8v48M8 32h48" stroke-opacity="0.2"/>
+                        <path d="M20 20c0 8 6 12 12 12s12-4 12-12" stroke-width="2.5"/>
+                        <path d="M20 44c0-8 6-12 12-12s12 4 12 12" stroke-width="2.5"/>
+                        <circle cx="32" cy="32" r="6" fill="currentColor" opacity="0.3"/>
+                        <path d="M26 32h12" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Real-Time Audio</h3>
+                <p>Powered by Web Audio API for authentic piano sound synthesis. Each note is generated in real-time for a genuine musical experience.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="8" y="20" width="48" height="32" rx="4" stroke-width="2"/>
+                        <rect x="12" y="24" width="6" height="24" rx="1" fill="currentColor" opacity="0.2"/>
+                        <rect x="20" y="24" width="6" height="24" rx="1" fill="currentColor" opacity="0.2"/>
+                        <rect x="28" y="24" width="6" height="24" rx="1" fill="currentColor" opacity="0.2"/>
+                        <rect x="36" y="24" width="6" height="24" rx="1" fill="currentColor" opacity="0.2"/>
+                        <rect x="44" y="24" width="6" height="24" rx="1" fill="currentColor" opacity="0.2"/>
+                        <rect x="16" y="24" width="4" height="14" rx="1" fill="currentColor" opacity="0.6"/>
+                        <rect x="24" y="24" width="4" height="14" rx="1" fill="currentColor" opacity="0.6"/>
+                        <rect x="40" y="24" width="4" height="14" rx="1" fill="currentColor" opacity="0.6"/>
+                    </svg>
+                </div>
+                <h3>Visual Piano</h3>
+                <p>Watch the piano keys light up as each song plays. A beautiful visualization that brings the music to life on your screen.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="6" y="18" width="52" height="32" rx="4"/>
+                        <rect x="10" y="22" width="8" height="8" rx="2" fill="currentColor" opacity="0.3"/>
+                        <rect x="20" y="22" width="8" height="8" rx="2" fill="currentColor" opacity="0.3"/>
+                        <rect x="30" y="22" width="8" height="8" rx="2" fill="currentColor" opacity="0.3"/>
+                        <rect x="40" y="22" width="8" height="8" rx="2" fill="currentColor" opacity="0.3"/>
+                        <rect x="14" y="32" width="8" height="8" rx="2" fill="currentColor" opacity="0.5"/>
+                        <rect x="24" y="32" width="8" height="8" rx="2" fill="currentColor" opacity="0.5"/>
+                        <rect x="34" y="32" width="8" height="8" rx="2" fill="currentColor" opacity="0.5"/>
+                        <rect x="18" y="42" width="28" height="6" rx="2" fill="currentColor" opacity="0.2"/>
+                    </svg>
+                </div>
+                <h3>Keyboard Play</h3>
+                <p>Play the piano yourself using your computer keyboard. Keys Z-M for lower octave, Q-P for upper octave. Space to play/pause.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="18" y="8" width="28" height="48" rx="4"/>
+                        <rect x="22" y="14" width="20" height="32" rx="2" stroke-opacity="0.5"/>
+                        <circle cx="32" cy="52" r="3" fill="currentColor" opacity="0.4"/>
+                        <path d="M26 20h12M26 26h8M26 32h10" stroke-opacity="0.4" stroke-linecap="round"/>
+                        <rect x="6" y="16" width="8" height="32" rx="2" stroke-opacity="0.3"/>
+                        <rect x="50" y="12" width="10" height="40" rx="2" stroke-opacity="0.3"/>
+                    </svg>
+                </div>
+                <h3>Fully Responsive</h3>
+                <p>Works perfectly on desktop, tablet, and mobile. Take the Christmas spirit with you wherever you go.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M32 8L38 20H58L42 30L48 44L32 34L16 44L22 30L6 20H26L32 8Z" fill="currentColor" opacity="0.2"/>
+                        <path d="M32 8L38 20H58L42 30L48 44L32 34L16 44L22 30L6 20H26L32 8Z"/>
+                        <circle cx="32" cy="26" r="4" fill="currentColor" opacity="0.5"/>
+                        <path d="M28 50h8M24 56h16" stroke-linecap="round" stroke-opacity="0.5"/>
+                    </svg>
+                </div>
+                <h3>No Installation</h3>
+                <p>Runs entirely in your browser. No downloads, no plugins, no hassle. Just open and enjoy the music.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="32" cy="32" r="24" stroke-opacity="0.3"/>
+                        <circle cx="32" cy="32" r="18"/>
+                        <path d="M32 20v12l8 8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="32" cy="32" r="3" fill="currentColor"/>
+                        <path d="M32 10v4M32 50v4M10 32h4M50 32h4" stroke-linecap="round" stroke-opacity="0.4"/>
+                        <path d="M18 18l2 2M44 44l2 2M18 46l2-2M44 18l2-2" stroke-linecap="round" stroke-opacity="0.3"/>
+                    </svg>
+                </div>
+                <h3>Speed Control</h3>
+                <p>Adjust playback speed to your preference. Slow it down to learn the melody or speed it up for variety.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Songs Section -->
+    <section id="songs">
+        <div class="section-header">
+            <span class="section-badge">Library</span>
+            <h2>Christmas Classics</h2>
+            <p class="section-desc">A curated collection of beloved holiday melodies</p>
+        </div>
+        <div class="songs-grid">
+            <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">🎄</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">Last Christmas</div>
+                    <div class="song-card-meta">Wham! • Classic Pop</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=jingle+bells+piano" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">🔔</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">Jingle Bells</div>
+                    <div class="song-card-meta">Traditional • Classic</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=g-OF7KGyDis" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">🎁</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">We Wish You a Merry Christmas</div>
+                    <div class="song-card-meta">Traditional • Carol</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=silent+night+piano+instrumental" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">🌟</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">Silent Night</div>
+                    <div class="song-card-meta">Traditional • Hymn</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=white+christmas+piano" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">❄️</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">White Christmas</div>
+                    <div class="song-card-meta">Bing Crosby • Classic</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=o+christmas+tree+piano" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">🌲</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">O Christmas Tree</div>
+                    <div class="song-card-meta">Traditional • German Carol</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=all+i+want+for+christmas+is+you+piano" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">💝</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">All I Want for Christmas Is You</div>
+                    <div class="song-card-meta">Mariah Carey • Pop</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=let+it+snow+piano+instrumental" target="_blank" rel="noopener" class="song-card">
+                <div class="song-card-icon">☃️</div>
+                <div class="song-card-info">
+                    <div class="song-card-title">Let It Snow</div>
+                    <div class="song-card-meta">Dean Martin • Classic</div>
+                </div>
+                <div class="song-card-duration">↗</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="section-header">
+            <span class="section-badge">Memories</span>
+            <h2>Christmas Gallery</h2>
+            <p class="section-desc">Capture the festive moments and holiday spirit</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-index="0">
+                <img src="images/christmas-pic-01.jpg" alt="Christmas Tree">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="1">
+                <img src="images/christmas-pic-02.jpg" alt="Christmas Decorations">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img src="images/christmas-pic-03.jpg" alt="Christmas Lights">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img src="images/christmas-pic-04.jpg" alt="Christmas Snow">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img src="images/christmas-pic-05.jpg" alt="Christmas Gifts">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img src="images/christmas-pic-06.jpg" alt="Christmas Cookies">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="6">
+                <img src="images/christmas-pic-07.jpg" alt="Christmas Candles">
+                <div class="gallery-icon">+</div>
+            </div>
+            <div class="gallery-item" data-index="7">
+                <img src="images/christmas-pic-08.jpg" alt="Christmas Piano">
+                <div class="gallery-icon">+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">×</button>
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev">◀</button>
+            <img src="" alt="Gallery Image" id="lightboxImg">
+            <button class="lightbox-nav lightbox-next" id="lightboxNext">▶</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <span class="section-badge">Connect</span>
+            <h2>Stay in Touch</h2>
+            <p class="section-desc">Get updates on new songs and features</p>
+        </div>
+        <div class="contact-container">
+            <!-- Contact Info Column -->
+            <div class="contact-info">
+                <h3>Quick Contact</h3>
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div class="contact-item-content">
+                        <h4>Location</h4>
+                        <p><a href="https://www.google.com/maps/place/New+York,+NY,+USA" target="_blank" rel="noopener">123 Christmas Lane<br>North Pole, Arctic 00001</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-icon">📧</div>
+                    <div class="contact-item-content">
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@christmaspiano.com">hello@christmaspiano.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-icon">📞</div>
+                    <div class="contact-item-content">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-icon">🕐</div>
+                    <div class="contact-item-content">
+                        <h4>Hours</h4>
+                        <p>24/7 Online Access<br>Support: Mon-Fri 9am-5pm</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1638561234567!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- Contact Form Column -->
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message (Optional)</label>
+                    <textarea id="message" name="message" placeholder="Any song requests or feedback?"></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                    <button type="reset" class="btn btn-clear">Clear</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">🎄 Christmas Piano</div>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#songs">Songs</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Christmas Piano. Developed by <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+        </div>
+    </footer>
+<script src="templatemo-604-piano-scripts.js"></script>
+</body>
+</html>

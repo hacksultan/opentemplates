@@ -1,0 +1,234 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Nightclub Template 
+http://www.templatemo.com/preview/templatemo_037_nightclub 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #cbc7b2;
+	background: #000000;
+	/*background: #2d2b21;*/
+}
+
+a:link, a:visited { color: #cccc66; text-decoration: none} 
+a:active, a:hover { color: #cccc66; text-decoration: underline}
+
+h1 {
+	padding: 15px 0 20px 60px;
+	margin: 0;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #bfc045;
+	background: url(images/dance01.gif) left center no-repeat;
+}
+
+h2 {
+	padding: 15px 0 20px 60px;
+	margin: 0;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #bfc045;
+	background: url(images/dance02.gif) left center no-repeat;
+}
+h3 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: bold;
+	color: #F00;
+}
+
+p {
+	text-align: justify;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+img {
+	float: left;
+	margin: 4px 10px 5px 0;
+	border: 2px #000000 solid;
+}
+
+.space {
+	padding: 20px 0;
+}
+
+.more_button a{
+	clear: both;
+	display: block;
+	width: 60px;
+	height: 18px;
+	padding: 12px 0 0 40px;
+	background: url(images/more.gif) no-repeat;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#templatemo_container {
+	margin: auto;
+	width: 900px;
+	background: #FFFFFF;
+}
+
+
+/*------------ Header --------------- */
+
+#templatemo_header {
+	width: 900px;
+	height: 342px;
+	background: #2d2b21 url(images/headerBG.jpg) no-repeat;
+}
+
+#templatemo_site_title {
+	margin: 0px;
+	padding: 80px 0 15px 50px;
+	font-size: 50px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+#templatemo_site_title span{
+	color: #FF0000;
+	font-weight: normal;
+}
+
+#templatemo_site_slogan {
+	padding: 0 0 0 150px;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+/* ---------------------------------- */
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	float: left;
+	width: 900px;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+	background: #424032 url(images/menuBG.jpg) repeat-x;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: right;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 15px 25px 0 25px;
+	font: 1.2em arial;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #FF0;
+}
+
+/* ----------------- end of menu----------------*/
+
+/* ----------------- Content ----------------------- */
+
+
+#templatemo_content {
+	float: left;
+	width: 840px;
+	background:  #2d2b21;
+	padding: 30px;
+}
+
+#templatemo_wideleftcol {
+	float: left;
+	width: 578px;
+	margin-right: 40px;
+}
+
+#templatemo_leftcol {
+	float: left;
+	width: 318px;
+	margin-right: 40px;
+}
+
+#templatemo_middlecol {
+	float: left;
+	width: 220px;
+	margin-right: 40px;
+}
+
+#templatemo_rightcol {
+	float: left;
+	width: 220px;
+}
+
+
+
+/* end of content */
+
+/* ----- Form ----- */
+.form_row{
+	padding: 3px 0px;
+}
+
+form{
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	text-align: right;	
+}
+
+label {
+	margin-right: 10px;
+}
+
+input{
+	width: 110px;
+	height: 18px;
+}
+
+.button{
+	width: 60px;
+	height: 25px;
+}
+
+
+/* ----- End of Form ----- */
+
+/* ----- Footer ----- */
+
+#templatemo_footer {
+	clear: both;
+	padding: 10px 0px 0px 0px;
+	width: 900px;
+	height: 50px;
+	text-align: center;
+	color: #000000;
+	background: url(images/footerBG.gif) repeat-x;
+	text-align: center;
+}
+
+#templatemo_footer a{
+	color: #000000;
+}
+
+#templatemo_footer a:hover{
+	color: #cccc66;
+}
+
+/* ----- End of Footer ----- */

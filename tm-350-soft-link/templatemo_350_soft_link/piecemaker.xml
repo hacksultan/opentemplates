@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="contents/piecemaker1.png" Title="Project One">
+		<Text>&lt;h1&gt;New hot Features&lt;/h1&gt;&lt;p&gt;The all new Piecemaker comes with lots of new features, making it even more slick.&lt;/p&gt;&lt;p&gt;Just to mention a few - you can now specify unlimited transition styles, include your own SWF and Video files, add hyperlinks to images and info texts with all special characters.&lt;/p&gt;&lt;p&gt;We also impoved the navigation and the animation with animated shadows and pixel-perfect transitions.&lt;/p&gt;</Text>
+		<Hyperlink URL="http://www.templatemo.com" Target="_blank" />
+	</Image>		
+    <Image Source="contents/piecemaker2.png" Title="Project Two">
+      <Text>&lt;h1&gt;New hot Features&lt;/h1&gt;&lt;p&gt;The all new Piecemaker comes with lots of new features, making it even more slick.&lt;/p&gt;&lt;p&gt;Just to mention a few - you can now specify unlimited transition styles, include your own SWF and Video files, add hyperlinks to images and info texts with all special characters.&lt;/p&gt;&lt;p&gt;We also impoved the navigation and the animation with animated shadows and pixel-perfect transitions.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.templatemo.com" Target="_blank" />
+    </Image>
+	<Image Source="contents/piecemaker3.png" Title="Project Three">
+      <Text>&lt;h1&gt;New hot Features&lt;/h1&gt;&lt;p&gt;The all new Piecemaker comes with lots of new features, making it even more slick.&lt;/p&gt;&lt;p&gt;Just to mention a few - you can now specify unlimited transition styles, include your own SWF and Video files, add hyperlinks to images and info texts with all special characters.&lt;/p&gt;&lt;p&gt;We also impoved the navigation and the animation with animated shadows and pixel-perfect transitions.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.templatemo.com" Target="_blank" />
+    </Image>
+	<Image Source="contents/piecemaker4.png" Title="Project Four">
+      <Text>&lt;h1&gt;New hot Features&lt;/h1&gt;&lt;p&gt;The all new Piecemaker comes with lots of new features, making it even more slick.&lt;/p&gt;&lt;p&gt;Just to mention a few - you can now specify unlimited transition styles, include your own SWF and Video files, add hyperlinks to images and info texts with all special characters.&lt;/p&gt;&lt;p&gt;We also impoved the navigation and the animation with animated shadows and pixel-perfect transitions.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.templatemo.com" Target="_blank" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="560" ImageHeight="280" LoaderColor="0x333333" InnerSideColor="0x222222" SideShadowAlpha="0.8" DropShadowAlpha="0.8" DropShadowDistance="14" DropShadowScale="0.85" DropShadowBlurX="40" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="30" MenuColor1="0x999999" MenuColor2="0x333333" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="280" ControlsY="180&#xD;&#xA;" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="10" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="9" Time="1.2" Transition="easeInOutBack" Delay="0.1" DepthOffset="300" CubeDistance="30"></Transition>
+    <Transition Pieces="15" Time="3" Transition="easeInOutElastic" Delay="0.03" DepthOffset="200" CubeDistance="10"></Transition>
+    <Transition Pieces="5" Time="1.3" Transition="easeInOutCubic" Delay="0.1" DepthOffset="500" CubeDistance="50"></Transition>
+    <Transition Pieces="9" Time="1.25" Transition="easeInOutBack" Delay="0.1" DepthOffset="900" CubeDistance="5"></Transition>
+  </Transitions>
+</Piecemaker>

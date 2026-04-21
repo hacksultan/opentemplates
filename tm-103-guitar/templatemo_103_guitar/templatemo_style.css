@@ -1,0 +1,389 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Guitar Template 
+http://www.templatemo.com/preview/templatemo_103_guitar 
+*/
+html {
+	background: #373737;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_top_bg.jpg) #000 repeat-x;
+}
+
+a:link, a:visited {	color: #fff; text-decoration: underline; }
+a:active, a:hover { color: #bbb; text-decoration: none; }
+
+
+.templatemo_container {
+
+	width: 950px;
+	margin: auto;
+
+}
+
+#templatemo_header {
+	
+	width: 950px;
+	height: 331px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+	
+}
+
+/* Menu Section */
+
+#templatemo_menu_section{
+	width: 950px;
+	height: 35px;
+	float: left;	
+	margin: 295px 0 0 0;
+	padding: 0;
+
+}
+
+#templatemo_menu_section ul {
+	float: left;
+	width: 920px;
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu_section ul li {
+	display: inline;	
+}
+
+#templatemo_menu_section ul li a {
+	float: left;
+	padding: 8px 30px 0 30px;
+	margin: 0;
+	height: 26px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #858585;
+	background: url(images/templatemo_menu.jpg) right bottom no-repeat;
+}
+
+#templatemo_menu_section ul li a.last{
+	background: none;
+}
+#templatemo_menu_section li a:hover, #templatemo_menu_section li .current{
+	color: #fff;
+
+}
+
+/* End Of Menu */
+
+#templatemo_content_area {
+
+	width: 950px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_left {
+	
+	float: left;
+	width: 220px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	
+}
+
+#templatemo_left .templatemo_left_section_box {
+	
+	width: 221px;
+	margin: 0 0 15px 0;
+	padding: 0 ;
+	
+}
+
+.templatemo_left_section_box .templatemo_left_section_box_top {
+	
+	width: 206px;
+	height: 35px;
+	background: url(images/templatemo_left_section_top.jpg) no-repeat;
+	margin: 0;
+	padding: 13px 0 0 15px;
+	
+}
+
+.templatemo_left_section_box_top h1 {
+	
+	height: 31px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	background: url(images/templatemo_music_note.jpg) left no-repeat;
+	margin: 0;
+	padding: 5px 0 0 40px;
+}
+
+.templatemo_left_section_box .templatemo_left_section_box_mid {
+	
+	width: 191px;
+	background: url(images/templatemo_left_section_mid.jpg) repeat-y;	
+	margin: 0;
+	padding: 10px 15px 0 15px;
+	
+}
+
+.templatemo_left_section_box_mid p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+
+}
+
+.templatemo_left_section_box .bottom_padding {
+	padding: 0;
+	
+}
+
+.templatemo_left_section_box_mid  h1 {
+	
+	height: 31px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	background: url(images/templatemo_music_note.jpg) left no-repeat;
+	margin: 10px 0 10px 0;
+	padding: 5px 0 0 40px;
+}
+
+.templatemo_left_section_box .templatemo_left_section_box_bottom {
+	
+	width: 221px;
+	height: 21px;
+	background: url(images/templatemo_left_section_bottom.jpg) no-repeat;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_middle {
+	
+	float: left;
+	width: 455px;
+	margin: 0;
+	padding: 15px 15px 0 15px ;
+
+}
+
+#templatemo_middle .templatemo_middle_section_box {
+	
+	width: 455px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	
+	
+}
+
+.templatemo_middle_section_box .templatemo_middle_section_box_top {
+	
+	width: 440px;
+	height: 35px;
+	background: url(images/templatemo_mid_section_top.jpg) no-repeat;
+	margin: 0;
+	padding: 13px 0 0 15px;
+	
+}
+
+.templatemo_middle_section_box_top h1 {
+	
+	height: 31px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	background: url(images/templatemo_music_note.jpg) left no-repeat;
+	margin: 0;
+	padding: 5px 0 0 40px;
+}
+
+.templatemo_middle_section_box  .templatemo_middle_section_box_mid {
+	
+	width: 425px;
+	background: url(images/templatemo_mid_section_mid.jpg) repeat-y;
+	margin: 0;
+	padding: 15px 15px 0 15px;
+	
+}
+
+.templatemo_middle_section_box_mid p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+
+}
+
+.templatemo_middle_section_box_mid img {
+	
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 0;
+
+}
+
+.templatemo_middle_section_box .bottom_padding {
+	padding: 0;
+	
+}
+
+
+.templatemo_middle_section_box_mid  h1 {
+	
+	height: 31px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	background: url(images/templatemo_music_note.jpg) left no-repeat;
+	margin: 10px 0 10px 0;
+	padding: 5px 0 0 40px;
+}
+
+
+.templatemo_middle_section_box  .templatemo_middle_section_box_bottom {
+	
+	width: 455px;
+	height: 23px;
+	background: url(images/templatemo_mid_section_bottom.jpg) no-repeat;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_right {
+	
+	float: right;
+	width: 245px;
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+
+#templatemo_right .templatemo_right_section_box {
+	
+	width: 246px;
+	margin: 0 0 15px 0;
+	padding: 0 ;
+	
+}
+
+.templatemo_right_section_box .templatemo_right_section_box_top {
+	
+	width: 231px;
+	height: 35px;
+	background: url(images/templatemo_right_section_top.jpg) no-repeat;
+	margin: 0;
+	padding: 13px 0 0 15px;
+	
+}
+
+
+.templatemo_right_section_box_top h1 {
+	
+	height: 31px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	background: url(images/templatemo_music_note.jpg) left no-repeat;
+	margin: 0;
+	padding: 5px 0 0 40px;
+}
+
+
+.templatemo_right_section_box .templatemo_right_section_box_mid {
+	
+	width: 216px;
+	background: url(images/templatemo_right_section_mid.jpg) repeat-y;
+	margin: 0;
+	padding: 15px 15px 0 15px;
+	
+}
+
+.templatemo_right_section_box_mid p {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+
+}
+
+.templatemo_right_section_box_mid ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.templatemo_right_section_box_mid li {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 0 0 0 0;
+	padding: 0 0 5px 0;
+
+}
+
+.templatemo_right_section_box .templatemo_right_section_box_bottom {
+	
+	width: 246px;
+	height: 22px;
+	background: url(images/templatemo_right_section_bottom.jpg) no-repeat;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_bottom_bg {
+	width: 100%;
+	height: 200px;
+	background: url(images/templatemo_bottom_bg.jpg) repeat-x;
+	
+}
+#templatemo_footer {
+	
+	width: 950px;
+	height: 120px;
+	background: url(images/templatemo_footer.jpg) no-repeat;
+	margin: 0;
+	padding: 80px 0 0 0;
+	
+}
+
+#templatemo_footer .templatemo_footer_section {
+	
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.cleaner {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 0;
+}

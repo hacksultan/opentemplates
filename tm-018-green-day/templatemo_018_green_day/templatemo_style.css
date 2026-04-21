@@ -1,0 +1,161 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Green Day Template 
+http://www.templatemo.com/preview/templatemo_018_green_day 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  Arial, "Trebuchet MS", Helvetica;
+	font-size: 12px;
+	color: #373737;
+	background: #6bcf06;
+}
+a:link, a:visited { color: #d44601; text-decoration: none; font-weight:bold;} 
+a:active, a:hover { color: #000; text-decoration: underline}
+h1 {
+	margin:0px 0px 10px 0px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 20px;
+	color:#60b509;
+	text-decoration: underline;
+}
+h2 {
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 13px;
+	color:#8b8d01;
+	text-decoration: underline; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px;
+}
+#templatemo_container {
+	margin: 0px auto;
+	width: 800px;
+	height: auto;
+	background: url(images/templatemo_bg.gif);
+
+}
+#templatemo_header {
+	width: 800px;
+	height: 275px;
+	background: url(images/templatemo_header.jpg) 	;
+}
+#templatemo_site_title {
+	padding-top: 120px;
+	padding-left: 400px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#templatemo_site_slogam {
+	padding-top: 10px;
+	padding-left: 450px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+}
+#templatemo_right_column {
+	float: right;
+	margin: 0px 40px 0px 0px;
+	width: 166px;
+
+}
+
+.templatemo_menu {
+	margin: 10px 5px 30px 0px;	
+	height: 162px;
+	width: 150px;
+	background: url(images/templatemo_right_button.gif);
+	line-height: 24px;
+}
+
+
+.templatemo_menu ul {
+	margin: 0px 0px 0px 15px;
+	padding: 0px;
+	list-style: none;
+}
+
+.templatemo_menu ul li {
+	display: block;
+}
+
+.templatemo_menu ul li a {
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	padding-left: 2px;
+	margin: 3px;
+	color: #499200;
+	text-decoration: none;
+}
+
+.templatemo_menu ul li a:hover {
+	color: #c2c400;
+}
+.templatemo_news {
+	font-weight: normal;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #838402;
+	background: #9bb821;
+	color: #ffffff;
+}
+.templatemo_subtitle{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#templatemo_left_column{
+	float: left;
+	width: 520px;
+	padding-left: 60px;
+	
+}
+.post_box {
+	clear: left;
+	margin-top: 0px;
+}
+.text_area {
+	float: left;
+	clear: left;
+	background: #e8ffd1;
+	padding: 10px;
+	border: 0px solid #ffffff;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+.text_area p{
+	margin: 0px;
+	padding: 0px 5px 5px 0px;
+}
+.publish_date {
+	clear: both;
+	padding-top: 15px;
+	color: #499200;
+	font-size: 11px;
+	font-weight: bold;
+}
+#templatemo_footer {
+	clear: both;
+	height: 30px;
+	width: 800px;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	background: url(images/templatemo_footer.jpg) repeat-y;
+}
+#templatemo_footer a {
+	color: #FFFFFF;
+}

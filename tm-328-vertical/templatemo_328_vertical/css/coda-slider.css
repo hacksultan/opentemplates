@@ -1,0 +1,163 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#templatemo_wrapper {
+	width: 940px;
+	padding: 50px 10px;
+	margin: 0 auto;
+}
+
+#templatemo_sidebar {
+	float: left;
+	width: 50px;
+	height: 530px;
+	padding: 10px;
+	background: url(../images/templatemo_sidebar.jpg) no-repeat top;
+}
+
+a.home { 
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/templatemo_home.jpg);
+	text-indent: -10000px;
+}
+
+#menu {
+	clear: both;
+	width: 50px;
+	height: 480px;
+}
+
+#content {
+	float: right;
+	width: 840px;
+	height: 530px;
+	padding: 10px;
+	background: url(../images/templatemo_main.jpg);
+}
+
+#header {
+	width: 840px;
+	height: 50px;
+}
+
+#header h1 { 
+	display: block;
+	width: 230px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#header h1 a { 
+	display: block;
+	width: 230px;
+	height: 50px;
+	background: url(../images/templatemo_logo.jpg);
+	text-indent: -10000px;
+}
+
+#social_box {
+	float: right;
+	height: 30px;
+	padding: 10px;
+	text-align: right;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#social_box a img { 
+	width: 30px;
+	height: 30px;
+}
+
+.content_section {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #666;
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#footer {
+	clear: both;
+	width: 940px;
+	padding: 30px 0;
+	margin: 0 auto;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+.scroll {
+    width: 740px;
+    height: 380px;
+	margin: 50px;
+    overflow: auto;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    width: 740px;
+    height: 380px;
+	overflow: hidden;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0 17px;
+}
+
+ul.navigation li {
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 14px;
+	margin-top: 40px;
+	font-size: 18px;
+	font-weight: 400;
+    text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0;
+}
+
+.scrollButtons.right {
+    right: 0;
+}
+
+.hide {
+    display: none;
+}

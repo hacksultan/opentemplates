@@ -1,0 +1,466 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Travel Template 
+http://www.templatemo.com/preview/templatemo_056_travel 
+*/
+html {
+
+	background: #33302F
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #fff;
+
+	background: url(images/templatemo_page_bg.jpg) repeat-x  center top;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+h1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+	color: #DD3108;
+
+	background-position: left;
+
+	padding: 0px;
+
+}
+
+h2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	margin-top: 0px;
+
+}
+
+#templatemo_container {
+
+	width: 759px;
+
+	margin: auto;
+
+}
+
+#templatemo_header_top {
+
+	float: left;
+
+	width: 759px;
+
+	height: 120px;
+
+	margin-top: 0px;
+
+	background: url(images/templatemo_header.jpg) no-repeat;
+
+}
+
+#templatemo_header_section {
+
+	float: left;
+
+	width: 759px;
+
+	height: 220px;
+
+	background: url(images/templatemo_header_section.jpg) no-repeat;
+
+}
+
+* html #templatemo_header_section {
+width: 755px;
+}
+
+.templatemo_header_box {
+
+	float: right;
+
+	width: 215px;
+	
+	padding: 5px 0px 0px 15px;
+
+	height: 200px;
+	
+	margin-right: 15px;
+	
+
+}
+
+* html .templatemo_header_box {
+ 	margin-right: 5px;
+}
+
+.templatemo_header_box img {
+
+		margin-top:10px;
+}
+
+* html .templatemo_header_box img {
+ 	margin-top: 5px;
+}
+
+
+.templatemo_topmenu{
+
+	float: left;
+
+	margin: 192px 0px 0px 0px;
+	margin-left: 21px;
+	font-weight:bold;
+
+}
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.templatemo_topmenu li{
+
+	display: inline;
+
+}
+
+.templatemo_topmenu li a{
+
+	float: left;
+
+	font-family: tahoma;
+
+	font-size: 11px;
+
+	text-decoration: none;
+
+	text-align: center;
+
+	color: #000;
+
+	width: 120px;
+
+	height: 25px;
+
+	padding-top: 4px;
+
+}
+
+.templatemo_topmenu li a:hover, .templatemo_topmenu li .current{
+
+	color: #fff;
+
+	background: url(images/templatemo_top_current.jpg) repeat;
+
+}
+
+#templatemo_content_section {
+
+	float: left;
+
+	width: 759px;
+
+	overflow: auto;
+
+	background: url(images/templatemo_content_bg2.jpg)  repeat-y;
+
+}
+
+/* Templatemo Left Content */
+#templatemo_content_left {
+
+	float: left;
+
+	width: 518px;
+
+	background: url(images/templatemo_content_left_bg.jpg)  repeat-y;
+
+}
+
+#templatemo_content_left_top {
+
+	float: left;
+
+	width: 430px;
+
+	background: url(images/templatemo_content_left_top.jpg) no-repeat;
+
+	color: #000;
+
+	text-align: justify;
+	padding: 30px 25px ;
+	margin-left: 18px;
+
+}
+
+* html #templatemo_content_left_top {
+		margin-left: 10px;
+}
+#templatemo_content_left_top a{ color:#ca721d; text-decoration: none; font-weight: bold; } 
+
+#templatemo_content_left_top a:hover { color :#7b440e; text-decoration: none; font-weight: bold; }
+	
+	
+
+
+#templatemo_content_left_bot {
+
+	float: left;
+
+	width: 488px;
+
+	height: 27px;
+
+	margin-left: 18px;
+
+	background: url(images/templatemo_content_left_bot.jpg) no-repeat;
+
+}
+* html #templatemo_content_left_bot {
+		margin-left: 10px;
+}
+
+.templatemo_content_left_banner {
+
+	padding : 5px 0px 0px 20px;
+}
+
+* html .templatemo_content_left_banner {
+	padding : 5px 12px 0px 12px ;
+}
+
+#templatemo_content_right {
+
+	float: left;
+
+	width: 241px;
+
+	height: 500px;
+
+	background: url(images/templatemo_content_right_bg.jpg) repeat;
+
+}
+
+* html #templatemo_content_right {
+
+	width: 235px;
+}
+
+
+#templatemo_content_right_section1 {
+
+	float: left;
+
+	width: 241px;
+
+	background: url(images/templatemo_content_right_s1.jpg) no-repeat;
+
+}
+* html #templatemo_content_right_section1 {
+	width: 235px;
+}
+
+#templatemo_content_right_section2 {
+
+	float: left;
+
+	width: 241px;
+
+	height: 232px;
+
+	background: url(images/templatemo_content_right_s2.jpg) no-repeat;
+
+}
+
+* html #templatemo_content_right_section2 {
+	width: 235px;
+}
+
+/* Right Locations */
+
+#templatemo_location{
+	margin-top:5px;
+	width : 200px;
+	height: 210px;
+}
+
+.templatemo_location_box{
+	margin: 3px 10px 0px 10px;
+	font-weight:bold;
+	width : 190px;
+	height: 40px;
+	text-decoration:none;
+	font-size:11px;
+
+}
+
+.templatemo_location_box_text{
+		float:left;
+		margin: 10px 0px 0px 10px;
+}
+
+.templatemo_location_box_text a{
+		float:left;
+		color:#ca721d;
+		text-decoration:none;
+
+}
+.templatemo_location_box_text a:hover{
+	color :#7b440e;
+	vertical-align:middle;
+	float:left;
+	text-decoration:none;
+}
+
+/* Reservation Form */
+#templatemo_form{
+	margin-top:5px;
+	width : 200px;
+	height: 250px;
+}
+
+.templatemo_form_roll{
+	margin: 10px 0px 0px 10px;
+	width : 90px;
+	float:left;
+}
+* html .templatemo_form_roll{
+	margin: 5px 0px 0px 5px;
+}
+.templatemo_form_roll label{
+	color : #7ba212;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.templatemo_form_roll input{
+	width : 80px;
+	height: 12px;
+	font-size:9px;
+}
+
+
+.templatemo_form_col{
+	margin: 10px 0px 0px 10px;
+	width : 195px;
+	float:left;
+	color : #7ba212;
+}
+
+.templatemo_form_col select{
+	margin: 0px 0px 0px 2px;
+}
+* html .templatemo_form_col{
+	margin: 5px 0px 0px 5px;
+}
+.templatemo_form_col label{
+	color : #7ba212;
+	font-weight:bold;
+	font-size:13px;
+}
+
+#button{
+	background: url(images/templatemo_button.jpg); 
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 22px;
+	margin: 0 0 0 90px;
+	padding: 0 6px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 65px;
+}
+
+#templatemo_content_footer {
+
+	float: left;
+
+	width: 759px;
+
+	height: 27px;
+
+	background: url(images/templatemo_content_footer.jpg) no-repeat;
+
+}
+
+#templatemo_footer_section {
+
+	float: left;
+
+	width: 759px;
+
+	height: 50px;
+
+	color: #adad7b;
+
+}
+
+#templatemo_footer_left {
+
+	float: left;
+
+	padding: 40px 0px 0px 0px;
+
+	text-align: center;
+
+}
+
+#templatemo_footer_left a{
+
+	color : #adad7b;
+
+}
+
+#templatemo_footer_right {
+
+	float: left;
+
+	padding: 50px 0px 0px 50px;
+
+}
+
+.line {
+
+	border-bottom: dashed 1px #fff;
+
+	width: 100%;
+
+}

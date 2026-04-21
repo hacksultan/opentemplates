@@ -1,0 +1,157 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Artist Template 
+http://www.templatemo.com/preview/templatemo_031_artist 
+*/
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #666666;
+	background: #595248;
+}
+
+a:link, a:visited { color: #8dc641; text-decoration: none; } 
+a:active, a:hover { color: #8dc641; text-decoration: none }
+
+h1 {
+	height: 33px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e6dc18;
+	padding-left: 30px;
+	padding-top: 30px;
+	background: url(images/templatemo_h1.jpg) no-repeat;
+}
+h2 {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #84a50f;
+	background: url(images/templatemo_gray.jpg) no-repeat;
+}
+
+#templatemo_container {
+	width: 775px;
+	margin: auto;
+}
+#templatemo_header {
+	height: 216px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+.templatemo_menu{
+	float: left;
+	width: 775px;
+	height: 35px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.templatemo_menu ul {
+	margin: 0px;
+	padding-left: 25px;
+	padding-top: 10px;
+	list-style: none;
+}
+
+.templatemo_menu li{
+	display: inline;
+}
+
+.templatemo_menu li a{
+	float: left;
+	padding: 8px 0px;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	width: 97px;
+}
+
+.templatemo_menu li a:hover{
+	color: #3e3e3e;
+}
+#templatemo_site_title {
+	float: right;
+	margin-right: 30px;
+	margin-top: 90px;
+	width: 700px;
+	color: #4e4a41;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: right;
+}
+#templatemo_slogan {
+	float: right;
+	width: 700px;
+	margin: 10px;
+	text-align: right;
+	font-weight: bold;
+	height: 20px;
+}
+
+#templatemo_content {
+	float: left;
+	width: 775px;
+	background: url(images/templatemo_content_bg.jpg) repeat-x;
+}
+#templatemo_content_left{
+	float: left;
+	width: 520px;
+}
+#templatemo_content_right {
+	float: right;
+	width: 238px;
+}
+#templatemo_content p{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+}
+#templatemo_content img {
+	float: right;
+}
+#templatemo_content_bot {
+	float: left;
+	width: 775px;
+	background: #f1eee6;
+}
+#templatemo_content_bot li{
+	padding-left: 0px;
+	padding-right: 30px;
+	text-align: justify;
+}
+#templatemo_content_bot strong {
+	color:#6ba122;
+	text-decoration: underline;
+}
+#templatemo_content_bot p {
+	padding-left: 30px;
+	padding-right: 10px;
+	text-align: justify;	
+}
+.templatemo_bottom_text_left {
+	float: left;
+	width: 490px;
+}
+.templatemo_bottom_text_right {
+	float: right;
+	padding-right: 20px;
+	width: 250px;
+}
+#templatemo_footer {
+	float: left;
+	width: 775px;
+	height: 30px;
+	padding-top: 10px;
+	background: #d8d0c5;
+	font-weight: bold;
+	text-align: center;
+}

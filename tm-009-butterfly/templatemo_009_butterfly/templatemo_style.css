@@ -1,0 +1,165 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Butterfly Template 
+http://www.templatemo.com/preview/templatemo_009_butterfly 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  Arial, "Trebuchet MS", Helvetica;
+	font-size: 12px;
+	color: #000000;
+	background: #369 url(images/templatemo_bg.jpg) no-repeat top center;
+}
+a:link, a:visited { color: #0066CC; text-decoration: none} 
+a:active, a:hover { color: #FF0000; text-decoration: underline}
+
+#templatemo_container {
+	width: 820px;
+	margin: 0px auto;
+	background: #FFF;
+}
+#templatemo_top {
+	clear: both;
+	margin: auto;
+	padding-top: 10px;
+	width: 820px;
+	height: 20px;
+	text-align: center;
+	background: url(images/templatemo_top_bg.gif) no-repeat;
+}
+#templatemo_header {
+	clear: left;
+	margin: auto;
+	width: 820px;
+	height: 170px;
+	text-align: left;
+}
+#templatemo_left_column {
+	clear: left;
+	float: left;
+	width: 200px;
+}
+#templatemo_right_column {
+	float: right;
+	width: 595px;
+	padding-right: 15px;
+}
+#templatemo_footer {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	font-size: 11px;
+	background: #333;
+	color: #FFF;
+}
+#templatemo_footer a {
+	color: #FF0;
+}
+#templatemo_site_title {
+	padding-top: 90px;
+	padding-left: 80px;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: left;
+	color: #FFFF00;
+}
+#templatemo_site_slogan {
+	padding-top: 16px;
+	padding-left: 80px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	color: #FFFF00;
+}
+.templatemo_spacer {
+	clear: left;
+	height: 10px;
+}
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+.section_box {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #CDE;
+	background: url(images/gradient_top.gif) repeat-x;
+}
+.post_box {
+	clear: left;
+	margin-top: 10px;
+	background: #FFF;
+	color: #000;
+	border: 1px solid #CDE;
+}
+.text_area {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.post_text_area {
+	padding: 10px;
+}
+.post_title {
+	padding: 6px;
+	padding-left: 10px;
+	background: #EFEFEF url(images/gradient_top.gif) repeat-x;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.publish_date {
+	clear: both;
+	padding: 3px;
+	padding-left: 10px;
+	color: #06C;
+	font-size: 11px;
+	font-weight: bold;
+	background: #CDE url(images/gradient_bot.gif) repeat-x bottom;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #C00;
+}
+.subtitle {
+	padding-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C00;
+}
+.templatemo_menu {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	width: 180px;
+}
+.templatemo_menu li a{
+	background: #DEF;
+	font-size: 13px;
+	font-weight: bold;
+	color: #06C;
+	display: block;
+	width: auto;
+	margin-bottom: 1px;
+	padding: 5px;
+	padding-left: 14px;
+	text-decoration: none;
+}
+* html .templatemo_menu li a{ 
+	width: 175px;
+}
+.templatemo_menu li a:visited, .templatemo_menu li a:active{
+	color: #06C;
+}
+.templatemo_menu li a:hover{
+	background: #069;
+	color: #FF0;
+}

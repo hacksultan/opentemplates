@@ -1,0 +1,303 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Blue Template 
+http://www.templatemo.com/preview/templatemo_130_blue 
+*/
+
+html {
+	background: url(images/templatemo_bg.jpg) repeat-x #1878a5;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_bg.jpg) repeat-x #1878a5;
+}
+
+a:link, a:visited {	color: #CCFF33; text-decoration:none; font-weight:bold;}
+a:active, a:hover { color: #99FFFF; text-decoration: underline; font-weight:bold;}
+
+p {
+	font-family: Arial;
+	font-size: 12px;
+	text-align: justify;	
+}
+
+#templatemo_container {
+	width: 862px;
+	margin: auto;
+}
+
+#templatemo_menu_bg {
+	width: 862px;
+	height: 54px;
+	background: url(images/templatemo_menu_bg.png) ;
+	padding: 5px 0 0 0;
+}
+
+/* Menu */
+#templatemo_menu {
+	height: 52px;
+	width: 650px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+#templatemo_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#templatemo_menu li {
+	float:left;
+}
+#templatemo_menu li a {
+	float: left;
+	display: block;
+	color: #fff;
+	background: url(images/templatemo_menu_left.png) no-repeat;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 0 0 9px;
+	height: 52px;
+	line-height: 33px;
+	text-align: center;
+	cursor: pointer;
+}
+#templatemo_menu li a b {
+	float: left;
+	display: block;
+	height: 42px;
+	padding: 10px 20px 0 11px;
+	background: url(images/templatemo_menu_right.png) right top no-repeat;
+}
+#templatemo_menu li.current a, #templatemo_menu li a:hover{
+	
+	color: #a0f7ff;
+
+}
+
+/* End OF menu */
+
+
+#templatemo_header {
+	width: 862px;
+	height: 224px;
+}
+
+#templatemo_header_left {
+	float: left;
+	width: 410px;
+}
+
+#templatemo_logo {
+	width: 260px;
+	height: 20px;
+	margin: 35px 0 0 15px;
+	font-family: "Book Antiqua";
+	font-size: 24px;
+	font-weight: bold;
+}
+
+span.white { color: #fff; }
+span.yellow { color: #ffca57; }
+
+#templatemo_news {
+	width: 344px;
+	height: 87px;
+	margin: 25px 0 0 15px;
+	padding: 15px 20px;
+	background: url(images/templatemo_block.png);
+}
+
+#templatemo_news p {
+	color: #fff;
+	margin: 0 0 10px;
+}
+#templatemo_news a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#templatemo_news a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#templatemo_header_img {
+	float: right;
+	width: 400px;
+	height: 189px;
+	background: url(images/templatemo_header_img_bg.png);
+	margin: 35px 15px 0 0;
+}
+
+#templatemo_header_img img{
+	margin: 7px 0 0 5px;
+}
+
+#templatemo_content_area {
+	width: 862px;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_content_area_top {
+	width: 862px;
+	height: 23px;
+	background: url(images/templatemo_content_top.png);
+	
+}
+
+#templatemo_content_area_bottom {
+	width: 862px;
+	background: url(images/templatemo_content_bottom.png) no-repeat;
+	
+}
+
+#templatemo_content {
+	width: 790px;
+	margin: 0 auto;
+}
+
+.templatemo_onecol {
+	width: 790px;
+	margin: 0 0 15px 0;
+	color: #fff;
+}
+
+.templatemo_onecol h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}
+
+.templatemo_onecol img {
+	float: left;
+	margin: 0 8px 5px 0;
+}
+
+.templatmo_twocol {
+	width: 386px;	
+}
+
+.left{ float: left; }
+.right { float: right; }
+.middle { float: left; margin: 0 0 0 18px; }
+
+.templatemo_twocol_top {
+	width: 386px;
+	height: 9px;
+	background: url(images/templatemo_2_col_top.jpg);
+}
+.templatemo_twocol_bottom {
+	width: 386px;
+	height: 9px;
+	background: url(images/templatemo_2_col_bottom.jpg);
+}
+
+.templatemo_twocol_mid {
+	width: 346px;
+	background: url(images/templatemo_2_col_mid.jpg);
+	padding: 4px 20px;
+}
+
+.templatemo_twocol_mid p { margin: 10px 0 10px 0; }
+
+.templatmo_threecol {
+	width: 251px;	
+}
+
+.templatemo_threecol_top {
+	width: 251px;
+	height: 16px;
+	background: url(images/templatemo_3_col_top.jpg);
+}
+
+.templatemo_threecol_mid {
+	width: 211px;
+	background: url(images/templatemo_3_col_mid.jpg) no-repeat ;
+	padding: 4px 20px 10px 20px;
+}
+
+.templatemo_threecol_mid p {
+	clear: both;
+	color: #acebff;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.templatemo_threecol_mid img {
+	margin: 5px 0 5px 5px;
+	
+}
+
+.templatemo_threecol_mid h1 {
+	font-family: Arial;
+	font-size: 14px;
+	color: #fff;
+	margin: 0 0 5px 0;
+}
+
+.templatemo_readmore {
+
+	width: 94px;
+	height: 21px;
+	background: url(images/templatemo_readmore.png) no-repeat;
+	padding: 3px 0 0 20px;
+	font-family: Arial;
+	font-size:	12px;
+	margin: 10px 0 0 0 ;
+
+}
+
+.templatemo_readmore a {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.templatemo_readmore a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#templatemo_footer {
+	border-top: 3px solid #319fbf;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+	color: #74e3ff;
+	margin: 30px;
+	padding: 10px 0;
+}
+
+#templatemo_footer a {
+	color: #74e3ff;
+	font-weight: normal;
+	text-decoration: underline;
+	
+}
+
+#templatemo_footer a:hover {
+	text-decoration: none;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

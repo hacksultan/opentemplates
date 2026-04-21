@@ -1,0 +1,99 @@
+body {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: $body-color;
+	font-family: $body-font;
+}
+
+a {
+	color: $accent;
+	@include transition(all, 150ms, ease-in-out);
+	text-decoration: none !important;
+	&:hover {
+		color: $heading-color;
+	}
+}
+
+h1, h2, h3, h4, h5 {
+	color: $heading-color;
+	font-family: $heading-font;
+}
+
+h1 {
+	font-size: 34px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+.button {
+	width: auto;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	&.outline {
+		border: 2px solid;
+	}
+	&.default {
+		background: $accent;
+		color: $white;
+		border: 2px solid $accent;
+	}
+	&.white {
+		color: $white;
+		border-color: $white;
+	}
+}
+
+// .page-section {
+// 	padding-top: 80px;
+// }
+
+span.underline {
+	width: 240px;
+	height: 3px;
+	background: $light-bg;
+	display: block;
+	margin: 30px auto;
+}
+
+.small-text {
+	font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+   color: #9ca8af;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #9ca8af;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #9ca8af;
+}
+
+:-ms-input-placeholder {  
+   color: #9ca8af;
+}

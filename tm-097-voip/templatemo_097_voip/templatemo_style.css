@@ -1,0 +1,232 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Voip Template 
+http://www.templatemo.com/preview/templatemo_097_voip 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 12px;
+	color: #e7eaeb;
+	background: #6d6a6b url(images/templatemo_bg.jpg) repeat;
+}
+
+a:link, a:visited { color: #00a1ff; text-decoration: none; font-weight: bold; } 
+a:active, a:hover { color: #00a1ff; text-decoration: underline; }
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+#templatemo_wrapper {
+	margin: 0 auto;
+	background: url(images/templatemo_gradient_bg.jpg) top repeat-x;
+}
+
+
+#templatemo_container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+}
+
+/* banner */
+#templatemo_banner {
+	clear: both;
+	width: 880px;
+	height: 250px;
+	padding: 0 40px;
+	margin: 0 0 5px 0;
+	background: url(images/templatemo_banner_bg.jpg) no-repeat;
+}
+
+#templatemo_banner h1 {
+	margin: 0px;
+	padding: 0px;
+	padding: 80px 0 20px 0;	
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+
+#templatemo_banner p {
+	font-size: 30px;
+	width: 400px;
+	line-height: 30px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* end of banner */
+
+#templatemo_content {
+	clear: both;
+	position: relative;
+	width: 956px;
+	padding: 0 2px;
+	background: url(images/templatemo_content_middle.jpg) repeat-y;
+}
+
+#templatemo_content #content_top {
+	position: absolute;
+	width: 960px;
+	height: 10px;
+	top: 0;
+	left: 0;
+	background: url(images/templatemo_content_top.jpg) no-repeat;
+}
+
+#templatemo_content h1 {
+	font-size: 24px;
+	color: #009dff;
+	padding: 0 0 20px 0;
+	margin: 0 0 10px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+
+#templatemo_content h2 {
+	font-size: 20px;
+	color: #009dff;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+
+#templatemo_content h3 {
+	font-size: 16px;
+	color: #c6ca1d;
+	padding: 0 0 5px 30px;
+	margin: 0 0 5px 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+	background: url(images/templatemo_list_icon.jpg) top left no-repeat;
+}
+
+#templatemo_content img {
+	float: left;
+	border: 3px solid #221e1f;
+	margin: 3px 30px 5px 0;
+}
+
+#templatemo_content .templatemo_content_section_01 {
+	clear: both;
+	width: 876px;
+	padding: 40px;
+	background-color: #444041;
+}
+
+.templatemo_content_section_01 .section_01_left {
+	float: left;
+	width: 556px;
+	padding-right: 40px;
+	border-right: 1px solid #333;
+}
+
+.templatemo_content_section_01 .section_01_right {
+	float: right;
+	width: 238px;
+}
+
+.section_01_left p{
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.section_01_right p{
+	padding-bottom: 5px;
+	text-align: justify;
+}
+
+#templatemo_content .templatemo_content_section_02 {
+	clear: both;
+	color: #CCC;
+	width: 956px;
+	padding: 0px;
+	border-top: 1px solid #2c2829;
+	background-color: #221e1f;
+}
+
+.templatemo_content_section_02 p {
+	text-align: left;
+}
+
+.templatemo_content_section_02 .section_02_subsection {
+	float: left;
+	width: 238px;
+	margin: 30px 0px;
+	padding: 0 40px;
+	border-right: 1px solid #332e30;
+	background-color: #221e1f;	
+}
+
+.section_02_subsection li a {
+	color: #e7eaeb;
+	font-weight: normal;
+}
+
+.section_02_subsection ul {
+	margin: 20px 0 10px 10px;
+	padding: 0px;
+	list-style: none;
+}
+
+.section_02_subsection li {
+	margin: 0px;
+	padding: 0 0 15px 25px;
+	background: url(images/templatemo_list_icon_02.jpg) top left no-repeat;
+}
+
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	width: 960px;
+	height: 65px;
+	padding: 15px 0 0 0;
+	text-align: center;
+	color: #888;
+	background: url(images/templatemo_footer.jpg);
+}
+
+#templatemo_footer p {
+	padding-bottom: 5px;
+}
+
+#templatemo_footer a {
+	color: #888;
+	font-weight: normal;
+}
+/* end of footer */

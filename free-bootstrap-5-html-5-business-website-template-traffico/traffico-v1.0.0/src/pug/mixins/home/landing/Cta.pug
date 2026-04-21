@@ -1,0 +1,24 @@
+mixin Cta
+  section
+    +Background({image: `${CWD}assets/img/gallery/footer-bg.png`, attrs: { style: { 'background-position': 'left', 'background-size': 'contain', 'padding':'5px 3px'} }, className: '' })
+    .container
+      .row.min-vh-lg-50.min-vh-xl-75
+        .col-lg-6.col-xl-5.my-2.py-9.d-none.d-lg-block
+          .card.card-span.bg-transparent.border-start.border-primary.border-5.mt-3
+            .card-body
+              p.text-light.fs-2.lh-lg.px-lg-3 We provide traffic management consultants so you get started quickly, contact us for a quote today!
+      
+        .col-lg-6.col-xl-5.mb-3
+          .card.card-span.shadow.py-4.px-5
+            .card-body
+              form.row.g-3.align-items-center
+                .mb-3
+                  label.form-label(for='formGroupExampleInput') Name
+                  input.form-control.form-traffico-control#formGroupExampleInput(type='text' placeholder='Name')
+                .mb-3
+                  label.form-label(for='formGroupExampleInput2') Email address
+                  input.form-control.form-traffico-control#formGroupExampleInput2(type='text' placeholder='Your email address')
+                .col-12
+                  button.btn.btn-primary(type='submit') GET STARTED
+                    svg.bi.bi-arrow-right.ms-2(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16')
+                      path(fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z')

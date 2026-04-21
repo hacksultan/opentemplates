@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+
+	<config 
+		auto_play="true" 
+		auto_play_duration="2.6" 
+		grid_row="3" 
+		grid_column="8" 
+		tween_duration="0.6" 
+		tween_delay="0.02"
+		stylesheet="slider_style.css"
+		bar_status="0">
+	</config>
+	
+	<photo>
+		<filename>images/slider/photo_900x290_01.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Image title one goes here</p><p><a href="http://www.flashmo.com" target="_parent">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit. <span class="highlight">Quisque at ante sit amet</span> erat laoreet <u>fermentum</u>. Quisque nec nisl. Nam scelerisque cursus dolor. Donec in. <span class="note">This text is dynamically loaded from the external XML file. This textfield supports HTML and CSS.</span></p>]]></description>
+		<transition flow="in" direction="center" rotation="0"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/photo_900x290_02.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Image title two goes here</p><p>Fusce quis diam sit amet tortor luctus pellentesque. <a href="http://www.flashmo.com/donate" target="_blank">Donec accumsan urna</a> non elit tristique mattis. <b>Vivamus fermentum</b> orci viverra nisl. Donec euismod enim et risus. <span class="note">Integer vestibulum luctus leo at iaculis. Nulla scelerisque sodales arcu elementum imperdiet.</span></p>]]></description>
+		<transition flow="in" direction="center" rotation="0"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/photo_900x290_03.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Image title three goes here</p><p>In velit urna, <u>convallis id</u>, pharetra in, iaculis sit amet, mi. Praesent consectetur imperdiet mauris. Suspendisse at pede vel lorem pulvinar laoreet. Etiam et neque. <span class="note">This text is dynamically loaded from the external XML file. This textfield supports HTML and CSS.</span></p>]]></description>
+		<transition flow="out" direction="center" rotation="0"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/photo_900x290_04.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Image title four goes here</p><p><a href="http://www.flashmo.com" target="_blank">Mauris vestibulum felis</a> eget tortor. Praesent mattis varius quam. Vestibulum ullamcorper ipsum nec augue. Vestibulum auctor odio eget ante. <span class="highlight">Nunc commodo, magna pharetra semper vehicula, dui ligula feugiat elit, et euismod nunc orci ut libero.</span></p>]]></description>
+		<transition flow="in" direction="center" rotation="0"></transition>
+	</photo>
+	
+	<photo>
+		<filename>images/slider/photo_900x290_05.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Image title five goes here</p><p>Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. <a href="http://www.flashmo.com" target="_parent">Aenean eleifend</a>, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus.</p>]]></description>
+		<transition flow="out" direction="center" rotation="0"></transition>
+	</photo>
+	
+</photos>

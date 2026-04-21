@@ -1,0 +1,167 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Fresh Template 
+http://www.templatemo.com/preview/templatemo_021_fresh 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background: #d9d4bf ;
+}
+
+a:link, a:visited { color: #ffffff; text-decoration: none; } 
+a:active, a:hover { color: #ffffff; text-decoration: none }
+
+h1	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#f9a400;
+	font-size: 18px;
+}
+h2	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #fc7600;
+	font-size: 14px;
+	border-bottom: solid 1px #FF9900;
+	border-top: solid 1px #FF6600;
+}
+
+#templatemo_container {
+	width: 782px;
+	min-height: 860px;
+	margin: auto;
+	margin-top: 20px;
+	background: #f2efe6;
+	border: 9px solid #ffffff;
+}
+#templatemo_left_column	{
+	float: left;
+	width: 232px;
+	min-height: 860px;
+	background: #5c551f;
+}
+#templatemo_left_pic {
+	width: 232px;
+	height: 321px;
+	background: url(images/left-photo.jpg) no-repeat;
+}
+.glossymenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 232px;
+}
+.glossymenu li a {
+	background: white url(images/left-button.jpg);
+	font: bold 12px "Trebuchet MS", Verdana, Helvetica;
+	color: #443c17;
+	display: block;
+	width: auto;
+	padding: 5px;
+	padding-left: 50px;
+	text-decoration: none;
+}
+* html .glossymenu li a { /*IE only. Actual menu width minus left padding of A element (10px) */
+	width: 170px;
+}
+.glossymenu li a:visited, .glossymenu li a:active {
+	color: #443c17;
+}
+.glossymenu li a:hover{
+	background-image: url(images/left-button-hover.jpg);
+	color: #000000;
+}
+#templatemo_about{
+	width: 212px;
+	background: #6e662c;
+	padding: 10px 10px 10px 10px;
+	color: #FFFFFF;
+}
+#templatemo_contact{
+	width: 212px;
+	background: #5c551f;
+	padding: 10px 10px 10px 10px;
+	color: #FFFFFF;
+}
+#templatemo_right_column	{
+	float: right;
+	width: 550px;
+	height: auto;
+}
+#templatemo_header {
+	width: 550px;
+	height: 86px;
+	background: url(images/header-bg.jpg) repeat-x;
+}
+.templatemo_title {	
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+	width: 500px;
+	height: 30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size: 30px;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.templatemo_slogan {
+	float: left;
+	padding-left: 10px;
+	width: 500px;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:12px;
+	color: #f8ffd0;
+	text-align: center;
+}
+.templatemo_right_para {
+	float: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+}
+
+.templatemo_right_para a:link, a:visited {
+	color: #0066CC;
+}
+
+.templatemo_right_para a:active, a:hover { 
+	color: #FF0000; 
+}
+
+.templatemo_text_area {
+	margin: 0px;
+}
+
+.templatemo_pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#templatemo_copyright {
+	clear: both;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 800px;
+	height: 30px;
+	padding-top: 5px;
+	background:#aaa386;
+	border: solid 2px #FFFFFF;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#templatemo_copyright a {
+	color: #FFFFFF;
+}

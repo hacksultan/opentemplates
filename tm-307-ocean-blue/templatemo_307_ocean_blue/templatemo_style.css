@@ -1,0 +1,267 @@
+/* 
+Ocean Blue Template 
+http://www.templatemo.com/preview/templatemo_307_ocean_blue
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #bbb;
+	background-repeat: repeat-x;
+	background-position: top	
+}
+
+.homepage { background-image: url(images/templatemo_body.jpg) }
+.subpage { background-image: url(images/templatemo_body_subpage.jpg) }
+
+a, a:link, a:visited { color: #e98236; font-weight: bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #000; font-weight: bold; font-style: normal }
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 25px; margin: 0 0 15px 0; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+a.more { 
+	clear: both; 
+	display: block; 
+	width: 80px; 
+	height: 24px; 
+	text-align: center; 
+	color: #fff; 
+	font-weight: bold;
+	font-size: 11px;
+	background: url(images/templatemo_more.jpg);
+}
+
+a.more:hover { text-decoration: none; color: #fff; background: url(images/templatemo_more_hover.jpg) }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 5px solid #fff; background: none; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+
+.tmo_list { margin: 20px 0 20px 20px; padding: 0; list-style: none }
+.tmo_list li { color:#e98236; margin: 0; padding: 0 0 0 20px; background: url(images/templatemo_list.jpg) no-repeat scroll 0 7px  }
+.tmo_list li a { color: #e98236; font-weight: normal }
+.tmo_list li a:hover { color: #e98236 }
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 20px;
+	margin: 0 auto;
+	background: url(images/templatemo_header.jpg) top center no-repeat
+}
+
+#templatemo_header {
+	width: 960px;
+	height: 105px;
+}
+
+#site_title { float: left; }
+#site_title h1 { margin: 25px 0 0 0; padding: 0 }
+#site_title h1 a { display: block; width: 200px; height: 38px; color: #fff; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat }
+#site_title h1 span { display: block; text-align: left; padding: 0px 0px 0px 10px; font-size: 12px; color: #fff }
+
+#search_box { float: right; margin: 40px 0 0 0; width: 240px; height: 26px; background: url(images/templatemo_search.jpg) no-repeat }
+#search_box form { clear: both; width: 240px; height: 26px; padding: 0; margin: 0 } 
+#searchfield { float: left; display: block; height: 16px; width: 195px; padding: 5px; font-size: 12px; color: #ccc; line-height: 0; background: none; border: none; } 
+#searchbutton { float: right; display: block; height: 26px; width: 31px; padding: 0; margin: 0; cursor: pointer; background: none; border: none; }
+
+#templatemo_menu {
+	clear: both;
+	width: 960px;
+	height: 40px;
+	background: url(images/templatemo_menu.jpg)
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 32px;
+	padding: 8px 30px 0 30px;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #383838;	
+	font-weight: normal;
+	outline: none;
+	border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current { 
+	color: #000; 
+	height: 34px; 
+	padding: 2px 30px 0 30px; 
+	background: url(images/templatemo_menu_hover.png) bottom center no-repeat;
+}
+
+
+#templatemo_middle { 
+	clear: both;
+	width: 960px;
+	height: 240px;
+	padding: 30px 0;
+	background: url(images/templatemo_middle.jpg) left top no-repeat
+}
+
+#templatemo_middle_subpage {
+	clear: both;
+	width: 960px;
+	padding: 30px 0;
+	background: url(images/templatemo_middle.jpg) left center no-repeat
+}
+
+#templatemo_middle_subpage h2 { color: #fff }
+#templatemo_middle_subpage p { font-size: 16px; color: #fff; line-height: 30px }
+
+#intro { float: left; padding: 15px 30px; width: 520px; }
+#intro h2 { font-size: 30px; color: #fff; margin-bottom: 30px }
+#intro p { font-size: 14px; letter-spacing: 1px; word-spacing: 5px; line-height: 24px; color: #fff; margin-bottom: 30px }
+#intro a.learn_more { display: block; width: 170px; height: 40px; background: url(images/templatemo_learn_more.jpg) no-repeat }
+
+#slider {
+	float: right;
+	width: 320px;
+	height: 240px; 
+	overflow: hidden;
+}
+
+#templatemo_main {
+	clear: both;
+	width: 960px;
+	padding: 30px 0;
+	background: #fff;
+}
+
+.col_w900 { width: 900px; padding: 0 30px; margin-bottom: 50px; }
+.col_w580 { width: 580px }
+.col_w420 { width: 420px }
+.col_w280 { width: 280px }
+.col_allw280 { float: left; width: 280px; margin-right: 30px }
+.col_w900_last { padding: 0 30px; margin: 0; background: none; }
+.col_last { margin: 0; }
+
+.frontpage_box h2 { font-size: 20px; padding: 0; margin-bottom: 5px; color: #333 }
+.frontpage_box img { float: left; margin-right: 15px }
+.frontpage_box a.more { margin-top: 15px }
+.tagline { display: block; font-size: 11px; font-weight: bold; font-style: italic; color: #000; margin-bottom: 20px }
+
+.lbe_box { clear: both; margin-bottom: 20px }
+.lbe_box h3 { font-size: 16px; margin-bottom: 0 }
+.lbe_box h3 a { color: #0e4369; font-size: 16px; font-weight: normal }
+.lbe_box h3 a span { font-size: 12px; color: #333 }
+.lbe_box p { margin-bottom: 0; }
+.lbe_box p.date { font-size: 10px; font-weight: 700; color: #0e4369 }
+
+.lp_box img { border: 1px solid #CCC; padding: 4px; margin-bottom: 20px; }
+
+.news_box { clear: both; margin-bottom: 30px }
+.news_box h2 { font-size: 20px; margin-bottom: 0 }
+.news_box p.date { color: #000 }
+.news_box img { float: left; width: 100px; height: 100px; padding: 4px; border: 1px solid #000; margin-right: 30px }
+.news_box a.more { float: right; }
+
+.sb_lp_box { clear: both; margin-bottom: 20px }
+.sb_lp_box img { padding: 9px; border: 1px solid #ccc }
+
+.post_box { clear: both; margin-bottom: 30px }
+.post_box h2 { font-size: 20px; margin-bottom: 10px }
+
+.post_box p.post_meta { margin-bottom: 0 }
+.post_box p span.cat a { color: #cb5c02; font-weight: 400 }
+
+.post_box img { width: 550px; height: 160px; border: 10px solid #eee; margin-bottom: 10px }
+.post_box a.more { float: right; }
+
+#cp_contact_form { padding: 0; width: 400px }
+#cp_contact_form form { margin: 0px; padding: 0px; }
+
+#cp_contact_form form .input_field { 
+	width: 400px; 
+	font-size: 12px;
+	color: #333;
+	padding: 5px; 
+	height: 20px; 
+	border: 1px solid #ccc;  
+	background: #fff; 
+}
+
+#cp_contact_form form label { display: block; width: 220px; margin-right: 10px; font-size: 12px; color: #000; }
+
+#cp_contact_form form textarea { 
+	width: 390px; 
+	height: 160px; 
+	padding: 5px; 
+	color: #333; 
+	border: 1px solid #ccc;
+	background: #fff; 
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#cp_contact_form form .submit_btn { margin: 10px 0px; padding: 5px 14px; border: 1px solid #ccc; background: #fff; }
+
+#map img { width: 270px; height: 160px; border: 1px solid #999; padding: 4px }
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0; list-style: none }
+#gallery ul li { display: block; float: left; width: 168px; margin: 0 15px 15px 0; }
+#gallery ul .lmb { margin: 0 0 15px 0; }
+#gallery ul li a img { width: 162px; height: 116px; padding: 2px; border: 1px solid #ccc }
+#gallery ul li a img:hover { background: #ccc }
+
+#templatemo_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #062a44;
+}
+
+#templatemo_footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	color: #84b2d3;
+	background:  url(images/templatemo_footer.jpg) top center no-repeat;
+	font-size: 11px;
+}
+
+#templatemo_footer a { color: #84b2d3; font-weight: normal; }
+
+#templatemo_footer a:hover { color: #FFFFFF; }

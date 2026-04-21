@@ -1,0 +1,51 @@
+.content
+{
+	margin: 0 0 30px 0;
+}
+
+.content a
+{
+	color: #fff;
+}
+
+
+.content p.linkage
+{
+	margin-top: 2em;
+	text-align: right;
+	font-size: 12em;
+	color: #ddd;
+}
+
+.content p.linkage a { color: #fff; }
+
+/*.content p.linkage a
+{
+	color: #fff;
+	background: url('../images/bg/biglink_off.gif') center right no-repeat;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.content p.linkage a:hover
+{
+	background: url('../images/bg/biglink_on.gif') center right no-repeat;
+	font-style: italic;
+}*/
+
+#myGallery
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#myGallery h2
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#myGallery p{
+	font-size: 11px;
+	color: #fff;
+}

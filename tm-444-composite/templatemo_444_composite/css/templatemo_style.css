@@ -1,0 +1,481 @@
+/*
+Composite Template 
+http://www.templatemo.com/preview/templatemo_444_composite
+*/
+
+body
+{
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	position: relative;
+}
+
+/* start templatemo page container */
+@media (min-width: 768px) {
+	.container { width: 700px; }
+}
+@media (min-width: 992px) {
+	.container { width: 900px; }
+}
+@media (min-width: 1200px) {
+	.container { width: 1000px;	}
+}
+/* end templatemo page container */
+
+.blue {
+	color: #06C;
+}
+
+.green {
+	color: #090;
+}
+
+/* start templatemo navigation */
+.navbar-default
+{
+	background: #FFF;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+	margin: 0;
+}
+.navbar-default .navbar-brand
+{
+	font-weight: 600;
+	font-size: 30px;
+	padding: 10px 0 0 0;
+	height: 65px;
+	line-height: 40px;
+}
+.navbar-default .navbar-brand:hover { color: #ffa400; }
+.navbar-default .nav li a
+{
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	height: 65px;
+	line-height: 38px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.navbar-default .nav li a:hover
+{
+	background-color: #ffa400;
+	color: #FFF;
+}
+.navbar-default .nav li a:focus { color: #303030; }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #FFF;
+	background-color: #ffa400;
+}
+.navbar-default .navbar-toggle
+{
+	border: none;
+	padding-top: 18px;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background: #ffa400;
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+/* end templatemo navigation */
+
+/* start templatemo header background slideshow */
+#home { padding-top: 65px; }
+.flexslider {
+	margin: 0 0 60px;
+	background: #fff;
+	padding: 0;
+	position: relative;
+	zoom: 1;
+	background-color: #371604;
+	overflow: hidden;
+	margin: 0;
+}
+.flexslider .slides {
+	padding: 0;
+	zoom: 1;
+}
+.flexslider .slides img {
+	width: 100%;
+	min-width: 648px;
+	min-height: 270px;
+	display: block;
+}
+.flexslider .slides > li {
+	display: none;  
+	padding: 0;
+	position: relative;
+	-webkit-backface-visibility: hidden;
+}
+.flexslider img {
+	position: relative;
+	width: 100%;
+}
+.slider-caption {
+	color:white;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	z-index: 7;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.templatemo-slider-btn
+{
+	background: #ffa400;
+	border-radius: 0;
+	border: 2px solid transparent;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 40px 0 0 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	height: 50px;
+	width: 250px;
+	padding: 12px 10px 10px 10px;
+}
+.templatemo-slider-btn:hover,
+.templatemo-slider-btn:focus {
+	background: #fff;
+	color: #ffa400;
+	border: 2px solid transparent;
+}
+
+/* start templatemo features */
+.features
+{
+	background: #F9F9F9;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 60px 0 60px 0;
+}
+.features h2
+{
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+.features h3
+{
+	font-weight: 400;
+	padding-bottom: 6px;
+}
+.features .fa
+{
+	background: #ffa400;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 28px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+.features .fa:hover
+{
+	background: #303030;
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+/* end templatemo features */
+
+/* start templatemo about */
+#about
+{
+	color: #333;
+	padding: 60px 0 60px 0;
+}
+#about .col-md-12 {	padding: 20px 0 0 0; }
+#about h2
+{
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+#about h4
+{
+	font-weight: 600;
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
+#about .skills { padding-top: 30px; }
+#about .progress
+{
+	background: #999;
+	height: 6px;
+	margin: 10px 0 16px 0;
+}
+#about .progress .progress-bar-success { background: #ffa400; }
+/* end templatemo about */
+
+/* start templatemo team */
+#team
+{
+	background: #F9F9F9;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 60px 0 60px 0;
+}
+#team .col-md-3 { margin-bottom: 20px; }
+#team h2
+{
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+#team h3
+{
+	background: #FFF;
+	color: #ffa400;
+	font-weight: 600;
+	padding: 10px;
+}
+#team img
+{
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#team img:hover
+{
+	border-radius: 50%;
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0.7;
+}
+/* end templatemo team */
+
+/* start templatemo portfolio */
+#portfolio
+{
+	text-align: center;
+	padding: 60px 0 100px 0;
+}
+#portfolio h2
+{
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+#portfolio p {	margin-bottom: 60px; }
+#portfolio .col-md-3 { padding: 4px; }
+#portfolio .image_thumb
+{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+#portfolio .image_thumb .image_overlay
+{
+	background: #ffa400;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	/*padding-top: 46px;*/
+	text-align: center;
+}
+#portfolio .image_thumb:hover .image_overlay { opacity: 0.9; }
+#portfolio .image_thumb .image_overlay .fa
+{
+	background: #EEE;
+	border-radius: 50%;
+	color: #444;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	opacity: 1;
+	/*http: //www.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/; */
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#portfolio .image_thumb a:hover { text-decoration: none; }
+/* end templatemo portfolio */
+
+/* start templatemo contact */
+#contact
+{
+	background: #303030;
+	color: #EEE;
+	padding: 80px 0 80px 0;
+}
+#contact h2 { font-weight: 400; }
+#contact .text-center p { padding: 0 0 60px 0; }
+#contact h2, #contact h3 { padding: 0 0 20px 0; }
+#contact .form-control
+{
+	background: transparent;
+	border: 1px solid #444;
+	border-radius: 0px;
+	color: #FFF;
+	margin: 10px 0 10px 0;
+}
+#contact input { height: 60px; }
+#contact .form-control:focus
+{
+	background: #444444;
+	border-color: transparent;
+	box-shadow: none;
+}
+#contact input[type="submit"]
+{
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: 1px;
+	width: 220px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#contact input[type="submit"]:hover
+{
+	background: #ffa400;
+	border-color: transparent;
+	color: #FFF;
+}
+#contact .address
+{
+	padding: 20px;
+	padding-top: 0;
+	margin: 0;
+}
+#contact .fa
+{
+	color: #ffa400;
+	font-size: 20px;
+	padding: 6px 10px 6px 0;
+}
+
+a {	color: #ffa400; }
+a:hover, a:active 
+{
+	color: #ffd485;
+	text-decoration: none;
+}
+/* end templatemo contact */
+
+/* start templatemo footer */
+footer
+{
+	border-top: 1px solid #404040;
+	background: #202020;
+	color: #FFF;
+	padding: 80px 0 40px 0;
+}
+footer .social_icon a
+{
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin: 0 4px 24px 6px;
+}
+footer .social_icon a:hover
+{
+	border-color: transparent;
+	background: #ffa400;
+}
+/* end templatemo footer */
+
+/* starttemplatemo  go top */
+.go-top 
+{
+	background-color: #ffa400;
+	border-radius: 50%;
+	bottom: 2em;
+	right: 2em;
+	color: #FFF;
+	display: none;
+	position: fixed;
+	text-decoration: none;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.go-top:hover {	color: #F9F9F9; }
+/* end templatemo go top */
+
+@media only screen and (max-width: 1199px) {
+	.flexslider h1 { font-size: 30px; }
+	.flexslider h2 { font-size: 24px; }
+}
+
+/* start templatemo 768 media quires */
+@media only screen and ( max-width: 768px ) {
+	.navbar-default .navbar-brand {	margin-left: 20px; }
+	.navbar-default .navbar-nav	{ margin: 0; }
+	.navbar-default .navbar-collapse
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.flexslider h1 { font-size: 26px; }
+	.flexslider h2 { font-size: 18px; }
+	.templatemo-slider-btn { 
+		margin-top: 10px; 
+		width: 180px;
+		height: 40px;
+		padding-top: 8px;
+	}
+}
+/* end templatemo 768 media quires */
+
+/* start templatemo 680 media quires */
+@media only screen and ( max-width: 680px ) {
+	.navbar-default .navbar-nav li a { border-bottom: 1px solid #f6f6f6; line-height: normal; height: 40px; }
+/* end templatemo 680 media quires */
+
+/* start templatemo 600 media quires */
+@media only screen and ( max-width: 640px ) {	
+	.flexslider h1 { font-size: 20px; }
+	.flexslider h2 { font-size: 14px; }
+	.templatemo-slider-btn {
+		width: auto;
+		height: auto;
+		padding: 10px 20px;
+		margin-top: 10px; 
+	}
+}
+/* end templatemo 600 media quires */

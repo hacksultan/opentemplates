@@ -1,0 +1,458 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Metal Template 
+http://www.templatemo.com/preview/templatemo_214_metal 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #000000 url(images/templatemo_main_bg.jpg) repeat-x;
+}
+		
+a:link, a:visited { color: #000000; text-decoration: underline; font-weight: normal; } 
+a:active, a:hover { text-decoration: none; }
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.horizontal_divider {
+	height: 15px;
+    background: url(images/templatmeo_content_divider_01.png) no-repeat bottom center;
+}
+
+.fl { float: left; }
+.fr { float: right; }
+
+.margin_r50 { margin-right: 50px; }
+
+.button_01 a {
+	display: block;
+	width: 76px;
+	height: 26px;
+	padding: 5px 5px 0 5px;
+    background:  url(images/templatemo_button_hover.png) no-repeat;
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button_01 a:hover {
+	background: url(images/templatemo_button.png) no-repeat;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+h2 {
+	margin: 0 0 15px 0;
+	padding: 3px 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+
+h3 {
+	margin: 0 0 5px 0;
+	padding: 5px 0;
+	font-size: 16px;
+	font-weight: bold;
+	font-weight: bold;
+	color: #000000;
+}
+
+.image_wrapper {
+	border: 1px solid #000;
+	padding: 5px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	background: #333;
+}
+
+.fl_image {
+	float: left;
+	margin-right: 15px 
+}
+
+.fr_image {
+	float: right;
+	margin-left: 15px 
+}
+
+.image_wrapper img {
+	border: 1px solid #000000;
+}
+
+/* site title bar */
+
+/* site title */
+
+#templatemo_site_title_bar_wrapper {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;	
+	background:  url(images/templatemo_header_bg.jpg) center top no-repeat;
+}
+
+#templatemo_site_title_bar {
+	width:  800px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background:  url(images/templatemo_header_bg.jpg) center top no-repeat;	
+}
+
+#templatemo_site_title_bar  #site_title {
+	float: left;
+	width: 180px;
+	padding: 5px 0;
+	margin: 20px 0 0 40px;
+	background: url(images/templatemo_site_title_bg.jpg) top left no-repeat;
+}
+
+#site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#site_title h1 a:hover {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+#site_title h1 a span {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+
+#site_title h1 a:hover span {
+	font-weight: normal;
+}
+
+#templatemo_site_title_bar #twitter a {
+	float: right;
+	display: block;
+	height: 30px;
+	padding: 30px 60px 0 0;
+	margin: 20px 40px 0 0;
+	color: #999;
+	text-decoration: none;
+	background: url(images/twitter_icon.png) right bottom no-repeat;
+}
+
+#templatemo_site_title_bar #twitter a:hover {
+	color: #CCC;
+	background: url(images/twitter_icon_hover.png) right bottom no-repeat;
+	text-decoration: none;
+}
+
+/* end of site title bar */
+
+/* content */
+
+#templatemo_content_wrapper {
+	clear:both;
+	width: 100%;
+	height: 560px;
+	margin: 0 auto;	
+	background:  url(images/templatemo_content_bg.jpg) top center no-repeat;
+}
+
+#templatemo_content {
+	width:  800px;
+	height: 560px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(images/templatemo_content_bg.jpg) top center no-repeat;	
+}
+
+#templatemo_content p {
+	text-align: justify;
+}
+
+.section_w320 {
+	width: 320px;
+}
+
+.section_w320 .w320_content {
+	float: right;
+	width: 180px;
+}
+
+#templatemo_content p {
+	margin-bottom: 10px;
+}
+
+.service_list {
+	margin: 0 0 20px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.service_list li {
+	margin: 0px;
+	padding: 0 0 15px 30px;
+	background: url(images/templatemo_list.png) no-repeat left top;
+}
+
+.portfolio_box {
+	float: left;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.port_img {
+	width: 182px;
+	margin: 0 0 10px 0;
+	border: 1px solid #000;
+}
+
+.port_img img {
+	border: 1px solid #666;
+}
+
+.port_content {
+	clear: both;
+	width: 200px;
+}
+
+.portfolio_box .port_content p {
+	margin-bottom: 0;
+	padding-bottom: 0px;
+}
+
+#contact_form {
+	float: left;
+	width: 400px;
+	padding: 20px 0 0 0;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+	/*border:1px solid #e2d1be;
+	padding: 20px 20px 10px 20px; */
+}
+
+#contact_form form .input_field {
+	height: 18px;
+	width: 230px;
+}
+
+#contact_form form label {
+	float: left;	
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+	font-size: 14px;	
+}
+
+#contact_form form textarea {
+	width: 230px;
+	height: 100px;
+}
+
+#contact_form form .submit_btn {
+	margin-left: 108px;
+}
+
+.em_text {
+	color: #ffffff;
+}
+
+.address_info {
+	float: right;
+	padding: 10px 0 0 0;
+	width: 300px;
+	line-height: 30px;
+}
+
+.address_info h3 {
+	border-bottom: 1px solid #000;
+}
+
+/* end of content */
+
+/* content */
+
+#templatemo_footer_wrapper {
+	clear: both;
+	width: 100%;
+	height: 230px;
+	margin: 0 auto;	
+	background: url(images/templatemo_footer_bg.jpg) top center no-repeat;
+}
+
+#templatemo_footer {
+	width:  720px;
+	height: 210px;
+	margin: 0 auto;
+	padding: 10px 40px;
+	color: #666;
+	text-align: center;
+	background: url(images/templatemo_footer_bg.jpg) top center no-repeat;
+}
+
+#templatemo_footer a {
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+}
+
+/* end of content */
+
+	.stripViewer .panelContainer .panel ul {
+		text-align: left;
+		margin: 0 15px 0 30px;
+		padding: 0;
+	}
+	
+	.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+		margin: 0;
+		position: relative;
+		width: 800px;
+	}
+
+	/* These 2 lines specify style applied while slider is loading */
+	.csw {width: 100%; height: 500px; background: none; overflow: hidden;}
+	.csw .loading { margin: 200px 0 0 0; text-align: center; width: 800px; height: 500px;}
+
+	.stripViewer { /* This is the viewing window */
+		position: relative;
+		overflow: hidden; 
+		margin: auto;
+		width: 800px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+		height: 460px;
+		clear: both;
+	}
+	
+	.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+		position: relative;
+		left: 0; top: 0;
+		width: 100%;
+		list-style-type: none;
+		/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+	}
+	
+	.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+		float:left;
+		height: 100%;
+		position: relative;
+		width: 800px; /* Also specified in  .stripViewer  above */
+	}
+	
+	.stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
+		overflow: hidden;
+		padding: 40px 40px 20px 40px;
+		height: 480px;
+		width: 720px;
+	}
+	
+	.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+			float: left;
+		}
+		
+		.stripNav ul { /* The auto-generated set of links */
+			height: 50px;
+			width: 760px;
+			padding: 0 0 0 30px;
+			margin: 10px 0 0 0;
+			list-style: none;
+		}
+		
+		.stripNav ul li {
+	
+			float: left;
+			margin-right: 10px; /* If you change this, be sure to adjust the initial value of navWidth in coda-slider.1.1.1.js */
+		}
+		
+		.stripNav a { /* The nav links */
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 36px;
+			background: #c6e3ff;
+			color: #666;
+			text-decoration: none;
+			display: block;
+			height: 38px;
+			width: 128px;
+			outline: none;
+		}
+	
+	.stripNav li a { background: none; }
+	/*
+	.stripNav li.tab2 a { background: #60c }
+	.stripNav li.tab3 a { background: #63f }
+	.stripNav li.tab4 a { background: #63c }
+	.stripNav li.tab5 a { background: #00e } */
+	
+	.stripNav li a:hover  {
+		color: #CCC;
+		background: url(images/templatemo_menu_bg.png) no-repeat;
+	}
+	
+	.stripNav li a.current {
+		color: #CCC;
+		background: url(images/templatemo_menu_bg.png) no-repeat;
+	}
+	
+	.stripNavL, .stripNavR { /* The left and right arrows */
+		position: absolute;
+		top: 230px;
+		text-indent: -9000em;
+	}
+	
+	.stripNavL a, .stripNavR a {
+		display: block;
+		height: 0px;
+		width: 0px;
+	}
+	
+	.stripNavL {
+		left: 0;
+	}
+	
+	.stripNavR {
+		right: 0;
+	}
+	
+	.stripNavL {
+		background: url("images/arrow-left.gif") no-repeat center;
+	}
+	
+	.stripNavR {
+		background: url("images/arrow-right.gif") no-repeat center;
+	}

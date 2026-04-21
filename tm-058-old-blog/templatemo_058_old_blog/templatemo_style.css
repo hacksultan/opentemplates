@@ -1,0 +1,308 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Old Blog Template 
+http://www.templatemo.com/preview/templatemo_058_old_blog 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1a0d00;
+	background: #4c4c4c;
+}
+
+a:link, a:visited { color: #990000; text-decoration: none; } 
+a:active, a:hover { color: #000000; text-decoration: underline; }
+
+h1 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 60px;
+	color: #000000;;
+}
+
+h2 {
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	color: #dbc1a7;
+	border-bottom: 1px dotted #663e17;
+}
+
+h3 {
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	color: #a6703c;
+	border-bottom: 1px dotted #663e17;
+}
+
+p {
+	margin: 0px;
+	padding: 0 0 10px 0;
+	text-align: justify;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;	
+}
+
+/* ----- Form ----- */
+
+form{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.inputfield{
+	background: #ffffff;
+	border: 1px solid #c9f5f6;
+	color: #000;
+	font-size: 13px;
+	font-variant: normal;
+	height: 14px;
+	line-height: normal;
+	padding: 4px;
+	margin-bottom: 5px;
+	width: 240px;
+}
+
+.button{
+	width: 60px;
+	height: 25px;
+}
+
+/* end of form */
+
+
+#templatemo_header_panel{
+	width:100%;
+	margin: 0 auto;
+	background-color: #0c0600;
+	color: #FFFFFF;
+	height: 205px;
+}
+
+#templatemo_header_panel #templatemo_title_section{
+	width: 960px;
+	height: 132px;	/* +73 ( padding ) */
+	margin:0 auto;
+	padding-top: 73px;
+	background: url(images/templatemo_title_bg.jpg) center top no-repeat;
+	text-align: center;
+}
+
+#templatemo_menu_panel{
+	width:100%;
+	height: 45px;	
+	margin: 0 auto;
+	background: url(images/templatemo_menu_bg.gif) repeat-x;
+	color: #ffffff;
+}
+
+#templatemo_menu_panel #templatemo_menu_section{
+	width: 930px;
+	height: 45px;	
+	margin:0 auto;
+	padding: 0 0 0 30px;
+	color: #03a0a6;
+}
+
+#templatemo_menu_section ul {
+	float: left;
+	width: 930px;
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#templatemo_menu_section ul li{
+	display: inline;
+}
+
+#templatemo_menu_section ul li a{
+	float: left;
+	width: 110px;
+	padding: 5px 0;
+	margin-right: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border-bottom: 3px solid #472400;
+}
+
+#templatemo_menu_section li a:hover, #templatemo_menu_section li .current{
+	color: #ffffff;
+	border-bottom: 3px solid #703901;
+}
+/* end of menu */
+
+/* content panel */
+#templatemo_content_container {
+	overflow: hidden;
+	height: 100%;
+	width:100%;
+	margin: 0 auto;
+	background: url(images/templatemo_content_bg.gif) repeat;
+}
+
+#templatemo_content_container #templatemo_content{
+	width: 930px;
+	padding: 15px 0 0 30px;
+	margin:0 auto;
+}
+
+#templatemo_content_left {
+	float: left;
+	width: 600px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#templatemo_content_right {
+	float: right;
+	width: 300px;
+	margin-bottom: 15px;
+	color: #dbc1a7;
+	background: #000000 url(images/templatemo_right_column_bg.jpg) repeat-y;
+}
+
+#templatemo_content_left .templatemo_post_wrapper {
+	clear: both;
+	width: 590px;
+	background: url(images/templatemo_post_bg_repeat.gif) repeat;
+	border: 5px solid #3b3023;
+	margin-bottom: 15px;	
+}
+
+#templatemo_content_left .templatemo_post {
+	width: 530px;
+	padding: 25px 30px 0 30px;
+	background: url(images/templatemo_post_bg.gif) top center no-repeat;
+	
+}
+
+* html #templatemo_content_left .templatemo_post {
+	margin-bottom: 5px;
+}
+
+.templatemo_post .post_title{
+	width: 100%;
+	margin: 0px;
+	padding: 5px 0;
+	font-size: 26px;
+	font-weight: bold;
+	color: #1a0d00;
+}
+
+.templatemo_post .post_info{
+	width: 100%;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #333333;
+	margin-bottom: 15px;
+}
+
+.templatemo_post .post_body{
+	width: 100%;
+}
+
+.templatemo_post .post_body img{
+	margin-bottom: 15px;
+}
+
+.templatemo_post .post_comment{
+	width: 100%;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+#templatemo_content_right .templatemo_right_section{
+	clear: both;
+	display:inline-block;
+	width: 250px;
+	color: #bd8956;
+	padding: 15px 15px 10px 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #684018;
+}
+
+#templatemo_content_right .templatemo_right_section form{
+	padding: 0 0 15px 0;
+}
+
+#templatemo_content_right .templatemo_right_section ul{
+	clear: both;
+	margin: 0 0 0 15px;
+	padding: 0px;
+}
+
+#templatemo_content_right .templatemo_right_section ul li{
+	margin: 0 0 5px 0;
+}
+
+#templatemo_content_right .templatemo_right_section ul li a {
+	color: #dbc1a7;
+}
+
+#templatemo_bottom_panel{
+	width:100%;
+	margin: 0 auto;
+	border-top: 5px solid #000000;
+	background-color: #0c0600;
+}
+
+#templatemo_bottom_panel #templatemo_bottom_section{
+	width: 930px;
+	margin:0 auto;
+	height: 150px;	
+	background: #0c0600 url(images/templatemo_footer_bg.jpg) center top no-repeat;
+	padding: 30px 0 15px 30px;
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_content {
+	display: inherit;
+	float: left;
+	width: 270px;
+	padding-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	color: #dbc1a7;
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_content ul{
+	margin: 0 0 0 10px;
+	padding: 0 0 5px 10px;
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_content li a{
+	color: #dbc1a7;
+}
+
+#templatemo_footer_panel{
+	width:100%;
+	margin: 0 auto;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#templatemo_footer_panel #templatemo_footer_section{
+	width: 960px;
+	margin:0 auto;
+	text-align: center;
+	padding: 15px;
+}
+
+#templatemo_footer_panel #templatemo_footer_section a {
+	color:#dbc1a7;
+}

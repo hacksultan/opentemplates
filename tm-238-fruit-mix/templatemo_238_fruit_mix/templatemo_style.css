@@ -1,0 +1,356 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Fruit Mix Template 
+http://www.templatemo.com/preview/templatemo_238_fruit_mix 
+*/
+body {
+	margin:0px;
+	padding:0px;
+	color:#333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	line-height:1.5em; 
+	background-color: #ede4bb;
+	background-image: url(images/templatemo_body.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+a, a:link, a:visited {
+	color: #7c0d0b;
+}
+
+a:hover {
+	color: #996600;
+	text-decoration:none;
+}
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1, h2, h3, h4, h5 { font-weight: normal; }
+
+h1 { font-size: 40px; color: #000; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 24px; color: #000; margin: 0 0 20px 0; padding: 0; }
+h3 { font-size: 21px; color: #000; margin: 0 0 20px 0; padding: 0; }
+h4 { font-size: 18px; color: #000; margin: 0 0 10px 0; padding: 0; }
+h5 { font-size: 16px; color: #000; margin: 0 0 10px 0; padding: 0; }
+h6 { font-size: 12px; margin: 0 0 5px 0; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.image_wrapper {
+	padding: 8px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+blockquote { font-style: italic; margin: 10px; }
+cite { font-weight: bold; color: #666; }
+cite span { color: #000; }
+
+
+.button a {
+	clear: both;
+	display: block;
+	width: 92px;
+	height: 24px;
+	padding: 4px 0 0 0;
+	background:	url(images/templatemo_button.png) no-repeat;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: #fff;
+	background: url(images/templatemo_button_hover.png) no-repeat;
+}
+
+#templatemo_wrapper {
+	position: relative;
+	width: 980px;
+	padding: 0 5px;
+	margin: 0 auto;
+}
+
+#templatemo_wrapper .fruit {
+	position: absolute;
+	top: 0px;
+	left: -30px;
+	width: 145px;
+	height: 119px;	
+	background: url(images/fruit.png) no-repeat;
+}
+
+
+/* header */
+
+#templatemo_header {
+	width: 980px;
+	height: 170px;
+	background: url(images/templatemo_header.jpg) top left no-repeat;
+}
+
+#templatemo_header   #site_title {
+	float: left;
+	padding: 100px 20px 0 60px;
+}
+
+#templatemo_header #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_header   #site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#templatemo_header   #site_title h1 a span {
+	display: block;
+	text-align: left;
+	margin: 5px 0 0 3px;
+	font-size: 12px;
+	color: #352c2c;
+	font-weight: bold;
+}
+
+/* end header */
+
+/* menu */
+#templatemo_menu {
+	float: right;
+	width: 700px;
+	height: 50px;
+	margin-top: 40px;
+}
+
+#templatemo_menu ul {
+	float: right;
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	position: relative;
+	float: left;
+	display: block;
+	padding: 3px 30px;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	color: #786c38;	
+	font-weight: bold;
+	outline: none;
+	background: url(images/menu_divider.png) repeat-y;
+}
+
+#templatemo_menu ul li .first {
+	background: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #2c2710;
+}
+
+/* end of menu */
+
+/* main */
+
+#templatemo_main {
+	clear: both;
+	padding: 20px 40px;
+	background: url(images/templatemo_content.jpg) repeat-y;
+}
+
+#templatemo_sidebar {
+	float: left;
+	width: 200px;
+	padding: 0 20px 300px 20px;
+	background: url(images/templatemo_sidebar.jpg) no-repeat top;
+}
+
+.categories_list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.categories_list li {
+	margin: 0;
+	padding: 0;
+}
+
+.categories_list li a {
+	display: block;
+	margin-bottom: 5px;
+	padding: 3px 0 3px 20px;
+	background: url(images/templatemo_list.png) left center no-repeat;
+}
+
+#templatemo_content {
+	float: right;
+	width: 600px;
+	padding-bottom: 90px;
+}
+
+.box_w270 {
+	width: 270px;
+}
+
+.news_box {
+	clear: both;
+	margin-bottom: 60px;
+}
+
+.news_box .left {
+	float: left; 
+	width: 140px;
+}
+
+.news_box .left img {
+	border:1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+}
+
+.news_box .right {
+	float: right; 
+	width: 430px;
+}
+
+.news_box p {
+	padding-bottom: 5px;
+	margin-bottom: 8px;
+}
+
+.product_box {
+	float: left;
+	width: 180px;
+	margin: 0 20px 20px 0;
+}
+
+.product_box img {
+	width: 170px;
+	height: 100px;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#contact_form {
+	float: left;
+	padding: 20px 0 0 0;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_form form .input_field {
+	height: 18px;
+	width: 230px;
+}
+
+#contact_form form label {
+	display: block;
+	font-size: 14px;	
+}
+
+#contact_form form textarea {
+	width: 350px;
+	height: 150px;
+}
+
+#contact_form form .submit_btn {
+	margin-left: 108px;
+}
+
+/* end of main */
+
+/* end of sidebar */
+
+#templatemo_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #fff url(images/templatemo_footer_top.jpg) top repeat-x;
+}
+
+#templatemo_footer {
+	position: relative;
+	margin: 0 auto;
+	width: 560px;
+	padding: 40px 200px;
+	min-height: 40px;
+	color: #666;
+	text-align: center;
+	background: url(images/templatemo_footer.jpg) top no-repeat;
+}
+
+#templatemo_footer a {
+	color: #333;
+}
+
+#templatemo_footer .footer_friut {
+	position: absolute;
+	bottom: 0px;
+	right: -50px;
+	width: 324px;
+	height: 218px;
+	z-index: 10;
+	background: url(images/templatemo_footer_fruit.png) no-repeat;
+}
+
+#templatemo_footer .cup {
+	position: absolute;
+	bottom: 0px;
+	left: 50px;
+	width: 196px;
+	height: 394px;
+	background: url(images/templatemo_cup.png) no-repeat;
+	
+}
+
+/* end of footer */

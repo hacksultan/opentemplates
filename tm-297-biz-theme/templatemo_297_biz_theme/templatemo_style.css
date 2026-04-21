@@ -1,0 +1,262 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Biz Theme Template 
+http://www.templatemo.com/preview/templatemo_297_biz_theme 
+*/
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #fff;
+	background-image: url(images/templatemo_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+a, a:link, a:visited { color: #2d7ad1; text-decoration: none; }
+a:hover { color: #CC0000; text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+
+h1 { font-size: 40px; font-weight: normal; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 28px; font-weight: normal; margin: 0 0 30px 0; padding: 0; }
+h3 { font-size: 21px; margin: 0 0 15px 0; padding: 0; padding: 0; color: #333; font-weight: normal; }
+h4 { font-size: 18px; margin: 0 0 15px 0; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; color: #333; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0; color: #333; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper { display: inline-block; border: 1px solid #ccc; padding: 4px; background: #fff; margin-bottom: 10px; }
+.image_fl { float: left; margin: 3px 15px 0 0; }
+.image_fr { float: right; margin: 3px 0 0 15px; }
+
+blockquote { font-style: italic; margin-left: 10px;}
+cite { font-weight: bold; color:#3b3823; }
+cite span { color: #696443; }
+em { color: #2d7ad1; }
+
+.tmo_list { margin: 20px 10px; padding: 0; list-style: none; }
+.tmo_list li { background: transparent url(images/templatemo_list.png) no-repeat scroll 0 0px; margin:0 0 20px; padding: 0 0 0 20px; 	line-height: 0.8em; }
+
+
+.tmo_list_l { width: 270px; float: left; margin-right: 40px; }
+.tmo_list_r { width: 270px; float: right; }
+
+.btn_more a { 
+	margin-top: 10px;
+	display: inline-block;
+	color: #2d7ad1;
+	padding: 2px 20px 2px 0;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+    background: url(images/templatemo_more.png) no-repeat center right;
+}
+
+.btn_more a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#templatemo_wrapper { 
+	width: 980px;
+	margin: 0 auto;
+}
+
+#templatemo_sidebar {
+	float: left; 
+	width: 260px;
+	padding: 40px;
+	background: url(images/templatemo_sidebar.jpg) top no-repeat;
+}
+
+#site_title {
+	margin-bottom: 60px;
+}
+
+#site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#site_title a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	color: #333;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#site_title a strong {
+	color: #f19005;
+}
+
+#site_title a span {
+	display: block;
+	font-size: 13px;
+	color: #666;
+	font-weight: normal;
+	margin-top: 5px;
+	text-align: right;
+}
+
+#templatemo_sidebar h3 {
+	border-left: 5px solid #f19005;
+	padding-left: 10px;
+}
+
+.sidebar_box {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #CCC;
+}
+
+.sidebar_box .sidebar_content {
+	padding-left: 15px;
+}
+
+#search_box { width: 235px; height: 30px; background: url(images/templatemo_search.png) no-repeat; }
+#search_box form { clear: both; width: 235px; height: 30px; padding: 0; } 
+#searchfield { display: block; float: left; height: 30px; width: 190px; padding: 0 5px; color: #333; line-height: 30px; background: none; border: none; } 
+#searchbutton { display: block; float: left; height: 30px; width: 28px; padding: 0 0 5px 0; margin: 0; cursor: pointer; background: none; border: none; }
+
+#news_box { margin: 0; padding: 0; list-style: none; }
+#news_box li { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px dotted #999; }
+#news_box .last { margin-bottom: 0; padding: 0; border-bottom: none; }
+#news_box h6 { color: #f19005; }
+#news_box h6:hover { text-decoration: underline; }
+
+#templatemo_content {
+	float: right;
+	width: 600px;
+	padding: 0 20px 20px;
+}
+
+.content_box { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 2px solid #ccc; } 
+.last { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+
+#templatemo_menu {
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+#templatemo_menu ul {
+	float: right;
+	margin: 0;
+	padding: 40px 0 0 0;
+	list-style: none;
+	display: inline-block;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 38px;
+	padding: 12px 0 0 0;
+	margin: 0 5px 0 0 ;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #b3d3f8;	
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current {
+	color: #fff;
+	background: url(images/templatemo_menu_hover.png) no-repeat;
+}
+
+
+#templatemo_content h2 {
+	border-left: 5px solid #f19005;
+	padding-left: 15px;
+}
+
+.content_box_inner {
+	padding-left: 20px;
+}
+
+.col_w280 {
+	float: left;
+	width: 260px;
+	padding-right: 40px;
+}
+
+.partner_box { 
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #ccc;
+}
+
+.partner_box .ss_right {
+	float: right;
+	width: 350px;
+}
+
+.service_list { margin: 40px 0 0 0; padding: 0; list-style: none; }
+.service_list li { margin: 0; padding: 0; }
+.service_list li a { display: block; height: 25px; font-size: 14px; margin-bottom: 20px; padding-left: 35px; }
+.service_list li .service_one { background: url(images/onebit_08.png) center left no-repeat; }
+.service_list li .service_two { background: url(images/onebit_11.png) center left no-repeat; }
+.service_list li .service_three { background: url(images/onebit_17.png) center left no-repeat; }
+.service_list li .service_four { background: url(images/onebit_21.png) center left no-repeat; }
+.service_list li .service_five { background: url(images/onebit_12.png) center left no-repeat; }
+
+#contact_form {  padding: 0; }
+#contact_form form { margin: 0px; padding: 0px; }
+#contact_form form .input_field { font-family: Tahoma, Geneva, sans-serif; width: 300px; padding: 5px; background: #fff; border: 1px solid #dfdfdf; }
+#contact_form form label { display: block; width: 100px; margin-top: 10px; font-size: 14px; }
+#contact_form form textarea { font-family: Tahoma, Geneva, sans-serif; width: 400px;  height: 200px; padding: 5px; background: #fff; border: 1px solid #dfdfdf; }
+#contact_form form .submit_btn { padding: 10px 15px; margin: 10px 80px 0px 0px; background: #fff; border: 1px solid #dfdfdf; 	}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: #2068b9;
+	border-top: 5px solid #99c5f8;
+}
+
+#templatemo_footer { 
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 10px;
+	text-align: center;
+	color: #61a4f0;
+
+}
+
+#templatemo_footer a {
+	color: #61a4f0;
+}
+
+#templatemo_footer a:hover {
+	color: #b3d7ff;
+}

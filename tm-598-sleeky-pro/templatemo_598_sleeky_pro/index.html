@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleeky Pro - Premium Photography & Nature</title>
+    <link rel="stylesheet" href="templatemo-sleeky-pro.css">
+<!-- TemplateMo 598 Sleeky Pro
+https://templatemo.com/tm-598-sleeky-pro
+-->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF6B6B"/>
+                            <stop offset="100%" style="stop-color:#7FFFD4"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" opacity="0.1"/>
+                    <path d="M20 60 L35 40 L50 55 L65 35 L80 50" stroke="url(#logoGradient)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="35" cy="40" r="3" fill="url(#logoGradient)"/>
+                    <circle cx="50" cy="55" r="3" fill="url(#logoGradient)"/>
+                    <circle cx="65" cy="35" r="3" fill="url(#logoGradient)"/>
+                    <rect x="25" y="65" width="50" height="15" rx="7" fill="url(#logoGradient)" opacity="0.3"/>
+                </svg>
+                <span class="logo-text">Sleeky Pro</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="progress-ring">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            
+            <div class="slider-stage" id="sliderStage"></div>
+            <!-- You can edit slider images in JS file -->
+            <!-- Edit templatemo-sleeky-scripts.js for image path / image filenames -->
+            <div class="text-overlay" id="textOverlay">
+                <h2 class="slide-title" id="slideTitle">Mountain Peak</h2>
+                <p class="slide-description" id="slideDescription">Majestic snow-capped mountains reaching towards the endless sky, showcasing nature's raw beauty and power.</p>
+            </div>
+            
+            <button class="nav-arrow prev" id="prevArrow" aria-label="Previous"></button>
+            <button class="nav-arrow next" id="nextArrow" aria-label="Next"></button>
+            
+            <div class="controls">
+                <button class="control-btn play-pause-btn" id="playPauseBtn" title="Play/Pause">
+                    <span class="play-icon"></span>
+                    <span class="pause-icon"></span>
+                </button>
+            </div>
+            
+            <div class="dots" id="dots"></div>
+            <div class="thumbnails-container" id="thumbnails"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Advanced photography solutions powered by cutting-edge technology and unmatched expertise in extreme environments.</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="services-tabs">
+                    <div class="service-tab active" data-service="photography">
+                        <span class="service-tab-icon">📸</span>
+                        <h3>Cinematic Photography</h3>
+                        <p>Ultra-high resolution captures</p>
+                    </div>
+                    
+                    <div class="service-tab" data-service="expeditions">
+                        <span class="service-tab-icon">🏔️</span>
+                        <h3>Alpine Expeditions</h3>
+                        <p>Extreme altitude adventures</p>
+                    </div>
+                    
+                    <div class="service-tab" data-service="prints">
+                        <span class="service-tab-icon">🎨</span>
+                        <h3>Fine Art Prints</h3>
+                        <p>Museum-grade collections</p>
+                    </div>
+                </div>
+                
+                <div class="services-content">
+                    <div class="service-content active" id="photography">
+                        <div class="service-content-icon">📸</div>
+                        <h2>Cinematic Landscape Photography</h2>
+                        <p>Utilizing Phase One IQ4 150MP medium format cameras paired with Zeiss Otus lenses, we deliver unprecedented image quality that reveals every detail of nature's masterpieces. <a href="https://timermo.com" rel="nofollow" target="_blank">TimerMo</a> is a beautifully designed, feature-rich timer application.</p>
+                        <p>Our specialized golden hour and blue hour captures combine advanced HDR techniques with focus stacking to create images that transcend traditional photography.</p>
+                        <ul class="service-features">
+                            <li>150MP RAW files with 15 stops dynamic range</li>
+                            <li>Weather pattern tracking for optimal lighting</li>
+                            <li>Advanced focus stacking for infinite depth</li>
+                            <li>Color-calibrated workflow with 99% Adobe RGB</li>
+                            <li>Drone integration for impossible perspectives</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-content" id="expeditions">
+                        <div class="service-content-icon">🏔️</div>
+                        <h2>Alpine Expedition Photography</h2>
+                        <p>Multi-day backcountry expeditions to remote peaks above 12,000 feet, accessible only by helicopter or multi-day trek. Our certified IFMGA mountain guides ensure safety while capturing impossible shots.</p>
+                        <p>Each expedition is limited to 3 participants and includes professional drone pilots, survival gear, and satellite communication systems.</p>
+                        <ul class="service-features">
+                            <li>IFMGA certified mountain guides</li>
+                            <li>Professional-grade drone cinematography</li>
+                            <li>Satellite emergency communication</li>
+                            <li>Weather-sealed camera systems rated to -40°F</li>
+                            <li>Helicopter access to remote locations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-content" id="prints">
+                        <div class="service-content-icon">🎨</div>
+                        <h2>Museum-Grade Fine Art Prints</h2>
+                        <p>Hand-selected archival pigment prints on premium Japanese Kozo paper, printed using 12-color K3 pigment technology for 200+ year archival stability.</p>
+                        <p>Each print includes detailed metadata: GPS coordinates, elevation, weather conditions, and the complete story behind the capture.</p>
+                        <ul class="service-features">
+                            <li>Limited editions of 25 pieces maximum</li>
+                            <li>Hand-signed and numbered by the artist</li>
+                            <li>Custom museum-quality framing available</li>
+                            <li>Certificate of authenticity with each purchase</li>
+                            <li>Available in sizes up to 72"×48"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">The Future of Nature Photography</h2>
+                <p class="section-subtitle">Where cutting-edge technology meets artistic vision to document Earth's most extraordinary landscapes.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2009</div>
+                        <div class="timeline-title">Genesis in the Rockies</div>
+                        <div class="timeline-description">21-day solo expedition through Canadian Rockies. Documented climate change effects on alpine glaciers using early digital medium format systems.</div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2015</div>
+                        <div class="timeline-title">National Geographic Recognition</div>
+                        <div class="timeline-description">First photographer to capture Aurora Borealis from 14,000+ feet elevation. Featured on National Geographic cover for breakthrough high-altitude night photography.</div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2019</div>
+                        <div class="timeline-title">Smithsonian Acquisition</div>
+                        <div class="timeline-description">Three-piece collection acquired by Smithsonian Institution. Pioneered "patience photography" - waiting 72+ hours in extreme conditions for perfect conditions.</div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-title">AI-Enhanced Workflow</div>
+                        <div class="timeline-description">Revolutionary integration of AI weather prediction and machine learning for optimal capture timing. Reducing expedition failure rate to under 5%.</div>
+                    </div>
+                </div>
+                
+                <div class="about-tech">
+                    <div class="tech-card">
+                        <div class="tech-icon">🤖</div>
+                        <div class="tech-title">AI Weather Intelligence</div>
+                        <div class="tech-description">Proprietary algorithms analyze 15+ meteorological data sources to predict optimal shooting windows with 94% accuracy up to 72 hours in advance.</div>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🛰️</div>
+                        <div class="tech-title">Satellite Reconnaissance</div>
+                        <div class="tech-description">Real-time satellite imagery integration allows dynamic route planning and hazard avoidance during expeditions to previously inaccessible locations.</div>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🎯</div>
+                        <div class="tech-title">Precision Capture Systems</div>
+                        <div class="tech-description">Sub-millimeter camera positioning using GPS-guided stabilization systems ensures perfect composition even in 80+ mph mountain winds.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-futuristic">
+                <div class="stat-futuristic">
+                    <h4>47</h4>
+                    <p>National Parks</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>2.3M</h4>
+                    <p>Miles Traveled</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>-40°F</h4>
+                    <p>Coldest Shoot</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>99.7%</h4>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to plan your next adventure or commission a custom photography session? We'd love to hear from you and bring your vision to life.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project or adventure plans..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Studio Location</h4>
+                            <p>Rocky Mountain National Park<br>Colorado, USA 80424</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Phone & WhatsApp</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>hello@sleeky.photography</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Weekend tours by appointment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#FF6B6B"/>
+                                    <stop offset="100%" style="stop-color:#7FFFD4"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="45" fill="url(#footerLogoGradient)" opacity="0.1"/>
+                            <path d="M20 60 L35 40 L50 55 L65 35 L80 50" stroke="url(#footerLogoGradient)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="35" cy="40" r="3" fill="url(#footerLogoGradient)"/>
+                            <circle cx="50" cy="55" r="3" fill="url(#footerLogoGradient)"/>
+                            <circle cx="65" cy="35" r="3" fill="url(#footerLogoGradient)"/>
+                            <rect x="25" y="65" width="50" height="15" rx="7" fill="url(#footerLogoGradient)" opacity="0.3"/>
+                        </svg>
+                        <span class="footer-logo-text">Sleeky</span>
+                    </div>
+                    <p class="footer-description">Capturing Earth's most extraordinary landscapes through cutting-edge technology and artistic vision. From alpine expeditions to fine art prints, we document nature's masterpieces.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Landscape Photography</a>
+                        <a href="#" class="footer-link">Alpine Expeditions</a>
+                        <a href="#" class="footer-link">Fine Art Prints</a>
+                        <a href="#" class="footer-link">Custom Commissions</a>
+                        <a href="#" class="footer-link">Workshops</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">About Us</a>
+                        <a href="#" class="footer-link">Our Story</a>
+                        <a href="#" class="footer-link">Careers</a>
+                        <a href="#" class="footer-link">Press</a>
+                        <a href="#" class="footer-link">Blog</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Help Center</a>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                        <a href="#" class="footer-link">Shipping Info</a>
+                        <a href="#" class="footer-link">Returns</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2026 Sleeky Photography. All rights reserved.
+                </div>
+                <div class="footer-credits">
+                    Try <a href="https://timermo.com" rel="nofollow" target="_blank">Your Timer</a>
+                     | Designed by <a href="https://templatemo.com" target="_blank" rel="noopener nofollow">TemplateMo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="templatemo-sleeky-scripts.js"></script>
+</body>
+</html>

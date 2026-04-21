@@ -1,0 +1,92 @@
+append variables
+ -
+    var faqs= [
+      {
+        id: 1,
+        title  :'What is a professional traffic permit?',
+        description: 'Traffic permits are a requirement for conducting professional traffic.',
+      },
+      {
+        id: 2,
+        title  :'How to check the traffic condition?',
+        description: 'You can issue either partial or full refunds. There are no fees to refund a charge, but the fees from the original charge are not returned.',
+      },
+      {
+        id: 3,
+        title  :'What are the requirements for a professional traffic permit?',
+        description: 'Disputed payments (also known as chargebacks) incur a $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.',
+      },
+      {
+        id: 4,
+        title  :'Are there professional traffic permit training courses at a distance?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 5,
+        title  :'When is a professional traffic permit needed?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+       {
+        id: 6,
+        title  :'Where to look for a traffic permit?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 7,
+        title  :'Are there differences between a traffic permit and a professional traffic permit?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 8,
+        title  :'How much does a commercial traffic permit cost for goods?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 9,
+        title  :'How to plug in for the traffic permit test?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 10,
+        title  :'How is the sample for a professional traffic permit booked?',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+      {
+        id: 11,
+        title  :'LOAD MORE',
+        description: 'There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.',
+      },
+     
+
+    ];
+mixin Faq(config, index)
+  .accordion-item.mb-2.rounded.overflow-hidden
+    h2(id=`heading${config.id}`).accordion-header
+      button.accordion-button.px-4(type='button' data-bs-toggle='collapse'  class=index == 0 ? false : 'collapsed'  data-bs-target=`#collapse${config.id}` aria-expanded='true' aria-controls=`collapse${config.id}`)
+        span.mb-0.text-start.fs-0.text-900.fw-medium!=config.title
+    .accordion-collapse.collapse(id=`collapse${config.id}` class=index == 0 ? 'show' : false  aria-labelledby=`heading${config.id}`  data-bs-parent='#accordionExample')
+      .accordion-body.bg-primary-gradient.px-4!=config.description
+        
+mixin Faqs
+  section.bg-primary-gradient#faq
+    +Background({image: `${CWD}assets/img/gallery/faq-bg.png`, attrs: { style: { 'background-position': 'right', 'background-size': 'contain',} }, className: '' })
+    .container
+      .row.flex-center
+        .col-md-6
+          h4.text-danger.text-uppercase faq
+          h1.font-cursive.fw-normal.mb-5 Questions and Answers 
+            br.d-none.d-lg-block
+            |on Professional Traffic
+            br.d-none.d-lg-block
+            |Permits:
+        .col-md-6
+          img.w-100(src=`${CWD}assets/img/gallery/faq.png`  alt='...')
+      .row.flex-center.py-4
+        .col-md-6
+          #accordionExample1.accordion
+            each faq, index in faqs.slice(0, Math.floor(faqs.length / 2) )
+              +Faq(faq,index)   
+        .col-md-6
+          #accordionExample2.accordion            
+            each faq in faqs.slice(Math.floor(faqs.length / 2) )
+              +Faq(faq) 

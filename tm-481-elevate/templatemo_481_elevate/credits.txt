@@ -1,0 +1,11 @@
+
+CREDITS
+
+Elevate Theme
+http://www.templatemo.com/tm-481-elevate
+
+Bootstrap
+http://getbootstrap.com/
+
+Images
+http://unsplash.com/

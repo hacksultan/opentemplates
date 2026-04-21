@@ -1,0 +1,95 @@
+.glidecontentwrapper{
+position: relative; /* Do not change this value */
+width: 780px;
+height: 500px; /* Set height to be able to contain height of largest content shown*/
+overflow: hidden;
+margin: 60px 40px;
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+
+.glidecontent{ /*style for each glide content DIV within wrapper.*/
+position: absolute; /* Do not change this value */
+background: #1a1d1e;
+visibility: hidden;
+width: 780px;
+}
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+float: left;
+width: 600px;
+/*How to align pagination links: "left", "center", or "right"
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+}
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+float: left;
+display: block;
+width: 120px;
+height: 45px;
+padding: 105px 0 0 0;
+font-size: 18px;
+font-family: "Times New Roman", Times, serif;
+text-align: center;
+color: #999;
+margin-right: 0px;
+font-weight: bold;
+text-decoration: none;
+outline: none;
+}
+
+.glidecontenttoggler a.page_01 {
+	background: url(images/templatemo_menu_01_b.jpg) no-repeat;
+}
+
+.glidecontenttoggler a.page_02 {
+	background: url(images/templatemo_menu_02_b.jpg) no-repeat;
+}
+
+.glidecontenttoggler a.page_03 {
+	background: url(images/templatemo_menu_03_b.jpg) no-repeat;
+}
+
+.glidecontenttoggler a.page_04 {
+	background: url(images/templatemo_menu_04_b.jpg) no-repeat;
+}
+
+.glidecontenttoggler a.page_05 {
+	background: url(images/templatemo_menu_05_b.jpg) no-repeat;
+}
+
+.glidecontenttoggler a.page_06 {
+	background: url(images/templatemo_menu_06.jpg) no-repeat;
+}
+
+
+.glidecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+color: #ffffff;
+}
+
+.glidecontenttoggler a:hover{
+color: #ffffff;
+}
+
+.glidecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.glidecontenttoggler a.prev, .glidecontenttoggler a.next{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+}
+
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover{
+background: #1A48A4;
+color: white;
+}

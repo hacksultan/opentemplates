@@ -1,0 +1,64 @@
+.glidecontentwrapper{
+position: relative; /* Do not change this value */
+width: 900px;
+height: 254px; /* Set height to be able to contain height of largest content shown*/
+overflow: hidden;
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+
+.glidecontent{ /*style for each glide content DIV within wrapper.*/
+position: absolute; /* Do not change this value */
+background: white;
+visibility: hidden;
+}
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.cssbuttonstoggler{ /*style for DIV used to contain toggler links. */
+float: right;
+clear: both;
+margin-top: 10px;
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+}
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.cssbuttonstoggler a{ /*style for every navigational link within toggler */
+background: url(../images/templatemo_slider_button.png);
+background-repeat: no-repeat;
+background-position: top left;
+color: #ffffff;
+display: block;
+float: left;
+margin-left: 6px;
+font: normal 12px Arial; /* Change 12px as desired */
+width: 24px;
+height: 17px; /* Height of button background height */
+padding: 3px 0;
+text-align: center;
+text-decoration: none;
+}
+
+.cssbuttonstoggler a.selected, .cssbuttonstoggler a:hover{ /*style for selected and hover page's toggler link. ".selected" class auto generated! */
+	background: url(../images/templatemo_slider_button_hover.png) no-repeat;
+}
+
+
+.cssbuttonstoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.cssbuttonstoggler a.prev, .glidecontenttoggler-2 a.next{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+}
+
+.cssbuttonstoggler a.prev:hover, .glidecontenttoggler-2 a.next:hover{
+}

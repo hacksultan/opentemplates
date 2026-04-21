@@ -1,0 +1,250 @@
+/*
+Credit: www.templatemo.com
+*/
+
+/* 
+Focus Template 
+http://www.templatemo.com/preview/templatemo_370_focus 
+*/
+
+body{ 
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font-size: 13px;
+	line-height: 1.6em; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #fff;
+	background-image: url(images/templatemo_main_background.jpg);
+	background-position: center top;
+	background-repeat: no-repeat
+}
+
+a, a:link, a:visited { color: #f9b001; font-weight: normal; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+ul, li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #000000; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+p { padding: 0; margin: 0 0 15px 0 }
+cite { font-weight: bold; color:#f9b001; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #f9b001; }
+
+.clear{
+	clear:left;
+}
+
+.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
+.list_bullet li { color:#555; margin: 0 0 7px 0; padding: 0 0 0 15px; background: url(images/templatemo_list.png) no-repeat scroll 0 8px  }
+.list_bullet li a { color: #555; font-weight: normal; text-decoration: none }
+.list_bullet li a:hover { color: #555 }
+
+.no_bullet { margin: 0; padding: 0; list-style: none }
+.no_bullet li { margin: 0 0 20px 0; padding: 0 }
+a.header { display: block; font-weight: 700 }
+
+.half { width: 365px; margin-bottom: 20px }
+.col_175 { width: 175px }
+
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+img { margin: 0; padding: 0}
+.img_border {  border: 5px solid #fff }
+.img_nom { display: block; margin-bottom: 15px }
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fr { float: left; margin: 3px 0 5px 15px }
+
+.left { float: left }
+.right { float: right }
+
+
+#templatemo_wrapper {
+	width: 820px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#header {
+	height: 150px;
+}
+
+#site_title { display: block; float: left; margin-top: 80px }
+
+#site_title a { 
+	display: block; 
+	width: 300px; 
+	height: 12px; 
+	text-align: left; 
+	padding-top: 45px; 
+	background: url(images/templatemo_logo.png) no-repeat top left; 
+	color: #333; 
+	letter-spacing: 5px 
+}
+
+#content{
+	overflow:hidden;
+	width: 820px;
+	background-color:white;
+	position:relative;
+	height:500px;
+	background: url(images/templatemo_content_background.jpg)
+}
+
+#home, .section {
+	position:relative;
+	float:left;
+	padding: 20px;
+	width: 780px;
+	height: 460px;
+	margin-bottom: 20px;
+}
+.section { padding: 40px; width: 760px; height: 420px; overflow: hidden; }
+
+.section a.home_btn { position: absolute; top: 20px; right: 40px; width: 50px; height: 15px; display: block; font-size: 14px; padding: 15px 0 10px 40px; background: #f9faf2 url(images/icon_home_small.png) 5px 5px scroll no-repeat; border: 1px solid #fff }
+
+.section  a.page_nav_btn { position: absolute; bottom: 20px; font-weight: 700; display: block; width: 100px;
+ height: 28px; line-height: 28px; text-align: center; background: url(images/page_nav_bg.png) }
+.section  a.previous { left: 20px }
+.section  a.next { right: 40px }
+
+#templatemo_menu {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+#templatemo_menu li {
+	display: block;
+	float: left;
+	width: 140px;
+	height: 140px; 
+	margin: 0 20px 20px 0;
+}
+
+#templatemo_menu li.menu_item {
+	background: url(images/menu_box.png)
+}
+
+#templatemo_menu li.blank {
+	background: url(images/menu_box_blank.png);
+	text-indent: -10000px;
+}
+#templatemo_menu li.no_margin_right { margin-right: 0 }
+
+#templatemo_menu li a { display: block; width: 120px; height: 120px; padding: 10px; }
+#templatemo_menu li a.text { font-size: 15px; color: #333; padding: 80px 0 0 20px; height: 60px; letter-spacing: 4px }
+#templatemo_menu li a.text:hover { letter-spacing: 6px; text-decoration: none }
+#templatemo_menu li a.icon { background-position: center center; background-repeat: no-repeat; text-indent: -10000px } 
+#templatemo_menu li a.home { background-image: url(images/home-icon.png) }
+#templatemo_menu li a.about { background-image: url(images/icon_about.png) }
+#templatemo_menu li a.social { background-image: url(images/icon_social.png) }
+#templatemo_menu li a.services { background-image: url(images/services-icon.png) }
+#templatemo_menu li a.portfolio { background-image: url(images/icon_portfolio.png) }
+#templatemo_menu li a.contact { background-image: url(images/icon_contact.png) }
+
+#templatemo_footer, #templatemo_footer a {
+	margin-top: 20px;
+	color: #337722;
+	text-align: center;
+	font-size: 11px;
+}
+
+#social_links {
+	margin-top: 40px
+}
+
+#social_links li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 180px;
+	margin: 0 0 40px;
+	padding: 0;
+	background: none;
+}
+#social_links li a {
+	display: block;
+	height: 33px;
+	padding: 15px 0 0 60px;
+	font-size: 14px;
+	background-position: left;
+	background-repeat: no-repeat
+}
+
+#social_links li a.facebook {
+	background-image: url(images/facebook.png) 
+}
+#social_links li a.flickr {
+	background-image: url(images/flickr.png)
+}
+#social_links li a.linkedin {
+	background-image: url(images/linkedin.png)
+}
+#social_links li a.twitter {
+	background-image: url(images/twitter.png) 
+}
+#social_links li a.yahoo {
+	background-image: url(images/yahoo.png)
+}
+#social_links li a.youtube {
+	background-image: url(images/youtube.png)
+}
+
+#gallery {
+	margin-top: 40px
+}
+
+#gallery li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 0 10px 10px 0;
+	padding: 0;
+	background: none;
+}
+#gallery li a {
+	display: block;
+}
+#gallery li a img  { border: 5px solid #fff}
+#gallery li.no_margin_right { margin-right: 0 }
+
+#contact_form { padding: 0; width: 365px }
+#contact_form form { margin: 0px; padding: 0px; }
+#contact_form form .input_field { width: 165px; padding: 2px 0; color: #666; border: 1px solid #eee;  background: #fff; margin-bottom: 10px; }
+#contact_form form label { display: block;font-size: 11px }
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 345px; 
+	height: 120px; 
+	padding: 5px; 
+	color: #666; 
+	border: 1px solid #eee;
+	background: #fff; 
+	margin-bottom: 10px;
+}
+
+#contact_form form .submit_btn { 
+	font-size: 12px; 
+	background: #CCDDCC; 
+	color: #336633; 
+	cursor: pointer; 
+	border: 1px solid #99AA99; 
+	padding: 5px 10px; 
+}

@@ -1,0 +1,25 @@
+extends layouts/LayoutTheme
+include mixins/common/CardText
+include mixins/home/landing/HeroHeader
+include mixins/home/landing/About
+include mixins/home/landing/HowToApply
+include mixins/home/landing/Faq
+include mixins/home/landing/Testimonial
+include mixins/home/landing/Cta
+include mixins/home/landing/Footer
+
+
+
+append variables
+  - var currentPage = 'index'
+
+prepend scripts
+  
+append content
+  +HeroHeader
+  +AboutUs
+  +HowToApply
+  +Faqs
+  +Testimonial
+  +Cta
+  +Footer

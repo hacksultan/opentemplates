@@ -1,0 +1,228 @@
+/* 
+Spicy Template 
+http://www.templatemo.com/preview/templatemo_314_spicy 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #a58d6e;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #746e67;
+	background-image:url(images/templatemo_body.jpg);
+	background-repeat: repeat
+}
+
+a, a:link, a:visited { color: #e47100; font-weight: bold; text-decoration: none; }
+a:hover { color: #CCCC00; text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #d8b98f; font-weight: bold; font-style: normal }
+
+h1, h2, h3, h4, h5, h6 { color: #e47100; font-weight: normal; }
+h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { display: block; height: 40px; font-size: 25px; margin: 0; padding: 15px 0 20px 10px; background: url(images/templatemo_h2.png) no-repeat top left  }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+a.more { clear: both; display: block; width: 60px; height: 20px; text-align: center; padding: 0px 20px 0 0; color: #666; font-weight: normal; background: url(images/templatemo_more.jpg) }
+a.more:hover { text-decoration: none; color: #000; }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 5px solid #fff; background: none; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+
+.tmo_list { margin: 20px 0 20px 20px; padding: 0; list-style: none }
+.tmo_list li { color:#e47100; margin: 0; padding: 0 0 0 20px; background: url(images/templatemo_list.png) no-repeat scroll 0 7px  }
+.tmo_list li a { color: #e47100; font-weight: normal }
+.tmo_list li a:hover { color: #e47100 }
+
+#templamteo_body_wrapper {
+	width: 100%;
+	background: url(images/templatemo_wrapper.jpg) top center no-repeat
+	
+}
+
+#templatemo_wrapper {
+	width: 940px;
+	margin: 0 auto;
+	background: url(images/templatemo_wrapper.jpg) top center no-repeat	
+}
+
+#templatemo_top {
+	width: 940px; height: 60px;
+}
+
+#templatemo_main_top { width: 940px; height: 40px; padding-top: 40px; background: url(images/templatemo_main_top.png) no-repeat bottom center }
+
+#templatemo_main {
+	clear: both;
+	width: 940px;
+	background: url(images/templatemo_main.jpg) repeat-y
+}
+
+#templatemo_sidebar {
+	float: left;
+	width: 260px
+}
+
+#site_title { float: left; padding: 20px; }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 220px; height: 50px; color: #F60; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat }	
+#site_title h1 span { display: block; font-size: 14px; }
+
+/* menu */
+#templatemo_menu {
+	clear: both;
+	width: 220px;
+	padding: 20px 20px 20px 19px;
+	margin-left: 1px;
+	background: #28241e;
+	border-top: 1px solid #1c1914;
+	border-bottom: 1px solid #1c1914;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#templatemo_menu ul li a {
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	color: #a58d6e;
+	font-weight: bold;
+	padding: 2px 0;
+	margin-bottom: 10px;
+	outline: none;
+	border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current {
+	color: #dc6606;
+	padding: 2px 0 2px 10px;
+	background: #2f2a23
+}
+/* end of menu */
+
+.sb_box {
+	clear: both;
+	padding: 20px;
+	background: url(images/templatemo_sb_box.jpg) top right no-repeat
+}
+
+.news_box { clear: both; margin-bottom: 30px }
+.news_box h2 { font-size: 20px; margin-bottom: 0 }
+.news_box p.date { color: #000 }
+.news_box img { float: left; width: 100px; height: 100px; padding: 4px; border: 1px solid #000; margin-right: 30px }
+.news_box a.more { float: right; }
+
+.post_box { clear: both; margin-bottom: 30px }
+.post_box h2 { font-size: 20px; margin-bottom: 10px; padding: 0; background: none }
+.post_box p.post_meta { margin-bottom: 0 }
+.post_box p span.cat a { color: #fff; font-weight: 400 }
+.post_box img { float: left; width: 160px; height: 160px; padding: 4px; border: 1px solid #000; margin-right: 30px }
+.post_box a.more { float: right; }
+
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0; list-style: none }
+#gallery ul li { display: block; height: 180px }
+#gallery ul li a img { margin-right: 30px; float: left; border: 5px solid #413d38 }
+#gallery ul li span { display: block; font-size: 24px; margin-bottom: 20px; color: #e47100 }
+#gallery ul li a.more { float: right; }
+
+#search_box { padding: 20px; width: 220px; }
+#search_box form { clear: both; padding: 0; margin: 0 } 
+#searchfield { width: 210px; font-size: 11px; color: #928c84; padding: 5px; border: 1px solid #000;  background: #1b1b1b; } 
+#searchbutton { margin-top: 10px; width: 60px; padding: 2px 0; background: #35312d; color: #d7812d; font-size: 11px; border: 1px solid #000; cursor: pointer }
+#searchbutton:hover { color: #fff }
+
+#contact_form { padding: 0; width: 220px }
+#contact_form form { margin: 0px; padding: 0px; }
+#contact_form form .input_field { width: 210px; font-family:Verdana, Geneva, sans-serif; font-size: 11px; color: #a58d6e; padding: 5px; border: 1px solid #000;  background: #1b1b1b; }
+#contact_form form label { display: block; width: 210px; margin-right: 10px; font-size: 11px; color: #a58d6e; }
+#contact_form form textarea { width: 210px; height: 100px; font-family:Verdana, Geneva, sans-serif; font-size: 11px; padding: 5px; color: #a58d6e; border: 1px solid #000;  background: #1b1b1b; }
+#submit { margin-top: 10px; width: 60px; padding: 2px 0; background: #35312d; color: #d7812d; font-size: 11px; border: 1px solid #000; cursor: pointer }
+#submit:hover { color: #fff }
+
+#cp_contact_form { padding: 0; width: 400px }
+#cp_contact_form form { margin: 0px; padding: 0px; }
+
+#cp_contact_form form .input_field { 
+	width: 270px; color: #a58d6e; padding: 5px; 
+	height: 20px; border: 1px solid #000;  background: #1b1b1b; font-family: Verdana, Geneva, sans-serif; font-size: 12px; }
+
+#cp_contact_form form label { display: block; width: 220px; margin-bottom: 10px; font-size: 12px; color: #a58d6e; }
+
+#cp_contact_form form textarea { 
+	width: 390px; height: 160px; padding: 5px; color: #a58d6e; 
+	border: 1px solid #000;  background: #1b1b1b; font-family: Verdana, Geneva, sans-serif; font-size: 12px; }
+	
+#cp_contact_form form .submit_btn { margin: 10px 0px; padding: 5px 14px; font-size: 12px; color: #d7812d; border: 1px solid #000; background: #35312d; }
+
+#templatemo_content {
+	float: right;
+	width: 600px;
+	padding: 30px;	
+}
+
+#slider {
+	clear: both;
+	width: 600px;
+	height: 300px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.content_box {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.col_w280 {
+	width: 280px
+}
+
+.lbe_list { padding: 0; margin: 0; list-style: none }
+.lbe_list li { padding: 0; margin: 0; }
+.lbe_list li a { position: relative; display: block; padding: 2px 10px; margin-bottom: 2px; width: 260px; font-weight: 400; color: #a58d6e; background: #35312d }
+.lbe_list li a:hover { color: #d7812d; text-decoration: none; background: #201d1a }
+.lbe_list li a span { position: absolute; right: 10px; top: 2px; color: #d7812d }
+
+#map img { width: 270px; height: 160px; border: 1px solid #999; padding: 4px }
+
+#templatemo_footer {
+	clear: both;
+	width: 640px;
+	padding: 20px 0 20px 300px;
+	text-align: right;
+	color: #856a47;
+	background: url(images/templatemo_footer.png) top no-repeat
+}
+
+#templatemo_footer a { color: #d7812d; font-weight: 400 }

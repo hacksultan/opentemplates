@@ -1,0 +1,229 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Motor Cycle Template 
+http://www.templatemo.com/preview/templatemo_170_motor_cycle 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #b5b2ae;
+	background: #403830;
+}
+
+a:link, a:visited { color: #ffffff; text-decoration: underline; font-weight: normal; } 
+a:active, a:hover { color: #FFFF00; text-decoration: none; }
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_15 { clear: both; width: 100%; height: 15px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_40 { margin-right: 40px; }
+.margin_right_60 { margin-right: 60px; }
+
+.fl { float: left; }
+.fr { float: right }
+
+.header_01 {
+	clear: both;
+	height: 23px;
+	padding: 7px 0 0 45px;
+	margin-bottom: 30px;
+	font-size: 26px;
+	color: #ffd800;
+	font-family: "Times New Roman", Times, serif;
+	background: url(images/templatemo_header_bg.jpg) left bottom no-repeat;
+}
+
+.header_02 {
+	clear: both;
+	color: #fff;
+	font-weight: bold;	
+}
+
+.header_03 a {
+	clear: both;
+	display: block;
+	font-size: 14px;
+	color: #CCCC33;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#templatemo_container {
+	width: 970px;
+	margin: 0 auto;
+	padding: 0 5px;
+	background: url(images/templatemo_container_bg.png) repeat-y;
+}
+
+#templatemo_menu {
+	clear: both;
+	width: 970px;
+	height: 70px;
+	background: url(images/templatmeo_menu_bg.jpg) no-repeat;	
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 15px 0 0 60px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	padding: 0 30px;
+	height: 30px;
+	margin-right: 5px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;	
+	font-weight: bold;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #ffd800;
+	border-bottom: 5px solid #333;
+}
+
+
+#templatemo_banner {
+	width: 970px;
+	height: 280px;
+	background: url(images/templatemo_banner.jpg) no-repeat;
+}
+
+#templatemo_content {
+	clear: both;
+	padding: 0 40px 0 40px;
+	background: url(images/templatemo_content_top.jpg) top no-repeat;
+}
+
+.section_w300 {
+	width: 300px;
+}
+
+.section_w550 {
+	width: 550px;
+}
+
+.section_w550 p {
+	margin-bottom: 10px;
+}
+
+.section_w550 .em_text {
+	color: #eceae7;
+}
+
+.section_w235 {
+	width: 235px;
+}
+
+.section_content {
+	padding-left: 40px;
+}
+
+.section_content form {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.latest_news {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.image_wrapper_01 {
+	float: left;
+	width: 97px;
+	height: 97px;
+	background: #1d1c1c;
+	padding: 4px;
+	margin-top: 3px;
+}
+
+.image_wrapper_01 img {
+	width: 95px;
+	height: 95px;
+	border: 1px solid #6c6b69;
+}
+
+.text_wrapper {
+	float: right;
+	width: 390px;
+}
+
+.service_list {
+	margin: 20px 0 0 30px;
+	padding: 0px;
+	list-style: square;
+}
+
+.service_list li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 930px;
+	text-align: center;
+	padding: 160px 20px 10px 20px;
+	background: #1d1c1c url(images/templatemo_footer.jpg) no-repeat;
+}
+
+.footer_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_list li {
+	padding: 0 10px;
+	display: inline;
+	border-right: 1px solid #333;
+}
+
+.footer_list li a {
+	color: #333;
+}
+
+.footer_list .current {
+	color: #af1313;
+}
+
+.footer_list .last {
+	border-right: none;
+}

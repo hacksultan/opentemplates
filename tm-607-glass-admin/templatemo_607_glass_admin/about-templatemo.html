@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About TemplateMo - Free HTML CSS Website Templates</title>
+    <meta name="description" content="TemplateMo provides 600+ free HTML CSS website templates for everyone since 2008.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-glass-admin-style.css">
+    <!--
+
+TemplateMo 607 Glass Admin
+
+https://templatemo.com/tm-607-glass-admin
+
+-->
+    <style>
+        /* About Page Specific Styles */
+        .about-page {
+            min-height: 100vh;
+            padding: 0;
+        }
+
+        .about-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--glass-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .about-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .about-logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--emerald), var(--gold));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .about-nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+
+        /* Hero Section */
+        .about-hero {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .about-hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--emerald-light), var(--gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .about-hero p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Stats Grid */
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .about-stat {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            transition: all var(--transition-normal);
+        }
+
+        .about-stat:hover {
+            background: var(--glass-hover);
+            transform: translateY(-5px);
+        }
+
+        .about-stat-value {
+            font-family: 'Space Mono', monospace;
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--emerald-light);
+            margin-bottom: 8px;
+        }
+
+        .about-stat-label {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Features Grid */
+        .section-title {
+            font-size: 32px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--text-primary);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            transition: all var(--transition-normal);
+        }
+
+        .feature-card:hover {
+            background: var(--glass-hover);
+            transform: translateY(-5px);
+            border-color: var(--emerald-light);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(52, 211, 153, 0.2), rgba(212, 165, 116, 0.1));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .feature-icon svg {
+            width: 28px;
+            height: 28px;
+            color: var(--emerald-light);
+        }
+
+        .feature-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .feature-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Templates Grid */
+        .templates-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .template-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all var(--transition-normal);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .template-card:hover {
+            background: var(--glass-hover);
+            transform: translateY(-5px);
+            border-color: var(--emerald-light);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .template-thumb {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+			object-position: top;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .template-info {
+            padding: 20px;
+        }
+
+        .template-info h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .template-info p {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(5, 150, 105, 0.15), rgba(212, 165, 116, 0.15));
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .cta-section p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons .btn {
+            padding: 14px 28px;
+        }
+
+        .btn-secondary {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--glass-hover);
+            border-color: var(--emerald-light);
+        }
+
+        /* About Footer */
+        .about-footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-muted);
+            font-size: 14px;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .about-footer a {
+            color: var(--emerald-light);
+        }
+
+        .about-footer a:hover {
+            color: var(--gold);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .about-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .templates-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .about-hero h1 {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-header {
+                padding: 15px 20px;
+            }
+            .about-container {
+                padding: 40px 20px;
+            }
+            .about-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .templates-grid {
+                grid-template-columns: 1fr;
+            }
+            .about-hero h1 {
+                font-size: 28px;
+            }
+            .about-hero p {
+                font-size: 16px;
+            }
+            .cta-section {
+                padding: 30px 20px;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+            .cta-buttons .btn {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+            .about-stat-value {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="about-page">
+        <!-- Header -->
+        <header class="about-header">
+            <a href="https://templatemo.com" target="_blank" rel="nofollow" class="about-logo">
+                <div class="about-logo-icon">TM</div>
+                TemplateMo
+            </a>
+            <div class="about-nav">
+                <button class="nav-btn" id="theme-toggle" title="Toggle Light/Dark Mode">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/>
+                        <path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/>
+                        <path d="M2 12h2"/><path d="M20 12h2"/>
+                        <path d="M6.34 17.66l-1.41 1.41"/><path d="M19.07 4.93l-1.41 1.41"/>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <a href="https://templatemo.com" target="_blank" rel="nofollow" class="btn btn-primary" style="padding: 10px 20px;">Visit TemplateMo</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="about-container">
+            <!-- Hero Section -->
+            <section class="about-hero">
+                <h1>Free HTML CSS Website Templates</h1>
+                <p>TemplateMo has been providing 100% free website templates since 2008. All templates are ready to download, easy to customize, and perfect for any project. Our templates are AI-customizable, so you can upload to Claude AI to personalize colors, content, and layouts instantly.</p>
+            </section>
+
+            <!-- Stats -->
+            <section class="about-stats">
+                <div class="about-stat">
+                    <div class="about-stat-value">600+</div>
+                    <div class="about-stat-label">Free Templates</div>
+                </div>
+                <div class="about-stat">
+                    <div class="about-stat-value">17+</div>
+                    <div class="about-stat-label">Years Online</div>
+                </div>
+                <div class="about-stat">
+                    <div class="about-stat-value">100%</div>
+                    <div class="about-stat-label">Free Forever</div>
+                </div>
+                <div class="about-stat">
+                    <div class="about-stat-value">0</div>
+                    <div class="about-stat-label">Login Required</div>
+                </div>
+            </section>
+
+            <!-- Features -->
+            <h2 class="section-title">Why Choose TemplateMo?</h2>
+            <section class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>AI-Customizable</h3>
+                    <p>Upload template files to Claude AI and customize colors, content, layouts with simple prompts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Responsive</h3>
+                    <p>All templates are fully responsive and work beautifully on desktops, tablets, and phones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </div>
+                    <h3>Instant Download</h3>
+                    <p>No signup, no registration. Just click download and get your template files immediately.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3>Clean Code</h3>
+                    <p>Well-organized HTML, CSS, and JavaScript that's easy to understand and modify.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Commercial Use</h3>
+                    <p>Use templates for personal or commercial projects. Just keep the footer credit link.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3>Regular Updates</h3>
+                    <p>New templates added frequently with modern designs and latest web technologies.</p>
+                </div>
+            </section>
+
+            <!-- Latest Templates -->
+            <h2 class="section-title">Latest Templates</h2>
+            <section class="templates-grid">
+                <a href="https://templatemo.com/tm-606-string-master" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-606-string-master.jpg" alt="String Master Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>606 String Master</h3>
+                        <p>A modern, interactive guitar learning platform template designed for music educators and online instructors.</p>
+                    </div>
+                </a>
+                <a href="https://templatemo.com/tm-605-xmas-countdown" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-605-xmas-countdown.jpg" alt="Xmas Countdown Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>605 Xmas Countdown</h3>
+                        <p>A modern Christmas countdown template featuring sleek glassmorphism design with dark tech aesthetic.</p>
+                    </div>
+                </a>
+                <a href="https://templatemo.com/tm-604-christmas-piano" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-604-christmas-piano.jpg" alt="Christmas Piano Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>604 Christmas Piano</h3>
+                        <p>A festive single-page template featuring an interactive mini piano player built with Web Audio API.</p>
+                    </div>
+                </a>
+                <a href="https://templatemo.com/tm-603-nexaverse" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-603-nexaverse.jpg" alt="Nexaverse Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>603 Nexaverse</h3>
+                        <p>A stunning dark glassmorphism template for digital agencies, tech startups, and creative professionals.</p>
+                    </div>
+                </a>
+                <a href="https://templatemo.com/tm-602-graph-page" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-602-graph-page.jpg" alt="Graph Page Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>602 Graph Page</h3>
+                        <p>A dynamic one-page HTML design built for data analytics platforms and business intelligence tools.</p>
+                    </div>
+                </a>
+                <a href="https://templatemo.com/tm-601-chain-summit" target="_blank" rel="nofollow" class="template-card">
+                    <img src="https://templatemo.com/thumbnails-360/tm-601-chain-summit.jpg" alt="Chain Summit Template" class="template-thumb">
+                    <div class="template-info">
+                        <h3>601 Chain Summit</h3>
+                        <p>A sleek HTML template designed for AI, Blockchain, and cutting-edge tech conferences.</p>
+                    </div>
+                </a>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <h2>Start Building Your Website Today</h2>
+                <p>Browse 600+ free templates and find the perfect design for your next project</p>
+                <div class="cta-buttons">
+                    <a href="https://templatemo.com/page/1" target="_blank" rel="nofollow" class="btn btn-primary">Browse All Templates</a>
+                    <a href="https://templatemo.com/tag/glassmorphism" target="_blank" rel="nofollow" class="btn btn-secondary">Glassmorphism Templates</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="about-footer">
+            <p>Copyright © 2026 <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a> - Free HTML CSS Website Templates Since 2008</p>
+        </footer>
+    </div>
+
+    <script src="templatemo-glass-admin-script.js"></script>
+    <!-- TemplateMo 607 Glass Admin -->
+</body>
+</html>

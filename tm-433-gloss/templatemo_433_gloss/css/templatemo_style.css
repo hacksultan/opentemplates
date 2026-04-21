@@ -1,0 +1,791 @@
+/*
+	Gloss Template
+	http://www.templatemo.com/preview/templatemo_433_gloss	
+*/
+
+body {
+    font: 13px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    color: #272828;
+    font-weight: 600;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+ /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    background: url(../images/templatemo_pagebg.jpg) no-repeat #0d293b top center;
+}
+
+html {
+}
+
+a, a:focus {
+    text-decoration: none;
+    color: #0074ba;
+}
+
+a:hover {
+    color: #399;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    font-size: 36px;
+    color: #747474;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #333333;
+}
+
+:-moz-placeholder {
+ /* Firefox 18- */
+    color: #333333;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+    color: #333333;
+}
+
+:-ms-input-placeholder {
+    color: #333333;
+}
+
+.clear {
+    clear: both;
+}
+
+.content {
+    display: none;
+}
+
+.homepage {
+    display: block;
+}
+
+.shadow {
+    box-shadow: 0px 0px 7px #011933;
+}
+
+.gradient {
+	/* IE10+ */
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #ffffff 30%, #9fbed1 100%);
+	/* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #ffffff 30%, #9fbed1 100%);
+	/* Opera */
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #ffffff 30%, #9fbed1 100%);
+	/* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(30, #ffffff), color-stop(100, #9fbed1));
+	/* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #ffffff 30%, #9fbed1 100%);
+	/* W3C Markup */
+    background-image: radial-gradient(ellipse closest-corner at center, #ffffff 30%, #9fbed1 100%);
+}
+
+.blue {
+    background-color: #14649b;
+    background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0485d3), to(#0177bf));
+	/* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #0485d3, #0177bf);
+	/* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0485d3, #0177bf);
+	/* IE 10 */
+    background: -ms-linear-gradient(top, #0485d3, #0177bf);
+	/* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0485d3, #0177bf);
+    padding: 5px 13px;
+    color: #ffffff;
+    outline: 1px solid #026cbe;
+    border: 1px solid #35a7eb;
+}
+
+.bluetext {
+    color: #0074ba;
+}
+
+.redtext {
+    color: #CC0000;
+}
+
+.greentext {
+    color: #009900;
+}
+
+.blue:hover {
+    background: #088dde;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 100;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.templatemo_webtitle {
+    color: #bed6e6;
+    letter-spacing: -2px;
+    line-height: 46px;
+    text-shadow: 1px 1px 1px #000000;
+    margin: 25px 0px 0px 30px;
+}
+
+.templatemo_webtitle span {
+    line-height: 30px;
+    color: #e0eaf0;
+    letter-spacing: -1px;
+    margin-left: 5px;
+}
+
+.templatemo_topwrapper {
+    width: 100%;
+    height: 100px;
+  /* fallback */
+    background-color: #14649b;
+    background-repeat: repeat-x;
+  /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#14649b), to(#1174b2));
+  /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #14649b, #1174b2);
+  /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #14649b, #1174b2);
+  /* IE 10 */
+    background: -ms-linear-gradient(top, #14649b, #1174b2);
+  /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #14649b, #1174b2);
+    border: 1px solid #448abb;
+}
+
+.templatemo_homewrapper {
+    background: #acc7d7;
+    float: left;
+    margin-top: 180px;
+    border: 1px solid #b6e1fc;
+}
+
+.templatemo_hometop_bg {
+    background: url(../images/templatemo_hometop_bg.jpg) no-repeat top center;
+    float: left;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.templemo_hometop_img {
+    margin: 20px auto;
+}
+
+.templemo_hometop_img img {
+    width: 100%;
+}
+
+.templatemo_hometop_title {
+    font-size: 32px;
+    color: #0074ba;
+    font-weight: bold;
+    line-height: 34px;
+    margin: 0px 0px 10px 0px;
+}
+
+.templatemo_hometop_subtitle {
+    font-size: 34px;
+    color: #0074ba;
+    letter-spacing: -3px;
+    margin: 10px 0px 20px 0px;
+    line-height: 36px;
+}
+
+.templatemo_hometop_more {
+    float: left;
+    text-shadow: 1px 1px #4b4b4b;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 20px 0px 10px 0px;
+}
+
+.templatemo_home_mid, .templatemo_home_bot {
+    margin-top: 30px;
+    float: left;
+}
+
+.templatemo_home_bot div.padd-top20 {
+    padding-top: 20px;
+}
+
+.templatemo_box, .templatemo_box_last {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.templatemo_box_last {
+    border-right: 1px solid #fff;
+}
+
+.templatemo_box img, .templatemo_box_last img {
+    width: 100px;
+    display: block;
+    margin: 0px auto 30px auto;
+    padding-top: 70px;
+}
+
+.templatemo_home_midheader {
+    font-size: 26px;
+    color: #0383d0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.templatemo_home_midtext {
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.templatemo_readmore {
+    width: 120px;
+    margin: 60px auto;
+    border: 1px solid #ffffff;
+    outline: 1px solid #82b4d4;
+    text-align: center;
+    line-height: 30px;
+    color: #0a71b3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.templatemo_readmore a {
+    color: #0a71b3;
+}
+
+.templatemo_box:hover, .templatemo_box_last:hover {
+    background: #217eb9;
+    border-top: 1px solid #217eb9;
+    border-left: 1px solid #519dcd;
+    border-bottom: 1px solid #519dcd;
+    color: #ffffff;
+}
+
+.templatemo_box:hover div.templatemo_readmore a, .templatemo_box_last:hover div.templatemo_readmore a {
+    color: #ffffff;
+}
+
+.templatemo_box_last:hover {
+    border-right: 1px solid #519dcd;
+}
+
+.templatemo_box:hover div.boxsub1, .templatemo_box_last:hover div.boxsub1 {
+    background: rgba(16,88,130,1);
+    background: -moz-linear-gradient(-45deg, rgba(16,88,130,1) 0%, rgba(18,95,139,0) 28%, rgba(23,112,163,0) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(16,88,130,1)), color-stop(28%, rgba(18,95,139,0)), color-stop(100%, rgba(23,112,163,0)));
+    background: -webkit-linear-gradient(-45deg, rgba(16,88,130,1) 0%, rgba(18,95,139,0) 28%, rgba(23,112,163,0) 100%);
+    background: -o-linear-gradient(-45deg, rgba(16,88,130,1) 0%, rgba(18,95,139,0) 28%, rgba(23,112,163,0) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(16,88,130,1) 0%, rgba(18,95,139,0) 28%, rgba(23,112,163,0) 100%);
+    background: linear-gradient(135deg, rgba(16,88,130,1) 0%, rgba(18,95,139,0) 28%, rgba(23,112,163,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105882', endColorstr='#1770a3', GradientType=1 );
+    margin: 0px -2px;
+}
+
+.templatemo_box:hover div.boxsub2, .templatemo_box_last:hover div.boxsub2 {
+    background: rgba(23,112,163,0);
+    background: -moz-linear-gradient(45deg, rgba(23,112,163,0) 0%, rgba(18,95,139,0) 72%, rgba(16,88,130,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(23,112,163,0)), color-stop(72%, rgba(18,95,139,0)), color-stop(100%, rgba(16,88,130,1)));
+    background: -webkit-linear-gradient(45deg, rgba(23,112,163,0) 0%, rgba(18,95,139,0) 72%, rgba(16,88,130,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(23,112,163,0) 0%, rgba(18,95,139,0) 72%, rgba(16,88,130,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(23,112,163,0) 0%, rgba(18,95,139,0) 72%, rgba(16,88,130,1) 100%);
+    background: linear-gradient(45deg, rgba(23,112,163,0) 0%, rgba(18,95,139,0) 72%, rgba(16,88,130,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1770a3', endColorstr='#105882', GradientType=1 );
+}
+
+.templatemo_box:hover div.templatemo_home_midheader, .templatemo_box_last:hover div.templatemo_home_midheader {
+    color: #fff;
+}
+
+.templatemo_box:hover div.templatemo_readmore, .templatemo_box_last:hover div.templatemo_readmore {
+    width: 120px;
+    margin: 30px auto 20;
+    border: 1px solid #0f95e5;
+    outline: 1px solid #025c92;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    background: #1e7ebc;
+}
+
+.templatemo_home_botheader {
+    font-size: 22px;
+    color: #454646;
+    font-weight: 600;
+}
+
+.templatemo_home_botsubheader {
+    font-size: 14px;
+    color: #2099ec;
+}
+
+.templatemo_home_bot div.col-md-12 {
+    padding-bottom: 50px;
+}
+
+.templatemo_home_bot div.col-md-2, .templatemo_home_bot div.col-md-4 {
+    margin: 50px 0px 0px 0px;
+}
+
+.templatemo_home_bot div.col-md-2 img {
+    border: 5px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(71,71,71,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(71,71,71,1);
+    box-shadow: 0px 0px 10px 1px rgba(71,71,71,1);
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.templatemo_about {
+    padding: 70px 50px;
+}
+
+.templatemo_about_title {
+    font-size: 32px;
+    color: #454646;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.templatemo_about_subtitle {
+    color: #0074ba;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.templatemo_who {
+	/* IE10+ */
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #e9f0f5 0%, #96b7cb 100%);
+	/* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #e9f0f5 0%, #96b7cb 100%);
+	/* Opera */
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #e9f0f5 0%, #96b7cb 100%);
+	/* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #e9f0f5), color-stop(100, #96b7cb));
+	/* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #e9f0f5 0%, #96b7cb 100%);
+	/* W3C Markup */
+    background-image: radial-gradient(ellipse closest-corner at center, #e9f0f5 0%, #96b7cb 100%);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.templatemo_about_text {
+    margin: 20px 100px;
+}
+
+.templatemo_about_text_image {
+    margin: 0 auto;
+    display: inline-table;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.templatemo_about_text_image img {
+    width: 130px;
+    border: 5px solid #ffffff;
+    outline: 1px solid #cacdce;
+    margin: 10px 5px;
+}
+
+.templatemo_about_text_image div {
+    width: 100%;
+}
+
+.templatemo_about_text_image div.post {
+    color: #2794c4;
+}
+
+.templatemo_bot_box {
+    padding: 50px 20px 40px 30px;
+}
+
+.templatemo_bot_box div.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.templatemo_bot_box div.subtitle {
+    color: #2099ec;
+    font-size: 14px;
+}
+
+.templatemo_bot_box ul {
+    padding: 0px 20px;
+}
+
+.templatemo_gallery_wrapper {
+    padding: 50px;
+    margin-top: 180px;
+}
+
+.templatemo_gallery {
+    border: 8px solid #ffffff;
+    outline: 1px solid #d4d4d4;
+    margin-bottom: 20px;
+}
+
+.templatemo_gallery img {
+    width: 100%;
+}
+
+.templatemo_viewmore {
+    float: left;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.templatemo_about_wrapper, .templatemo_contact_wrapper {
+    margin-top: 180px;
+}
+
+.templatemo_contact_map {
+    margin: 50px 20px;
+}
+
+#templatemo_map {
+    float: left;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #979797;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact_title {
+    font-size: 32px;
+    color: #454646;
+    line-height: 36px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+}
+
+.templatemo_contact_subtitle {
+    color: #0074ba;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin: 0px 0px 10px 20px;
+}
+
+
+.templatemo_form {
+    margin: 40px 0px 80px 20px;
+}
+
+.templatemo_form input, textarea {
+    width: 90%;
+    padding: 7px 7px;
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #333333;
+}
+
+.templatemo_form textarea {
+    height: 120px;
+}
+
+.templatemo_form button {
+    border-radius: 0px;
+    font-size: 15px;
+}
+
+.templatemo_form ul {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.templatemo_form ul li {
+    line-height: 34px;
+    margin: 10px 0px;
+}
+
+.templatemo_form ul li span {
+    font-size: 14px;
+    color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border-radius: 17px;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+/*------------------------------------------------------
+	Gallery Styles 
+--------------------------------------------------------*/
+.gallery-item {
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item .content-gallery {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+}
+
+.gallery-item .overlay a {
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    font-size: 22px;
+    background: url(../images/templatemo_gallerybg.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #6b6b6b;
+}
+
+#lightbox {
+    z-index: 1000;
+}
+
+.templatemo_footer {
+    padding: 20px 0px 10px 0px;
+    color: #ffffff;
+    margin-bottom: 50px;
+	/* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(bottom, #09568B 0%, #1773AF 300%);
+	/* Mozilla Firefox */
+    background-image: -moz-linear-gradient(bottom, #09568B 0%, #1773AF 300%);
+	/* Opera */
+    background-image: -o-linear-gradient(bottom, #09568B 0%, #1773AF 300%);
+	/* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #09568B), color-stop(3, #1773AF));
+	/* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom, #09568B 0%, #1773AF 300%);
+	/* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(to top, #09568B 0%, #1773AF 300%);
+}
+
+.templatemo_footer a {
+    color: #FFF;
+}
+
+.templatemo_footer div.social {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+    margin: 0px -15px;
+    height: 100px;
+}
+
+.navbar-header button {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.navbar-default .navbar-nav>li>span {
+    display: none;
+}
+
+.navbar-nav {
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover {
+    background: #0b3551;
+    color: #dfeaf2;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #dfeaf2;
+}
+
+.navbar-default .navbar-nav>li>a span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+@media (max-width: 766px) {
+    #top-menu {
+        background: #0b73b6;
+        opacity: 0.9;
+        border: none;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+
+    .navbar-nav li {
+        border-top: 1px solid #2086c9;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #a1c3da;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #a1c3da;
+        background: #187aba;
+    }
+
+    .templatemo_webtitle {
+        font-size: 30px;
+    }
+
+    .templatemo_webtitle span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 767px) {
+    .templatemo_webtitle {
+        font-size: 40px;
+    }
+
+    .templatemo_webtitle span {
+        font-size: 14px;
+    }
+
+    .templemo_hometop_img {
+        width: 350px;
+        margin: 20px auto;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 0px;
+    }
+
+    .container-fluid {
+        padding: 0px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0px 15px;
+    }
+
+    #top-menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    #top-menu ul li {
+        width: 25%;
+        text-align: center;
+        height: 99px;
+        border-left: 1px solid #105c8d;
+        position: relative;
+    }
+
+    #top-menu ul li:after {
+        background: none;
+        border-left: 1px solid #3288c1;
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0px;
+        pointer-events: none;
+        height: 99px;
+        top: 0;
+    }
+
+    .navbar-nav>li>a {
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #a1c3da;
+    }
+
+    .navbar-default .navbar-nav>li>a span {
+        color: #a1c3da;
+        font-size: 26px;
+        padding-top: 27px;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,  .navbar-default .navbar-nav>li>a:focus {
+        color: #a1c3da;
+    }
+
+    .navbar-nav>li:hover, 
+		 .navbar-default .navbar-nav>.active>a, 
+		 .navbar-default .navbar-nav>li>a:hover, 
+		 .navbar-default .navbar-nav>li>a:focus,
+		 .navbar-default .navbar-nav>li>a.active {
+		 	/* IE10+ */
+        background-image: -ms-radial-gradient(center, ellipse closest-corner, #135987 30%, #092f48 100%);
+			/* Mozilla Firefox */
+        background-image: -moz-radial-gradient(center, ellipse closest-corner, #135987 30%, #092f48 100%);
+			/* Opera */
+        background-image: -o-radial-gradient(center, ellipse closest-corner, #135987 30%, #092f48 100%);
+			/* Webkit (Safari/Chrome 10) */
+        background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(30, #135987), color-stop(100, #092f48));
+			/* Webkit (Chrome 11+) */
+        background-image: -webkit-radial-gradient(center, ellipse closest-corner, #135987 30%, #092f48 100%);
+			/* W3C Markup */
+        background-image: radial-gradient(ellipse closest-corner at center, #135987 30%, #092f48 100%);
+        height: 99px;
+    }
+}
+
+@media (min-width: 768px) {
+    .templatemo_webtitle span {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .templatemo_webtitle span {
+        display: inline;
+    }
+}

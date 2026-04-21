@@ -1,0 +1,545 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Business Template 
+http://www.templatemo.com/preview/templatemo_081_business 
+*/
+html {
+
+	background: #1f5c7b;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #fff;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+a{	color: #05acff; }
+
+a:hover{ color: #0f73a6; }
+
+#templatemo_background_section_top {
+
+	width: 100%;
+	
+	height: 163px;
+
+	background: url(images/templatemo_top_section_bg.jpg) repeat-x;
+
+}
+
+
+#templatemo_background_section_middle {
+
+	width: 100%;
+	
+	background: #1f5c7b url(images/templatemo_mid_section_bg.jpg) repeat-x;
+	
+	clear: both;
+	
+	overflow: hidden;
+
+}
+
+.templatemo_container {
+
+	width: 960px;
+	margin: auto;
+
+}
+
+#templatemo_background_section_bottom {
+
+	width: 100%;
+	
+	background: #041a25 url(images/templatemo_footer_bg.jpg) repeat-x;
+	
+	float: left;
+	
+	clear:both;
+	
+	padding: 10px 0 0 0;
+	margin: 10px 0 0px 0;
+
+}
+
+.templatemo_container {
+
+	text-align: left;
+	
+}
+
+
+
+
+#templatemo_header{
+	height: 163px;
+	width: 100%;
+	background:url(images/templatemo_header.jpg) no-repeat;
+}
+
+
+/* Search */
+
+#templatemo_search_box{
+
+	width: 310px;
+	height: 25px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 20px;
+	background: url(images/templatemo_search.jpg) no-repeat;
+
+}
+
+#templatemo_search_box form{
+	margin-top: 0px;
+	padding:0;
+	width: 310px;
+}
+
+#templatemo_search_box form label{
+	margin-bottom: 8px;
+	margin-right: 10px;
+	padding:0;
+	font-weight: bold;
+	color: #fff;
+
+}
+#templatemo_search_box form .button{
+	border: 1px solid #000;
+	background: #0083db;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	width: 40px;
+	height: 23px;
+	font-size: 10px;
+	margin-left: 10px;
+
+
+}
+
+/* End Of Search*/
+/* Menu */
+#templatemo_menu{
+
+	width: 538px;
+	height: 43px;
+	float: right;	
+	margin: 25px 100px 0 0;
+
+	
+}
+
+
+* html #templatemo_menu{
+
+	
+	width: 556px;
+	margin-top: 7px;
+	margin-right: 80px;
+
+	
+}
+
+#templatemo_menu #templatemo_menu_bg_l{
+	
+	width: 3%;
+	height: 43px;
+	float: left;
+	background: url(images/templatemo_menu_bg_l.jpg) left bottom no-repeat;
+
+
+}
+
+
+
+
+#templatemo_menu #templatemo_menu_bg_r{
+	width: 97%;
+	height: 38px;
+	float: left;
+	background: url(images/templatemo_menu_bg_r.jpg) right bottom no-repeat;
+	padding: 5px 0 0 0;
+	display: inline;
+	margin: 0;
+
+
+}
+
+
+#templatemo_menu_bg_r ul{
+
+	list-style: none;
+	display: inline;
+
+}
+#templatemo_menu_bg_r li{
+	float:left;
+}
+#templatemo_menu_bg_r li a{
+	float: left;
+	display: block;
+	color: #FFF;
+	background: url(images/templatemo_button_left.jpg) no-repeat;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 10px;
+	margin-right: 4px;
+	padding: 0 0 0 10px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+#templatemo_menu_bg_r li a b{
+	float: left;
+	display: block;
+	padding: 0 15px 0 5px;
+	background: url(images/templatemo_button_right.jpg) no-repeat;
+	background-position: right top;
+}
+#templatemo_menu_bg_r li.current a, #templatemo_menu_bg_r li a:hover{
+	color: #05acff;
+
+}
+#templatemo_menu_bg_r li.current a b, #templatemo_menu_bg_r li a:hover b{
+	color: #05acff;
+
+}
+
+/*End OF menu*/
+#templatemo_logo {
+
+	width: 280px;
+	height: 65px;
+	margin-top: 35px;
+	margin-left: 40px;
+	padding: 0;
+	float: left;
+	display: inline;
+		
+}
+
+#templatemo_logo h1 {
+
+	margin-top: 4px;
+	font-size: 30px;
+	color: #8fdaff;
+	line-height: 1em;
+	
+}
+
+#templatemo_logo h2 {
+
+	margin-top: 4px;
+	font-size: 11px;
+	color: #1aa3e8;
+
+}
+
+#templatemo_content_area {
+
+	width: 100%;
+	background: url(images/templatemo_content_bg.jpg) no-repeat top;
+	overflow: hidden;
+
+}
+
+#templatemo_left {
+
+	float: left;
+	width : 235px;
+	margin: 0;
+	padding: 0;
+}
+
+.templatemo_section {
+
+	width: 221px;
+	margin-top: 30px;
+	margin-left: 13px;
+	float: left;
+	display: inline;
+}
+
+.templatemo_section_top_pc {
+	width: 208px; 
+	height: 24px;/* -47 For padding top */
+	background: url(images/templatemo_left_section_top_pc.jpg) no-repeat;
+	font-size: 14px;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 47px;
+	padding-left: 13px;
+
+}
+
+.templatemo_section_top_pic {
+	width: 208px; 
+	height: 30px;/* -47 For padding top */
+	background: url(images/templatemo_left_section_top_pic.jpg) no-repeat;
+	font-size: 14px;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 47px;
+	padding-left: 13px;
+
+}
+
+.templatemo_section_middle {
+	width: 221px; 
+	background: url(images/templatemo_left_section_middle.jpg) repeat-y;
+}
+
+.templatemo_section_middle p {
+	
+	font-size: 12px;
+	color: #fff;
+	font-family: Arial;
+	text-align: justify;
+	margin: 0px 23px 10px 13px;
+	padding: 0;
+	
+}
+
+.templatemo_section_middle ul {
+	
+	margin: 0px 23px 10px 28px;
+	padding: 0px;
+	color: #fff;
+	list-style: square;
+	font-size: 12px;
+	
+	
+}
+
+.templatemo_section_middle ul li a {
+	
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.templatemo_section_middle ul li a:hover {
+	
+	color: #6ff;
+	text-decoration: underline;
+	
+}
+
+.templatemo_section_bottom {
+	width: 221px; 
+	height: 16px;
+	background: url(images/templatemo_left_section_bottom.jpg) repeat-y;
+	margin: 0;
+	padding: 0;
+}
+
+.cleaner {
+	clear: both;
+	
+}
+
+.cleaner_with_height {
+	
+	clear: both;
+	height: 1px;
+	
+}
+
+#templatemo_right {
+	
+	float: right;
+	width: 701px;
+	background: #f3f3f3 url(images/templatemo_right_bg.jpg) no-repeat bottom;
+	margin-top: 36px;
+	margin-right: 23px;
+	display: inline;
+	
+}
+
+#templatemo_right p{
+
+	margin: 0px 48px 10px 48px;
+	color: #595959;
+	text-align: justify;
+
+}
+
+#templatemo_right h1{
+
+	margin: 0px 48px 10px 48px;
+	color: #2c83b0;
+	text-align: justify;
+	font-size: 18px;
+
+}
+
+#templatemo_right img{
+	
+	border: none;
+	float: right;
+	margin: 0px 15px 0 0;
+
+}
+
+#templatemo_bottom_section {
+	width: 695px;
+	overflow: hidden;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	
+	
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_box {
+	float: left;
+	display:inline;
+	margin-top: 30px;
+	margin-left: 23px;
+	width: 200px;
+	background-color: #f3f3f3;
+	overflow: hidden;
+}
+
+
+#templatemo_bottom_section .templatemo_bottom_section_box h2{
+
+	font-size: 12px;
+	color: #0479b4;
+	margin: 0px;
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_box h3{
+
+	font-size: 12px;
+	color: #0297e3;
+	margin: 0px;
+}
+
+
+
+#templatemo_bottom_section .templatemo_bottom_section_box img{
+
+	margin: 5px 0px;
+	float: left;
+}
+
+#templatemo_bottom_section .templatemo_bottom_section_box p{
+
+	margin: 0px;
+	color: #595959;
+	text-align: justify;
+}
+
+
+.templatemo_bottom_section_box ul{
+	
+
+	font-size: 12px;
+	color: #05acff;
+	clear: left;
+	margin-left: 10px;
+	padding: 0;
+	
+
+	
+}
+.templatemo_bottom_section_box li{
+
+	margin-left: 5px;
+
+}
+.templatemo_bottom_section_box ul li a{
+	
+	color: #05acff;
+	text-decoration: none;
+	
+	
+}
+
+.templatemo_bottom_section_box ul li a:hover{
+	
+	text-decoration: underline;
+	
+}
+
+#templatemo_footer_section {
+	width: 955px;
+	overflow: hidden;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+#templatemo_footer_section .templatemo_footer_section_box {
+	float: left;
+	display:inline;
+	margin-top: 30px;
+	margin-left: 80px;
+	width: 200px;
+	color: #fdcb2e;
+
+}
+
+#templatemo_footer_section .templatemo_footer_section_box_2 {
+	float: left;
+	display:inline;
+	margin-top: 30px;
+	margin-left: 80px;
+	width: 230px;
+	color: #fdcb2e;
+
+}
+
+#templatemo_footer_section .templatemo_footer_section_box p{
+
+	margin: 0px;
+	color: #fdcb2e;
+	text-align: justify;
+}
+
+#templatemo_footer_section .templatemo_footer_section_box h2{
+
+	margin: 0px;
+	color: #fdcb2e;
+	text-align: justify;
+	font-size: 12px;
+	
+}
+
+#templatemo_footer_section a{
+
+		color: #fdcb2e;
+		text-decoration:none;
+	
+}
+
+#templatemo_footer_section a:hover{
+
+		text-decoration: underline;
+	
+}

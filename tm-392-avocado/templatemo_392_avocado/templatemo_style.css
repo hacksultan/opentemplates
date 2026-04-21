@@ -1,0 +1,225 @@
+/* 
+Avocado Template 
+http://www.templatemo.com/preview/templatemo_392_avocado 
+*/
+
+body { 
+	margin: 0;
+	padding: 0;
+	background: #d2a026 url("images/body_bg.jpg") center center;
+}
+
+a, a:link, a:visited { 
+	color: #fff; 
+	font-weight: normal; 
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #fff; 
+	text-decoration: none;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	font: normal normal normal 12px/25px Arial, Helvetica, sans-serif;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+/* banner */
+
+#banner {
+	height: 70px;
+}
+
+#banner form input {
+	background: #fff url("images/lens.jpg") 200px 6px  no-repeat;
+	height: 30px;
+	width: 210px;
+	padding: 0 10px 0 10px ;
+	border: none;
+}
+
+/* mid_container_wap */
+
+#mid_container_wap {
+	height: 390px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+#mid_container_wap * {
+	color:#fff;
+}
+
+#mid_container_wap h1 {
+	font: normal normal normal 24px/24px Arial, Helvetica, sans-serif;
+	margin: 10px 0 10px 0;
+	padding: 0;
+}
+
+#mid_container_wap p {
+	font: normal normal normal 12px/25px Arial, Helvetica, sans-serif;
+	margin: 0px 0 20px 0;
+	padding: 0;
+	text-align: left;
+}
+
+.mid_container {
+	height: 370px;
+	-webkit-box-shadow: inset 0px 0px 0px 6px #f4e9ae;
+	-moz-box-shadow: inset 0px 0px 0px 6px #f4e9ae;
+	box-shadow: inset 0px 0px 0px 6px #f4e9ae;
+	background: #283b22;
+	margin-bottom: 25px;
+	padding-top: 20px;
+}
+ 
+/* anchor_animate */
+
+.anchor_animate:hover {
+	background-color: #000;
+}
+
+.anchor_animate {
+	width: 217px;
+	padding-top: 40px;
+	height: 36px;
+	float: left;
+	border: 6px solid #f4e9ae;
+	margin-bottom: 13px;
+	border-radius: 5px;
+	background: url('images/right_menu.png');
+	font-size: 18px;
+	font-family: "Arial Rounded MT Bold";
+	color: #fff;
+	text-align: center;
+}
+
+a[href='#about'] {
+	background: url('images/right_menu_bg.png') 50% -10px no-repeat , url('images/right_menu.png');
+}
+
+a[href='#services'] {
+	background: url('images/right_menu_bg.png') 50% -106px no-repeat , url('images/right_menu.png');
+}
+a[href='#testimonials'] {
+	background: url('images/right_menu_bg.png') 50% -212px no-repeat , url('images/right_menu.png');
+}
+
+a[href='#contact'] {
+	background: url('images/right_menu_bg.png') 50% -315px no-repeat , url('images/right_menu.png');
+}
+
+/* about */
+
+#about {
+	background: url("images/content_bg_overlay.png"), url("images/content_bg_04.jpg") no-repeat #423f3b;
+}
+
+#about img {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+/* services */
+
+#services {
+	background: url("images/content_bg_overlay.png"), url("images/content_bg_03.jpg") no-repeat #423f3b;
+}
+
+#services .cake_item {
+	text-align: center;
+}
+
+#services .cake_item p {
+	text-align: center;
+}
+
+/* testimonials */
+
+#testimonials {
+	background:url("images/content_bg_overlay.png"), url("images/content_bg_02.jpg") no-repeat #423f3b;
+}
+
+#testimonials img {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#testimonials p {
+	margin: 2px 0 8px 0;
+	padding: 0;
+	line-height: 27px;
+	text-align: left;
+}
+
+/* contact */
+
+#contact {
+	background: url("images/content_bg_overlay.png"), url("images/content_bg_01.jpg") no-repeat #423f3b ;
+}
+
+#contact #map-canvas {
+	height: 195px;
+	border: 1px solid #b6b6b6 ;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+	-moz-box-shadow:    0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+	box-shadow:         0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+}
+
+#contact form , #contact p , #contact h1 {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+#contact h1 {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#contact input , #contact textarea {
+	margin: 5px 0 0 0;
+	padding: 0 5px 0 5px;
+	margin-bottom: 5px;
+	font: normal normal normal 12px/26px Arial, Helvetica, sans-serif;
+	color: #000000;
+	border:1px solid #b6b6b6;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+	-moz-box-shadow:    0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+	box-shadow:         0px 0px 0px 1px rgba(255, 255, 255, 0.75);
+}
+
+#contact input[type=text] {
+	height: 26px;
+	width: 296px;
+}
+
+#contact input[type=submit] {
+	height: 26px;
+	width: 100px;
+}
+
+#contact textarea {
+	height: 70px;
+	width: 296px;
+	margin-bottom: 10px;
+	padding: 0 5px 0 5px;
+}
+
+/* footer */
+#footer {
+	font: normal normal normal 12px/25px Arial, Helvetica, sans-serif;
+	color: #960;
+}
+
+#footer a {
+	color: #960;
+}

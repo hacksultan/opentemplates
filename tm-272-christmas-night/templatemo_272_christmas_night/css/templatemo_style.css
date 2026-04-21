@@ -1,0 +1,329 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #ccc;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #369c93;
+	background-image: url(../images/templatemo_body.png);
+	background-repeat: repeat-x;
+	background-position: top
+}
+
+a, a:link, a:visited { color: #b13932; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal }
+h1 { font-size: 34px; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 26px; margin: 0 0 20px 0; padding: 0; }
+h3 { font-size: 21px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+a.more { display: block; width: 80px; line-height: 25px; font-weight: bold; font-size: 12px; text-align: center; background: url(../images/templatemo_more.png) no-repeat; color: #333  }
+a.more:hover { color: #000; text-shadow: 1px 1px 1px #fff; text-decoration: none }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 1px solid #333; padding: 4px; background: #000; margin-bottom: 5px }
+.image_fl { float: left; margin: 3px 15px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 15px }
+
+blockquote { font-style: italic; margin-left: 10px}
+cite { font-weight: bold; color:#000 }
+cite span { color: #333 }
+em { color: #369c93 }
+
+.tmo_list { margin: 0 0 0 10px; padding: 0; list-style: none }
+.tmo_list li { color:#b13932; margin:0 0 10px; padding: 3px 0 3px 25px; background: transparent url(../images/templatemo_list.png) scroll 0 8px  no-repeat }
+.tmo_list li a { color: #b13932 }
+.tmo_list li a:hover { color: #b13932 }
+
+#templatemo_header {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../images/templatemo_header.jpg) no-repeat center top
+}
+
+#site_title { float: left; margin: 25px 0 0 415px }
+#site_title h1 { margin: 0; padding: 0 }
+#site_title h1 a { display: block; width: 129px; height: 34px; color: #333; text-indent: -10000px; background: url(../images/templatemo_logo.png) }
+
+#search_box { float: right; margin: 25px 30px 0 0; width: 240px; height: 30px; background: url(../images/templatemo_search.png) no-repeat }
+#search_box form { clear: both; width: 242px; height: 29px; padding: 0; margin: 0 } 
+#searchfield { width: 200px; padding: 0 5px 0 5px; font-size: 12px; color: #fff; line-height: 30px; background: none; border: none; } 
+#searchbutton { height: 25px; width: 25px; padding: 0; margin: 0; cursor: pointer; background: none; border: none; }
+
+#templatemo_middle_wrapper {
+	clear: both;
+	width: 100%;
+	height: 260px;
+	background: url(../images/templatemo_banner.jpg) no-repeat top center
+}
+#templatemo_middle {
+	width: 600px;
+	height: 170px;
+	margin: 0 auto;
+	padding: 60px 30px 30px 330px;
+	background: url(../images/templatemo_banner.jpg) no-repeat top center
+}
+#templatemo_middle h2 {
+	color: #fff;
+	font-size: 30px;
+}
+#templatemo_middle p {
+	font-size: 18px;
+	color: #cbf4f0;
+	letter-spacing: 2px;
+	line-height: 26px;
+}
+
+#learn_more a {
+	float: right;
+	display: block;
+	width: 222px;
+	height: 35px;
+	padding: 13px 0 0 0;
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #ad2f27;
+	text-align: center;
+	background: url(../images/templatemo_lm_btn.png) no-repeat
+}
+
+#learn_more a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* menu */
+
+#templatemo_menu {
+	clear: both;
+	width: 960px;
+	height: 50px;
+	margin: 0 auto
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 4px 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 140px;
+	height: 30px;
+	margin-right: 5px;
+	padding: 12px 0 0 0;
+	font-size: 14px;
+	color: #333;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	background:  url(../images/templatemo_menu.jpg) no-repeat
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
+	color: #fff;
+	background: url(../images/templatemo_menu_hover.jpg) no-repeat
+}
+
+/* end of menu */
+
+#templatemo_main {
+	clear: both;
+	width: 900px;
+	margin: 0 auto;
+	padding: 45px 30px 0;
+	background: #232928 url(../images/templatemo_main.jpg) top center no-repeat
+}
+
+.col_w900 { width: 900px; padding-bottom: 30px }
+.col_w580 { width: 580px }
+.col_w420 { width: 420px }
+.col_w280 { width: 280px }
+.col_allw280 { float: left; width: 280px; margin-right: 30px }
+.col_w900_last { margin: 0; background: none; }
+.col_last { margin: 0; }
+.inner_box { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #000  }
+.last { margin: 0; padding: 0; border: none }
+
+.post_box { clear: both; margin-bottom: 30px }
+.post_box .post_header { padding: 10px 0; border: 1px dashed #000; border-left: none; border-right: none; margin-bottom: 15px }
+.post_box h2 { font-size: 20px; margin-bottom: 10px }
+.post_box p.post_meta { margin-bottom: 0; color: #666 }
+.post_box p span.cat a { font-weight: 400 }
+.post_box img { padding: 9px; border: 1px solid #333; background: #000; margin-bottom: 15px; }
+.post_box a.more { float: right; }
+
+.lp_frontpage { margin: 0; padding: 0; list-style: none }
+.lp_frontpage li { margin: 0; padding: 0; display: inline }
+.lp_frontpage li a { float: left; display: block; width: 200px; height: 100px; margin: 0 10px 10px 0 }
+.lp_frontpage li a img { width: 190px; height: 90px; border: 1px solid #333; padding: 4px; background: #000 }
+
+#comment_section {
+	clear: both;
+	margin-bottom: 60px;
+	width: 545px;
+}
+
+#comment_section ol {
+	margin: 0;
+	padding: 0;
+}
+
+.first_level {
+	margin: 0; padding: 0;
+}
+
+.comments {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.comments li { margin-bottom: 10px; list-style:none; }
+.comments li .commentbox1 { border: 1px solid #000;  background: #000000; }
+.comments li .commentbox2 { border: 1px solid #000;  background: #0c0c0c; }
+
+.comments li .comment_box { clear: both; width:100%; padding: 15px;  }
+.comment_box .gravatar { float: left; width: 50px; border: 1px solid #3c3735; margin-right: 15px; background: #3c3735; }
+.comment_box .gravatar img { margin: 0; width: 50px; height: 50px; }
+.comment_box .comment_text { margin: 0 0 0 65px; }
+
+.comment_box .comment_text p { margin: 0; }
+.comment_text .comment_author { font-size: 14px; color: #cf560d; margin-bottom: 10px; }
+.comment_text .date { font-size: 12px; font-weight: normal; color: #9b8e79; padding-left: 10px; }
+.comment_text .time { font-size: 12px; font-weight: normal; color: #9b8e79; padding-left: 10px; }
+.comment_text .reply a { display: block; clear: both; float: right; padding: 1px 10px; height: 24px; text-align: center; background: #3694ab; border: 1px solid #fff; color: #fff; } 
+
+
+#comment_form {
+	clear: both;
+}
+
+#comment_form h3 {
+	font-size: 20px;
+	border-bottom: 1px dotted #666;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#comment_form form {
+	padding: 20px;
+	background: #1a1d1c;
+	border: 1px solid #000;
+}
+
+#comment_form form label {  }
+
+#comment_form textarea {
+	background: #000 none repeat fixed 0 0;
+	border: 1px solid #000;
+	display:block;
+	font-size:1.1em;
+	height:150px;
+	margin-top:5px;
+	padding:5px;
+	width: 500px;
+	color: #fff;
+}
+
+#comment_form .form_row {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#comment_form form input {
+	margin-top: 5px;
+	padding: 3px 10px;
+	width: 200px;
+	color: #fff;
+	background: #000 none repeat fixed 0 0;
+	border: 1px solid #000;
+}
+
+#comment_form .submit_btn {
+	width: 90px;
+	font-weight: bold;
+	color: #d8852b;
+	cursor: pointer;
+}
+
+.sb_box {
+	width: 240px;
+    padding: 0 20px 20px;
+	margin-bottom: 30px;
+	background: url(../images/sb_divider.jpg) bottom repeat-x
+}
+.sb_box h3 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+    background: ;
+}
+
+.recent_comment_box { padding: 0 0 15px; margin: 0 0 15px; border-bottom: 1px dashed #433d3a; }
+.recent_comment_box a { color: #c93931; font-weight: bold; }
+.last_recent_comment_box { margin: 0; padding: 0; border: none }
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0; list-style: none }
+#gallery ul li { display: block; position: relative; float: left; width: 260px; margin: 0 60px 60px 0; }
+#gallery ul li span { display: block; width: 240px; height: 30px; color: #fff; font-weight: 700; font-size: 16px; padding: 5px 0 0 5px; position: absolute; top: 10px; left: 0; background: url(../images/templatemo_gl_tt.png) repeat-x }
+#gallery ul .lmb { margin: 0 0 30px 0; }
+#gallery ul li a img { width: 260px; height: 180px; margin-bottom: 5px }
+
+#cp_contact_form { padding: 0; width: 400px }
+#cp_contact_form form { margin: 0px; padding: 0px; }
+#cp_contact_form form .input_field { width: 400px; font-size: 12px; color: #333; padding: 2px 0; height: 20px; border: 1px solid #ccc;  background: #fff; }
+#cp_contact_form form label { display: block; width: 220px; margin-right: 10px; font-size: 12px; color: #000; }
+#cp_contact_form form textarea { width: 390px; height: 160px; padding: 5px; color: #333; border: 1px solid #ccc;  background: #fff; }
+
+#map img { width: 270px; height: 160px; border: 1px solid #ccc; padding: 4px }
+
+
+#templatemo_footer {
+	clear: both;
+	width: 900px;
+	padding: 45px 30px 15px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+	background: url(../images/templatemo_footer_top.jpg) top center no-repeat
+}
+
+#templatemo_footer a {
+	font-weight: normal;
+	color: #fff;
+}

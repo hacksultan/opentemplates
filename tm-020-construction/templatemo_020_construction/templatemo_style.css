@@ -1,0 +1,226 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Construction Template 
+http://www.templatemo.com/preview/templatemo_020_construction 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.4em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	background: #3399CC;
+}
+
+a:link, a:visited { color: #ffffff; text-decoration: none; } 
+a:active, a:hover { color: #ffffff; text-decoration: none }
+h1 {
+	font-size: 18px;
+	color: #00afec;
+	padding-left: 20px;
+	margin-top: 5px;
+
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ebd62e;
+}
+
+#templatemo_container {
+	clear: none;
+	float: left;
+	margin: auto;
+	margin-top: 0px;
+	width: 100%;
+	height:auto;
+	background: #3399CC url(images/templatemo_bg.jpg) repeat-y;
+}
+#templatemo_header {
+	float: left;
+	width: 800px;
+	height: 158px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+.templatemo_link {
+	float: left;
+	height: 37px;
+	padding: 0px;
+	margin: 0px;
+}
+.templatemo_link ul {
+	margin-top: 10px;
+	margin-left: 340px;
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+}
+
+.templatemo_link li{
+	display: inline;
+}
+.templatemo_link li a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	width: 75px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.templatemo_link li a:hover, .templatemo_link li .current{
+	color:#FFFF00;
+}
+
+#templatemo_header_title{
+	float: right;
+	width: 450px;
+	height: auto;
+	padding-top: 30px;
+	margin: 0px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#templatemo_header_slogan {
+	float: left;
+	width: 450px;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 350px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fef6a2;
+}
+#templatemo_top_tilte {
+	float: left;
+	clear: both;
+	width: 800px;
+	height: 46px;
+	background: url(images/templatemo_top_title.jpg) no-repeat;
+}
+
+#templatemo_body_left {
+	clear: both;
+	float: left;
+	width: 715px;
+	height: 650px;
+	background: url(images/templatemo_left_bg.jpg) repeat-y;
+}
+#templatemo_body_left a {
+	color: #0066CC;
+}
+
+#templatemo_body_right {
+	float: left;
+	width: 85px;
+	height: 650px;
+	background: url(images/templatemo_right_bg.jpg) repeat-y;
+}
+#templatemo_text_upper {
+	float: none;
+	clear: both;
+	width: 675px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+#templatemo_text_upper img {
+	float: left;
+	padding-right: 10px;
+}
+#templatemo_text_yellow {
+	float: left;
+	clear: both;
+	width: 390px;
+	height: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+#templatemo_text_yellow img {
+	float: left;
+	padding-right: 10px;
+}
+#templatemo_text_yellow a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	background: #dec901;
+}
+#templatemo_text_yellow a:hover {
+	color:#996600;
+}
+#templatemo_dot {
+	margin: 10px 10px 10px 10px;
+	float: left;
+	width: 2px;
+	height: 450px;
+	background: url(images/templatemo_dot.gif) repeat-y;	
+}
+#templatemo_text_right {
+	float: left;
+	width: 250px;
+	height: auto;
+	padding-left: 10px;	
+}
+#templatemo_web_header {
+	width: 250px;
+	height: 22px;
+	margin-top: 10px;
+	padding-top: 3px;
+	color:#FFFFFF;
+	font-weight: bold;
+	background: #e0cd2e;
+}
+#templatemo_web_link {
+	color: #e0cd2e;
+}
+#templatemo_web_link a {
+	color: #e0cd2e;
+	text-decoration: underline;
+	line-height: 20px;
+}
+#templatemo_web_link a:hover {
+	color: #009900;
+	text-decoration: underline;
+}
+
+#templatemo_latest_news {
+	background: #53b9f9;
+	color: #FFFFFF;
+}
+#templatemo_latest_news p {
+	padding: 10px 10px 0px 10px;
+}
+#templatemo_latest_news strong {
+	text-decoration: underline;
+}
+#templatemo_contact {
+	background: #30abf9;
+	color: #FFFFFF;
+	padding-bottom: 5px;
+}
+#templatemo_footer {
+	clear: both;
+	float: left;
+	width: 800px;
+	height: 100px;
+	background: #5b5b5b url(images/templatemo_footer_pic.jpg) no-repeat;
+	color: #FFFFFF;	
+}
+#templatemo_footer p {
+	padding-left: 10px;
+	padding-top: 60px;
+}
+#templatemo_check {
+	float: left;
+	padding-left: 10px;
+	width: 300px;
+}

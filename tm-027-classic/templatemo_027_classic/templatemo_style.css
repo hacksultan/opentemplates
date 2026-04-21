@@ -1,0 +1,182 @@
+/* CSS Document */
+/* 
+Classic Template 
+http://www.templatemo.com/preview/templatemo_027_classic 
+*/
+body{
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	color: #444444;
+	background: #c2c2c2;
+}
+a:link, a:visited { color: #720803; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #720803; text-decoration: none; font-weight: bold; }
+
+h1 {
+	margin:0px;
+	padding-left: 40px;
+	padding-top: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color:#981d1d;
+}
+h2 {
+	margin: 0px;
+	font-weight: bold;
+	padding-left: 40px;
+	font-size: 16px;
+	color:#ea6300;
+}
+h3 {
+	margin:20px 0px 20px 40px;
+	font-weight: bold;
+	font-size: 12px;
+	color:#adadad;
+}
+
+#templatemo_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 770px;
+	border: solid 5px #FFFFFF;
+	background: #FFFFFF;
+}
+#templatemo_left_column {
+	float: left;
+	width: 27px;
+	height: 442px;
+	background: url(images/templatemo_left_corner.jpg) no-repeat;
+}
+#templatemo_left_title {
+	padding: 20px;
+	height: 43px;
+	color: #5e5e5e;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+
+}
+#templatemo_left_title span {
+	font-size: 24px;
+	color:#c61000;
+}
+#templatemo_menu_column {
+	float: left;
+	width: 230px;
+	background: url(images/templatemo_left_title.jpg) no-repeat;
+}
+.templatemo_menu_list {
+	float: left;
+	width: 230px;
+}
+.templatemo_menu_list ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	width: 213px;
+}
+.templatemo_menu_list li a {
+	display: block;
+	height: 25px;
+	padding-top: 8px;
+	color: #666666;
+	padding-left: 50px;
+	background: url(images/templatemo_menu_button.gif);
+}
+.templatemo_menu_list li a:hover, .templatemo_menu_list li .current {
+	color: #a81407;
+}
+#templatemo_new {
+	float: left;
+	width: 180px;
+	padding-top: 20px;
+	padding-left: 30px;
+	text-align: justify;
+	padding-right: 20px;
+}
+#templatemo_new span {
+	background: #f09e00;
+	border: thin dotted;
+	color: #FFFFFF;
+	padding: 5px;
+}
+#templatemo_contact {
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 180px;
+	background: #720803;
+	color: #FFFFFF;
+	height: 80px;
+}
+#templatemo_contact span {
+	font-size: 14px;
+	font-weight: bold;
+}
+#templatemo_right_column {
+	float: right;
+	width: 513px;
+}
+#templatemo_right_header {
+	height: 251px;
+	color: #FFFFFF;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+.templatemo_right_link {
+	float: left;
+	margin: auto;
+}
+.templatemo_right_link ul {
+	margin: 0px;
+	list-style: none;
+	padding-left: 300px;
+}
+.templatemo_right_link li{
+	display: inline;
+}
+.templatemo_right_link li a {
+	float: left;
+	margin-top: 55px;
+	width: 100px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	background: url(images/bullet.gif) no-repeat;
+}
+.templatemo_right_slogan {
+	float: right;
+	text-align: right;
+	margin-top: 70px;
+	padding-right: 15px;
+	width: 260px;
+	color: #CCCCCC;
+
+}
+#templatemo_content {
+	background: url(images/templatemo_right_bg.jpg) repeat-x;
+}
+#templatemo_content p {
+	margin-top: 15px;
+	text-align: justify;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.templatemo_wedo img {
+	float: right;
+	padding-left: 10px;
+}
+#templatemo_footer {
+	clear: both;
+	width: 770px;
+	height: 32px;
+	padding-top: 20px;
+	text-align: center;
+	background: #dedede;
+	font-weight: bold;
+}

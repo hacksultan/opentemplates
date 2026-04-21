@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - 3D Glassmorphism Dashboard</title>
+    <meta name="description" content="3D Glassmorphism Dashboard Template by TemplateMo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-glass-admin-style.css">
+    <!--
+
+TemplateMo 607 Glass Admin
+
+https://templatemo.com/tm-607-glass-admin
+
+-->
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">G</div>
+                <span class="logo-text">GlassDash</span>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-section">
+                    <span class="nav-section-title">Main Menu</span>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+                                    <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+                                </svg>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="analytics.html" class="nav-link">
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+                                </svg>
+                                Analytics
+                                <span class="nav-badge">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="users.html" class="nav-link">
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                Users
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="settings.html" class="nav-link active">
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                                </svg>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-section">
+                    <span class="nav-section-title">Account</span>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link">
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                                    <polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/>
+                                </svg>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="user-avatar">TM</div>
+                    <div class="user-info">
+                        <div class="user-name">TemplateMo</div>
+                        <div class="user-role">Administrator</div>
+                    </div>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"/>
+                    </svg>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Navbar -->
+            <nav class="navbar">
+                <div class="page-header">
+                    <h1 class="page-title">Settings</h1>
+                    <div class="page-breadcrumb">
+                        <a href="index.html">Dashboard</a>
+                        <span>/</span>
+                        <span>Settings</span>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <button class="nav-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                        </svg>
+                        <span class="notification-dot"></span>
+                    </button>
+                    <button class="nav-btn" id="theme-toggle" title="Toggle Light/Dark Mode">
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/>
+                            <path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/>
+                            <path d="M2 12h2"/><path d="M20 12h2"/>
+                            <path d="M6.34 17.66l-1.41 1.41"/><path d="M19.07 4.93l-1.41 1.41"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Settings Content -->
+            <div class="settings-grid">
+                <!-- Settings Navigation -->
+                <div class="glass-card settings-nav-card">
+                    <ul class="settings-nav">
+                        <li class="settings-nav-item">
+                            <a href="#" class="settings-nav-link active" data-tab="profile">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                                </svg>
+                                Profile
+                            </a>
+                        </li>
+                        <li class="settings-nav-item">
+                            <a href="#" class="settings-nav-link" data-tab="security">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                                </svg>
+                                Security
+                            </a>
+                        </li>
+                        <li class="settings-nav-item">
+                            <a href="#" class="settings-nav-link" data-tab="notifications">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                                </svg>
+                                Notifications
+                            </a>
+                        </li>
+                        <li class="settings-nav-item">
+                            <a href="#" class="settings-nav-link" data-tab="appearance">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/>
+                                    <path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/>
+                                </svg>
+                                Appearance
+                            </a>
+                        </li>
+                        <li class="settings-nav-item">
+                            <a href="#" class="settings-nav-link" data-tab="billing">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/>
+                                </svg>
+                                Billing
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Settings Content -->
+                <div class="glass-card">
+                    <!-- Profile Tab -->
+                    <div class="settings-tab-content active" id="tab-profile">
+                        <div class="profile-header">
+                            <div class="profile-avatar-large">
+                                TM
+                                <div class="profile-avatar-edit">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h2>TemplateMo</h2>
+                                <p>admin@templatemo.com • Administrator</p>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Profile Information</h3>
+                            <div class="form-grid">
+                                <div class="form-group-settings">
+                                    <label>First Name</label>
+                                    <input type="text" value="Template">
+                                </div>
+                                <div class="form-group-settings">
+                                    <label>Last Name</label>
+                                    <input type="text" value="Mo">
+                                </div>
+                                <div class="form-group-settings">
+                                    <label>Email Address</label>
+                                    <input type="email" value="admin@templatemo.com">
+                                </div>
+                                <div class="form-group-settings">
+                                    <label>Phone Number</label>
+                                    <input type="tel" value="+1 (555) 123-4567">
+                                </div>
+                                <div class="form-group-settings full-width">
+                                    <label>Bio</label>
+                                    <textarea>Dashboard template creator and web design enthusiast. Building beautiful interfaces for modern applications.</textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Preferences</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Language</span>
+                                    <span class="settings-label-desc">Select your preferred language</span>
+                                </div>
+                                <select class="settings-select">
+                                    <option>English (US)</option>
+                                    <option>English (UK)</option>
+                                    <option>Spanish</option>
+                                    <option>French</option>
+                                    <option>German</option>
+                                </select>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Timezone</span>
+                                    <span class="settings-label-desc">Set your local timezone</span>
+                                </div>
+                                <select class="settings-select">
+                                    <option>UTC -08:00 (Pacific)</option>
+                                    <option>UTC -05:00 (Eastern)</option>
+                                    <option>UTC +00:00 (London)</option>
+                                    <option>UTC +01:00 (Berlin)</option>
+                                    <option>UTC +09:00 (Tokyo)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-primary" style="width: auto;">Save Changes</button>
+                            <button class="btn btn-secondary" style="width: auto;">Cancel</button>
+                        </div>
+                    </div>
+
+                    <!-- Security Tab -->
+                    <div class="settings-tab-content" id="tab-security">
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Change Password</h3>
+                            <div class="form-grid">
+                                <div class="form-group-settings full-width">
+                                    <label>Current Password</label>
+                                    <input type="password" placeholder="Enter current password">
+                                </div>
+                                <div class="form-group-settings">
+                                    <label>New Password</label>
+                                    <input type="password" placeholder="Enter new password">
+                                </div>
+                                <div class="form-group-settings">
+                                    <label>Confirm New Password</label>
+                                    <input type="password" placeholder="Confirm new password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Two-Factor Authentication</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Enable 2FA</span>
+                                    <span class="settings-label-desc">Add an extra layer of security to your account</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">SMS Authentication</span>
+                                    <span class="settings-label-desc">Receive codes via SMS</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Authenticator App</span>
+                                    <span class="settings-label-desc">Use Google Authenticator or similar</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Active Sessions</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Chrome on MacOS</span>
+                                    <span class="settings-label-desc">San Francisco, CA • Current session</span>
+                                </div>
+                                <span class="status-badge completed">Active</span>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Safari on iPhone</span>
+                                    <span class="settings-label-desc">San Francisco, CA • 2 hours ago</span>
+                                </div>
+                                <button class="card-btn" style="padding: 6px 12px;">Revoke</button>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Firefox on Windows</span>
+                                    <span class="settings-label-desc">New York, NY • 3 days ago</span>
+                                </div>
+                                <button class="card-btn" style="padding: 6px 12px;">Revoke</button>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-primary" style="width: auto;">Update Password</button>
+                            <button class="btn btn-secondary" style="width: auto;">Cancel</button>
+                        </div>
+                    </div>
+
+                    <!-- Notifications Tab -->
+                    <div class="settings-tab-content" id="tab-notifications">
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Email Notifications</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Account Activity</span>
+                                    <span class="settings-label-desc">Get notified about sign-ins and security changes</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">New Features</span>
+                                    <span class="settings-label-desc">Learn about new features and updates</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Weekly Reports</span>
+                                    <span class="settings-label-desc">Receive weekly analytics summary</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Marketing Emails</span>
+                                    <span class="settings-label-desc">Receive news about promotions and offers</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Push Notifications</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Desktop Notifications</span>
+                                    <span class="settings-label-desc">Show notifications on your desktop</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Mobile Push</span>
+                                    <span class="settings-label-desc">Receive push notifications on mobile</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Sound</span>
+                                    <span class="settings-label-desc">Play sound for notifications</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-primary" style="width: auto;">Save Preferences</button>
+                            <button class="btn btn-secondary" style="width: auto;">Reset to Default</button>
+                        </div>
+                    </div>
+
+                    <!-- Appearance Tab -->
+                    <div class="settings-tab-content" id="tab-appearance">
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Theme</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Color Mode</span>
+                                    <span class="settings-label-desc">Choose your preferred color mode</span>
+                                </div>
+                                <select class="settings-select" id="theme-select">
+                                    <option value="dark">Dark Mode</option>
+                                    <option value="light">Light Mode</option>
+                                    <option value="system">System Default</option>
+                                </select>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Accent Color</span>
+                                    <span class="settings-label-desc">Choose your preferred accent color</span>
+                                </div>
+                                <select class="settings-select">
+                                    <option>Emerald (Default)</option>
+                                    <option>Blue</option>
+                                    <option>Purple</option>
+                                    <option>Orange</option>
+                                    <option>Pink</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Display</h3>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Compact Mode</span>
+                                    <span class="settings-label-desc">Reduce spacing for more content</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Animations</span>
+                                    <span class="settings-label-desc">Enable smooth animations and transitions</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Blur Effects</span>
+                                    <span class="settings-label-desc">Enable glassmorphism blur effects</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-row">
+                                <div class="settings-label">
+                                    <span class="settings-label-title">Floating Orbs</span>
+                                    <span class="settings-label-desc">Show animated background orbs</span>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-primary" style="width: auto;">Apply Changes</button>
+                            <button class="btn btn-secondary" style="width: auto;">Reset to Default</button>
+                        </div>
+                    </div>
+
+                    <!-- Billing Tab -->
+                    <div class="settings-tab-content" id="tab-billing">
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Current Plan</h3>
+                            <div class="billing-plan-card" style="background: linear-gradient(135deg, rgba(5, 150, 105, 0.15), rgba(212, 165, 116, 0.15)); padding: 24px; border-radius: 16px; margin-bottom: 20px; border: 1px solid var(--glass-border);">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                                    <div>
+                                        <h4 style="font-size: 20px; font-weight: 600; margin-bottom: 4px;">Pro Plan</h4>
+                                        <p style="color: var(--text-muted); font-size: 14px;">Billed monthly</p>
+                                    </div>
+                                    <div style="text-align: right;">
+                                        <span style="font-family: 'Space Mono', monospace; font-size: 32px; font-weight: 700;">$29</span>
+                                        <span style="color: var(--text-muted);">/month</span>
+                                    </div>
+                                </div>
+                                <div style="display: flex; gap: 12px;">
+                                    <button class="btn btn-primary" style="width: auto; padding: 10px 20px;">Upgrade Plan</button>
+                                    <button class="btn btn-secondary" style="width: auto; padding: 10px 20px;">Cancel Subscription</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Payment Method</h3>
+                            <div class="settings-row">
+                                <div class="settings-label" style="display: flex; align-items: center; gap: 16px;">
+                                    <div style="width: 48px; height: 32px; background: linear-gradient(135deg, #1a1f71, #00579f); border-radius: 6px; display: flex; align-items: center; justify-content: center;">
+                                        <span style="color: white; font-size: 10px; font-weight: bold;">VISA</span>
+                                    </div>
+                                    <div>
+                                        <span class="settings-label-title">Visa ending in 4242</span>
+                                        <span class="settings-label-desc">Expires 12/2026</span>
+                                    </div>
+                                </div>
+                                <button class="card-btn" style="padding: 6px 12px;">Edit</button>
+                            </div>
+                            <div style="margin-top: 16px;">
+                                <button class="btn btn-secondary" style="width: auto; padding: 10px 20px;">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                                        <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                                    </svg>
+                                    Add Payment Method
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h3 class="settings-section-title">Billing History</h3>
+                            <div class="table-wrapper" style="margin: 0;">
+                                <table class="data-table" style="min-width: 100%;">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Status</th>
+                                            <th>Invoice</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Jan 1, 2025</td>
+                                            <td>Pro Plan - Monthly</td>
+                                            <td><span class="table-amount">$29.00</span></td>
+                                            <td><span class="status-badge completed">Paid</span></td>
+                                            <td><a href="#" style="color: var(--emerald-light);">Download</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dec 1, 2024</td>
+                                            <td>Pro Plan - Monthly</td>
+                                            <td><span class="table-amount">$29.00</span></td>
+                                            <td><span class="status-badge completed">Paid</span></td>
+                                            <td><a href="#" style="color: var(--emerald-light);">Download</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nov 1, 2024</td>
+                                            <td>Pro Plan - Monthly</td>
+                                            <td><span class="table-amount">$29.00</span></td>
+                                            <td><span class="status-badge completed">Paid</span></td>
+                                            <td><a href="#" style="color: var(--emerald-light);">Download</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>Copyright © 2026 Your Company. Designed by <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a></p>
+    </footer>
+
+    <script src="templatemo-glass-admin-script.js"></script>
+    <!-- TemplateMo 607 Glass Admin -->
+</body>
+</html>

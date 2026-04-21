@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="contents/banner_01.png" Title="Design One">
+		<Text>&lt;h1&gt;Welcome to templatemo.com&lt;/h1&gt;&lt;p&gt;Integer malesuada enim sit amet nisl ultricies at pellentesque arcu vehicula. Nam cursus magna eget dolor porta laoreet. Vivamus ac magna ac ipsum facilisis consequat. Integer vestibulum, ante ac pellentesque porttitor, ipsum neque malesuada lectus, non aliquet tellus nulla et lectus.&lt;/p&gt;&lt;p&gt;Sed bibendum feugiat enim. Integer imperdiet, diam eget varius ultricies, dolor lorem posuere libero, a varius felis leo et felis.&lt;/p&gt;</Text>
+		<Hyperlink URL="http://www.google.com/search?q=templatemo" Target="_blank" />
+	</Image>		
+    <Image Source="contents/banner_02.png" Title="Design Two">
+      <Text>&lt;h1&gt;XHTML CSS Templates&lt;/h1&gt;&lt;p&gt;Donec congue adipiscing purus sed blandit. Aenean id enim quam, sit amet euismod nunc. Cras tristique nisl id dolor mollis rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae massa enim.&lt;/p&gt;&lt;p&gt;Aenean at elit nibh, sed viverra purus. Duis ante risus, pellentesque eu venenatis nec, malesuada nec nisi. Duis ut erat id sem eleifend faucibus. &lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.google.com/search?q=templatemo" Target="_blank" />
+    </Image>
+	<Image Source="contents/banner_03.png" Title="Design Three">
+      <Text>&lt;h1&gt;Free Website Templates&lt;/h1&gt;&lt;p&gt;Vivamus ac magna ac ipsum facilisis consequat. Integer vestibulum, ante ac pellentesque porttitor, ipsum neque malesuada lectus, non aliquet tellus nulla et lectus. &lt;/p&gt;&lt;p&gt;Sed bibendum feugiat enim. Integer imperdiet, diam eget varius ultricies, dolor lorem posuere libero, a varius felis leo et felis. &lt;/p&gt;&lt;p&gt;Vivamus sollicitudin cursus nisi ac tempus. Donec sed est ac tellus pharetra sagittis a in massa. Pellentesque vitae enim dolor. &lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.google.com/search?q=templatemo" Target="_blank" />
+    </Image>
+	<Image Source="contents/banner_04.png" Title="Design Four">
+      <Text>&lt;h1&gt;Web Design Ideas&lt;/h1&gt;&lt;p&gt;Fusce a bibendum est. Nullam fringilla, turpis eu suscipit vestibulum, dui massa rutrum tellus, a faucibus nibh tellus porta elit. Duis bibendum lacus quam. &lt;/p&gt;&lt;p&gt;Maecenas rhoncus accumsan facilisis. Nam dignissim libero eu dui tempus sit amet ultricies dolor laoreet. Aliquam at tincidunt nibh. Quisque ligula est, ultricies mattis aliquet at, aliquam quis urna. &lt;/p&gt;&lt;p&gt;Nullam cursus, ante sit amet condimentum venenatis, orci quam suscipit libero, ut accumsan quam mi ultricies lectus.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.google.com/search?q=templatemo" Target="_blank" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="960" ImageHeight="360" LoaderColor="0x333333" InnerSideColor="0x222222" SideShadowAlpha="0.8" DropShadowAlpha="0.7" DropShadowDistance="25" DropShadowScale="0.95" DropShadowBlurX="40" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="50" MenuColor1="0x999999" MenuColor2="0x333333" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280&#xD;&#xA;" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="4" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="7" Time="1.4" Transition="easeInOutBack" Delay="0.12" DepthOffset="250" CubeDistance="30"></Transition>
+    <Transition Pieces="11" Time="1.2" Transition="easeInOutSine" Delay="0.08" DepthOffset="500" CubeDistance="15"></Transition>
+    <Transition Pieces="5" Time="1.5" Transition="easeInOutElastic" Delay="0.15" DepthOffset="350" CubeDistance="40"></Transition>
+    <Transition Pieces="9" Time="1.3" Transition="easeInOutQuart" Delay="0.1" DepthOffset="450" CubeDistance="20"></Transition>
+  </Transitions>
+</Piecemaker>

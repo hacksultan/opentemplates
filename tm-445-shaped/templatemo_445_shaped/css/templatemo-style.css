@@ -1,0 +1,357 @@
+/*  
+
+Shaped Template
+
+http://www.templatemo.com/preview/templatemo_445_shaped
+
+
+COLOR CODES
+  Greenish Brown    #685712, rgb(104,87,18)
+  Gold              #C3AC4F
+  Dark              #141414, rgb(20,20,20)
+  Gray              #858585
+  
+TABLE OF CONTENT
+  1. Universal Styles
+  2. Navigation Styles
+  3. Services Styles
+  4. Gallery Styles
+  5. Contact & Footer Styles
+  6. Media Queries
+  
+--------------------------------------*/
+/* 1. Universal Styles
+--------------------------------------*/
+* { font-family: 'Open Sans', sans-serif; }
+body { 
+  background-color: #685712;
+  position: relative;
+}
+a:hover,
+a:focus { 
+  text-decoration: none; 
+}
+h1, h2, h3, h4, h5 { text-transform: uppercase; }
+h2, h3 { margin-top: 0; }
+.templatemo-box-shadow { box-shadow: 0 0 10px #000; }
+.templatemo-white-bg {
+  background: 
+    url('../images/gray-bar-bg.jpg') top repeat-x,
+    url('../images/gray-bar-bg.jpg') bottom repeat-x,
+    #fff; /*http://css-tricks.com/stacking-order-of-multiple-backgrounds/*/
+}
+.templatemo-dark-bg { background-color: #141414; }
+.templatemo-dark-bg-img { background-image: url(../images/templatemo-services-bg.jpg); }
+.templatemo-position-relative { position: relative; }
+.templatemo-flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+}
+.templatemo-padding-left-right {
+  padding-left: 80px;
+  padding-right: 80px; 
+}
+.templatemo-padding-top-bottom-150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.templatemo-white-text { color: white; }
+.templatemo-brown-text { color: #A68D1E; }
+.templatemo-light-brown-text { color: #BDB283; }
+.templatemo-light-brown-text a { color: #BDB283; }
+.templatemo-gold-text { color: #C3AC4F; }
+a.templatemo-white-text:hover,
+a.templatemo-white-text:focus {
+  color: #9E8935;
+}
+.templatemo-btn-transparent {
+  border: 1.5px solid #685712;
+  color: #858585;
+}
+.templatemo-btn-brown {
+  background: #685712;
+  color: white;
+}
+.templatemo-btn-transparent,
+.templatemo-btn-brown {
+  display: inline-block;
+  padding: 15px 40px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-btn-transparent:hover,
+.templatemo-btn-transparent:focus {
+  background: #685712;
+  color: white;  
+}
+.templatemo-btn-brown:hover,
+.templatemo-btn-brown:focus {
+  background: none;
+  border: 1.5px solid #685712;
+  color: #858585;
+}
+.templatemo-header-with-bg {
+  background: url('../images/templatemo-header-bg.jpg');
+  background-repeat: no-repeat;
+  height: 79px;
+  padding-left: 185px;
+  margin-bottom: 100px;
+}
+.templatemo-header-with-bg-h {
+  display: inline-block;
+  line-height: 79px;
+  vertical-align: middle;
+}
+.templatemo-site-name {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* 2. Navigation Styles
+----------------------------------------*/
+.templatemo-nav {
+  background: -webkit-linear-gradient(top, #685712 0px, #685712 5px, #141414 5px, #141414 75px, #685712 75px, #685712 80px);
+  background: linear-gradient(to bottom,  #685712 0px, #685712 5px, #141414 5px,#141414 75px, #685712 75px, #685712 80px);
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  position: static;
+  text-transform: uppercase;
+  transition: height 0.3s ease;
+}
+.templatemo-nav.sticky {
+  background: #141414;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.templatemo-nav.sticky .navbar-nav>li>a {
+  height: 50px;
+  line-height: 50px;
+}
+.templatemo-nav .navbar-nav>li>a {
+  color: #858585;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 30px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-nav .navbar-nav>li>a.current,
+.templatemo-nav .navbar-nav>li>a:focus, 
+.templatemo-nav .navbar-nav>li>a:hover,
+.templatemo-nav .navbar-nav>li>a:focus,
+.templatemo-nav .navbar-nav>li>a:hover {
+  background: #141414;
+  color: #A28B2C;
+}
+.navbar-toggle {
+  border-radius: 0;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  top: 16px;
+}
+.templatemo-nav.sticky .navbar-toggle { top: 0; }
+.templatemo-nav .navbar-toggle .icon-bar { background-color: #fff; }
+.templatemo-nav .navbar-toggle,
+.templatemo-nav .navbar-toggle:focus, 
+.templatemo-nav .navbar-toggle:hover {
+  background-color: rgba(109, 87, 38, 0.7);
+  z-index: 1000;
+}
+.navbar-collapse { border-top: none; }
+.templatemo-social-icons-container {
+  float: right;
+  padding-top: 15px;
+}
+.templatemo-nav.sticky .templatemo-social-icons-container { padding-top: 0; }
+.templatemo-social-icons-img { display: none; }
+.templatemo-social-icon { 
+  display: inline-block;
+  width: 52px;
+  height: 44px; 
+}
+#facebook { background: url('../images/social-icons.png') -5px 0; }
+#twitter { background: url('../images/social-icons.png') -59px 0; }
+#google { background: url('../images/social-icons.png') -113px 0; }
+
+/* 3. Services Styles
+-----------------------------------------*/
+.templatemo-service-container,
+.templatemo-canvas-small {
+  max-width: 235px;
+}
+.templatemo-service-container { cursor: pointer; }
+.templatemo-canvas-small { width: 100%; }
+.service-canvas-description {
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+.service-canvas-overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  max-width: 235px;
+  max-height: 380px;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+}
+.templatemo-service-container:hover .service-canvas-overlay-container {
+    opacity: 1;
+  }
+.service-canvas-overlay-container .fa {
+  background: #C3AC4F;
+  border-radius: 50%;
+  padding-top: 24px;
+  padding-left: 23px;
+  /*http://www.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/*/
+  position: absolute; 
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 62px;
+  height: 62px;
+  margin: auto;
+}
+
+/* 4. Gallery Styles
+-------------------------------------------*/
+.templatemo-gallery-item {
+  cursor: pointer;
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  max-width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.templatemo-gallery-image-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  transition: all 0.3s ease;
+}
+.templatemo-gallery-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0);
+  transition: all 0.3s ease;
+}
+.templatemo-gallery-item:hover .templatemo-gallery-image-overlay {
+  background: rgba(0,0,0,0.5);
+}
+.blockquote-reverse {
+  border-right: 3px solid #C3AC4F;
+  margin: 15px;
+}
+.blockquote-reverse h4,
+.blockquote-reverse h5 {
+  font-weight: 300;
+  margin: 0;
+}
+
+/* 5. Contact & Footer Styles
+---------------------------------------------- */
+form { width: 100%; }
+.btn, .form-control  { border-radius: 0; }
+.form-control:focus {
+  border-color: #685712;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(104,87,18,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(104,87,18,.6);
+}
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* 6. Media Queries
+--------------------------------------*/
+@media screen and (max-width: 1199px) {
+  .templatemo-padding-left-right {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .templatemo-btn-transparent, .templatemo-btn-brown { margin-top: 10px; }
+  .templatemo-white-bg { background-size: 100% 50px; }
+  .templatemo-canvas-big {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .templatemo-social-icon { width: 40px; }
+  .templatemo-flexbox { display: block; }
+  .templatemo-padding-left-right {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  .templatemo-mobile-margin-top { margin-top: 15px; }
+  .templatemo-mobile-margin-bottom { margin-bottom: 15px; }
+}
+
+@media screen and (max-width: 767px) {
+  .templatemo-nav .navbar-nav>li>a {
+    color: #DEDEDE;
+    height: 50px;
+    line-height: 50px;
+  }
+  .templatemo-nav {
+    background: rgba(109, 87, 38, 0);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+  }
+  .templatemo-nav.sticky { background: rgba(109, 87, 38, 0); }  
+  .templatemo-nav .navbar-nav,
+  .templatemo-social-icons-container {
+    background-color: rgba(109, 87, 38, 0.9);
+  }  
+  .templatemo-nav .navbar-nav { margin: 0; }
+  .templatemo-social-icons-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .templatemo-padding-left-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .templatemo-btn-transparent, .templatemo-btn-brown {
+    padding: 10px 30px;
+  }
+  .templatemo-service-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .templatemo-canvas-big { width: 300px; }
+}

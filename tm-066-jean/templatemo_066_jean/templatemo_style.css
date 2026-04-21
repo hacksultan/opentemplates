@@ -1,0 +1,264 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Jean Template 
+http://www.templatemo.com/preview/templatemo_066_jean 
+*/
+html {
+
+	background: #c0c0c0;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #c0c0c0;
+
+	width: 100%;
+
+	display: table;
+}
+
+
+#templatemo_container {
+	width: 940px;
+	margin: auto;
+	background: #c0c0c0;
+}
+
+#templatemo_header_section {
+	width: 940px;
+	height: 115px;
+	background: url(images/templatemo_header_bg.jpg) no-repeat;
+}
+
+/* Head Menu */
+#templatemo_menu {
+	
+	height: 30px;
+	margin-left: 350px;
+	margin-top: 50px;
+	float: left;
+	clear: both;
+	display: inline;
+	
+}
+#templatemo_menu #left{
+	
+	width: 29px;
+	height: 30px;
+	background:url(images/templatemo_menu_left.gif);
+	float:left;
+		
+}
+
+#templatemo_menu #mid{
+	
+	height: 30px;
+	background:url(images/templatemo_menu_mid.gif) repeat-x;
+	float:left;
+
+}
+
+#templatemo_menu #right{
+	
+	width: 23px;
+	height: 30px;
+	background:url(images/templatemo_menu_right.gif);
+	float:left;
+
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 340px;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 6px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	background:#fff;
+	text-align: center;
+	color: #ff2f2f;
+
+}
+/* End Of Head Menu*/
+#templatemo_content_section {
+	clear: both;
+	width: 940px;
+	min-height: 641px;
+	background: #adadad url(images/templatemo_content_bg.jpg) no-repeat;
+	overflow: hidden;
+}
+
+#templatemo_right_section {
+
+	width: 550px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 35px;
+
+}
+
+* html #templatemo_right_section {
+	margin-right: 5px;
+}
+.templatemo_content{
+	margin: 20px;
+	margin-right: 0px;
+	
+}
+.templatemo_content h1{
+	
+	font-size: 25px;
+	margin: 20px 0px 5px 5px;
+	
+}
+
+.templatemo_content p{
+	
+	font-size: 12px;
+	color: #404040;
+	margin: 3px 0px 20px 5px;
+	text-align: justify;
+}
+
+.templatemo_content a{
+	
+	color: #000;
+}
+
+.templatemo_content a:hover{
+	
+	color: #666;
+}
+
+.templatemo_content img{
+	
+	border: none;
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+}
+
+span.black{
+
+	color: #000;
+}
+
+span.red{
+
+	color: #ff0000;
+
+}
+
+span.post {
+	
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	margin: 5px 20px 0px 5px;
+
+}
+
+.templatemo_gallery{
+	clear: both;
+	background: url(images/templatemo_gallery_bg.gif) no-repeat;
+	width: 527px;
+	height: 110px;
+	margin-top: 10px;
+
+}
+
+
+.templatemo_gallery .box{
+	
+	border: none;
+	margin-left: 35px;
+	float: left;
+	height: 110px;
+	width: 85px;
+}
+
+* html .templatemo_gallery .box{
+		margin: 0px 0px 0px 17px;
+}
+.templatemo_gallery img{
+	
+	border: none;
+	float: left;
+	margin-top:20px;
+}
+
+.templatemo_gallery .text{
+	
+	border: none;
+	float: left;
+	color: #000;
+	font-weight: bold;
+	width: 65px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+#templatemo_copyright {
+
+	margin-top: 30px;
+	width: 940px;
+	float: left;
+	background: #000;
+	text-align: center;
+	color: #aaa;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+
+#templatemo_copyright a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+#templatemo_copyright a:hover{
+	color: #fff;
+}
+span.more{
+	background: url(images/templatemo_more.gif) no-repeat;
+	float: right;
+	margin: 5px;
+	width: 58px;
+	height: 49px;
+}

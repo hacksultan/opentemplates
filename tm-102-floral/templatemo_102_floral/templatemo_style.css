@@ -1,0 +1,354 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Floral Template 
+http://www.templatemo.com/preview/templatemo_102_floral 
+*/
+html {
+	background: #ec008c;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+}
+
+a:link, a:visited {	color: #c0296a; text-decoration:none; }
+a:active, a:hover { color: #7d1c46; text-decoration:none; }
+
+
+.templatemo_container {
+
+	width: 850px;
+	margin: auto;
+
+
+}
+
+#templatemo_top_bg {
+	
+	width: 100%;
+	height: 137px;
+	background: url(images/templatemo_top_bg.jpg) repeat-x;
+
+}
+
+#templatemo_middle_bg {
+
+	width: 100%;
+	height: 301px;
+	background: #fff;
+
+}
+
+#templatemo_bottom_bg {
+
+	width: 100%;
+	background: url(images/templatemo_bottom_bg.jpg) #ec008c repeat-x;
+
+}
+
+#templatemo_logo {
+	
+	float: left;
+	width: 247px;
+	height: 37px;
+	background: url(images/templatemo_logo.jpg) no-repeat;
+	font-family: Arial;
+	font-size: 15px;
+	color: #fff;
+	padding: 100px 0 0 0;
+
+}
+
+/* Menu Section */
+
+#templatemo_menu_section {
+	width: 500px;
+	float: right;	
+	margin: 101px 20px 0 0;
+	padding: 0;
+
+}
+
+#templatemo_menu_section ul {
+	float: right;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu_section ul li {
+	display: inline;	
+}
+
+#templatemo_menu_section ul li a {
+	float: left;
+	padding: 8px 0 0 0;
+	margin: 0 3px;
+	width: 82px;
+	height: 28px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+#templatemo_menu_section li a:hover, #templatemo_menu_section li .current {
+	color: #ec008c;
+	background: url(images/templatemo_menu_current.jpg);
+}
+
+
+
+/* End Of Menu */
+
+#templatemo_welcome_sec {
+	
+	width: 850px;
+	height: 301px;
+	background: url(images/templatemo_welcome_bg.jpg) no-repeat left;
+	
+}
+
+#templatemo_welcome_sec #templatemo_welcome_text {
+
+	float: right;
+	width: 540px;
+	height: 261px;
+	margin: 0;
+	padding: 20px ;
+
+}
+
+#templatemo_welcome_text span.header_green{
+	font-family: Arial;
+	font-size: 34px;
+	color: #8dc63f;
+}
+
+#templatemo_welcome_text span.header_orange{
+	font-family: Arial;
+	font-size: 34px;
+	color: #f7941c;
+
+}
+
+#templatemo_welcome_text h1{
+	font-family: Arial;
+	font-size: 14px;
+	color: #f26521;
+	margin: 20px 0 0 0;
+	padding: 0;
+
+}
+
+
+#templatemo_welcome_text p{
+	font-family: Arial;
+	font-size: 12px;
+	color: #636363;
+	text-align: justify;
+	margin: 10px 0 0 0;
+	padding: 0;
+
+}
+#templatemo_welcome_text img {
+	
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 0;
+	
+}
+
+#templatemo_welcome_text a {
+	
+	color:#ec008c;
+	text-decoration: none;
+}
+
+#templatemo_welcome_text a:hover {
+	
+	color:#ec008c;
+	text-decoration: underline;
+}
+
+#templatemo_content_area {
+	
+	width: 850px;
+	background: url(images/templatemo_flowers_bottom.jpg) no-repeat left top;
+	
+}
+
+#templatemo_content_area #templatemo_left_section{
+
+	float: left;
+	width: 260px;
+	margin: 110px 0 0 0;
+	padding: 0;
+
+}
+
+#templatemo_left_section .templatemo_section_box {
+
+	margin: 0 0 0 20px;
+	padding: 0;
+
+}
+
+#templatemo_left_section h1{
+	
+	font-family: Arial;
+	font-size: 14px;
+	color: #fff200;
+	margin: 10px 0 0 0;
+	padding: 0;
+	
+}
+
+
+
+#templatemo_left_section h2{
+	
+	font-family: Arial;
+	font-size: 13px;
+	color: #fff;
+	margin: 10px 0 0 0;
+	padding: 0;
+	
+}
+
+#templatemo_left_section p{
+	
+	font-family: Arial;
+	font-size: 12px;
+	text-align: justify;
+	color: #fff;
+	margin: 5px 0 0 0;
+	padding: 0 0 10px 0;
+	border-bottom: dotted 1px #fff;
+	
+}
+
+#templatemo_content_area #templatemo_right_section{
+
+	float: right;
+	width: 540px;
+	margin: 0;
+	padding: 10px 20px;
+
+}
+
+#templatemo_right_section h1{
+	
+	font-family: Arial;
+	font-size: 14px;
+	color: #fff200;
+	margin: 10px 0 0 0;
+	padding: 0;
+	
+}
+
+
+#templatemo_right_section .templatemo_textarea{
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_right_section p{
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin: 10px 0 0 0;
+	padding: 0;
+
+}
+
+.templatemo_textarea img {
+	
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+	
+}
+
+#templatemo_right_section a {
+	
+	color:#fff200;
+	text-decoration: none;
+}
+
+#templatemo_right_section a:hover {
+	
+	color:#fff200;
+	text-decoration: underline;
+}
+
+#templatemo_right_section .templatemo_gallery{
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.templatemo_gallery .templatemo_gallery_header{
+	margin: 0;
+	padding: 5px;
+	background: #920058;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+.templatemo_gallery .templatemo_gallery_body{
+	margin: 0;
+	padding: 19px 0 19px 19px;
+	background: #a06;
+
+}
+
+.templatemo_gallery_body img{
+	margin: 0 17px 0 0;
+	padding: 0;
+	border: none;
+
+}
+
+#templatemo_footer {
+
+	background: #c40476;
+	margin: 20px 20px 10px 20px;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+}
+
+#templatemo_footer a:hover {
+	
+	color:#fff200;
+	text-decoration: underline;
+}
+
+#templatemo_footer a {
+	
+	color:#fff200;
+	text-decoration: none;
+}
+.cleaner {
+	
+	clear: both;
+	width: 0;
+	height: 0;
+	
+}

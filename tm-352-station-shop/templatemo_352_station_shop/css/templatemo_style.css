@@ -1,0 +1,455 @@
+
+/* 
+Station Shop Template 
+http://www.templatemo.com/preview/templatemo_352_station_shop 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.4em; 
+	background-color: #2e2e2e;
+	background-repeat: repeat;
+	background-image: url(../images/templatemo_body.jpg)
+}
+
+a, a:link, a:visited { 
+	color: #08aee3; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+a.more { 
+	display: inline-block; 
+	width: 80px; 
+	height: 28px; 
+	line-height: 28px; 
+	text-align: center; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #21bdd0; 
+	background: url(../images/more_but.jpg); 
+}
+a.more:hover { 
+	background: #333; 
+	text-decoration: none; 
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: none; 
+}
+
+blockquote { 
+	border: 1px solid #ccc; 
+	border-left: 5px solid #000; 
+	padding: 19px; 
+	margin: 20px 0 0 0;
+}
+
+cite a, cite a:link, cite a:visited  { 
+	font-size: 12px; 
+	text-decoration: none; 
+	font-style: normal; 
+}
+
+cite span { 
+	font-weight: 400; 
+	color: #333; 
+}
+
+.templatemo_list { 
+	margin: 10px 0 10px 15px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.templatemo_list li { 
+	color:#636363; 
+	margin: 0 0 5px 0; 
+	padding: 0 0 0 15px; 
+	background: url(../images/templatemo_list.png) no-repeat scroll 0 7px;  
+}
+
+.templatemo_list li a { 
+	color: #636363; font-weight: normal; 
+}
+
+.templatemo_list li a:hover { 
+	color: #000; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #333; 
+	font-weight: normal; 
+}
+
+h1 { 
+	font-size: 30px; 
+	margin: 0 0 30px; 
+	padding: 5px 0; 
+}
+
+h2 { 
+	font-size: 26px; 
+	margin: 0 0 25px; 
+	padding: 5px 0;
+}
+
+h3 { 
+	font-size: 20px; 
+	margin: 0 0 20px; 
+	padding: 0; 
+}
+
+h4 { 
+	font-size: 16px; 
+	margin: 0 0 15px; 
+	padding: 0; 
+}
+
+h5 { 
+	font-size: 14px; 
+	margin: 0 0 10px; 
+	padding: 0;  
+}
+
+h6 { 
+	font-size: 12px; 
+	margin: 0 0 5px; 
+	padding: 0; 
+}
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#templatemo_wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+}
+
+#templatemo_header {
+	width: 100%;
+	padding: 50px 0 10px;
+}
+
+#templatemo_menu {
+	width: 100%;
+	height: 77px;
+	margin-bottom: 10px;
+	background: url(../images/templatemo_menu.jpg) repeat-x
+}
+
+#templatemo_middle {
+	width: 100%;
+	height: 340px;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+	background: #fff url(../images/templatemo_middle.jpg) repeat-x bottom
+}
+
+#templatemo_main {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#content { 
+	width: 680px; 
+	background: #f0f0f0; 
+	border: 1px solid #fff; 
+	padding: 14px; 
+}
+
+#sidebar { width: 240px }
+
+#templatemo_footer {
+	width: 920px;
+	text-align: center;	
+	padding: 9px 19px;
+	background: #121212;
+	border: 1px solid #3a3a3a
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 164px; 
+	height: 20px; 
+	font-size: 12px; 
+	text-indent: -10000px; 
+	color: #999; 
+	text-align: left; 
+	background: url(../images/templatemo_logo.png) no-repeat top left; 
+}
+
+#header_right { 
+	float: right; 
+	margin-top: 5px; 
+}
+
+#header_right a { 
+	color: #ccc; 
+}
+
+#menu_second_bar { 
+	padding: 5px 10px; 
+}
+
+#top_shopping_cart { 
+	float: left;
+	padding: 5px 0; 
+	font-size: 11px; 
+}
+
+#templatemo_search { 
+	float: right; 
+}
+
+#templatemo_search form {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_search .txt_field {
+	float: left;
+	display: block;
+	margin-right: 5px;
+	height: 24px;
+	line-height: 24px;
+	width: 300px;
+	color: #999;
+	font-size: 12px;
+	padding: 0 5px;
+	font-variant: normal;
+	border: 1px solid #666;	
+	background: #333;
+}
+
+#templatemo_search .sub_btn {
+	float: right;
+	display: block;
+	color: #fff;
+ 	height: 26px;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 26px;
+	cursor: pointer;
+	border: 1px solid #333;
+	background: #0ec4f7;	
+}
+
+.sidebar_box {
+	position: relative;
+	background: #4c4a4a;
+	margin-bottom: 36px;
+}
+
+.sidebar_box h3 { 
+	font-size: 14px; 
+	font-weight: 700; 
+	padding: 10px; 
+	width: 220px; 
+	height: 20px; 
+	margin-bottom: 0; 
+	background: url(../images/templatemo_sidebar_header.jpg) no-repeat; color: #999 
+}
+
+.sidebar_box span.bottom {
+	position: absolute;
+	bottom: -26px;
+	left: 0;
+	width: 240px;
+	height: 26px;
+	background: url(../images/templatemo_sidebar_bottom.jpg)	
+}
+
+#sidebar .sidebar_box .content {
+	padding: 10px 10px 0;
+}
+
+#sidebar .sidebar_list { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+#sidebar .sidebar_list li { 
+	display: block; 
+	margin: 0; 
+	padding: 3px 0; 
+	border-top: 1px solid #595858; 
+	border-bottom: 1px solid #343434;
+}
+
+#sidebar .sidebar_list li.first { 
+	border-top: none; 
+}
+
+#sidebar .sidebar_list li.last { 
+	border-bottom: none; 
+}
+
+#sidebar .sidebar_list li a { 
+	color: #d6d3d3;   
+}
+
+#sidebar .sidebar_list li a:hover { 
+	color: #fff; 
+	text-decoration: none; 
+}
+
+.bs_box { clear: both; margin-bottom: 20px }
+.bs_box img { float: left; margin-right: 10px; border: 4px solid #3d3d3d }
+.bs_box h4 { margin-bottom: 0 }
+.bs_box h4 a { font-size: 12px; color: #08aee3; font-weight: 700}
+.bs_box .price { font-size: 12px; font-weight: 700; color: #fff }
+
+.product_box {
+	float: left;
+	width: 220px;
+	text-align: center;
+	margin: 0 10px 30px 0;
+}
+
+.product_box img {
+	margin-bottom: 5px;
+}
+
+.product_box h3 {
+	font-size: 11px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.product_box .product_price {
+	color: #8fb410;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.product_box .add_to_card {
+	float: left;
+	display: block;
+	width: 140px;
+	height: 28px;
+	line-height: 28px;	
+	text-align: center;
+	color: #fff;
+	background: url(../images/add_to_cart.jpg)
+}
+
+.product_box .detail {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;	
+	background: url(../images/detail.jpg)
+}
+
+.checkout input { 
+	border: 1px solid #ccc; 
+	margin-bottom: 15px; 
+	padding: 5px; 
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 312px; 
+	margin-bottom: 40px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	color: #222;  
+	background: #fff; 
+	border: 1px solid #dedede;  
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px; 
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 12px; 
+	font-size: 13px; 
+}
+
+#contact_form form textarea { 
+	width: 300px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #222; 
+	background: #fff; border: 1px solid #dedede;  
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px; 
+}
+
+#contact_form form .submit_btn { 
+	padding: 5px 12px; 
+	background-color: #000; 
+	border: 1px solid #fff; 
+	color: #fff; 
+	font-size:14px; 
+	margin: 10px 0px;
+}
+
+.faq h3 { font-size: 14px; margin: 30px 0 5px }
+
+.content_half { 
+	width: 320px; 
+}
+
+.content_13 { 
+	width: 220px; 
+	margin-right: 10px; 
+}
+
+.no_margin_right { 
+	margin-right: 0; 
+}
+
+#templatemo_footer { 
+	color: #707070; 
+}
+
+#templatemo_footer a {
+	color: #999; 
+}

@@ -1,0 +1,499 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Curve Template 
+http://www.templatemo.com/preview/templatemo_257_curve 
+*/
+body {
+	margin:0px;
+	padding:0px;
+	color:#ccc;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	line-height:1.5em; 
+	background-color: #1c435c;
+	background-image: url(images/templatemo_body.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+a, a:link, a:visited {
+	color: #90db29;
+}
+
+a:hover {
+	color: #99FFFF;
+	text-decoration:none;
+}
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1, h2, h3, h4, h5 { font-weight: normal; }
+
+h1 { font-size: 40px; color: #333; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 24px; color: #fff; margin: 0 0 20px 0; padding: 0; }
+h3 { font-size: 21px; color: #fff; margin: 0 0 20px 0; padding: 0; }
+h4 { font-size: 18px; color: #fff; margin: 0 0 10px 0; padding: 0; }
+h5 { font-size: 16px; color: #fff; margin: 0 0 10px 0; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0;}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.image_wrapper {
+	padding: 4px;
+	border: 1px solid #000;
+	background: #0f1115;
+	margin-bottom: 10px;
+}
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+blockquote { font-style: italic; }
+cite { font-weight: bold; }
+cite span { color: #fff; }
+
+.button a {
+	clear: both;
+	display: block;
+	width: 90px;
+	height: 24px;
+	padding: 4px 0 0 15px;
+	background: url(images/templatemo_button.png) no-repeat;
+	color: #333;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: #000;
+}
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 10px auto;
+}
+
+/* header */
+
+#templatemo_header {
+	width: 960px;
+	height: 100px;
+	background: url(images/templatemo_header.png) no-repeat;
+}
+
+#templatemo_header  #site_title {
+	float: left;
+	padding: 40px 40px 0;
+}
+
+#templatemo_header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_header  #site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#templatemo_header  #site_title h1 a span {
+	display: block;
+	text-align: left;
+	margin: 5px 0 0 3px;
+	font-size: 14px;
+	color: #352c2c;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#templatemo_header .twitter a {
+	float: right;
+	display: block;
+	width: 200px;
+	height: 40px;
+	padding: 30px 0 10px 0;
+	margin-top: 10px;
+	color: #2fb4e2;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(images/twitter.png) right bottom no-repeat;
+}
+
+#templatemo_header .twitter a:hover {
+	color: #ffffff;
+	text-decoration: none;	
+}
+
+.twitter a span {
+	font-size: 12px;
+	margin-top: 5px;
+
+	letter-spacing: 5px;
+}
+
+/* end header */
+
+#templatemo_menu {
+	
+	width: 960px;
+	height: 60px;
+	background: url(images/templatemo_menu.png) no-repeat;
+}
+
+#templatemo_menu ul {
+	float: right;
+	margin: 0;
+	padding: 2px 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	position: relative;
+	float: left;
+	width: 140px;
+	height: 40px;
+	display: block;
+	padding: 16px 0 0 0;
+	margin-right: 1px;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	color: #68a01c;	
+	font-weight: bold;
+	outline: none;
+	background: url(images/menu_divider.png) repeat-y;
+}
+
+#templatemo_menu ul li .first {
+	background: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #ffffff;
+}
+
+/* end of menu */
+
+#templatemo_content_wrapper {
+	width: 960px;
+}
+
+#templatemo_slider {
+	width: 900px;
+	height: 200px;
+	padding: 40px 30px;
+	background: url(images/templatemo_slider.png) no-repeat;
+}
+
+#templatemo_content_header {
+	width: 880px;
+	height: 70px;
+	padding: 30px 40px 0;
+	color: #333;
+	text-align: center;
+	background: url(images/templatemo_h1.png) no-repeat;
+}
+
+#templatemo_content_full_col {
+	clear: both;
+	padding: 40px;
+}
+
+#templatemo_content {
+	float: left;
+	width: 560px;
+	padding: 40px;
+}
+
+.services_section {
+	clear: both;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #CCC;
+	background: url(images/templatemo_divider.jpg) bottom repeat-x;	
+}
+
+.services_section h4 {
+	margin-bottom: 20px;
+}
+
+.services_section .left {
+	float: left; 
+	width: 150px;
+}
+
+.services_section .left img {
+	border:1px solid #CCC;
+	padding: 5px;
+}
+
+.services_sectio .services_content {
+	clear: both;
+	margin: 10px 0;
+}
+
+.services_section .right {
+	float: right; 
+	width: 370px;
+}
+
+.post_section{
+	clear: both;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #112e41;
+}
+
+.post_section .post_content {
+	clear: both;
+	margin: 10px 0;
+}
+.post_content .right {
+	float: right; 
+	width: 200px;
+}
+
+.post_content .right img {
+	width: 180px;
+	height: 180px;
+	border:1px solid #112e41;
+	background: #16374c;
+	padding: 5px;
+}
+
+.post_content .left {
+	float: left; 
+	width: 320px;
+}
+
+.post_section p {
+	text-align: justify;
+	padding-bottom: 5px;
+	margin-bottom: 8px;
+}
+
+.post_section .comment_tab {
+	padding: 10px 0;
+	margin: 40px 0 20px 0;
+	border-bottom: 1px dashed #666;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* gallery */
+
+#gallery {
+	width: 960px;
+	padding: 40px 0;
+}
+
+#gallery ul { list-style: none; margin: 0; padding: 0; }
+	
+#gallery ul li {
+		float: left;
+		display: inline; 
+		padding: 0;
+		margin: 0;
+		width: 245px;
+		padding: 9px;
+		margin: 0 0 40px 40px;
+		background: #1b1f29;
+		border: 1px solid #000;
+}
+
+#gallery ul img {
+		width: 245px;
+		height: 130px;
+		border: none;
+		margin-bottom: 10px;
+}
+/* end of gallery */
+
+#contact_form {
+	padding: 0;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_form form .input_field {
+	height: 18px;
+	width: 350px;
+	background-color: #005085;
+	border: #FFFFFF 1px solid;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#contact_form form label {
+	display: block;
+	font-size: 14px;	
+}
+
+#contact_form form textarea {
+	width: 350px;
+	height: 150px;
+	background-color: #005085;
+	border: #FFFFFF 1px solid;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin-right: 100px;
+	background-color: #005085;
+	border: #FFFFFF 1px solid;
+	color: #FFFFFF;
+	padding: 5px 15px;
+}
+
+#templatemo_sidebar {
+	float: right;
+	width: 240px;
+	padding: 40px;
+}
+
+#request_a_quote {
+	margin-bottom: 60px;
+}
+
+#request_a_quote form {
+	margin: 0;
+	padding: 0;
+}
+
+#request_a_quote label {
+	color: #000;
+}
+
+#quote_input {
+	height: 20px;
+	width: 260px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+}
+
+#submit_btn {
+	float: right;
+	cursor: pointer;
+	width: 180px;
+	height: 45px;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	border: none;
+	background: url(images/request_a_quote.png) no-repeat;
+}
+
+#sidebar_featured_project {
+	margin: 0 0 40px 0;
+	padding: 0;
+	color: #CCC;
+}
+
+#sidebar_featured_project .left {
+	float: left;
+	width: 64px;
+}
+
+#sidebar_featured_project .right {
+	float: right;
+	width: 170px;
+}
+
+#sidebar_featured_project h6 {
+	color: #b4cc31;
+}
+
+#news_section {
+	margin: 0;
+	padding: 0;
+	color: #CCC;
+}
+
+.news_section h3 {
+	color: #CCC;
+}
+
+.news_box  {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+}
+
+.news_box a {
+	color: #b4cc31;
+}
+
+.two_col {
+	width: 260px;
+}
+
+.col_w450 {
+	width: 430px; 
+}
+
+#com_add {
+	float: right;
+	width: 350px;
+}
+
+#templatemo_footer {
+	width: 900px;
+	height: 45px;
+	padding: 25px 30px 0;
+	color: #333;
+	text-align: center;
+	background: url(images/templatemo_footer.png) no-repeat;
+}
+
+#templatemo_footer a {
+	color: #333;
+}
+
+/* end of footer */

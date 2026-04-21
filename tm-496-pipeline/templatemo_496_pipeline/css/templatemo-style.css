@@ -1,0 +1,628 @@
+/* 
+
+Pipeline
+
+http://www.templatemo.com/tm-496-pipeline
+
+
+Button BG purple 				#993366
+Button hover BG dark purple 	#C33
+Yellow 							#EAD53D
+Gray 							#F4F4F4
+Blue 							#0066CC
+Red text 						#D66363
+Paragraph text color 			#000
+
+*/
+
+a:focus {
+	color: #666;
+	outline: none;
+}
+
+ul { 
+	padding: 0;
+	margin: 0; 
+}
+
+p {  line-height: 2; }
+p:last-child { margin-bottom: 0; }
+
+body {
+	color: #000;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding-top: 10px;
+	overflow-x: hidden;
+}
+
+.tm-welcome-img { width: 100%; }
+
+.tm-welcome-boxes-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;    
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 820px;
+}
+
+.tm-welcome-box { 
+	max-width: 400px;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.tm-welcome-text {
+	background-color: rgba(221, 221, 221, 0.35);
+	padding: 40px;	
+}
+
+.tm-welcome-link {
+	background-color: #993366;
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.tm-purple-bg { 
+	background-color: #993366; 
+	color: white;
+}
+
+.tm-purple-bg .tm-section-title { color: white; }
+.tm-gray-bg { background-color: #F4F4F4; }
+.tm-blue-text { color: #3C89D6; }
+.tm-red-text { color: #D66363; }
+.tm-box-pad { padding: 45px 40px; }
+.tm-bordered-box { border: 1px solid #993366; }
+.tm-no-border-top { border-top: none; }
+.tm-flex { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+.tm-contact-left-half, .tm-contact-right-half { 
+	-webkit-box-flex: 1; 
+	-webkit-flex: 1; 
+	    -ms-flex: 1; 
+	        flex: 1;
+	padding: 15px;
+}
+
+.tm-address-box { padding: 35px 30px 10px; }
+.tm-contact-inner-pad { padding: 25px; }
+.tm-nav-fa { margin-right: 30px; }
+
+.tm-sidebar {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.tm-body { 
+	margin-top: 20px;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.tm-main-nav {
+	background-color: #993366;
+	font-size: 1.4rem;
+}
+
+.tm-main-nav-ul {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.tm-nav-item {
+	list-style: none;
+	width: 100%;
+}
+
+.tm-nav-item-link {	
+	padding: 30px;
+	width: 100%;	
+}
+
+.tm-nav-item-link:focus { text-decoration: none; }
+
+.tm-button,
+.tm-button:focus {
+	background-color: #936;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	display: block;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.tm-button:hover,
+.tm-button.active {
+	background-color: #7B2852;
+	color: #EAD53D;
+	text-decoration: none;
+}
+
+.tm-button-normal {
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 15px 50px;    
+}
+
+.tm-section-title {
+	color: #993366;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+.tm-section-title {	
+	margin-bottom: 30px; 
+	font-size: 1.8rem;
+}
+
+.tm-banner-title { 
+	font-size: 3.2rem;
+	letter-spacing: 2px; 
+}
+
+.tm-banner {
+	height: 150px;
+	padding: 0;
+}
+	
+.tm-banner-inner {
+	border: 1px solid #993366;
+	height: 100%;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+	
+.tm-banner-title { 
+	color: #993366;
+	text-transform: uppercase;
+}
+
+.tm-services-description-container > * { width: 100%; }
+.tm-services { justify-content: space-between; }
+
+/*http://stackoverflow.com/questions/20626685/better-way-to-set-distance-between-flexbox-items*/
+.tm-gallery {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin: 0 -15px -30px;
+}
+
+.tm-gallery a {
+	cursor: -webkit-zoom-in;
+	cursor: zoom-in;
+}
+
+/* Firefox hack 
+   https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
+*/
+@-moz-document url-prefix() { 
+  	.grid figure {
+		margin: 10px 1.1666%;	/* padding-bottom in % not working in FF, so use em instead. */
+	}
+}
+
+.contact-form {	overflow: hidden; }
+
+.form-control {
+	border-radius: 0;
+	font-size: 1em;	
+}
+
+.form-control:focus {
+	border-color: #993366;
+    box-shadow: inset 0 1px 1px rgba(153, 51, 102, .075),0 0 8px rgba(153, 51, 102, 0.45);
+}
+
+.form-group { margin-bottom: 20px; }
+
+.tm-footer {
+	color: #666;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#google-map {
+    height: 360px;
+    width: 100%;    
+}
+
+.tm-content-box-home { 
+	position: relative; 
+	margin-bottom: 63px;
+}
+
+.tm-content-box { margin-top: 60px; }
+.tm-content-box:first-child { margin-top: 0; }
+.tm-welcome-text { padding: 20px; }
+.tm-welcome-boxes-container { width: 100%; }
+
+.tm-flex {
+	-webkit-flex-flow: column;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
+}
+
+.tm-flex > div { flex: 1 1 auto; }
+.tm-box-pad { padding: 35px 20px; }
+.tm-services-img { margin: 0 auto; }
+
+/*---------------*/
+/*http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/*/
+/***** Bubba *****/
+/*---------------*/
+
+.grid {
+	position: relative;
+	margin: -1.5rem auto;
+	list-style: none;
+	text-align: center;	
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 15px 0;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;	
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 1.5em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span { font-weight: 800; }
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.effect-bubba { background: #9e5406; }
+
+figure.effect-bubba img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-bubba:hover img {	opacity: 0.4; }
+
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figure.effect-bubba figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+figure.effect-bubba h2 {
+	padding-top: 30%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+
+figure.effect-bubba p {
+	padding: 20px 1.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+#gallery, .grid { overflow: hidden; }
+.grid { margin: -15px; }
+
+@media (min-width: 524px) {
+	.grid figure {
+		width: 48%;
+		margin: 1%;
+	}
+
+	/* Firefox hack 
+   		https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
+	*/
+	@-moz-document url-prefix() { 
+	  	.grid figure {
+			margin: 8px 1%;	/* padding-bottom in % not working in FF, so use em instead. */
+		}
+	}
+}
+
+@media (max-width: 562px) and (min-width: 524px), (max-width: 870px) and (min-width: 800px) {
+	figure.effect-bubba h2 { padding-top: 5%; }
+}
+
+@media (min-width: 800px) {
+	.tm-welcome-boxes-container {
+		flex-direction: row;
+		-webkit-box-align: stretch;
+		-webkit-align-items: stretch;
+	    	-ms-flex-align: stretch;
+	        	align-items: stretch;
+		position: absolute;
+	    bottom: -63px;
+	    left: 0;
+	    right: 0;
+	}
+
+	.tm-welcome-box { 
+		max-width: 400px;
+		width: 49%;
+	}
+
+	.tm-section-title { margin-bottom: 30px; }
+
+	.tm-welcome-text { 
+		background-color: rgba(255,255,255,0.8);
+		padding: 40px;
+	}
+
+	.tm-content-box-home { margin-bottom: 126px; }
+
+	.tm-flex {
+		-webkit-flex-flow: row;
+		    -ms-flex-flow: row;
+		        flex-flow: row;
+	}
+
+	.tm-box-pad { padding: 45px 40px; }
+	.tm-services-img { width: 300px; }	
+	.tm-services { overflow: auto; }
+	.tm-services-img-container { float: left; }
+	.tm-services-description-container { margin-left: 300px; }
+
+	.grid figure {
+		width: 31%;
+		height: auto;
+		margin: 1.1666%;
+	}
+
+	/* Firefox hack 
+   	https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
+	*/
+	@-moz-document url-prefix() { 
+	  	.grid figure {
+			margin: 10px 1.1666%;	/* padding-bottom in % not working in FF, so use em instead. */
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.container-fluid { max-width: 992px; }
+	.tm-sidebar {
+		float: left;
+		width: 280px;
+		height: 511px;
+	}
+
+	.tm-sidebar.sticky {
+		position: fixed;
+		top: 20px;
+	}
+
+	.tm-main-content { margin-left: 290px; }
+	.tm-welcome-box { max-width: 340px; }
+	.tm-welcome-text { 
+		height: 245px;
+		padding: 30px 20px; 
+	}
+
+	.tm-box-pad { padding: 30px; }
+	.tm-welcome-boxes-container { width: 688px; } /* Need to hard code width for IE */
+
+	.grid figure {
+		width: 325px;
+		height: 325px;
+		margin: 11px;
+	}
+
+	.grid figure figcaption { padding: 2em;	}
+}
+
+@media (min-width: 1200px) {
+	.container-fluid { max-width: 1200px; }
+	.tm-sidebar {		
+		height: 533px;
+		width: 350px;
+	}
+
+	.tm-nav-item-link { padding: 30px 60px; }
+	.tm-main-content { margin-left: 370px; }
+	.tm-welcome-box { max-width: 390px; }
+	.tm-welcome-text { padding: 30px; }
+	.tm-section-title { margin-bottom: 20px; }
+	.tm-box-pad { padding: 45px; }
+	.tm-welcome-boxes-container { width: 780px; } /* Need to hard code width for IE */
+
+	.grid figure { 
+		width: 254px;
+		height: 254px;
+		margin: 9px;
+	}
+
+	.grid { margin: -10px; }
+	.grid figure figcaption { padding: 1.5em; }
+	figure.effect-bubba h2 { padding-top: 5%; }
+}
+
+@media (min-width: 1400px) {
+	.container-fluid { max-width: 1400px; }
+	.tm-sidebar {		
+		height: 600px;
+		width: 450px;
+	}
+
+	.tm-main-content { margin-left: 470px; }	
+	.tm-welcome-box { max-width: 400px; }
+	.tm-section-title { margin-bottom: 30px; }
+	.tm-welcome-text { padding: 40px; }
+	.tm-welcome-boxes-container { width: 820px; } /* Need to hard code width for IE */
+
+	.grid figure { 
+		width: 280px;
+		height: 280px;
+		margin: 15px;
+	}
+
+	.grid { margin: -15px; }
+
+	figure.effect-bubba h2 { padding-top: 5%; }
+	.grid figure figcaption { padding: 2em;	}
+}
+
+.tm-main-nav { 
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+	height: 100%; 
+}
+
+@media screen and (max-width: 564px) {
+	.tm-banner-title { font-size: 2.8em; }
+}

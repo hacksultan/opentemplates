@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>How to Edit Stylish Slider</title>
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+        <style type="text/css">
+        <!--
+        body {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            color: #000000;
+            background-color: #333333;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        
+        a:link, a:visited { color: #0066CC; text-decoration: none; }
+        a:hover { color: #00AA00; }
+		h2 {
+			font-size: 26px;
+			font-weight: normal;
+		}
+		.flashmo_box {
+			margin: 20px auto;
+			width: 920px;
+			padding: 10px 20px;
+			background: #EEEEEE;
+			font-size: 13px;
+		}
+		.flashmo_variable {
+			color: #007700;
+			font-weight: bold;
+		}
+        -->
+        </style>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        
+        <!-- embedding SWF -->
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			var flashvars = {};
+			flashvars.xml_file = "flashmo_271_photo_list.xml";
+			var params = {};
+			params.wmode = "transparent";
+			params.allowfullscreen = true;
+			var attributes = {};
+			attributes.id = "slider";
+			swfobject.embedSWF("flashmo_271_stylish_slider.swf", "flashmo_slider", "960", "370", "9.0.0", false, flashvars, params, attributes);
+		</script>
+        <!-- embedding SWF -->
+        
+	</head>
+<body>
+    
+		<div align="center" style="margin-top: 20px;">
+
+			<!-- Stylish Slider SWF -->
+			<div id="flashmo_slider">
+            	<a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+			</div>
+			<!-- Stylish Slider SWF -->
+
+    	</div>
+
+		<div class="flashmo_box">
+		
+			<h2><a rel="nofollow" href="http://www.flashmo.com/preview/flashmo_271_stylish_slider" target="_parent">Stylish Slider</a></h2>
+			<blockquote>
+			  <p>Adjust <span class="flashmo_variable">width</span> and <span class="flashmo_variable">height</span> values of  the Flash file ( <span class="flashmo_variable">flashmo_271_stylish_slider.swf</span> ) in <span class="flashmo_variable">swfobject.embedSWF();</span> Javascript function</p>
+			  <p><strong>Example:</strong></p>
+		      <ul>
+		        <li>swfobject.embedSWF(&quot;flashmo_271_stylish_slider.swf&quot;, &quot;flashmo_slider&quot;, &quot;<span class="flashmo_variable">900</span>&quot;, &quot;<span class="flashmo_variable">330</span>&quot;, &quot;9.0.0&quot;, false, flashvars, params, attributes);</li>
+		        <li>SWF width value is set as <span class="flashmo_variable">900</span> pixels and height value is set as <span class="flashmo_variable">330</span> pixels in this HTML page</li>
+		        <li>Set height value to <span class="flashmo_variable">330</span> if the image height is <span class="flashmo_variable">300</span> pixels because  height of the <span class="flashmo_variable">navigation bar</span> is <span class="flashmo_variable">30</span> pixels</li>
+	          </ul>
+	      </blockquote>
+          
+	    <h2> XML file name</h2>
+			<blockquote>
+			  <p><span class="flashmo_variable">xml_file</span> = <span class="flashmo_variable">flashmo_271_photo_list.xml</span> ( or any file name can be set in JavaScript )</p>
+			  <p><strong>Example:</strong> <span class="flashmo_variable">flashvars.xml_file</span> = &quot;<span class="flashmo_variable">flashmo_271_photo_list.xml</span>&quot;;</p>
+	  	  </blockquote>
+          
+			<h2>  Variables in XML  <span class="flashmo_variable">&lt;config&gt;</span> tag</h2>
+            
+		  	<blockquote>
+            	<p><span class="flashmo_variable">hover_effect</span> = <span class="flashmo_variable">true</span> by default  ( or <span class="flashmo_variable">false</span> ) for mouse pointer over image area</p>
+                
+            <p><span class="flashmo_variable">auto_play</span> = 
+   	    	<span class="flashmo_variable">true</span> or <span class="flashmo_variable">false</span></p>
+			<p><span class="flashmo_variable">auto_play_duration</span> = 
+			<span class="flashmo_variable">3</span> seconds ( or any number of seconds )			</p>
+			<p><span class="flashmo_variable">tween_duration</span> = 
+			  <span class="flashmo_variable">0.7</span> seconds by default ( motion tweening duration of each block )</p>
+                 
+			  <p><span class="flashmo_variable">tween_delay</span> = <span class="flashmo_variable">0.02</span> seconds by default ( delay between each block  )</p>
+              <p><span class="flashmo_variable">default_effect</span> = <span class="flashmo_variable">easeInOutQuart</span> 
+              ( or see below <span class="flashmo_variable">Tweener transition cheat sheet</span> for more options )</p>
+              <p><span class="flashmo_variable">default_row</span> = <span class="flashmo_variable">3</span> rows by default ( number of rows to slice up all photos  if each photo <span class="flashmo_variable">transition</span> tag row is not defined )</p>
+              <p><span class="flashmo_variable">default_column</span> = <span class="flashmo_variable">5</span> columns by default ( number of columns to slice up all photos   if each photo <span class="flashmo_variable">transition</span> tag row is not defined  )</p>
+		  </blockquote>
+          
+          <h2>Transitions in each photo <span class="flashmo_variable">&lt;transition&gt;</span> tag</h2>
+			
+            <blockquote>
+			  <p><span class="flashmo_variable">direction</span> = <strong>left | right | up | down | center | random</strong></p>
+			<p><span class="flashmo_variable">row</span> = number of rows to slice up a particular transition between 2 photos</p>
+			  <p><span class="flashmo_variable">column </span>= number of columns to slice up a particular  transition  between 2 photos</p>
+			  <p><span class="flashmo_variable">effect</span> = easeInOutQuart | easeInOutCubic | easeInOutExpo | easeInOutSine ( or see below <span class="flashmo_variable">Tweener transition cheat sheet</span> )</p>
+              
+              <p><span class="flashmo_variable">fade</span> = in | out if <span class="flashmo_variable">direction</span> is set to <strong>center</strong></p>
+              <p><span class="flashmo_variable">scale</span> = in or out if <span class="flashmo_variable">direction</span> is set to <strong>center</strong></p>
+			</blockquote>
+            
+</div>
+
+	<div align="center">
+    	<script type="text/javascript">
+			swfobject.embedSWF("transitions.swf", "tweener_transitions", "960", "680", "9.0.0", false);
+		</script>
+        	<div id="tweener_transitions" >
+                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a><br /><br />
+			</div>
+
+	</div>
+	<br />
+    
+</body>
+</html>

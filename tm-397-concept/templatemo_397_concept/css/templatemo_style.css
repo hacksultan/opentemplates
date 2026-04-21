@@ -1,0 +1,458 @@
+/* 
+
+Concept Template 
+
+http://www.templatemo.com/tm-397-concept 
+
+*/
+
+.site-header .main-navigation ul, .services #icons ul, .about #icons-about ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.templatemo_clear { clear: both; }
+.img_left {	float: left; margin-right: 20px; margin-bottom: 15px; }
+.img_right { float: right; margin-left: 20px; margin-bottom: 15px; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.75em;
+}
+
+a {
+  color: #b10021;
+}
+a:active, a:visited, a:link {
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #cfcfcf !important;
+}
+
+.content {
+  display: none;
+  margin-top: 60px;
+}
+
+.inner-content, .widget-content, .about-us-content {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #cfcfcf;
+}
+
+.page-title {
+  color: #b10021;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.homepage {
+  display: block;
+}
+
+.products {
+  display: block;
+}
+
+.panel {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.site-header .main-navigation {
+  display: block;
+  background-color: #b10021;
+  text-align: center;
+  padding: 15px 0;
+}
+.site-header .main-navigation ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+.site-header .main-navigation ul li:last-child {
+  margin-right: 0px !important;
+}
+.site-header .main-navigation ul li a {
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+}
+.site-header .main-navigation ul li a.active {
+  background-color: #eeeeee;
+  color: #2a2a2a;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.site-header .templatemo_logo {
+  margin-top: 60px;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+a.menu-toggle-btn {
+  padding: 15px 0;
+  display: block;
+  color: white;
+  font-size: 28px;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.responsive_menu {
+  display: none;
+  background-color: #2a2a2a;
+}
+.responsive_menu ul li {
+  display: block !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #444444;
+}
+.responsive_menu ul li a {
+  padding: 20px 0 !important;
+  display: block !important;
+}
+
+/*------------------------------------------------------
+	Gallery Styles 
+--------------------------------------------------------*/
+.gallery-item {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: inset 0 0 1px #666;
+  -moz-box-shadow: inset 0 0 1px #666;
+  box-shadow: inset 0 0 1px #666;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.gallery-item .content-gallery {
+  text-align: center;
+}
+.gallery-item .content-gallery h3 {
+  color: #b10021;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.gallery-item img {
+  width: 100%;
+}
+.gallery-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background-color: rgba(177, 0, 33, 0.9);
+  display: block;
+  -webkit-transition: all 50ms ease-in-out;
+  -moz-transition: all 50ms ease-in-out;
+  -ms-transition: all 50ms ease-in-out;
+  -o-transition: all 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
+}
+.gallery-item .overlay a {
+  color: #2a2a2a;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+}
+
+/*------------------------------------------------------
+	Products Styles 
+--------------------------------------------------------*/
+.product-item {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.product-item img {
+  width: 100%;
+}
+.product-item a.product-title {
+  margin: 15px 0;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*------------------------------------------------------
+	Services Styles 
+--------------------------------------------------------*/
+.services p {
+  margin-top: 30px;
+}
+.services ul {
+  margin-top: 30px;
+}
+.services ul li {
+  margin-left: 20px;
+}
+.services ul li:before {
+  content: "+";
+  margin-right: 10px;
+  color: #919191;
+}
+.services #icons {
+  overflow: hidden;
+}
+.services #icons ul li {
+  margin: 0;
+}
+.services #icons ul li:before {
+  content: '';
+  margin: 0;
+}
+.services #icons .icon-item {
+  display: block;
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  background-color: #999999;
+  cursor: pointer;
+  text-align: center;
+}
+.services #icons .icon-item i {
+  font-size: 24px;
+  color: white;
+}
+.services #icons .icon-item span {
+  margin-top: 25px;
+  display: block;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.services #icons .active {
+  background-color: #b10021;
+}
+
+/*------------------------------------------------------
+	About Styles 
+--------------------------------------------------------*/
+.about p {
+  margin-top: 30px;
+}
+.about ul {
+  margin-top: 30px;
+}
+.about ul li {
+  margin-left: 20px;
+}
+.about ul li:before {
+  content: "+";
+  margin-right: 10px;
+  color: #919191;
+}
+.about #icons-about ul li {
+  margin: 0;
+}
+.about #icons-about ul li:before {
+  content: '';
+  margin: 0;
+}
+.about #icons-about .icon-item {
+  display: block;
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  background-color: #999999;
+  cursor: pointer;
+  text-align: center;
+}
+.about #icons-about .icon-item i {
+  font-size: 24px;
+  color: white;
+}
+.about #icons-about .icon-item span {
+  margin-top: 25px;
+  display: block;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.about #icons-about .active {
+  background-color: #b10021;
+}
+
+/*------------------------------------------------------
+	Contact Styles 
+--------------------------------------------------------*/
+.contact .widget-content {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form input, .contact-form textarea {
+  border: 0;
+  outline: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+.contact-form input.button {
+  width: auto;
+  border: 0 !important;
+  background-color: #b10021;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+.contact-form textarea {
+  min-height: 140px;
+}
+
+.contact-information {
+  margin-top: 30px;
+}
+
+#templatemo_map {
+    width: 100%;
+    height: 330px;
+  	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#templatemo_footer {
+  margin-top: 60px;
+  border-top: 3px solid #b10021;
+  padding: 20px 0;
+  position: relative;
+}
+
+/*------------------------------------------------------
+  RESPONSIVE STYLING 
+--------------------------------------------------------*/
+@media only screen and (max-width: 1000px) {
+  .site-header .main-navigation {
+    padding: 0;
+  }
+  .site-header .main-navigation .container {
+    width: 100%;
+  }
+
+  .responsive-menu {
+    display: block;
+  }
+
+  .main_menu {
+    display: none;
+  }
+
+  .services #icons .icon-item span,
+  .about #icons-about .icon-item span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .services #icons {
+    margin-top: 50px;
+  }
+
+  .services #icons .icon-item span {
+    display: inline-block;
+    margin: 0 0 0 20px;
+  }
+  
+  .about #icons-about {
+    margin-top: 50px;
+  }
+
+  .about #icons-about .icon-item span {
+    display: inline-block;
+    margin: 0 0 0 20px;
+  }
+}

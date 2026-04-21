@@ -1,0 +1,362 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Chrome Template 
+http://www.templatemo.com/preview/templatemo_105_chrome 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background: #9a9999;
+}
+
+a:link, a:visited { color: #5b1405; text-decoration: none; font-weight: normal;} 
+a:active, a:hover { color: #5b1405; text-decoration: underline;}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.cleaner_h10 {
+	clear: both;
+	width: 100%;
+	height: 10px;
+	font-size: 1px;	
+}
+
+.cleaner_h20 {
+	clear: both;
+	width: 100%;
+	height: 20px;
+	font-size: 1px;	
+}
+
+.cleaner_h30 {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_h40 {
+	clear: both;
+	width: 100%;
+	height: 40px;
+	font-size: 1px;	
+}
+
+.cleaner_h40_divider {
+	clear: both;
+	font-size: 1px;
+	padding-bottom: 20px;
+	background: url(images/templatemo_content_horizontal_divider.gif) left bottom repeat-x;
+	margin-bottom: 20px;
+}
+
+.rc_btn_01 a{
+	float: right;
+	clear: both;
+	display: block;
+	width: 80px;
+	padding: 7px 0 10px 20px;
+	background: url(images/templatemo_btn_01.gif) no-repeat;
+	color: #f1d72b;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.rc_btn_02 a{
+	float: right;
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	background: url(images/templatemo_button_02.gif) no-repeat;
+	color: #e4c95c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.rc_btn_03 a{
+	float: right;
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;	
+	padding: 4px 0 5px 0;
+	background: url(images/templatemo_button_03.gif) no-repeat;
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#templatemo_container{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#template_header_top {
+	width: 980px;
+	height: 60px;
+	background: url(images/templatemo_header_top.gif) no-repeat;
+}
+
+#templatemo_header {
+	width: 980px;
+	height: 220px;
+	background: url(images/templatemo_header_bg.jpg) no-repeat;
+}
+
+#templatemo_header #site_title {
+	float: left;	
+	padding: 70px 0 0 80px;
+	width: 400px;
+}
+
+
+#site_title #title {
+	width: 300px;
+	height: 70px;
+	background: url(images/templatemo_logo.png) no-repeat;	
+}
+
+#site_title #tagline {
+	clear: both;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+/* menu */
+
+#templatemo_menu {
+	clear: both;
+	width: 980px;
+	height: 70px;
+	background: url(images/templatemo_menu_bg.gif) no-repeat;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 30px 0 0 91px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	width: 133px;
+	text-align: center;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	background: url(images/templatemo_menu_divider.gif) top right repeat-y;
+	color: #FFF;
+	font-weight: bold;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #000000;
+}
+
+#templatemo_menu li .last{
+	background: none;
+}
+
+/* end of menu*/
+
+#templatemo_content {
+	clear: both;
+	position: relative;
+	width: 800px;
+	padding: 20px 90px 0 90px;
+	background: url(images/templatemo_content_middle.gif) repeat-y;
+}
+
+#templatemo_content .content_title_01 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #741305;
+	padding: 2px 0;
+	margin-bottom: 20px;
+}
+
+#templatemo_content .content_title_02 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #741305;
+	font-weight: bold;
+	padding: 2px 0;
+	margin-bottom: 10px;
+}
+
+#templatemo_content #templatemo_content_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 980px;
+	height: 20px;
+	background: url(images/templatemo_content_bottom.gif) no-repeat;
+}
+
+#templatemo_content #content_left {
+	float: left;
+	width: 200px;
+	padding: 0 30px 0 30px;
+	background: url(images/templatemo_content_divider.gif) top right repeat-y;
+}
+
+#content_left form {
+	padding: 0px;
+	margin: 0px;
+}
+#content_left form  label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+#content_left form input {
+	width: 195px;
+	margin-bottom: 5px;
+}
+
+#content_left .button {
+	display: block;
+	float: right;
+	width: 100px;
+}
+
+#content_left .content_left_section {
+	clear: both;
+}
+
+.content_left_section .date_box{
+	float: left;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.date_box .day {
+	width: 30px;
+	height: 23px;
+	text-align: center;
+	padding-top: 7px; 
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	background: url(images/templatemo_date_bg.gif) top left;
+}
+
+.date_box .month {
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content_left_section .content{
+	float: left;
+	width: 160px;
+}
+
+.content p{
+
+}
+
+.content .news_title {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #4c1206;
+}
+
+#templatemo_content #content_right {
+	float: right;
+	width: 480px;
+	margin-right: 30px;
+}
+
+#content_right img {
+	float: left;
+	margin: 3px 20px 5px 0;
+}
+
+#content_right p {
+	text-align: justify; 
+	padding-bottom: 10px;
+}
+
+#content_right .content_right_section {
+	background: #cacaca;
+	padding: 10px;
+}
+
+.content_right_section .content_right_section_inner {
+	background: #dcdcdc;
+	border:1px solid #e7e7e7;
+	padding: 20px;
+	color: #666;
+}
+
+#templatemo_content #content_bottom { 
+	clear: both;
+	padding: 30px 30px 0 30px;
+	background: url(images/templatemo_content_horizontal_divider.gif) top left repeat-x;
+}
+
+#content_bottom .content_bottom_box {
+	float: left;
+	width: 160px;
+	margin-right: 25px;
+}
+
+.content_bottom_box img {
+	margin-bottom: 10px;
+}
+
+.content_bottom_box a,a:hover {
+	border: none;
+}
+
+
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	width: 980px;
+	padding: 10px 0 20px 0;
+	text-align: center;
+	color: #333;
+}
+
+#templatemo_footer a{
+	color: #000;
+	font-weight: normal;
+}
+/* end of footer */

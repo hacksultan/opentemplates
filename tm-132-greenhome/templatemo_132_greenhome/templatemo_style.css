@@ -1,0 +1,336 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Greenhome Template 
+http://www.templatemo.com/preview/templatemo_132_greenhome 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background: #b9d5ff url(images/templatemo_main_bg.jpg) repeat-x top;
+}
+
+a:link, a:visited { color: #000000; text-decoration: underline; font-weight: normal; } 
+a:active, a:hover { color: #0066FF; text-decoration: none; }
+
+p { margin: 0px; padding: 0 0 10px 0; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.margin_bottom_10 { clear: both; width: 100%; height: 10px; font-size: 1px;	}
+.margin_bottom_20 { clear: both; width: 100%; height: 20px; font-size: 1px;	}
+.margin_bottom_30 { clear: both; width: 100%; height: 30px; font-size: 1px;	}
+.margin_bottom_40 { clear: both; width: 100%; height: 40px; font-size: 1px;	}
+.margin_bottom_50 { clear: both; width: 100%; height: 50px; font-size: 1px;	}
+.margin_bottom_60 { clear: both; width: 100%; height: 60px; font-size: 1px;	}
+
+.margin_right_20 { margin-right: 20px; }
+.margin_right_40 { margin-right: 40px; }
+
+.dashed_border_bottom {
+	border-bottom: 1px dashed #cccccc;
+}
+
+.dashed_border_right {
+	border-right: 1px dashed #cccccc;
+}
+
+.button_01 a {
+	clear: both;
+	display: block;
+	width: 195px;
+	height: 22px;
+	padding-top: 4px;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.button_01 a:hover {
+	color: #000000;
+}
+
+.button_green {
+	background: url(images/templatemo_readmore_green.jpg) no-repeat;
+}
+
+.button_blue {
+	background: url(images/templatemo_readmore_blue.jpg) no-repeat;
+}
+
+.button_orange {
+	background: url(images/templatemo_readmore_orange.jpg) no-repeat;
+}
+
+
+.fl { float: left; }
+.fr { float: right; }
+
+h1 {
+	margin: 0px;
+	padding: 10px 0;
+	font-size: 34px;
+	color: #ffffff;
+	font-weight: normal;	
+}
+
+h2 {
+	height: 15px;
+	margin: 0 0 20px 0;
+	padding: 18px 0 10px 0;
+	font-size: 24px;
+	color: #757575;
+	font-weight: normal;	
+	letter-spacing: -2px;
+	background: url(images/templatemo_icon_01.jpg) left bottom no-repeat;
+}
+
+h2 span {
+	float: left;
+	padding-left: 3px;
+	padding-right: 10px;
+	display: block;
+	color: #ffffff;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;	
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 12px;
+	color: #99FF00;
+	font-weight: bold;	
+}
+
+.em_text {
+	color: #00ffff;
+}
+
+.image_wrapper{
+	margin-top: 3px;
+}
+
+.fl_image {
+	float: left;
+	margin-right: 10px 
+}
+
+.fr_image {
+	float: right;
+	margin-left: 10px 
+}
+
+#templatmeo_container_outter {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;	
+	background: url(images/templatemo_container_outter_bg.png) repeat-y;
+}
+
+#templatmeo_container_inner_01 {
+	width: 940px;
+	background: url(images/templatemo_container_inner_bottom.jpg) center bottom no-repeat;	
+}
+
+#templatmeo_container_inner_02 {
+	width: 940px;
+	padding-top: 40px;
+	background: url(images/templatemo_main_bg.jpg) repeat-x;	
+}
+
+/* menu */
+
+#templatemo_menu {
+	clear: both;
+	width: 940px;
+	padding: 0 10px;
+	margin-bottom: 34px;	
+	background: url(images/templatemo_menu_bg.jpg) no-repeat;
+}
+
+#templatemo_menu ul {
+	width: 608px;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px auto;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 24px;
+	width: 120px;
+	padding: 1px 0;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+	color: #ffffff;	
+	background: url(images/templatemo_menu_right.jpg) right top no-repeat;
+	outline: none;
+	border-left: 2px solid #ffffff;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #99FF00;
+}
+
+#templatemo_menu li .first {
+	border: none;
+}
+
+/* end of menu */
+
+/* content */
+
+#templatemo_content {
+	clear: both;
+	position: relative;
+	width: 680px;
+	padding: 0 130px 0 150px;
+	margin-top: 24px;
+	margin-bottom: 76px;
+	background: url(images/templatemo_content_repeat.png) repeat-y;
+}
+
+#templatemo_content #content_top {
+	position: absolute;
+	top: -24px;
+	left: 0px;
+	width: 940px;
+	height: 24px;
+	background: url(images/templatemo_content_top.png) no-repeat;
+}
+
+#templatemo_content #content_top_left {
+	position: absolute;
+	top: 0px;
+	left: 78px;
+	width: 30px;
+	height: 140px;
+	background: url(images/templatemo_content_top_left.png) no-repeat;
+}
+
+#templatemo_content #content_bottom {
+	position: absolute;
+	bottom: -36px;
+	left: 0px;
+	width: 940px;
+	height: 36px;
+	background: url(images/templatemo_content_bottom.png) no-repeat;
+}
+
+.section_w680 {
+	width: 680px;
+}
+
+.section_w300 {
+	float: left;
+	width: 300px;
+	padding-right: 19px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section_w300 p {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.section_w70 {
+	float: left;
+	width: 70px;
+}
+
+.section_w220 {
+	float: right;
+	width: 220px;
+}
+
+#site_title {
+	float: left;
+	width: 360px;
+	height: 280px;
+	margin-right: -20px;
+	padding-bottom: 20px;
+	background: url(images/templatemo_logo.jpg) no-repeat;
+}
+
+/* end of content */
+
+/* footer */
+
+#templatemo_footer {
+	clear: both;
+	overflow: hidden;
+	width: 720px;
+	padding: 15px 110px 0 110px;
+	height: 130px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#templatemo_footer a {
+	color: #ffffff;
+}
+
+#templatemo_footer .footer_section {
+	overflow: hidden;
+	width: 300px;
+	height: 90px;
+}
+
+.left_section {
+	float: left;
+	text-align: left;
+}
+
+.right_section {
+	float: right;
+	text-align: right;
+}
+
+.footer_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_list li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#templatemo_footer .footer_list li a {
+	color: #ffff00;
+	text-decoration: none;
+}
+
+#templatemo_footer .footer_list li a:hover {
+	text-decoration: underline;
+}
+/* end of footer */

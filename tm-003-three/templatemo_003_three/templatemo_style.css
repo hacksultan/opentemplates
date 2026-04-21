@@ -1,0 +1,151 @@
+/* Credit: http://www.templatemo.com */
+
+/* 
+003 Template 
+http://www.templatemo.com/preview/templatemo_003_three
+*/
+
+body {
+margin:0;
+padding:0;
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #CCCCCC;
+}
+a:link { color: #0066CC; text-decoration: none} 
+a:visited { color: #0066CC; text-decoration: none} 
+a:active { color: #008000; text-decoration: underline} 
+a:hover { color: #008000; text-decoration: underline}
+
+#templatemo_container {
+width: 800px;
+margin: auto;
+background: #FFFFFF;
+}
+#templatemo_header {
+clear: left;
+height: 160px;
+background: url(images/templatemo_header.jpg) no-repeat;
+}
+#templatemo_content {
+width: 800px;
+}
+#templatemo_left_column {
+background: #EEEEEE;
+float: left;
+width: 200px;
+min-height: 400px;
+}
+#templatemo_right_column {
+float: left;
+width: 600px;
+min-height: 400px;
+}
+#templatemo_footer {
+clear: left;
+background: #0066CC;
+padding: 5px;
+color: #FFFFFF;
+}
+#templatemo_footer a {
+color: #FFFFFF;
+}
+#templatemo_site_title {
+padding-top: 60px;
+padding-left: 60px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 26px;
+color: #000000;
+}
+#templatemo_site_slogan {
+padding-top: 10px;
+padding-left: 60px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+}
+.templatemo_line {
+clear: left;
+height: 3px;
+background: #0066CC;
+}
+.templatemo_pic {
+float: right;
+margin-left: 10px; 
+border: 1px solid #000000;
+}
+.section_box {
+margin: 10px;
+padding: 10px;
+background: #008000;
+color: #FFFFFF;
+}
+.section_box a {
+color: #FFFF99;
+}
+.section_box a:hover {
+color: #99FFFF;
+}
+.section_box2 {
+margin-top: 10px;
+padding: 10px;
+border: 1px dashed #0066AA;
+background: #D9EEFF;
+color: #006699;
+}
+.section_box3 {
+margin: 10px;
+padding: 10px;
+border: 1px dashed #0066AA;
+background: #D9EEFF;
+color: #006699;
+}
+.text_area {
+margin: 10px;
+}
+.title {
+padding-bottom: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #008800;
+}
+.subtitle {
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: bold;
+}
+
+/* Menu Credits: Dynamic Drive CSS Library */
+/* URL: http://www.dynamicdrive.com/style/ */
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Verdana;
+width: 100%;
+border: 1px solid #FFFFFF;
+border-width: 1px 0;
+background: black url(images/blockdefault.gif) center center repeat-x;
+}
+.solidblockmenu li{
+display: inline;
+}
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 18px 16px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+.solidblockmenu li a:visited{
+color: white;
+}
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: white;
+background: transparent url(images/blockactive.gif) center center repeat-x;
+}
+p.iepara{
+padding-top: 1em;
+}

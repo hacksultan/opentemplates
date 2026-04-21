@@ -1,0 +1,38 @@
+//
+// This file contains several utility placeholders, used across project
+//----------------------------------------------------------------------
+
+%reset-list {
+    padding:  0;
+    margin:  0;
+    list-style: none;
+    list-style-image: none;
+}
+
+%single-transition {
+    @include single-transition(all, .2s, ease-out);
+}
+
+%single-transition-delay {
+    @include single-transition(all, .5s, ease-out);
+}
+
+%row-gap {
+	margin-top: 70px;
+}
+
+%text-right {
+	text-align: right;
+}
+
+%text-left {
+	text-align: left;
+}
+
+%text-center {
+	text-align: center;
+}
+
+%small-text {
+	font-size: 12px;
+}

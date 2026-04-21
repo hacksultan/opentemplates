@@ -1,0 +1,22 @@
+// Import compass library
+@import "compass";
+
+// Import variables, mixins and placeholders
+@import "partials/variables";
+@import "partials/mixins";
+
+@import "partials/placeholders";
+@import "partials/base"; // typography, links, forms and buttons
+@import "partials/general"; // general layout strucuture
+
+@import "partials/header"; // header styles
+
+@import "partials/content"; //main content styles
+@import "partials/slider"; // slider styles
+@import "partials/sidebar"; // sidebar styles
+
+@import "partials/footer"; // footer styles
+
+
+
+@import "partials/misc";

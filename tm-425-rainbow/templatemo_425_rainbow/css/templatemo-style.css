@@ -1,0 +1,819 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
+/*
+Rainbow Template
+http://www.templatemo.com/preview/templatemo_425_rainbow
+*/
+
+body {
+  background-image: url(../images/main-bg.png);
+}
+
+a:link, a:visited {
+	color: #3FF;
+}
+
+a:hover {
+	color: #FF0;
+}
+
+.blue {
+	color: #3FF;
+	font-weight: normal;
+}
+
+.yellow {
+	color: #FF0;
+	font-weight: normal;
+}
+
+.templatemo-map {
+	text-align: center;
+	width: 98%;
+	margin-left: 1%;
+	height: 380px;
+}
+
+.container {
+	width: 94%;
+	max-width: 1170px;
+}
+
+.navbar-header {
+  height: 100px;
+  margin-top: 60px;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: #fff;
+  height: 100px;
+  margin-top: 60px;
+  border-top-right-radius: 2em;
+  border: 1px solid #fff;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-brand {
+  line-height: 100px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;  
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  padding: 40px 60px;
+  overflow: hidden;
+  font-family: 'Dosis';
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a.link-home {
+  background-color: #e9573e;
+}
+
+.navbar-default .navbar-nav>li>a.link-about {
+  background-color: #967ade;
+}
+
+.navbar-default .navbar-nav>li>a.link-portfolio {
+  background-color: #8dc153;
+}
+
+.navbar-default .navbar-nav>li>a.link-contact {
+  background-color: #3baeda;
+  border-top-right-radius: 2em;
+}
+
+#first-section img {
+  margin-top: 200px;
+  position: relative;
+  width: 100%;
+  border: 4px solid #fff;
+}
+
+.services {
+  background-color: #fff;
+  height: 44px;
+  text-align: center;
+  border-bottom-left-radius: 2em;
+}
+
+.services i {
+  position: relative;
+  margin-top: -40px;
+  color: #fff;
+  text-align: center;
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.first-icon i {
+  font-size: 32px;
+  background-color: #fd6d52;
+}
+
+.second-icon i {
+  font-size: 32px;
+  background-color: #ab93eb;
+}
+
+.third-icon i {
+  font-size: 32px;
+  background-color: #a0d468;
+}
+
+.fourth-icon i {
+  font-size: 32px;
+  background-color: #50c0e8;
+}
+
+.services h4 {
+  position: absolute;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.first-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #fd6d52;
+  text-align: center;
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.second-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #ab93eb;
+  text-align: center;
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.third-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #a0d468;
+  text-align: center;
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fourth-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #50c0e8;
+  text-align: center;
+  width: 230px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.about-content {
+  background-color: #967ade;
+  border-top-left-radius: 2em;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-bottom-right-radius: 2em;
+}
+
+.heading {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.heading h2 {
+  font-family: 'Dosis';
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.heading span {
+  font-family: 'Dosis';
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.description h4 {
+  font-family: 'Dosis';
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.description p {
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.first-btn {
+  margin-top: 40px;
+}
+
+.first-btn a {
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  width: 160px;
+  height: 50px;
+  display: block;
+  line-height: 46px;
+  text-align: center;
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.second-btn {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.second-btn a {
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px solid #ab93eb;
+  width: 160px;
+  height: 50px;
+  display: block;
+  line-height: 46px;
+  text-align: center;
+  color: #ab93eb;
+  text-decoration: none;
+}
+
+.video {
+	text-align: center;
+  	position: relative;
+    padding-bottom: 55%; /* 16:9 */
+    padding-top: 25px;
+	margin: 40px 0;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.portfolio-content {
+  background-color: #8dc153;
+  border-top-right-radius: 2em;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.entry-thumbnail {
+  position:relative;
+  overflow:hidden;
+  padding-bottom: 30px;
+}
+
+.entry-thumbnail img {
+  width:100%;
+}
+
+.portfolio-holder { 
+  margin-left:0;
+  margin-right:0;
+  overflow: hidden;
+  margin-bottom: -15px;
+}
+
+.portfolio:hover .portfolio-overlay {
+  opacity:1
+
+}
+
+.entry-title h4 {
+  position:absolute;
+  font-family: 'Dosis';
+  color:#fff;
+  font-size:18px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.entry-title p {
+  position: relative;
+  font-family: 'Dosis';
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin-top: 18%;
+  margin-right: 64%;
+  text-transform: uppercase;
+}
+
+.entry-title a {
+  position: relative;
+  font-family: 'Dosis';
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  margin-top: 35%;
+  margin-left: 48%;
+  border: 3px solid #fff;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 46px;
+}
+
+.portfolio-overlay { 
+  position:absolute;
+  top:0;
+  left:15px;
+  bottom:30px;
+  right:15px;
+  display: block;
+  text-align:center;
+  overflow:hidden;
+  opacity:0;
+  background-color: #3b4552;
+  transition: all 0.2s ease-in;
+}
+
+.contact-content {
+  background-color: #3baeda;
+  border-bottom-right-radius: 2em;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+form {
+  margin-top: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+input, textarea {
+  font-family: 'Dosis';
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #33a1cb;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #fff;
+  outline: none; 
+}
+
+textarea {
+  height: 220px;
+  max-height: 220px;
+  max-width: 100%;
+  line-height: 18px;
+  width: 100%;
+}
+
+.submit input {
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  width: 160px;
+  height: 50px;
+  display: block;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+.contact-description h4 {
+  font-family: 'Dosis';
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.contact-description p {
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 20px;
+}
+.contact-description {
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  background-color: #fff;
+  border-top-left-radius: 2em;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.copyright-text {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.copyright-text p {
+  font-family: 'Dosis';
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.copyright-text a {
+	color: #06C;
+}
+
+.copyright-text a:hover {
+	color: #C90;
+}
+
+.copyright-text em {
+  font-style: normal;
+  color: #333;
+}
+
+.back-to-top {
+  margin-top: -15px;
+  text-align: center;
+}
+
+.back-to-top a {
+  background-color: #e9573e;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.social-icons ul {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.social-icons a.fb-link {
+  background-color: #fd6d52;
+}
+
+.social-icons a.twiter-link {
+  background-color: #ab93eb;
+}
+
+.social-icons a.linkedin-link {
+  background-color: #a0d468;
+}
+
+.social-icons a.rss-link {
+  background-color: #50c0e8;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width:992px) {
+  
+  .navbar-default .navbar-nav>li>a {
+    padding: 40px 40px;
+  }
+
+  .services i {
+    position: relative;
+    margin-top: -40px;
+    color: #fff;
+    text-align: center;
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .first-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 0px;
+  color: #fff;
+  background-color: #fd6d52;
+  text-align: center;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.second-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 0px;
+  color: #fff;
+  background-color: #ab93eb;
+  text-align: center;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.third-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 0px;
+  color: #fff;
+  background-color: #a0d468;
+  text-align: center;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fourth-icon:hover h4 {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 0px;
+  color: #fff;
+  background-color: #50c0e8;
+  text-align: center;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  cursor: pointer;
+}
+
+  .entry-title p {
+    margin-top: 18%;
+    margin-right: 62%;
+  }
+
+  .copyright-text {
+    margin-top: 20px;
+  }
+
+  .back-to-top {
+    margin-top: -65px;
+  }
+
+  .social-icons {
+    margin-top: -20px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+}
+
+
+@media (max-width:767px) {
+  
+  .navbar-brand img {
+    background-color: #fff;
+    padding-right: 60px;
+    position: absolute;
+  }
+
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle {
+    position: relative;
+    z-index: 999;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    outline: none;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 10px 40px;
+    margin-right: -15px;
+  }
+
+  .navbar-default {
+  }
+
+  .navbar-default .navbar-nav>li>a.link-contact {
+    background-color: #3baeda;
+    border-top-right-radius: 0;
+  }
+
+  .navbar-default .navbar-collapse {
+    margin-top: 0;
+    margin-left: 15px;
+    border-top-right-radius: 0;
+  }
+
+  .navbar-header {
+    background-color: transparent;
+  }
+
+  .services i {
+    position: relative;
+    margin-top: -16px;
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+  }
+
+  .first-icon:hover h4 {
+  visibility: visible;
+  opacity: 0;
+}
+
+.second-icon:hover h4 {
+  visibility: visible;
+  opacity: 0;
+}
+
+.third-icon:hover h4 {
+  visibility: visible;
+  opacity: 0;
+}
+
+.fourth-icon:hover h4 {
+  visibility: visible;
+  opacity: 0;
+}
+
+  .entry-title p {
+    margin-top: 15%;
+    margin-right: 68%;
+  }
+
+  .entry-title a {
+    margin-top: 45%;
+    margin-left: 57%;
+  }
+
+}
+
+@media (max-width:560px) {
+  .entry-title p {
+    margin-top: 12%;
+    margin-right: 75%;
+  }
+
+  .entry-title a {
+    margin-top: 46%;
+    margin-left: 60%;
+  }
+}
+
+@media (max-width:460px) {
+  .entry-title p {
+    margin-top: 20%;
+    margin-right: 60%;
+  }
+
+  .entry-title a {
+    margin-top: 28%;
+    margin-left: 40%;
+  }
+}

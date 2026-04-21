@@ -1,0 +1,272 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Art Gallery Template 
+http://www.templatemo.com/preview/templatemo_046_art_gallery 
+*/
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	line-height: 1.5em;
+
+	color: #241c1a;
+
+	background: url(images/templatemo_bg.jpg) repeat;
+
+}
+
+a:link, a:visited { color: #7e3200; text-decoration: none; font-weight: bold; } 
+
+a:active, a:hover { color: #975900; text-decoration: none;font-weight: bold; }
+
+.style1 { color: #99FFCC }
+
+h1 {
+
+	font-family: "Courier New", Courier, monospace, Century;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	color: #61754e;
+
+	margin: 0px;
+
+	padding-top: 20px;
+
+}
+
+h2 {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	float: left;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #3c4826;
+
+	width: 200px;
+
+	padding: 10px 0px 10px 120px;
+
+	text-decoration: underline;
+
+}
+
+
+#templatemo_container {
+
+	width: 1000px;
+
+	margin: auto;
+
+	background: url(images/templatemo_container_bg.jpg) repeat-y;
+
+}
+
+#templatemo_topsection {
+
+	float: left;
+
+	width: 1000px;
+
+	height: 93px;
+
+	background: url(images/templatemo_top.jpg) no-repeat;
+
+}
+
+.templatemo_topmenu{
+
+	float: right;
+
+	width: 400px;
+
+	margin: 0px;
+
+	padding: 55px 100px 0px 0px;
+
+}
+
+.templatemo_topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.templatemo_topmenu li{
+
+	display: inline;
+
+}
+
+.templatemo_topmenu li a{
+
+	font-size: 12px;
+
+	color: #dceb9f;
+
+	font-weight: bold;
+
+	width: 100px;
+
+	height: 30px;
+
+	margin-left:15px;
+
+	padding: 0px 0px 0px 15px;
+
+	background: url(images/templatemo_bullet.png) no-repeat;
+
+	background-position: left;
+
+}
+
+#templatemo_middlesection {
+
+	float: left;
+
+	width: 1000px;
+
+}
+
+#templatemo_left_content {
+
+	float: left;
+
+	width: 346px;
+
+}
+
+#templatemo_left_top {
+
+	float: right;
+
+	width: 254px;
+
+	height: 298px;
+
+}
+
+.templatemo_leftmenu {
+
+	float: left;
+
+	width: 346px;
+
+	margin: 0px;
+
+}
+
+.templatemo_leftmenu ul {
+
+	list-style-type: none;
+
+	margin: 0px;
+
+	padding: 0px 0px 0px 100px;
+
+}
+
+.templatemo_leftmenu li a {
+
+	display: block;
+
+	height: 25px;
+
+	font-size: 11px;
+
+	color: #3c4826;
+
+	background: url(images/templatemo_bullet.png) no-repeat;
+
+	padding-left: 20px;
+
+	background-position: left;
+
+}
+
+.templatemo_leftmenu li a:hover ,.templatemo_leftmenu li .current{
+
+	background: url(images/templatemo_current.png) no-repeat;
+
+	background-position: left;
+
+	color:#000;
+
+}
+
+#templatemo_right_content {
+
+	margin: 0px;
+
+	float: left;
+
+	width: 654px;
+
+	background: url(images/templatemo_right_photo.jpg) no-repeat;
+
+}
+
+#templatemo_right_text {
+
+	float: left;
+
+	width: 500px;
+
+	text-align: justify;
+
+	margin: 0px;
+
+	padding: 0px 0px 0px 20px;
+
+}
+
+#templatemo_right_text img {
+
+	float: left;
+
+}
+
+#templatemo_footersection {
+
+	clear: both;
+
+	width: 1000px;
+
+	height: 50px;
+
+	color: #dde7ab;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	padding-top: 80px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+}
+
+#templatemo_footersection a{
+
+	color: #FFFFFF;
+
+}

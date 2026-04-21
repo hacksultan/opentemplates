@@ -1,0 +1,14 @@
+/auth-schema.ts
+/node_modules
+next-env.d.ts
+*.tsbuildinfo
+.eslintcache
+.DS_Store
+.vercel
+*.log*
+.venv
+.idea
+.next
+.exe
+.dll
+.env

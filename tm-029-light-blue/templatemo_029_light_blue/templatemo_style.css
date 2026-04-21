@@ -1,0 +1,146 @@
+/*
+ CSS Credit: http://www.templatemo.com
+*/
+/* 
+Light Blue Template 
+http://www.templatemo.com/preview/templatemo_029_light_blue 
+*/
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	color: #444444;
+	background: #000000;
+}
+a:link, a:visited { color: #83bb0a; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #83bb0a; text-decoration: none; font-weight: bold; }
+h1 {
+	margin:0px 0px 10px 0px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	color:#05cce1;
+}
+h2 {
+	margin:0px 0px 10px 0px;
+	font-weight: bold;
+	font-size: 14px;
+	color:#fff;
+	height: 26px;
+	width: 366px;
+	padding-top: 3px;
+	padding-left: 25px;
+	background: url(images/templatemo_h2.jpg) no-repeat;
+}
+h3 {
+	margin:0px 0px 0px 0px;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 12px;
+	width: 227px;
+	height: 52px;
+	color:#fff;
+	background: url(images/templatemo_box.jpg) no-repeat;
+}
+#templatemo_container {
+	margin: auto;
+	width: 800px;
+}
+#templatemo_header {
+	margin: auto;
+	width: 800px;
+	height: 171px;
+	color: #fff;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+#templatemo_header_upper {
+	float: left;
+	padding-left: 180px ;
+	padding-top: 50px;
+	width: 500px;
+	height: 40px;
+	line-height: normal;
+	font-size: 24px;
+	font-weight: bold;
+}
+#templatemo_header_lower {
+	float: left;
+	padding-left: 180px ;
+	width: 300px;
+	height: 50px;
+	
+}
+#templatemo_header_lower span {
+	font-weight: bold;
+}
+.templatemo_menu {
+	margin: auto;
+	width: 800px;
+	height: 49px;
+	background: url(images/templatemo_menu.jpg) no-repeat;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.templatemo_menu ul {
+	margin: 0px;
+	list-style: none;
+	padding-left: 100px;
+}
+.templatemo_menu li {
+	display: inline;
+}
+.templatemo_menu li a{
+	float: left;
+	padding: 10px 0px;
+	width: 98px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+.templatemo_menu li a:hover, .templatemo_menu li .current{
+	color: #000;
+	background: url(images/templatemo_hover.jpg) no-repeat;
+}
+#templatemo_content {
+	float: left;
+	width: 800px;
+	background: url(images/templatemo_pg_bg.jpg) repeat-y;
+}
+#templatemo_top {
+	width: 800px;
+	height: 32px;
+}
+#templatemo_left {
+	margin: 0px;
+	float: left;
+	margin-left: 80px;
+	width: 380px;
+	text-align: justify;
+}
+#templatemo_left img {
+	float: left;
+	padding-right: 10px;
+}
+#templatemo_right {
+	float: right;
+	width: 230px;
+	margin-right: 80px;
+	text-align: justify;
+}
+#templatemo_right p {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+#templatemo_footer {
+	float: left;
+	width: 800px;
+	height: 32px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 40px;
+	background: url(images/templatemo_footer.jpg) no-repeat;
+}

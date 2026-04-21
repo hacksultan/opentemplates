@@ -1,0 +1,25 @@
+.site-footer {
+	padding: 20px 0;
+	background: $light-bg;
+	border-top: 4px solid darken($light-bg, 5%);
+}
+
+.social-icons {
+	margin-top: 30px;
+	li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+	a {
+		color: $body-color;
+		&:hover {
+			color: $accent;
+		}
+	}
+}
+
+.copyright-text {
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}

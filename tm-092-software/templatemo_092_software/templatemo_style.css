@@ -1,0 +1,365 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Software Template 
+http://www.templatemo.com/preview/templatemo_092_software 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #e4e4e4;
+	background: #000000;
+}
+
+a:link, a:visited { color: #CCFF00; text-decoration: none; font-weight: normal; }
+a:active, a:hover { color: #FFFF00; text-decoration: underline; }
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.readmore a {
+	clear: both;
+	float: left;
+	height: 21px;
+	width: 100px;
+	padding: 2px 0 0 10px;
+	margin: 0 15px 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	border: none;
+	background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+
+.download a {
+	clear: both;
+	float: left;
+	height: 21px;
+	width: 100px;
+	padding: 2px 0 0 10px;
+	margin: 0 15px 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	border: none;
+	background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+
+#templatemo_container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* header panel */
+#templatemo_header_panel {
+	width: 880px;
+	height: 80px;
+	padding: 40px 30px 0px 50px;
+	background: #202020 url(images/templatemo_header_bg.jpg) top center no-repeat;
+}
+
+#templatemo_header_panel #templatemo_site_title {
+	float: left;	
+}
+
+#templatemo_site_title h1 {
+	font-size: 40px;
+	margin: 0px;
+	padding: 10px 0;
+	color: #218dfb;
+}
+
+#templatemo_site_title h1 span {
+	color: #fff;
+}
+
+#templatemo_site_title h2 {
+	font-size: 16px;
+	color: #878181;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#templatemo_header_panel #templatemo_search_box {
+	float: right;
+}
+
+#templatemo_search_box form {
+	margin: 0;
+	padding: 0;
+	text-align: left;	
+}
+
+#searchfield {
+	border: 1px solid #767676;
+	background: #434343;
+	color: #ffffff;
+	font-size: 12px;
+	font-variant: normal;
+	height: 15px;
+	line-height: normal;
+	padding: 4px;
+	width: 180px;
+}
+
+#templatemo_search_box form #searchbutton {
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 25px;
+	margin: 0 0 0 7px;
+	padding: 0 6px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 50px;
+	background:url(images/templatemo_go_button.jpg) no-repeat;
+	border: 0px;
+}
+
+/* end of header panel */
+
+/* banner panel */
+#templatemo_banner_panel {
+	width: 880px;
+	height: 263px;
+	padding: 0px 30px 0px 50px;
+	background: #000000 url(images/templatemo_banner_bg.jpg) top center no-repeat;
+}
+
+#templatemo_banner_panel #templatemo_banner_section {
+	float: left;
+	padding-top: 40px;
+	width: 370px;
+}
+
+#templatemo_banner_section h1 {
+	font-size: 24px;
+	color: #0fb1cb;
+	margin: 0px;
+	padding: 5px 0 30px 0;
+}
+
+#templatemo_banner_section p {
+	padding-bottom: 30px;
+}
+
+#templatemo_banner_panel #templatemo_menu_section {
+	float: right;
+	width: 220px;
+	padding: 5px 15px 0px 15px;
+}
+
+#templatemo_menu_section ul {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	list-style: none;
+}
+
+#templatemo_menu_section ul li {
+	height: 13px;
+	padding: 12px 0px 10px 7px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+	background: url(images/templatemo_menu_item_bg.jpg) left bottom no-repeat;
+}
+
+#templatemo_menu_section ul li a {
+	margin: 0px;
+	padding: 0px;	
+	font-size: 18px;
+	font-weight: bold;
+	color: #2bb9ec;
+}
+
+#templatemo_menu_section ul li a span {
+	margin: 0px;
+	padding: 0px;	
+	margin-left: 50px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2bb9ec;
+}
+
+#templatemo_menu_section ul li a span:hover {
+	color: #fff;
+}
+
+#templatemo_menu_section li a:hover, #templatemo_menu_section li .current {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* end of banner panel */
+
+
+/* content */
+
+#templatemo_content_top {
+	clear: both;
+	width: 960px;
+	height: 30px;
+	background: url(images/templatemo_content_top.jpg) top center no-repeat;
+}
+
+#templatemo_content {
+	clear: both;
+	overflow: hidden;
+	width: 880px;
+	padding: 10px 20px 0 40px;
+	margin: 0 10px;
+	background-color: #1f1f1f;
+}
+
+#templatemo_content_bottom {
+	clear: both;
+	width: 960px;
+	height: 30px;
+	background: url(images/templatemo_content_bottom.jpg) top center no-repeat;
+}
+
+/* content left */
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 580px;
+}
+
+#templatemo_content_left h1 {
+	font-size: 22px;
+	color: #218dfb;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dotted #000000;
+}
+
+
+#templatemo_content_left p {
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+ #templatemo_content_left .content_left_two_column {
+ 	float: left;
+ 	width: 270px;
+	margin-right: 20px;
+ }
+ 
+ .content_left_two_column h2 {
+	color: #20d1ee;	 
+	font-size: 18px;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #000000;
+	font-weight: normal;
+ }
+ .content_left_two_column h3 {
+	 margin: 0px;
+	 padding: 0px;
+	 font-size: 12px;
+	 font-weight: bold;
+ }
+ 
+ .content_left_two_column h4 {
+ 	 margin: 0px;
+	 padding: 0px;
+	 font-size: 12px;
+	 font-weight: normal;
+ }
+
+/* end of content left */
+
+/* content right */
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 250px;
+	padding-top: 20px;
+	
+}
+
+#templatemo_content_right h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+	padding: 0px;
+}
+
+#templatemo_content_right h2 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0px;
+}
+
+#templatemo_content_right ul {
+	margin: 0 0 10px 0;
+	padding: 0px;
+}
+
+#templatemo_content_right ul li {
+	margin: 0 0 0 5px;
+	padding: 0 0 5px 5px;
+	list-style: none;
+}
+
+#templatemo_content_right .content_right_product_01 {
+	clear: both;
+	height: 182px;
+	padding: 18px 10px 0 10px; 
+	margin-bottom: 15px;
+	background: url(images/templatemo_product_01_bg.jpg) no-repeat;
+}
+
+#templatemo_content_right .content_right_product_02 {
+	clear: both;
+	height: 182px;
+	padding: 18px 10px 0 10px; 
+	background: url(images/templatemo_produc_02_bg.jpg) no-repeat;
+}
+
+
+
+/* end of content right */
+/* end of content */
+
+/* ----- Footer ----- */
+#templatemo_footer {
+	clear: both;
+	padding: 10px;
+	width: 940px;
+	text-align: center;
+	text-align: center;
+}
+#templatemo_footer a {
+	color: #fff;
+	font-weight: normal;
+}
+#templatemo_footer a:hover {
+	color: #CCFF00;
+}
+/* ----- End of Footer ----- */

@@ -1,0 +1,266 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Galaxy Template 
+http://www.templatemo.com/preview/templatemo_016_galaxy 
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #5b5847;
+	background: #000000;
+}
+
+a:link, a:visited { color: #dedede; text-decoration: none; } 
+a:active, a:hover { color: #c7a619;}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 16px;
+	color:#f4e05b;
+}
+
+h2 {
+	margin: 0px 0px 8px 0px;
+	font-size: 12px;
+	color: #f4e05b;
+}
+
+p {
+	margin: 10px 0px;
+	color: #5b5847;
+	text-align: justify;
+}
+
+img {  
+	margin: 2px 20px 2px 0px; 
+	float:left; 
+	border: 1px solid #333333;
+}
+
+#templatemo_container_wrapper1 {
+	background: url(images/templatemo_main_top_bg.jpg) top center no-repeat;
+}
+
+#templatemo_container_wrapper2 {
+	background: url(images/templatemo_main_bottom_bg.jpg) bottom center no-repeat;
+}
+
+#templatemo_container {
+	margin: 0px auto;
+	width: 800px;
+}
+
+
+/* ----- Header ----- */
+
+#templatemo_header {
+	clear: both;
+	width: 800px;
+	height: 180px;
+}
+
+#templatemo_site_title {
+	padding: 130px 0px 10px 10px;
+	font-size: 40px;
+	font-weight:bold;
+	color: #2b1e1e;
+}
+
+#templatemo_site_title span {
+	color: #f4e05b;
+	font-weight:lighter;
+}
+
+#templatemo_site_slogan {
+	padding: 0px 0px 10px 12px;
+	font-size: 12px;
+	color: #000000;
+}
+/* ----- End of Header ----- */
+
+/* ------------- Menu ------------------ */
+#templatemo_menu {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+}
+
+#templatemo_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: right;
+}
+
+#templatemo_menu ul li {
+	display: inline;	
+}
+
+#templatemo_menu ul li a {
+	padding: 0px 0px;
+	margin: 0px 0px 0px 20px;
+	font: 14px arial;
+	font-weight: bold;
+	color:#f4e05b;
+	text-decoration: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current {
+	border-bottom: 1px dashed #e1f03f;
+}
+
+/* ---------- End of Menu ------------- */
+
+/* ----------------- Content ----------------------- */
+
+#templatemo_content {
+	float: left;
+	margin: 5px 0px 40px 0px;
+	padding: 0px;
+	width: 800px;
+	background: #000000;
+
+}
+
+#templatemo_left_column {
+	float: left;
+	margin: 40px 40px 0px 40px;
+	width: 480px;
+}
+
+#templatemo_right_column {
+	float: right;
+	margin: 40px 20px 0px 0px;
+	width: 200px;
+}
+
+/* ----------------- End of Content ------------------- */
+
+/* ------------- Section ------------------ */
+.templatemo_section {
+	margin: 0px 0px 30px 0px;	
+	color: #3e3939;
+}
+
+
+.templatemo_section ul {
+	margin: 0px 0px 0px 15px;
+	padding: 0px;
+	list-style: none;
+}
+
+.templatemo_section ul li {
+	display: block;
+}
+
+.templatemo_section ul li a {
+	padding: 0px;
+	margin: 0px;
+	color: #3e3939;
+	text-decoration: none;
+}
+
+.templatemo_section ul li a:hover {
+	color: #ab8b02;
+}
+
+/* ---------- End of Section ------------ */
+
+/* ----- Post ------ */
+.templatemo_postbody {
+	padding: 0px;
+	margin-bottom: 40px;
+}
+
+.publish_info {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	color:#dedede;
+}
+
+.comment {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 480px;
+	text-align: right;
+}
+
+.comment a {
+	padding: 5px 0px 5px 40px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #c7a619;
+	background: url(images/templatemo_comment_icon.gif) left center no-repeat;
+}
+.comment a:hover {
+	color: #f4e05b;
+}
+/* ----- End of Post ------ */
+
+/* ----- Form ----- */
+
+form {
+	width: 180px;
+	margin: 0px;
+	padding: 15px 10px;
+	background: #333333;
+}
+
+label {
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #f4e05b;
+	width: 40px;
+	font-weight: bold;
+	text-align: right;
+	display: block;
+}
+
+input {
+	width: 120px;
+	height: 15px;
+}
+
+.button {
+	margin: 8px 0px 0px 50px;
+	width: 80px;
+	height: 22px;
+	color: #f4e05b;
+	font-size: 15px;
+	background: url(images/templatemo_button_bg.gif) repeat-x;
+	border: none;
+}
+
+/* ----- End of Form ----- */
+
+/* ----- Footer ----- */
+
+#templatemo_footer {
+	clear: both;
+	padding: 20px 0px 0px 30px;
+	width: 770px;
+	height: 60px;
+	text-align: center;
+	color: #ab8b02;
+	text-align: center;
+}
+#templatemo_footer a {
+	color: #ab8b02;
+	text-decoration: none;
+}
+#templatemo_footer a:hover {
+	color: #f4e05b;
+}
+/* ----- End of Footer ----- */

@@ -1,0 +1,372 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+/* 
+Shoe Store Template 
+http://www.templatemo.com/preview/templatemo_215_shoe_store 
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0d2d4b;
+    background: #67d2f4  url(images/templatemo_body_top.png) top repeat-x;
+}
+
+a:link, a:visited { color: #0683ab; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #CC0066; text-decoration: underline; }
+
+.button_01 a {
+	display: block;
+	width: 80px;
+	height: 21px;
+	padding: 3px 0 0 0;
+	background: url(images/templatemo_button.png)  no-repeat;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button_01 a:hover{
+	color: #666;
+    background: url(images/templatemo_button_hover.png) no-repeat;
+}
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+
+.margin_r40 { margin-right: 40px; }
+
+.float_l { float: left; }
+.float_r { float:  right; }
+
+
+/* menu */
+
+#templatemo_menu_wrapper {
+	width: 100%;
+	height: 55px;
+	margin: 0 auto;
+	background: url(images/templatemo_menu.png) no-repeat center top ;
+}
+
+#templatemo_menu {
+	width: 940px;	
+	height: 55px;
+	margin: 0 auto;
+	background: url(images/templatemo_menu.png) no-repeat center top;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 43px;
+	padding: 12px 4px 0 0px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #999999;	
+	text-align: center;
+	font-weight: normal;
+	outline: none;	
+/*	background: url(images/templatemo_menu_divider.png) top right no-repeat; */
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #333333;
+}
+
+
+/* end of menu */
+
+/* header */
+
+#templatemo_header_wrapper {
+	clear: both;
+	width: 100%;
+	height: 145px;	
+	margin: 0 auto;	
+	background: url(images/templatmeo_header.jpg) no-repeat center;
+}
+
+#templatemo_header {
+	width: 940px;
+	height: 145px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(images/templatmeo_header.jpg) no-repeat center;
+}
+
+#templatemo_header  #site_title {
+	padding-top: 30px;
+	width: 940px;
+}
+
+#templatemo_header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_header  #site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#templatemo_header  #site_title h1 a:hover {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+#templatemo_header  #site_title h1 a span {
+	display: block;
+	margin-top: 5px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+
+/* end of header */
+
+/* slider */
+
+#templatemo_slider_wrapper {
+	clear: both;
+	width: 100%;
+	height: 202px;	
+	margin: 0 auto;	
+	background: url(images/templatemo_slider.jpg) no-repeat center;
+}
+
+#templatemo_slider {
+	width: 940px;
+	height: 202px;
+	margin: 0 auto;
+	background: url(images/templatemo_slider.jpg) no-repeat center;
+}
+
+#templatemo_slider #latest_product_slider {
+	padding: 40px 10px;
+}
+
+
+/* end of slider */
+
+/* content */
+
+#templatemo_content_wrapper {
+	width: 880px;
+	padding: 0 50px 0 30px;
+	margin: 0 auto;	
+	background: url(images/templatemo_content_middle.png) repeat-y;
+}
+
+#templatemo_content_wrapper_bottom {
+	margin: 0 auto;
+	width: 960px;
+	height: 15px;
+	background: url(images/templatemo_content_bottom.png) no-repeat;
+}
+
+#templatmeo_sidebar {
+	float: left;
+	width: 270px;
+	padding: 30px 0;
+	background: url(images/templatemo_sidebar.jpg) repeat-y; 
+	
+}
+
+#templatmeo_sidebar .sidebar_section {
+	margin-bottom: 30px;
+}
+
+#templatmeo_sidebar .sidebar_section_content {
+	margin:0 15px 0 35px;
+}
+
+#templatmeo_sidebar h2 {
+	width: 235px;
+	height: 28px;	
+	margin: 0 0 15px 0;
+	padding: 7px 0 0 35px;
+	color: #fff;
+	background: url(images/templatemo_sidebar_header.png);
+}
+
+#templatmeo_sidebar .categories_list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatmeo_sidebar .categories_list li {
+	padding: 0;
+	margin: 0;
+}
+
+.categories_list li a {
+	display: block;
+	color: #201f1c;
+	padding: 5px 0 5px 20px;
+	background: url(images/templatemo_list.png) center left no-repeat;
+}
+.categories_list li a:hover {
+	color: #dd0034;
+	text-decoration: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+#searchfield {
+	height: 15px;
+	width: 208px;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	color: #988392;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+}
+
+#searchbutton {
+	float:right;
+ 	height: 29px;
+	width: 60px;
+	padding: 4px 0 8px 0;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+}
+
+#templatemo_content {
+	float: right;
+	width: 560px;
+	padding: 30px 0;
+}
+
+#templatemo_content h2 {
+	margin: 0 0 20px 0;
+	font-size: 26px;
+	color: #128eb5;
+}
+
+.content_section {
+	clear: both;
+	width: 100%;
+	border-bottom: 1px solid #666666;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.content_section p {
+	margin-bottom: 10px;
+}
+
+.product_box {
+	float: left;
+	width: 260px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #666;
+	margin-bottom: 20px;
+}
+
+#templatemo_content .product_box p {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+#templatemo_content .product_box a {
+	color: #000000;
+	font-weight: bold;
+}
+
+.price {
+	color: #CC0066;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.product_box h3 {
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #128eb5;
+}
+
+.product_box .image_wrapper {
+	border: 10px solid #e0e0e0;
+	margin-bottom: 10px;
+}
+
+/* end of content */
+
+/* footer */
+
+#templatemo_footer {
+	width: 900px;
+	padding: 30px 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+}
+
+#templatemo_footer a {
+	color: #000000;
+	font-weight: bold;
+}
+
+#templatemo_footer .footer_menu {
+	margin: 0 0 10px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_menu li {
+	margin: 0px;
+	padding: 0 20px;
+	display: inline;
+	border-right: 1px solid #000000;
+}
+
+.footer_menu li a {
+	color: #000000;
+}
+
+.footer_menu .last_menu {
+	border: none;
+}
+
+/* end of footer */

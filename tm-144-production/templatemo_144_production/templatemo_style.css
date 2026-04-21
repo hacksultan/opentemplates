@@ -1,0 +1,227 @@
+/*
+CSS Credit: http://www.templatemo.com
+*/
+
+/* 
+Production Template 
+http://www.templatemo.com/preview/templatemo_144_production 
+*/
+html {
+	background: url(images/templatemo_content_area.jpg);
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	display: table;
+	background: url(images/templatemo_bg.jpg) top repeat-x #323030;
+}
+
+a:link, a:visited {	color: #000000; text-decoration: underline; }
+a:active, a:hover { color: #6b1b0d; text-decoration: none; }
+
+p {
+	font-size: 12px;
+	color: #090000;
+	text-align: justify;
+	margin: 0 0 15px 0;
+}
+
+h1 {
+	font-size: 20px;
+	color: #6b1b0d;
+	margin: 0 0 15px 0;
+}
+
+.templatemo_container {
+	width: 960px;
+	margin: auto;
+}
+
+#templatemo_header {
+	width: 960px;
+	height: 256px;
+	background: url(images/templatemo_header.jpg) left top;
+	margin: 0 0 15px 0;
+	padding: 1px 0 0 0;
+}
+
+#templatemo_logo_area {
+	float: left;
+	width: 400px;
+	height: 70px;
+	margin: 80px 0 0 0;
+
+}
+
+#templatemo_logo {
+	font-family: Calibri, Tahoma;
+	font-size: 60px;
+	font-weight: bold;
+	color: #f7e99c;
+	margin: 0 0 20px 0;
+}
+
+#templatemo_slogan {
+	font-family: "Brush Script Std", "Monotype Corsiva", "Brush Script MT";
+	font-size: 30px;
+	color: #f7e99c;
+}
+
+#templatemo_menu {
+	float: left;
+	height: 52px;
+	width: 960px;
+	padding: 0;
+	margin: 0;
+}
+
+#templatemo_menu ul {
+	list-style: none;
+	display: inline;
+}
+
+#templatemo_menu li a {
+	float: left;
+	width: 109px;
+	height: 37px;
+	display: block;
+	color: #2a110d;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+	text-align: center;
+	cursor: pointer;
+	margin: 0 5px 0 0;
+	padding: 15px 0 0 10px;
+}
+
+#templatemo_menu li.current a, #templatemo_menu li a:hover {
+	background: url(images/templatemo_menu.png) no-repeat;
+	color: #fff;
+}
+
+.templatemo_one_col {
+	width: 960px;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+.templatemo_one_col h1 {
+	color: #2a110d;
+}
+
+.templatemo_one_col img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#templatemo_content_area {
+	width: 100%;
+	background: url(images/templatemo_content_area.jpg);
+}
+
+#templatemo_content_area_top {
+	width: 100%;
+	height: 45px;
+	background: url(images/templatemo_content_area_top.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_left {
+	float: left;
+	width: 665px;
+}
+
+.templatemo_section_1 {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+#templatemo_right {
+	float: right;
+	width: 265px;
+}
+
+.templatemo_section_2 {
+	width: 265px;	
+	margin: 0 0 20px 0 ;
+}
+
+.templatemo_title {
+	width: 240px;
+	height: 32px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #caa36a;
+	background: url(images/templatemo_title.png);
+	margin: 0 0 15px 0;
+	padding: 13px 0 0 25px;
+}
+
+ol {
+	float: left;
+}
+
+ol li {
+	color: #070400;
+}
+
+.templatemo_h_line {
+	width: 100%;
+	height: 0px;
+	border-top: 1px dashed #423227;
+	border-bottom: 1px dashed #c58d42;
+	margin: 0 0 15px 0;
+}
+
+#templatemo_footer {
+	width: 100%;
+	height: 40px;
+	color: #caa36a;
+	background: url(images/templatemo_footer.jpg);
+	margin: 0;
+	padding: 35px 0 0 0;
+	font-size: 13px;
+	text-align: center;
+}
+
+#templatemo_footer a {
+	color: #caa36a;
+}
+
+.templatemo_list {
+	list-style: none;
+	padding: 0 0 0 25px;
+	margin: 0 0 10px 0;
+}
+
+.templatemo_list li {
+	color: #000000;
+	background: url(images/templatemo_bullet.png) left center no-repeat;
+	padding: 0 0 0 25px;
+	margin: 0 0 10px 0 ;
+}
+
+.templatemo_list a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.templatemo_list a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

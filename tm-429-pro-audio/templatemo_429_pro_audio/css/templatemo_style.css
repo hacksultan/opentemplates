@@ -1,0 +1,462 @@
+/* 		
+	Pro Audio Template
+    http://www.templatemo.com/preview/templatemo_429_pro_audio
+	
+	TABLE OF CONTENT
+  1. Universal Styles
+  2. Menu Styles	
+  3. Subscribe Styles
+  4. Album Styles
+  5. About Styles
+  6. Contact Styles
+  7. Footer Styles
+  8. Media Queries
+
+	COLOR CODES
+  Blue #27a7ff, rgba(39, 167, 255,1)		
+---------------------------------------------------------*/
+
+/* 1. Universal Styles
+--------------------------------------*/
+*, body { font-family: 'Open Sans', sans-serif; }
+nav a { font-family: 'Oswald', sans-serif; }
+
+a, a:hover, a:focus, a:active { text-decoration: none; }
+
+body { overflow-x: hidden; }
+body, h1, p, ul { margin: 0; }
+
+h2 { font-size: 60px; }
+
+ul { padding: 0; }
+
+.margin-top-30 { margin-top: 30px; }
+.margin-top-50 { margin-top: 50px; }
+
+img.templatemo-border {	width: 100%; }
+
+.blue {	color: #0585DE; }
+
+.templatemo-header {  
+  width: 100%;
+  height: 367px;
+  position: absolute;
+  z-index: 2000;
+}
+.templatemo-header-image {
+  background: url('../images/header.png') no-repeat, url('../images/header-repeat.png') repeat-x;
+  background-position: center top;
+  height: 367px;
+  width: 100%;
+}
+.templatemo-site-name {
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 700;
+	margin-top: 40px;
+}
+.templatemo-header.sticky {
+  height: 50px;
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+}
+.templatemo-header .templatemo-header-gradient-bg {
+  background: #616161;
+  background-image: -webkit-linear-gradient(top, #616161, #383838);
+  background-image: -moz-linear-gradient(top, #616161, #383838);
+  background-image: -ms-linear-gradient(top, #616161, #383838);
+  background-image: -o-linear-gradient(top, #616161, #383838);
+  background-image: linear-gradient(to bottom, #616161, #383838);
+  position: fixed;
+  z-index: -10;
+  width: 100%;
+  opacity: 0;
+  height: 50px;
+  transition: all 0.5s ease;
+}
+.templatemo-header.sticky .templatemo-header-gradient-bg {
+  height: 50px;
+  opacity: 1;
+}
+.templatemo-header.sticky h1 {
+  color: #fff;
+  float: left;
+  font-size: 30px;
+  margin-top: 8px;
+}
+.templatemo-header.sticky .templatemo-nav {
+  float: right;
+  padding-top: 15px;
+}
+.templatemo-section {
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.btn-gradient {
+  background: #616161;
+  background-image: -webkit-linear-gradient(top, #616161, #383838);
+  background-image: -moz-linear-gradient(top, #616161, #383838);
+  background-image: -ms-linear-gradient(top, #616161, #383838);
+  background-image: -o-linear-gradient(top, #616161, #383838);
+  background-image: linear-gradient(to bottom, #616161, #383838);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  /*font-family: Arial;*/
+  color: #ffffff;
+  /*font-size: 20px;*/
+  padding: 6px 20px 6px 20px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.btn-gradient:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  color: white;
+  text-decoration: none;
+}
+
+/* 2. Menu Styles
+--------------------------------------*/
+.templatemo-nav {
+  padding-top: 100px;
+	margin-bottom: 0;
+}
+.templatemo-nav li {
+	display: inline-block;
+	list-style: none;
+}
+.templatemo-nav li>a {
+	color: #FFFFFF;
+	padding: 10px;
+	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+}
+#responsive-menu ul li:hover a, #responsive-menu ul li.active a,
+.templatemo-nav li:hover a, .templatemo-nav li.active a {
+	color: #27a7ff;	
+}
+#responsive-menu {
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(243, 243, 243, 0.4);
+  position: fixed;
+  z-index: 5500;
+  right: -1500px;
+  display: none;
+  overflow: auto;
+}
+#responsive-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#responsive-menu ul li {
+  display: block;
+  margin-bottom: 2px;
+}
+#responsive-menu ul li a {
+  padding: 12px 18px;
+  background-color: #1d1d1d;
+  color: #fff;
+  display: block;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  text-transform: uppercase;
+}
+#responsive-menu ul li a i {  margin-right: 15px; }
+a#mobile_menu {
+  font-size: 24px;
+  background-color: rgba(39, 167, 255,0.8);
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 5500;
+}
+#responsive-menu ul li a:hover {
+  color:#27a7ff;
+  text-decoration: none;
+}
+
+/* 3. Subscribe Styles
+-------------------------------*/
+.tm-subscribe-btn {
+  background-color: #27a7ff;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+.tm-subscribe-btn:hover {
+  background-color: #696A6A;
+  color: #fff;
+  text-decoration: none;
+}
+#subscriber_email {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* 4. Albums Styles
+------------------------------------*/
+.templatemo-album {
+  cursor: pointer;
+  position: relative;
+  margin-top: 50px;
+}
+.templatemo-album-images {
+  float: left;
+  width: 400px;
+}
+.templatemo-album-description {
+  float: left;
+  width: 100px;
+}
+.templatemo-album:hover .templatemo-album-description { color: #27a7ff; }
+.templatemo-album:hover .templatemo-album-img {
+  top: 63px;
+  left: 77px;
+  width: 180px;
+}
+.templatemo-album-img {  
+  position: absolute;
+  top: 102px;
+  left: 115px;
+  z-index: 100;
+  width: 100px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+.templatemo-album-img-bg {
+  position: absolute;
+  top: 6px;
+  left: 21px;
+  z-index: -100;
+}
+.templatemo-album-img-frame {
+  width: 400px;
+  height: auto;
+}
+.templatemo-album-description {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+.templatemo-album-artist { margin-top: 60px; }
+.templatemo-album-date { margin-top: 130px; }
+
+/* 5. About Styles
+------------------------------*/
+.tm-about-img-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 568px;
+  width: 100%;
+}
+.tm-about-img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+}
+
+/* 6. Contact Styles
+-------------------------------*/
+.form-control {	border-radius: 0; }
+#map-canvas { height: 350px; }
+
+/* 7. Footer Styles
+-------------------------------*/
+.templatemo-footer {
+  background: url('../images/footer.png') no-repeat, url('../images/footer-repeat.png') repeat-x;
+  background-position: center bottom;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.templatemo-copyright {
+  position: absolute;
+  bottom: 12%;
+  z-index: 1000;
+}
+.tm-go-to-top {
+  cursor: pointer;
+  /*float: right;*/
+  margin-left: 80%;
+  width: auto;
+  height: 100%;
+}
+
+/* 8. Media Queries
+---------------------------*/
+@media screen and (max-width: 1500px) {
+  .templatemo-header {    
+    height: 287px;
+  }
+  .templatemo-header-image {
+    background: url('../images/header.png') no-repeat;
+    background-size: 100% 287px;
+    height: 287px;
+  }
+  .templatemo-header h1 { margin-top: 20px; }
+  .templatemo-nav { padding-top: 70px; }
+  .templatemo-footer {
+    background: url('../images/footer.png') no-repeat;
+    background-size: 100% 250px;
+    height: 250px;
+  }
+  .tm-go-to-top {
+    margin-left: 66%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .templatemo-header {    
+    height: 229px;
+  }
+  .templatemo-header-image {
+    background: url('../images/header.png') no-repeat;
+    background-size: 100% 229px;
+    height: 229px;
+  }
+  .templatemo-header h1 { margin-top: 10px; }
+  .templatemo-nav { padding-top: 50px; }
+  .templatemo-album-img {
+    top: 85px;
+    left: 100px;
+  }
+  .templatemo-album:hover .templatemo-album-img {
+    top: 46px;
+    left: 58px;
+  }
+  .templatemo-album-img-bg { width: 255px; }
+  .templatemo-album-images, .templatemo-album-img-frame { width: 350px; }
+  .templatemo-album-artist { margin-top: 50px; }
+  .templatemo-album-date { margin-top: 113px; }
+  .templatemo-footer {
+    background: url('../images/footer.png') no-repeat;
+    background-size: 100% 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .templatemo-header {
+    height: 190px;
+  }
+  .templatemo-header-image {
+    background: url('../images/header.png') center;
+    background-size: cover;
+    height: 190px;
+  }
+  .templatemo-header h1 { font-size: 40px; }
+  .templatemo-nav { padding-top: 40px; }
+  .templatemo-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .templatemo-album-img {
+    top: 59px;
+    left: 74px;
+    width: 70px;
+  }
+  .templatemo-album:hover .templatemo-album-img {
+    top: 45px;
+    left: 58px;
+    width: 100px;
+  }
+  .templatemo-album-images, .templatemo-album-img-frame { width: 245px; }
+  .templatemo-album-img-bg { width: 175px; }
+  .templatemo-album-artist { margin-top: 27px; }
+  .templatemo-album-date { margin-top: 72px; }
+  .templatemo-footer {
+    background: url('../images/footer.png') 80% 0;
+    background-size: cover;
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 { font-size: 50px; }
+  .templatemo-header {
+    height: 147px;
+  }
+  .templatemo-header-image {
+    background: url('../images/header.png') center;
+    background-size: cover;
+    height: 147px;
+  }
+  .templatemo-header h1 { font-size: 30px; }
+  .templatemo-albums-container { text-align: center; }
+  .templatemo-album { display: inline-block; }
+  .templatemo-album-img-bg {
+    top: 4.5px;
+    left: 20px;
+  }
+  .templatemo-product { margin-bottom: 30px; }
+  .templatemo-product:last-child { margin-bottom: 0; }
+  .tm-contact-form { margin-top: 30px; }
+  /*.tm-go-to-top { right: 15%; }*/
+  .templatemo-footer {
+    background: url('../images/footer.png') 80% 0;
+    background-size: cover;
+    height: 128px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tm-go-to-top {
+    margin-left: 60%;
+    width: 150px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .templatemo-album { 
+    padding-left: 10px; 
+    padding-right: 10px;
+  }
+  .templatemo-album-img-frame { width: 240px; }
+  .templatemo-album-img-bg { 
+    width: 174px; 
+    top: 0.5px;
+    left: 11px;
+  }
+  .templatemo-album-img {
+    top: 42px;
+    left: 51px;
+  }
+  .templatemo-album:hover .templatemo-album-img {
+    top: 27px;
+    left: 36px;
+  }
+  .templatemo-album-images, .templatemo-album-img-frame { width: 200px; }
+  .templatemo-album-img-bg { width: 150px; }
+  .templatemo-album-artist { margin-top: 18px; }
+  .templatemo-album-date { margin-top: 54px; }
+  .tm-go-to-top {
+    margin-left: 50%;
+    width: 150px;
+    height: 80px;
+  }
+}

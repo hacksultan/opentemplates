@@ -1,0 +1,184 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+/* 
+Flower Template 
+http://www.templatemo.com/preview/templatemo_024_flower 
+*/
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	color: #666666;
+}
+
+h1 {
+	height: 33px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e6dc18;
+	background: url(images/templatemo_h1.jpg) no-repeat;
+}
+h2 {
+	height: 33px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	background: url(images/templatemo_gray.jpg) no-repeat;
+}
+
+#templatemo_container {
+	width: 800px;
+	margin: auto;
+	background: url(images/templatemo_container_bg.jpg) repeat-y;
+}
+#templatemo_header {
+	height: 115px;
+	background: url(images/templatemo_header.jpg) no-repeat;
+}
+#templatemo_site_title {
+	padding-top: 40px;
+	padding-left: 50px;
+	height: 40px;
+	color: #dad013;
+	font-weight: bold;
+	font-size: 22px;
+}
+.templatemo_menu{
+	float: left;
+	width: 800px;
+	height: 35px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.templatemo_menu ul {
+	margin: 0px;
+	padding-left: 110px;
+	list-style: none;
+	text-align: center;
+}
+
+.templatemo_menu li{
+	display: inline;
+}
+
+.templatemo_menu li a{
+	float: left;
+	padding: 8px 0px;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	width: 97px;
+}
+
+.templatemo_menu li a:hover, .templatemo_menu li .current{
+	color: #000000;
+	background: url(images/templatemo_link_hover.jpg) center no-repeat;
+}
+#templatemo_header_pic {
+	height: 117px;
+	background: url(images/templatemo_slogan.jpg) no-repeat;
+}
+#templatemo_slogan {
+	float: right;
+	width: 700px;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+#templatemo_slogan_text {
+	float: right;
+	text-align: right;
+	width: 250px;
+	padding-right: 100px;
+	padding-top: 5px;
+	font-size:11px;
+}
+#templatemo_content {
+	width: 800px;
+}
+#templatemo_content a:link, #templatemo_content a:visited {
+	color: #71AB21;
+	font-weight: bold;
+}
+#templatemo_content a:active, #templatemo_content a:hover {
+	color: #CC0000;
+	font-weight: bold;
+}
+#templatemo_top {
+	float: left;
+	width: 650px;
+	margin-top: 30px;
+	padding-left: 75px;	
+	text-align: justify;
+}
+#templatemo_left {
+	float: left;
+	width: 200px;
+	margin-left: 70px;
+	margin-top: 30px;
+	text-align: justify;
+}
+#templatemo_left span {
+	color: #e3c922;
+	font-weight:bold;
+}
+#templatemo_middle {
+	float: left;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 30px;
+	text-align: justify;
+}
+#templatemo_right {
+	float: right;
+	margin-right: 80px;
+	width: 175px;
+	margin-top: 30px;
+	text-align: justify;
+}
+#templatemo_right img {
+	padding-left: 10px;
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 748px;
+	margin-left: 26px;
+	margin-top: 30px;
+	height: 80px;
+	background: #393939;
+}
+
+.footer_left {
+	float: left;
+	width: 470px;
+	height: 50px;
+	padding-top: 30px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.footer_left a:link, .footer_left a:visited { color: #fff; text-decoration: none; } 
+.footer_left a:active, .footer_left a:hover { color: #cc6; text-decoration: none; }
+
+.footer_dot {
+	float: left;
+	width: 1px;
+	height: 80px;
+	background: url(images/templatemo_dot.gif) repeat-y;
+}
+.footer_right {
+	float: right;
+	padding-top: 10px;
+	width: 250px;
+	height: 70px;
+	color:#FFFFFF;	
+}

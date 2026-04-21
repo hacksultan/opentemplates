@@ -1,0 +1,131 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#templatemo_header_wrapper {
+	width: 100%;
+	height: 100px;
+	background: url(../images/templatemo_header.jpg) no-repeat center top
+}
+
+#templatemo_header { 
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(../images/templatemo_header.jpg) no-repeat center top
+}
+
+#header h1 { display: block; width: 228px; margin: 0 auto; padding: 0 }
+#header h1 a { float: left; margin-top: 25px; width: 245px; height: 42px; background: url(../images/templatemo_logo.png); text-indent: -10000px; }
+
+#templatemo_main {
+	width: 800px;
+	height: 490px;
+	margin: 0 auto;
+	padding: 30px 10px;
+	background: url(../images/templatemo_main.png) no-repeat center center;
+}
+
+#templatemo_content {
+	float: left;
+	width: 630px;
+	height: 410px;
+	padding: 40px 20px;
+}
+
+#templatemo_sidebar {
+	float: right;	
+	width: 130px;
+	height: 490px;
+}
+
+#menu {
+	clear: both;
+	width:  59px;
+	height: 485px;
+	margin: 5px 7px 0 4px;
+}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	height: 80px;
+	background: url(../images/templatemo_footer.jpg) no-repeat
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 800px;
+	height: 80px;
+	padding: 20px 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer a {
+	color: #ccc;
+}
+
+.scroll {
+    width: 630px;
+    height: 410px;
+    overflow: auto;
+    /* overflow-x: hidden; */
+    position: relative;
+    clear: left;
+
+}
+
+.scrollContainer div.panel {
+    width: 630px;
+    height: 410px;
+	overflow: hidden;
+}
+
+ul.navigation {
+    list-style: none; 
+    margin: 0 12px 0 0;
+    padding: 15px 0;
+}
+
+ul.navigation li {
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 90px;
+	height: 38px;
+	padding-left: 28px;
+	line-height: 38px;
+	margin-bottom: 10px;
+    text-decoration: none;
+	color: #333;
+	font-weight: 700;
+	background: url(../images/templatemo_menu.png) no-repeat left center
+}
+
+ul.navigation a:hover, ul.navigation a.selected { background:url(../images/templatemo_menu_hover.png) no-repeat left center }
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0
+}
+
+.scrollButtons.right {
+    right: 0
+}
+
+.hide {
+    display: none;
+}

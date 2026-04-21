@@ -1,0 +1,291 @@
+@media only screen and (min-width: 1025px) and (max-width: 1250px) {
+	
+	.header { width: 100%; padding: 75px 0 140px }
+	.header .Center { width: 100%; padding: 0px 2%; }
+	
+	.header .arrow { right: 2%; bottom: -140px; }
+	
+	.Top_Bar { width: 100%; padding-bottom: 84px;}
+	
+	.Navigation { width: 68.5%; background-size: 100% 100%; margin-right: -11px; }
+	
+	.Navigation li a { padding: 0px 0px 0px 80px; }
+	.Navigation li a span { padding: 0 114px 0 25px; }
+	.Navigation li.gap { margin-left: -81px; }
+	.Navigation li.gap1 a span { padding: 0 114px 0 25px; }
+	
+	.Navigation li a:hover, .Navigation li.active a { height: 79px; }
+	.Navigation li a:hover span, .Navigation li.active a span { height: 79px; }
+	
+	.Navigation .triangle { top: 79px; left: -1px; }
+	
+	
+	.Product_sec { width: 100%; }
+	.Product_sec li .right { width: 71.75%; }
+	.Product_sec li .left {  width: 71.75%; }
+	
+
+	#Container { width: 100%; }
+	
+	.Middle_sec { width: 100%; padding: 0px 0px 0px 0px; }
+	.Middle_sec .Center { width: 100%; padding: 0px 2% 0px 0% ; }
+	.Middle_sec #Leftside .Client1 { left: 37.5%; }
+	
+	
+	.Contact_sec { width: 100%;}
+	.Contact_sec .Center { width: 100%; padding: 0px 2%; }
+	.Contact_sec .Mapside { margin-left: -122px; padding: 34px 0 0;  }
+	
+	.Contact_sec .Form { width: 48.9%; }
+	.Contact_sec .Form fieldset p { margin: 0 0 8px; }
+	.Contact_sec .Form input.field { background-size: 88%; }
+	.Contact_sec .Form input.field1 { width: 417px; background-size: 100%; margin-left: 58px; }
+	.Contact_sec .Form textarea { width: 473px; height: 112px; background-size: 100%; margin-left: 117px;}
+	.Contact_sec .Form input.Button { width: 408px; background-size: 100%; margin-left: 238px; }
+	
+	
+	footer { width: 100%; }
+	footer .Center { width: 100%; padding: 15px 2%; }
+	
+
+	}	
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	
+	.header { width: 100%; padding: 75px 0 222px; background: url(../img/header-bg1.png) top center; background-size: cover; }
+	.header .Center { width: 100%; padding: 0px 6%; }
+	
+	.header .arrow { right: 9.8%; bottom: -222px; }
+	
+	.Top_Bar { width: 100%; padding-bottom: 165px;}
+	.Top_Bar .site-logo { padding-bottom: 75px; width: 100%; }
+	.Top_Bar .site-logo img { width: 220px; }
+	
+	
+	.Navigation { width: 100%; margin-right: 0px; background:url(../img/menu-bg1.png) repeat-x; }
+	.Navigation li { line-height: 62px; }
+	.Navigation li a { padding: 0px 83px; }
+	.Navigation li.gap { margin-left: 0px; }
+	.Navigation li a span { padding: 0 0px;}
+	.Navigation li.gap a span { padding: 0px; }
+	.Navigation li.gap1 a span { padding: 0px 80px 0px 0px; }
+	.Navigation li:last-child a { padding-right: 10px;}
+
+	.Navigation li a:hover, .Navigation li.active a { background: #1f252e; background-image: none; }
+	.Navigation .triangle {  display: none; }
+	.Navigation li a:hover span, .Navigation li.active a span {background: none; }
+	
+
+	
+	.Product_sec { width: 100%; }
+	.Product_sec li { padding: 100px 0px 0px 0px; margin: 0px; }
+	.Product_sec li .right { width: 100%; }
+	.Product_sec li .left {  width: 100%; }
+	
+	#Container { width: 100%; }
+	
+	.Middle_sec { width: 100%; padding: 0px 0px 0px 0px; background: none; }
+	.Middle_sec .Center { width: 100%; }
+	.Middle_sec #Leftside { padding: 0px 99px; width: 100%; float: none; background: #222a35 url(../img/Client-left-bg.jpg) top center no-repeat;  }
+	.Middle_sec #Leftside .Client1 { left:37.2%; top: 186px; }
+	
+	.Middle_sec #Rightside { margin-top: -1px; padding: 0px 113px 100px ; width: 100%; float: none; background: #2c3545; }
+	.Middle_sec #Rightside li { padding: 94px 0px 0px 0px; }
+	
+	
+	.Contact_sec { width: 100%; padding: 0px; background: none; height: auto;}
+	.Contact_sec .Center { width: 100%; padding: 0px 0% 0px 0%; }
+	.Contact_sec .Center { padding: 98px 6% 98px 6%; width: 100%; background:url(../img/contact-bg1.png) top center no-repeat; background-size: cover; position: relative; right: 0px; }
+	.Contact_sec .Form { position: relative; right: 0%; top: 0px; width: 100%;}
+	.Contact_sec .Form fieldset p { margin: 0 0 8px; }
+	.Contact_sec .Form input.field { width: 100%; background: #2a3241; background-image: none; padding: 0px 26px }
+	.Contact_sec .Form input.field1 { width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 0px 26px  }
+	.Contact_sec .Form textarea {  width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 20px 26px 10px 26px  }
+	.Contact_sec .Form input.Button { width: 100%; background: #005a84!important; background-image: none!important; border-radisu: 0px!important; margin-left: 0px; -webkit-appearance: none; }
+	.Contactside { position: relative; background: none; height: auto; }
+	
+	.map_sec { width: 100%; position: relative; height: 501px; }
+	
+	footer { width: 100%; }
+	footer .center { width: 100%; padding: 15px 2%; }
+
+	}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	
+	.header { width: 100%; padding: 70px 0px 0px 0px; background: url(../img/header-bg2.png) top center no-repeat;  background-size: cover; }
+	.header .Center { width: 100%; padding: 0px 6%; }
+	
+	.header .arrow { right: 0%; bottom: 0px; width: 28% }
+	
+	.Top_Bar { width: 100%; padding-bottom: 165px;}
+	.Top_Bar .site-logo { padding-bottom: 75px; width: 100%; }
+	.Top_Bar .site-logo img { width: 220px; }
+	
+	
+	.Navigation { width: 100%; margin-right: 0px; background:url(../img/menu-bg1.png) repeat-x; }
+	
+	.Navigation li { line-height: 62px; }
+	.Navigation li a { padding: 0px 42px; }
+	.Navigation li.gap { margin-left: 0px; }
+	.Navigation li a span { padding: 0 0px;}
+	.Navigation li.gap a span { padding: 0px; }
+	.Navigation li.gap1 a span { padding: 0px 30px 0px 0px; }
+	.Navigation li:last-child a { padding-right: 10px;}
+
+	.Navigation li a:hover, .Navigation li.active a { background: #1f252e; background-image: none; }
+	.Navigation .triangle {  display: none; }
+	.Navigation li a:hover span, .Navigation li.active a span {background: none; }
+	
+
+
+	.Product_sec { width: 100%; text-align: center; }
+	.Product_sec li { padding: 0px 0px 90px 0px; margin: 0px; }
+	.Product_sec li .right { width: 100%; float: none; }
+	.Product_sec li .right .img { margin: auto; float: none; padding-bottom: 30px;}
+	.Product_sec li .right .Details { width: 100%; text-align: center; }
+	.Product_sec li .right .Details p { text-align: center; }
+	.Product_sec li .Details a { margin: auto; float: none; }
+
+	.Product_sec li .left {  width: 100%; float: none; padding-left: 0px; }
+	.Product_sec li .left .img { margin: auto; float: none; padding-bottom: 30px;}
+	.Product_sec li .left .Details { width: 100%; text-align: center; }
+	.Product_sec li .left .Details p { text-align: center; }
+
+	#Container { width: 100%; }
+	
+	.Middle_sec { width: 100%; padding: 0px; background: none; }
+	.Middle_sec .Center { width: 100%; }
+	.Middle_sec #Leftside { padding: 0px 0px;  width: 100%; float: none; background: url(../img/Client-left-bg.jpg) top center no-repeat; }
+	.Middle_sec #Leftside .Client { margin-top: 0px; padding: 106px 65px 0px 65px; width: 306px; height: 306px; background-size: 100%; }
+	.Middle_sec #Leftside .Client2 { padding: 106px 65px 0px 65px; margin: 5px 0 0; width: 306px; height: 306px; background-size: 100%;}
+
+	.Middle_sec #Leftside .Client1 { left: 33.2%; top: 155px; padding: 66px 65px 0px 65px; width: 306px; height: 306px; background-size: 100%;}
+	
+	.Middle_sec #Rightside { margin-top: -1px; padding: 0px 6%; width: 100%; text-align: center; float: none; background: #2c3545; }
+	.Middle_sec #Rightside li { padding: 94px 0px; }
+	.Middle_sec #Rightside li:last-child { padding-bottom: 94px; }
+	.Middle_sec #Rightside li .Industrial { float: none; }
+	.Middle_sec #Rightside li .Industrial img { margin: auto; padding-bottom: 30px; }
+	
+	.Middle_sec #Rightside li .Information { width: 100%; margin: auto; }
+	.Middle_sec #Rightside li .Information li { float: none; display: inline-block; }
+	
+	
+	.Contact_sec { width: 100%; padding: 0px; background: none; height: auto;}
+	.Contact_sec .Center { width: 100%; padding: 0px 0% 0px 0%; }
+	.Contact_sec .Center { padding: 98px 6% 98px 6%; width: 100%; background:url(../img/contact-bg1.png) top center no-repeat; background-size: cover; position: relative; right: 0px; }
+	.Contact_sec .Form { position: relative; right: 0%; top: 0px; width: 100%;}
+	.Contact_sec .Form fieldset p { margin: 0 0 8px; }
+	.Contact_sec .Form input.field { width: 100%; background: #2a3241; background-image: none; padding: 0px 26px }
+	.Contact_sec .Form input.field1 { width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 0px 26px  }
+	.Contact_sec .Form textarea {  width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 20px 26px 10px 26px  }
+	.Contact_sec .Form input.Button { width: 100%; background: #005a84!important; background-image: none!important; border-radisu: 0px!important; margin-left: 0px; -webkit-appearance: none; }
+	
+	.Contactside { position: relative; background: none; height: auto; }
+
+	.map_sec { width: 100%; position: relative; height: 501px; }
+
+	footer { width: 100%; }
+	footer .Center { width: 100%; padding: 15px 2%; }
+
+
+	}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	
+	
+	.header { width: 100%; padding: 70px 0px 0px 0px; background: url(../img/header-bg2.png) top center no-repeat; background-size: cover;  }
+	.header .Center { width: 100%; padding: 0px 6%; }
+	
+	.header .arrow { right: 0%; bottom: 0px; width: 28% }
+	
+	.Top_Bar { width: 100%; padding-bottom: 105px;}
+	.Top_Bar .site-logo { padding-bottom: 75px; width: 100%; }
+	.Top_Bar .site-logo img { width: 220px; }
+	
+	
+	.Navigation { width: 100%; margin-right: 0px; background:url(../img/menu-bg1.png) repeat-x; }
+	
+	.Navigation li { line-height: 62px; }
+	.Navigation li a { padding: 0px 21px; }
+	.Navigation li.gap { margin-left: 0px; }
+	.Navigation li a span { padding: 0 0px;}
+	.Navigation li.gap a span { padding: 0px; }
+	.Navigation li.gap1 a span { padding: 0px 10px 0px 0px; }
+	.Navigation li:last-child a { padding-right: 10px;}
+
+	.Navigation li a:hover, .Navigation li.active a { background: #1f252e; background-image: none; }
+	.Navigation .triangle {  display: none; }
+	.Navigation li a:hover span, .Navigation li.active a span {background: none; }
+	
+	
+	.Product_sec { width: 100%; text-align: center; }
+	.Product_sec li { padding: 0px 0px 90px 0px; margin: 0px; }
+	.Product_sec li .right { width: 100%; float: none; }
+	.Product_sec li .right .img { margin: auto; float: none; padding-bottom: 30px;}
+	.Product_sec li .right .Details h3 { font-size: 22px; }
+	.Product_sec li .right .Details { width: 100%; text-align: center; }
+	.Product_sec li .right .Details p { text-align: center; }
+	.Product_sec li .Details a { margin: auto; float: none; }
+
+	.Product_sec li .left {  width: 100%; float: none; padding-left: 0px; }
+	.Product_sec li .left .img { margin: auto; float: none; padding-bottom: 30px;}
+	.Product_sec li .left .Details { width: 100%; text-align: center; }
+	.Product_sec li .left .Details h3 { font-size: 20px; }
+	.Product_sec li .left .Details p { text-align: center; }
+
+	#Container { width: 100%; }
+	
+	.Middle_sec { width: 100%; padding: 0px; background: none; }
+	.Middle_sec .Center { width: 100%; }
+	.Middle_sec #Leftside { text-align: center; padding: 0px 0px;  width: 100%; float: none; background: #222a35 url(../img/Client-left-bg.jpg) top center no-repeat; }
+	.Middle_sec #Leftside .Client { margin: auto; margin-top: 0px; padding: 106px 65px 0px 65px; width: 333px; height: 333px; background-size: 100%; }
+	.Middle_sec #Leftside .Client2 { margin: auto; padding: 106px 65px 0px 65px; width: 333px; height: 333px; background-size: 100%;}
+
+	.Middle_sec #Leftside .Client1 { margin: auto; left: 0%; top: 0px; position: relative; padding: 66px 65px 0px 65px; width: 333px; height: 333px; background-size: 100%;}
+	
+	.Middle_sec #Rightside { margin-top: -1px; padding: 0px 6%; width: 100%; text-align: center; float: none; background: #2c3545; }
+	.Middle_sec #Rightside li { padding: 94px 0px; }
+	.Middle_sec #Rightside li:last-child { padding-bottom: 94px; }
+	.Middle_sec #Rightside li .Industrial { float: none; }
+	.Middle_sec #Rightside li .Industrial img { margin: auto; padding-bottom: 30px; }
+	
+	.Middle_sec #Rightside li .Information { width: 100%; margin: auto; }
+	.Middle_sec #Rightside li .Information li { float: none; display: inline-block; }
+	
+	
+	.Contact_sec { width: 100%; padding: 0px; background: none; height: auto;}
+	.Contact_sec .Center { width: 100%; padding: 0px 0% 0px 0%; }
+	.Contact_sec .Center { padding: 98px 6% 98px 6%; width: 100%; background:url(../img/contact-bg1.png) top center no-repeat; background-size: cover; position: relative; right: 0px; }
+	.Contact_sec .Form { position: relative; right: 0%; top: 0px; width: 100%;}
+	.Contact_sec .Form fieldset p { margin: 0 0 8px; }
+	.Contact_sec .Form input.field { width: 100%; background: #2a3241; background-image: none; padding: 0px 26px }
+	.Contact_sec .Form input.field1 { width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 0px 26px  }
+	.Contact_sec .Form textarea {  width: 100%; background: #2a3241; background-image: none; margin-left: 0px; padding: 20px 26px 10px 26px  }
+	.Contact_sec .Form input.Button { width: 100%; background: #005a84!important; background-image: none!important; border-radisu: 0px!important; margin-left: 0px; -webkit-appearance: none; }
+	
+	.Contactside { position: relative; background: none; height: auto; }
+	
+	
+	.map_sec { width: 100%; position: relative; height: 501px; }
+	
+
+	footer { width: 100%; }
+	footer .Center { width: 100%; padding: 15px 2%; }
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	.Navigation li {
+	    width: 33.33%;
+	    text-align: center;
+	}		
+}

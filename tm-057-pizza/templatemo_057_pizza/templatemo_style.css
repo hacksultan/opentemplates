@@ -1,0 +1,338 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+/* 
+Pizza Template 
+http://www.templatemo.com/preview/templatemo_057_pizza 
+*/
+html {
+
+	background: #ff3708;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #fff;
+
+	background: url(images/templatemo_page_bg.jpg) repeat-x  center top;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+h2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #66b300;
+
+	margin-top: 0px;
+
+}
+
+#templatemo_container {
+
+	width: 797px;
+
+	margin: auto;
+	
+	background: url(images/templatemo_container_bg.jpg) repeat-y  center top;
+
+}
+
+#templatemo_header_section {
+
+	width: 797px;
+
+	height: 62px;
+
+	background: url(images/templatemo_header.jpg) no-repeat;
+
+
+}
+
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	float: left;
+	width: 747px;
+	height: 30px;
+	background: #5a5a5a url(images/templatemo_menu_bg.jpg) repeat-x;
+	margin-left: 25px;
+}
+
+* html #templatemo_menu{
+	margin-left: 13px;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 800px;
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+* html #templatemo_menu ul {
+	width: 700px;
+}
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 25px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #FFFF00;
+}
+
+#templatemo_menu_bg {
+	width: 797px;
+	height: 30px;
+	background: url(images/templatemo_menu_back.jpg) no-repeat;
+
+}
+/* end of menu */
+
+#templatemo_header_pizza {
+	width: 797px;
+	height: 317px;
+	background:url(images/templatemo_header_pizza.jpg) no-repeat;
+}
+
+#templatemo_content {
+	width: 797px;
+	height: 312px;
+	background:url(images/templatemo_content_bg.jpg) no-repeat;
+}
+
+#templatemo_content_bg {
+	width: 797px;
+	height: 312px;
+	background:url(images/templatemo_content_bg_2.jpg) no-repeat;
+}
+
+#templatemo_content_2 {
+	width: 700px;
+	margin: 5px 0px 0px 50px;
+}
+
+* html #templatemo_content_2 {
+
+	margin: 3px 0px 0px 50px;
+}
+
+#templatemo_content_2 p{
+	color:#767676;
+	text-align:justify;
+}
+
+#templatemo_content_2 p a{
+	color:#4d9d00;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#templatemo_content_2 p a:hover{
+	color:#62c502;
+	text-decoration:none;
+	font-weight:bold;
+}
+/* Left Content */
+#templatemo_content_left {
+	width: 350px;
+	float:left;
+	margin-left: 45px;
+
+}
+
+* html #templatemo_content_left {
+	margin-left: 22px;
+	width: 300px;
+
+}
+
+#templatemo_content_left .text {
+	margin: 5px 0px 5px 10px;
+	color:#ff9000;
+	font-weight:bold;
+
+}
+
+#templatemo_content_left .text a{
+	color:#be4f04;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+#templatemo_content_left .text a:hover{
+	color:#fd7921;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+
+
+
+.templatemo_pizza_box {
+	width: 75px;
+	height: 90px;
+	margin: 0px 20px 0px 20px;
+	float:left;
+}
+
+* html .templatemo_pizza_box{
+	
+	margin: 0px 10px 0px 10px;
+}
+
+.templatemo_pizza_box img{
+	margin: 0px 3px 0px 3px;
+}
+
+.templatemo_pizza_box .textbox{
+	margin: 0px 2px 0px 2px;
+	font-weight:bold;
+}
+
+.templatemo_pizza_box .textbox a{
+	color: #ff6000; 
+	text-decoration: none;
+}
+
+.templatemo_pizza_box .textbox a:hover{
+	color: #ff9000; 
+	text-decoration: none;
+}
+/* Right Content */
+#templatemo_content_right {
+	width: 350px;
+	float:right;
+	margin:5px 40px 0px 0px;
+	
+}
+
+* html #templatemo_content_right{
+	
+	margin:5px 20px 0px 0px;
+}
+
+#templatemo_content_right p{
+	color:#767676;
+	text-align:justify;
+}
+
+#templatemo_content_right p a{
+	color:#4d9d00;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#templatemo_content_right p a:hover{
+	color:#62c502;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#templatemo_content_right img{
+	float:right;
+	margin-right:20px;
+	border:none;
+}
+
+
+
+#templatemo_card{
+	float:left;
+	margin-left:20px;
+}
+
+* html #templatemo_card{
+
+	margin-left:80px;
+}
+
+#templatemo_container_end {
+	width: 797px;
+	height: 60px;
+	background:url(images/templatemo_container_end.jpg) no-repeat;
+}
+
+#templatemo_footer {
+	width: 797px;
+	margin:auto;
+
+}
+
+#templatemo_footer .top{
+	color:#FFFFFF;
+	text-align:center;
+
+}
+
+#templatemo_footer .top a{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+
+#templatemo_footer .top a:hover{
+	color:#999999;
+	text-decoration:none;
+
+}
+
+#templatemo_footer .middle{
+	color:#ffa800;
+	text-align:center;
+}
+
+#templatemo_footer .middle a{
+	color:#ffa800;
+	text-align:center;
+}
+
+#templatemo_footer .middle a:hover{
+	color:#ffa800;
+	text-align:center;
+
+}
+
+#templatemo_footer .button{
+	text-align:center;
+}
+
+#templatemo_footer .button img{
+	border:none;
+}

@@ -1,0 +1,11 @@
+
+CREDITS
+
+Strip Theme
+https://templatemo.com/tm-482-strip
+
+Bootstrap
+https://getbootstrap.com/
+
+Images
+https://unsplash.com/

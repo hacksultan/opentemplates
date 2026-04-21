@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+
+	<config 
+		auto_play="true" 
+		auto_play_duration="1.8" 
+		tween_duration="0.8" 
+		tween_delay="0.15"
+		stylesheet="flashmo_224_style.css" 
+		bar_status="1">
+	</config>
+	
+	<photo>
+		<filename>photos/templatemo_720x280_01.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Photo title one goes here</p><p>Lorem ipsum dolor sit amet, <a href="http://www.google.com/search?q=templatemo" target="_parent">consectetur adipiscing elit</a>. <span class="highlight">Quisque at ante sit amet</span> erat laoreet <u>fermentum</u>. <span class="note">This text is dynamically loaded from the external XML file. This textfield supports HTML and CSS.</span></p>]]></description>
+		<transition sequence="first" direction="left" slice="4" effect="easeInOutQuart"></transition>
+	</photo>
+	
+	<photo>
+		<filename>photos/templatemo_720x280_02.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Photo title two goes here</p><p>Fusce quis diam sit amet tortor luctus pellentesque. <a href="http://www.google.com/search?q=templatemo" target="_blank">Donec accumsan urna</a> non elit tristique mattis. <b>Vivamus fermentum</b> orci viverra nisl. <span class="note">Integer vestibulum luctus leo at iaculis.</span></p>]]></description>
+		<transition sequence="outer" direction="up" slice="9" effect="easeInOutQuart"></transition>
+	</photo>
+	
+	<photo>
+		<filename>photos/templatemo_720x280_03.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Photo title three goes here</p><p>In velit urna, <u>convallis id</u>, pharetra in, iaculis sit amet, mi. Etiam et neque. <span class="note">This text is dynamically loaded from the external XML file. This textfield supports HTML and CSS.</span></p>]]></description>
+		<transition sequence="last" direction="right" slice="4" effect="easeInOutQuart"></transition>
+	</photo>
+	
+	<photo>
+		<filename>photos/templatemo_720x280_04.jpg</filename>
+		<description><![CDATA[<p class="subtitle">Photo title four goes here</p><p><a href="http://www.google.com/search?q=templatemo" target="_blank">Praesent mattis varius quam</a>. Vestibulum ullamcorper ipsum nec augue. <span class="highlight">Nunc commodo, magna pharetra semper vehicula, dui ligula feugiat elit, et euismod nunc orci ut libero.</span></p>]]></description>
+		<transition sequence="inner" direction="down" slice="11" effect="easeInOutQuart"></transition>
+	</photo>
+	
+</photos>
