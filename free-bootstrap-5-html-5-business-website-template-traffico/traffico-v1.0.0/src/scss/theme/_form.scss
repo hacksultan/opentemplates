@@ -1,0 +1,52 @@
+.input-group-icon{
+  position: relative;
+  .input-box{
+    padding-left: 2.8rem;
+    vertical-align: middle;
+  }
+  .input-box-icon{
+    position: absolute;
+    top:50%;
+    left: 1rem;
+    color:$gray-300;
+    transform: translateY(-50%);
+  }
+}
+
+
+// - form control control
+//
+// General form controls (plus a few specific high-level interventions)
+//
+
+.form-traffico-control {
+  border: $input-border-width solid rgba($primary, .5);
+  border-radius: 0.313rem;
+  color: $black;
+  font-weight: 300;
+  background-color: $white;
+  padding: 1rem 1rem;
+  &:focus {
+    color: $black;
+    font-weight: 700;
+    background-color: $white;
+    border-color: 2px solid rgba($primary, .9);
+    outline: 0;
+    @if $enable-shadows {
+      @include box-shadow($input-box-shadow, $input-focus-box-shadow);
+    } @else {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      box-shadow: $box-shadow-sm;
+    }
+  }
+}
+
+
+
+.form-label {
+  margin-bottom: 1.25rem;
+  @include font-size($form-label-font-size);
+  font-style: $form-label-font-style;
+  font-weight: 400 !important;
+  color: $gray-900;
+}

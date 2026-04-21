@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  --color-secondary-50: #f0f9ff;
+  --color-secondary-100: #e0f2fe;
+  --color-secondary-200: #bae6fd;
+  --color-secondary-300: #7dd3fc;
+  --color-secondary-400: #38bdf8;
+  --color-secondary-500: #0ea5e9;
+  --color-secondary-600: #0284c7;
+  --color-secondary-700: #0369a1;
+  --color-secondary-800: #075985;
+  --color-secondary-900: #0c4a6e;
+
+  --color-accent-50: #f8fafc;
+  --color-accent-100: #f1f5f9;
+  --color-accent-200: #e2e8f0;
+  --color-accent-300: #cbd5e1;
+  --color-accent-400: #94a3b8;
+  --color-accent-500: #64748b;
+  --color-accent-600: #475569;
+  --color-accent-700: #334155;
+  --color-accent-800: #1e293b;
+  --color-accent-900: #0f172a;
+
+  --font-family-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-family-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --animation-fade-in: fadeIn 0.6s ease-out;
+  --animation-slide-up: slideUp 0.8s ease-out;
+  --animation-pulse-gentle: pulseGentle 2s ease-in-out infinite;
+  --animation-gradient: gradient 6s ease infinite;
+}
+
+@layer base {
+  * {
+    @apply border-accent-200;
+  }
+  
+  body {
+    @apply bg-white font-sans text-accent-900 antialiased;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  h1 { @apply text-4xl lg:text-5xl; }
+  h2 { @apply text-3xl lg:text-4xl; }
+  h3 { @apply text-2xl lg:text-3xl; }
+  h4 { @apply text-xl lg:text-2xl; }
+
+  code {
+    @apply font-mono text-sm;
+  }
+}
+
+@layer components {
+  .code-block {
+    @apply bg-accent-900 text-accent-50 rounded-lg p-4 font-mono text-sm overflow-x-auto;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 via-secondary-500 to-primary-600 bg-clip-text text-transparent;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white hover:bg-accent-50 text-accent-700 font-medium rounded-lg border border-accent-200 hover:border-accent-300 transition-all duration-200 transform hover:scale-105 shadow-sm hover:shadow-md;
+  }
+  
+  .feature-card {
+    @apply bg-white rounded-xl border border-accent-200 p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:border-accent-300;
+  }
+  
+  .component-preview {
+    @apply bg-gradient-to-br from-accent-50 to-primary-50 rounded-lg p-8 border border-accent-200;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGentle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Code syntax highlighting */
+.hljs {
+  @apply bg-accent-900 text-accent-100;
+}
+
+.hljs-keyword {
+  @apply text-primary-400;
+}
+
+.hljs-string {
+  @apply text-green-400;
+}
+
+.hljs-number {
+  @apply text-orange-400;
+}
+
+.hljs-comment {
+  @apply text-accent-500;
+}
+
+.hljs-function {
+  @apply text-blue-400;
+}
+
+.hljs-class {
+  @apply text-yellow-400;
+}

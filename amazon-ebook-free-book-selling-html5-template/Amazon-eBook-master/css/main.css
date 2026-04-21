@@ -1,0 +1,533 @@
+/*=================================================
+||				Useful Links
+==================================================*/
+/*
+|||||||||	Slider	|||||||||
+|
+|
+*/
+
+/*=================================================
+||				Index 
+==================================================*/
+/*
+|	1. Imports
+|	2. Global
+|	3. Colors
+|
+|	=============
+|	SECTIONS
+|	=============
+|	4. Home
+*/
+
+
+/*=================================================
+||				1. Imports 
+==================================================*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body
+{
+	font-family: 'Roboto', 'Open-Sans', sans-serif;
+	overflow-x: hidden;
+	color: #313131;
+}
+h1.header-title
+{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+h2
+{
+	font-size: 30px;
+	font-weight: 700;
+    margin-bottom: 0px;
+}
+h3
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #444;
+	margin-bottom: 5px;
+}
+a
+{
+	color: #313131;
+}
+a.red
+{
+	border-radius: 0px;
+	background: #d66039;
+	color: #f1eeed;
+	padding: 10px 30px;
+	margin-right: 15px;
+	border: 1px solid #d66039;
+	margin-bottom: 15px;
+}
+a.bttn
+{
+	border-radius: 0px;
+	background: transparent;
+	color: #f1eeed;
+	padding: 10px 30px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+a.bttn:hover
+{
+	background: #d66039;
+	border-color: #d66039;
+	color: #f1eeed;
+}
+a:hover
+{
+	transition: all .6s;
+	text-decoration: none;
+}
+.section-wrapper
+{
+	padding: 100px 0px;
+}
+.regular
+{
+	font-weight: 400;
+}
+/*=================================================
+||				4. Home
+==================================================*/
+.home
+{
+	background: linear-gradient(45deg, #616161, #1c1c1c);
+	height: 100vh;
+	color: #f1eeed;
+	letter-spacing: 1px;
+}
+.header-img
+{
+	margin-left: -15px;
+}
+.header-wrapper
+{
+	padding: 30% 0%;
+}
+p.header-sub
+{
+	font-size: 24px;
+	font-weight: 400;
+	color: #a9a7a6;
+}
+.home .description
+{
+	font-size: 16px;
+	font-weight: 100;
+	margin: 33px 0px;
+	line-height: 175%;
+}
+
+/*=================================================
+||				5. Navbar
+==================================================*/
+.logo
+{
+	font-family: 'Roboto Slab', serif;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 28px;
+}
+.logo span
+{
+	color: #d66039;
+}
+.logo:hover
+{
+
+}
+.logo:hover span
+{
+	transform: rotateY(360deg);
+	transition: all 1s;
+}
+.navigation .navbar-nav>li>a
+{
+	font-size: 18px;
+	font-weight: 400;
+	padding:15px 15px;
+	margin: 0px 15px;
+	border-bottom: 1px solid transparent;
+}
+.navigation .navbar-nav>li>a:hover
+{
+	border-bottom: 1px solid #d66039;
+}
+.navigation
+{
+	box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+	background: #ebebeb;
+	border-radius: 0px;
+	padding: 8px;
+	margin-bottom: 0px;
+}
+/*=================================================
+||				6. Book
+==================================================*/
+.book
+{
+	position: relative;
+	background: #ebebeb;
+}
+.book .col-sm-6
+{
+	z-index: 1;
+}
+.book h2
+{
+	margin-bottom: 50px;
+}
+.light
+{
+	color: #999;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 1px;
+}
+.body
+{
+	color: #444;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.cta-1
+{
+	background-color: #d66039;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	color: #f1eeed;
+	padding: 50px 0px;
+}
+
+
+/*=================================================
+||				8. Reviews
+==================================================*/
+h3.title
+{
+	display: inline-block;
+}
+.reviews
+{
+	background-color: #e3e3e3;
+	padding-bottom: 125px;
+}
+.stars
+{
+	float: right;
+}
+.gain
+{
+	display: inline-block;
+}
+.gain, .review-gain
+{
+	color: #ffc107;
+	font-size: 22px;
+}
+.review-gain
+{
+	margin: 10px 0px;
+}
+.not-gain
+{
+	color: #000;
+	display: inline-block;
+	font-size: 22px;
+}
+.reviewer
+{
+	border-radius: 100%;
+	width: 100px !important;
+	height: 100px;
+	margin: 10px auto;
+	background-color: #cacaca;
+}
+.item
+{
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 50px 30px;
+	margin: 0px 15px;
+	color: #444;
+	margin-top: 60px;
+}
+.addr
+{
+	margin: 0px;
+}
+.details
+{
+	letter-spacing: 1px;
+}
+.owl-prev, .owl-next
+{
+	position: absolute;
+	top: 47%;
+	font-size: 22px;
+	padding: 5px;
+}
+.owl-next
+{
+	right: -20px;
+}
+.owl-prev
+{
+	left: -20px;
+}
+.owl-prev:before
+{
+    content: "\f3d2";
+    font-family: 'ionicons';
+}
+.owl-next:before
+{
+    content: "\f3d3";
+    font-family: "ionicons";
+}
+
+
+/*=================================================
+||				9. Blog
+==================================================*/
+.blogger
+{
+	border-radius: 100%;
+}
+.blog-left
+{
+	padding-right: 100px;
+}
+.blogger-id
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.blogger-title
+{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: -10px;
+}
+.id, .place
+{
+	font-size: 24px;
+	font-weight: 400;
+}
+.sub
+{
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+.place
+{
+	margin: 20px 0px 5px;
+}
+.book-icon
+{
+	word-spacing: 25px;
+	font-size: 14px;
+}
+.book-icon .ion-android-compass
+{
+	color: #d66039;
+}
+.blog .light
+{
+	margin: 20px 0px;
+}
+
+/*=================================================
+||				10. cta-2
+==================================================*/
+.cta-2
+{
+	color: #f1eeed;
+	background-color: #d66039;
+	padding: 50px 0px;
+}
+h4
+{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.subt
+{
+	font-size: 24px;
+	font-weight: 100;
+}
+.cta-2 .bttn
+{
+	margin: 21px auto;
+	display: table;
+}
+.cta-2 .bttn:hover
+{
+	color: #d66039;
+	background-color: #f1eeed;
+}
+
+/*=================================================
+||				11. Contact
+==================================================*/
+.contact
+{
+	background-color: #ebebeb;
+}
+.contact h2
+{
+	margin-top: 0px;
+}
+.address
+{
+	margin-bottom: 40px;
+}
+.address, .call
+{
+	line-height: 200%;
+	font-size: 16px;
+}
+.address strong
+{
+	font-size: 18px;
+}
+.contactform label
+{
+	float:left;
+}
+.contactform .form-control
+{
+	margin-bottom:20px;
+	border:1px solid #cbcbcb;
+	height:45px;
+}
+.contactform textarea.form-control {
+	height: 170px;
+}
+
+/* Inputs styles */
+.contactform .form-control
+{
+	border-radius:0!important;
+	;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.contactform .form-control:focus
+{
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	border:1px solid #d66039;
+}
+
+.btn-send
+{
+	transition: all 0.4s;
+	border-radius: 0;
+	width: 100%;
+	background:  #d66039;
+	color: #f1eeed;
+	padding: 10px 30px;
+	margin: 5px auto;
+	border: 1px solid transparent;
+}
+
+.btn-send:hover
+{
+	background: #f1eeed;
+	color: #d66039;
+	border-color: #d66039;
+}
+
+button,button:focus,button:hover,button:active
+{
+	outline: none!important;
+}
+
+/*=================================================
+||				12. Footer
+==================================================*/
+footer
+{
+	padding: 15px 0px;
+	color: #000;
+	font-size: 16px;
+	background-color: #e3e3e3;
+}
+.social-icons
+{
+	word-spacing: 20px;
+}
+.themewagon{
+	text-align: right;
+}
+
+/*=================================================
+||				13. Media Query
+==================================================*/
+@media (max-width: 992px){
+	.book .section-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	footer{
+		text-align: center;
+	}
+	.themewagon{
+		text-align: center;
+	}
+}
+@media (min-width: 768px){
+	.home .home-bg{
+		background: url('../images/Notebook-1.png') no-repeat ;
+		background-position: left bottom;
+	}
+	.book .book-bg{
+		background: url('../images/iPad.png') no-repeat;
+		background-position: right bottom;
+	}
+	
+}
+@media (max-width: 768px){
+	.header-wrapper{
+		padding-top: 15%;
+	}
+	.blog{
+		text-align: center;
+	}
+	.blog-left{
+		padding: 0 15px;
+		text-align: center;
+	}
+	.contact{
+		text-align: center;
+	}
+}
+@media (max-width: 320px){
+	.header-wrapper{
+		padding: 0;
+	}
+	.home .description{
+		margin: 15px 0;
+		font-size: 14px;
+		padding-right: 15px;
+	}
+	
+
+}

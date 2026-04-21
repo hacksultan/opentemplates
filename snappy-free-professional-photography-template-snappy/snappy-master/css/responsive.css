@@ -1,0 +1,227 @@
+/*
+Template Name: Snappy
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1199px) and (max-width: 1240px) {}
+
+@media (min-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 991px) {
+    .banner-title > h1 {
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+    footer {
+        margin-top: 55px;
+        padding: 45px 0;
+    }
+    .section-padding {
+        padding-top: 60px;
+    }
+    .text-head h2 {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+    .port-title {
+        font-size: 16px;
+        padding: 6px 18px;
+    }
+    .insta-image-list #instafeed > div:nth-child(-n+8){
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-padding {
+        padding-top: 50px;
+    }
+    .text-head h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .desc-text {
+        font-size: 13.5px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+    .top-nav-bar {
+        left: 25px;
+        top: 20px;
+    }
+    .menu-view li{
+        float: left;
+    }
+    .menu-view li + li {
+        margin-left: 25px;
+    }
+    .menu-view li a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .user-title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .banner-full-image {
+        height: 420px;
+    }
+    .banner-title > h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 35px;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    .image img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .maintitle {
+        font-size: 16px;
+    }
+    #contact .form-control {
+        font-size: 13px;
+        height: 40px;
+        padding: 5px 10px;
+    }
+    #contact .form-group {
+        margin-bottom: 25px;
+    }
+    .port-image {
+        max-width: 364px;
+    }
+    #gallery-block .row > .gallery-list , #gallery-block .row > .gallery-list:nth-last-child(-n+3){
+        margin-bottom: 20px;
+    }
+    #gallery-block .row > .gallery-list:nth-last-child(-n+1) {
+        margin-bottom: 0;
+    }
+    #contactform {
+        margin-bottom: 35px;
+    }
+    .insta-image-list #instafeed > div:nth-child(-n+10){
+        margin-bottom: 20px;
+    }
+    #instafeed > div{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    footer {
+        margin-top: 0;
+        padding: 56px 0 29px;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    .desc-text {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    .width-set-60 {
+        width: 60%;
+    }
+    .width-set-40 {
+        width: 40%;
+    }
+    #instafeed > div {
+        width: 25% !important;
+    }
+
+}
+
+@media (min-width: 361px) and (max-width: 767px) {
+    .gallery-list {
+        width: 50%;
+    }
+    .port-title {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    #instafeed > div {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-padding {
+        padding-top: 40px;
+    }
+    .text-head h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .maintitle {
+        font-size: 15px;
+    }
+    .desc-text {
+        font-size: 13px;
+    }
+    .desc-text + .desc-text {
+        margin-top: 15px;
+    }
+    .banner-full-image {
+        height: 400px;
+    }
+    .banner-title > h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+    .item-about-review {
+        margin-bottom: 35px;
+    }
+    .title14 {
+        font-size: 17px;
+    }
+    .about-info {
+        padding: 0 15px;
+    }
+    .about-review-thumb {
+        width: 60px;
+    }
+    .about-review-thumb a img {
+        max-width: 60px;
+    }
+    .btn-primary {
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding: 10px 12px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+    .copyright a {
+        display: block;
+        margin-top: 2px;
+    }
+}
+
+
+
+
+
+
+

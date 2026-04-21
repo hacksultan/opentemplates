@@ -1,0 +1,8 @@
+# Local environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.sample
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json

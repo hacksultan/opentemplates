@@ -1,0 +1,12 @@
+mixin CardText(config)
+  .col-md-6.text-center.mb-6.mb-md-0
+    img.w-100(src=`${CWD}assets/img/gallery/${config.image}`  alt='...')
+  .col-md-6.text-center.text-md-start.mb-6
+    h4.text-danger=config.title
+    p.my-5.fs-1.pe-xl-8!=config.text
+    .card.card-span.bg-soft-primary.border-start.border-primary.border-5.mt-3
+      .card-body
+        h4.lh-base.px-5.py-3 How do you do when you need to obtain 
+          |a commercial traffic permit for freight transport
+          | to your business?
+    

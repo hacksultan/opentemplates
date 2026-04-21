@@ -1,0 +1,14 @@
+mixin HeroHeader
+  section#home
+    +Background({image: `${CWD}assets/img/gallery/header-bg.png`, attrs: { style: { 'background-position': 'center', 'background-size': 'cover',} }, className: '' })
+    .container
+      .row.align-items-center.min-vh-50.min-vh-sm-100
+        .col-md-7.col-lg-6.text-md-start.text-center
+          h1.text-light.fs-6.fs-xl-8.font-cursive.fw-normal.mb-5 Your awesome
+            br
+            | traffic permit 
+            br
+            |consultant.
+          a.btn.btn-primary(href='#' role='button') GET STARTED
+            svg.bi.bi-arrow-right(xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16')
+              path(fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z')

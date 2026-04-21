@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #0ea5e9, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-border {
+  background: linear-gradient(135deg, #0ea5e9, #a855f7);
+  padding: 1px;
+  border-radius: 12px;
+}
+
+.gradient-border-inner {
+  background: white;
+  border-radius: 11px;
+  width: 100%;
+  height: 100%;
+}
+
+.plugin-card {
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.plugin-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced background animations */
+.bg-300\% {
+  background-size: 300% 300%;
+}
+
+.bg-pos-0 {
+  background-position: 0% 50%;
+}
+
+.animate-gradient {
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Enhanced floating animation */
+@keyframes enhanced-float {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg) scale(1);
+  }
+  25% { 
+    transform: translateY(-10px) rotate(1deg) scale(1.05);
+  }
+  50% { 
+    transform: translateY(-20px) rotate(0deg) scale(1.1);
+  }
+  75% { 
+    transform: translateY(-10px) rotate(-1deg) scale(1.05);
+  }
+}
